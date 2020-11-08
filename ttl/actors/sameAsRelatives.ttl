@@ -4,32 +4,3 @@
 
 @prefix people: <http://ldf.fi/yoma/people/> .
 @prefix tmp: <http://ldf.fi/yoma/tmp/> .
-
-people:p1107_2 tmp:sameAs people:p1107_1 .
-
-people:p1675_2 tmp:sameAs people:p1675_1 .
-
-people:p1700_2 tmp:sameAs people:p1700_1 .
-
-people:p1990_2 tmp:sameAs people:p1990_1 .
-
-people:p2075_2 tmp:sameAs people:p2075_1 .
-
-people:p2681_2 tmp:sameAs people:p2681_1 .
-
-people:p2858_4 tmp:sameAs people:p2858_3 .
-
-people:p342_2 tmp:sameAs people:p342_1 .
-
-people:p3978_3 tmp:sameAs people:p3978_2 .
-
-people:p625_2 tmp:sameAs people:p625_1 .
-
-people:p6423_4 tmp:sameAs people:p6423_3 .
-
-people:p697a_2 tmp:sameAs people:p697a_1 .
-
-people:pU1226_2 tmp:sameAs people:pU1226_1 .
-
-people:pU467_2 tmp:sameAs people:pU467_1 .
-
