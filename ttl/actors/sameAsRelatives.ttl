@@ -4,3 +4,11 @@
 
 @prefix people: <http://ldf.fi/yoma/people/> .
 @prefix tmp: <http://ldf.fi/yoma/tmp/> .
+
+people:p25931_3 tmp:sameAs people:p22564 .
+
+people:p23883_1 tmp:sameAs people:p18689 .
+
+people:p23065_2 tmp:sameAs people:p26046_2 .
+
+
