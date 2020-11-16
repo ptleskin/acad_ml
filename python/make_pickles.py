@@ -4,6 +4,15 @@ import pickle
 from rdflib import Graph 
 import re
 
+'''
+python3 make_pickles.py --files ../ttl/schema/*.ttl &
+python3 make_pickles.py --files ../ttl/t*/*.ttl &
+python3 make_pickles.py --files ../ttl/relations/*.ttl &
+python3 make_pickles.py --files ../ttl/places/*.ttl &
+python3 make_pickles.py --files ../ttl/labels/*.ttl &
+python3 make_pickles.py --files ../ttl/events/*.ttl &
+python3 make_pickles.py --files ../ttl/actors/*.ttl &
+'''
 
 def main():
 
