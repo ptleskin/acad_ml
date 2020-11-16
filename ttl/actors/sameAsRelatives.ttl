@@ -11,4 +11,12 @@ people:p23883_1 tmp:sameAs people:p18689 .
 
 people:p23065_2 tmp:sameAs people:p26046_2 .
 
+people:p11599_3 tmp:sameAs people:p7580_1 .
 
+people:p25835_3 tmp:sameAs people:p23079 .
+
+people:p24727_2 tmp:sameAs people:p24804_2 .
+
+people:p2633_2 tmp:sameAs people:p3489_4 .
+
+people:p24471_3 tmp:sameAs people:p24893 .
