@@ -1,0 +1,352 @@
+#   created with construct https://api.triplydb.com/s/80VhzWQNa
+@prefix :      <http://ldf.fi/schema/yoma/> .
+@prefix sources: <http://ldf.fi/yoma/sources/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix bioc:  <http://ldf.fi/schema/bioc/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix label: <http://ldf.fi/yoma/label/> .
+@prefix people: <http://ldf.fi/yoma/people/> .
+@prefix rels:  <http://ldf.fi/yoma/relations/> .
+
+people:p17594  bioc:has_person_relation
+                rels:name2616531499165115052 .
+
+rels:name2651656015893617308
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p22974 ;
+        skos:prefLabel   "Kaima: Engström, Ernst Edvard"@fi .
+
+rels:name2461323042584871049
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p24004 ;
+        skos:prefLabel   "Kaima: Aminoff, Alexander"@fi .
+
+rels:name3267778718646923629
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p19713 ;
+        skos:prefLabel   "Kaima: Snellman, Karl August"@fi .
+
+rels:name2563430008250774289
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p18180 ;
+        skos:prefLabel   "Kaima: Gummerus, Karl Jakob"@fi .
+
+people:p18757  bioc:has_person_relation
+                rels:name1303416729537774723 .
+
+rels:name6132131069408142954
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p18214 ;
+        skos:prefLabel   "Kaima: Eklund, Gustaf Viktor"@fi .
+
+people:p23467  bioc:has_person_relation
+                rels:name1952933649400731405 .
+
+rels:name2332536635621096771
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p21145 ;
+        skos:prefLabel   "Kaima: Ahlberg, Johan Oskar"@fi .
+
+rels:name1303416729537774723
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p19368 ;
+        skos:prefLabel   "Kaima: Weckman, Gustaf Adolf"@fi .
+
+rels:name9228859042488802899
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p21279 ;
+        skos:prefLabel   "Kaima: Åkesson, Knut Gustaf"@fi .
+
+rels:name2582047882694856371
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p21928 ;
+        skos:prefLabel   "Kaima: Alfthan, Benjamin"@fi .
+
+rels:name8438597693379358926
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p18563 ;
+        skos:prefLabel   "Kaima: Juselius, August Ferdinand"@fi .
+
+people:p17772  bioc:has_person_relation
+                rels:name3094081664905593924 .
+
+rels:name1080037823002221064
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p17798 ;
+        skos:prefLabel   "Kaima: Wallenius, Karl Gustaf"@fi .
+
+people:p17217  bioc:has_person_relation
+                rels:name1442808159487458296 .
+
+people:p18692  bioc:has_person_relation
+                rels:name2353872528838177705 .
+
+people:p18802  bioc:has_person_relation
+                rels:name1306797940854067648 .
+
+rels:name1142769062910738114
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p23800 ;
+        skos:prefLabel   "Kaima: Karsten, Erland August"@fi .
+
+people:p18137  bioc:has_person_relation
+                rels:name2582047882694856371 .
+
+rels:name1019639170535115653
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p18924 ;
+        skos:prefLabel   "Kaima: Ervast, Petter Edvard"@fi .
+
+people:p18109  bioc:has_person_relation
+                rels:name9642825093797982452 .
+
+people:p21406  bioc:has_person_relation
+                rels:name1947591565198596902 .
+
+people:p21613  bioc:has_person_relation
+                rels:name1408280500315925676 .
+
+rels:name2616531499165115052
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p23055 ;
+        skos:prefLabel   "Kaima: Donner, Otto"@fi .
+
+people:p17764  bioc:has_person_relation
+                rels:name1019639170535115653 .
+
+people:p18891  bioc:has_person_relation
+                rels:name3267778718646923629 .
+
+people:p17928  bioc:has_person_relation
+                rels:name1142769062910738114 .
+
+rels:name7140970816541555368
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p25158 ;
+        skos:prefLabel   "Kaima: Aminoff, Karl Fredrik"@fi .
+
+rels:name1193857340335224369
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p25959 ;
+        skos:prefLabel   "Kaima: Inberg, Väinö"@fi .
+
+rels:name3192318624092089266
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p23000 ;
+        skos:prefLabel   "Kaima: Soini, Juho"@fi .
+
+rels:name1954446784785305950
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p24842 ;
+        skos:prefLabel   "Kaima: Schwartzberg, Henrik"@fi .
+
+rels:name1804194002965720952
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p24052 ;
+        skos:prefLabel   "Kaima: Karsten, Karl August"@fi .
+
+rels:name2078405920030169863
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p24380 ;
+        skos:prefLabel   "Kaima: Kallio, Kaarlo Konstantin"@fi .
+
+rels:name2353872528838177705
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p23190 ;
+        skos:prefLabel   "Kaima: Bäck, Johannes"@fi .
+
+rels:name1385366535889433376
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p23617 ;
+        skos:prefLabel   "Kaima: Elfving, Karl Oskar"@fi .
+
+people:p20096  bioc:has_person_relation
+                rels:name2332536635621096771 .
+
+people:p23524  bioc:has_person_relation
+                rels:name3028998792976832482 .
+
+rels:name1952933649400731405
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p24616 ;
+        skos:prefLabel   "Kaima: Snellman, Anton Elias"@fi .
+
+rels:name1306797940854067648
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p20272 ;
+        skos:prefLabel   "Kaima: Pohjonen, Jaakko"@fi .
+
+rels:name2874406455897101857
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p24274 ;
+        skos:prefLabel   "Kaima: Rosenqvist, Johan Alfred"@fi .
+
+people:p21195  bioc:has_person_relation
+                rels:name2461323042584871049 .
+
+rels:name2975792049570821020
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p20263 , people:p19162 ;
+        skos:prefLabel   "Kaima: Hellman, Johan Fredrik"@fi .
+
+people:p18228  bioc:has_person_relation
+                rels:name5566963276678700402 .
+
+people:p17208  bioc:has_person_relation
+                rels:name1080037823002221064 .
+
+rels:name1797440252387674543
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p26013 ;
+        skos:prefLabel   "Kaima: Lund, Karl Johan"@fi .
+
+people:p18030  bioc:has_person_relation
+                rels:name2563430008250774289 .
+
+people:p19839  bioc:has_person_relation
+                rels:name2374634644708527588 .
+
+people:p21604  bioc:has_person_relation
+                rels:name2651656015893617308 .
+
+rels:name1926951925955140641
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p26008 ;
+        skos:prefLabel   "Kaima: Gummerus, Johan Fredrik"@fi .
+
+rels:name1408280500315925676
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p21912 ;
+        skos:prefLabel   "Kaima: Könönen, Tahvo"@fi .
+
+people:p18289  bioc:has_person_relation
+                rels:name9228859042488802899 .
+
+rels:name3365075989830302705
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p23116 ;
+        skos:prefLabel   "Kaima: Elmgren, Erik Johan"@fi .
+
+people:p18383  bioc:has_person_relation
+                rels:name7140970816541555368 .
+
+people:p19162  bioc:has_person_relation
+                rels:name2975792049570821020 .
+
+rels:name3094081664905593924
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p23380 ;
+        skos:prefLabel   "Kaima: Råbergh, Herman"@fi .
+
+people:p17888  bioc:has_person_relation
+                rels:name3365075989830302705 .
+
+people:p17235  bioc:has_person_relation
+                rels:name1385366535889433376 .
+
+people:p17150  bioc:has_person_relation
+                rels:name2420542025487110558 .
+
+people:p17662  bioc:has_person_relation
+                rels:name9991064507674267896 .
+
+people:p18070  bioc:has_person_relation
+                rels:name1804194002965720952 .
+
+rels:name2033223578848893757
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p24651 ;
+        skos:prefLabel   "Kaima: Eklund, Thure Wilhelm"@fi .
+
+people:p23750  bioc:has_person_relation
+                rels:name2874406455897101857 .
+
+people:p20765  bioc:has_person_relation
+                rels:name9541247242629045600 .
+
+people:p18859  bioc:has_person_relation
+                rels:name1947591565198596902 .
+
+rels:name1442808159487458296
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p17267 ;
+        skos:prefLabel   "Kaima: Ståhlberg, Johan Gabriel"@fi .
+
+rels:name9642825093797982452
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p18851 ;
+        skos:prefLabel   "Kaima: Tenlén, Gustaf Mauritz"@fi .
+
+people:p21280  bioc:has_person_relation
+                rels:name2078405920030169863 .
+
+rels:name5566963276678700402
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p25167 ;
+        skos:prefLabel   "Kaima: Ingman, Erik Johan"@fi .
+
+rels:name3028998792976832482
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p25374 ;
+        skos:prefLabel   "Kaima: Bengs, Johannes"@fi .
+
+people:p17347  bioc:has_person_relation
+                rels:name8438597693379358926 .
+
+rels:name2889115554952947944
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p23243 ;
+        skos:prefLabel   "Kaima: Calonius, Gustaf Mathias"@fi .
+
+people:p17539  bioc:has_person_relation
+                rels:name1926951925955140641 .
+
+people:p22983  bioc:has_person_relation
+                rels:name1193857340335224369 .
+
+people:p18261  bioc:has_person_relation
+                rels:name2033223578848893757 .
+
+people:p18026  bioc:has_person_relation
+                rels:name6132131069408142954 .
+
+people:p20610  bioc:has_person_relation
+                rels:name3192318624092089266 .
+
+people:p18359  bioc:has_person_relation
+                rels:name1797440252387674543 .
+
+people:p18773  bioc:has_person_relation
+                rels:name2975792049570821020 .
+
+rels:name2420542025487110558
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p18273 ;
+        skos:prefLabel   "Kaima: Wegelius, Karl Wilhelm"@fi .
+
+rels:name9541247242629045600
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p22042 ;
+        skos:prefLabel   "Kaima: Relander, Arthur William"@fi .
+
+people:p14947  bioc:has_person_relation
+                rels:name1954446784785305950 .
+
+rels:name1947591565198596902
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p24816 , people:p21406 ;
+        skos:prefLabel   "Kaima: von Essen, Gustaf Mauritz"@fi .
+
+rels:name9991064507674267896
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p26210 ;
+        skos:prefLabel   "Kaima: Saltzman, Fredrik"@fi .
+
+people:p17738  bioc:has_person_relation
+                rels:name2889115554952947944 .
+
+rels:name2374634644708527588
+        a                rels:ff3 ;
+        bioc:inheres_in  people:p23622 ;
+        skos:prefLabel   "Kaima: Jaatinen, Matti"@fi .
