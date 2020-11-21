@@ -844,3 +844,307 @@ people:p17904_1 tmp:differentFrom people:p17904 .
 
 
 
+
+# 0.467518 0.5155592
+# p23618_1 defaultdict(<class 'set'>, {'prefLabel': {('Fagerström', 'Karl', 'Ferdinand')}, 'label': {'l1849717085202540136'}, 'gender': 'Male', 'title': {'tullitarkastaja'}, 'class': 'ReferencedPerson', 'in_bio': {'p23618'}, 'spouse': {'p23618_2'}, 'child': {'p23618'}})
+# p25818 defaultdict(<class 'set'>, {'prefLabel': {('Fagerström', 'Karl', 'Olof')}, 'label': {'l2761057629248814132'}, 'gender': 'Male', 'birth': 1879, 'death': 1950, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p25818_3'}, 'father': 'p25818_1', 'mother': 'p25818_2'})
+people:p23618_1 tmp:differentFrom people:p25818 .
+
+# 0.17948636 0.8404263
+# p24341_1 defaultdict(<class 'set'>, {'prefLabel': {('Wegelius', 'Karl', 'Theodor', 'Alexander')}, 'label': {'l2577607688163097700'}, 'gender': 'Male', 'title': {'pankinjohtaja', 'filosofian maisteri', 'molempien oikeuksien kandidaatti', 'senaattori'}, 'class': 'ReferencedPerson', 'in_bio': {'p24341'}, 'child': {'p24341'}, 'spouse': {'p24341_2'}})
+# p17142 defaultdict(<class 'set'>, {'prefLabel': {('Wegelius', 'Karl', 'Waldemar')}, 'label': {'l1094105033050936959'}, 'gender': 'Male', 'birth': 1833, 'death': 1909, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p17142_2', 'father': 'p17142_1'})
+people:p24341_1 tmp:differentFrom people:p17142 .
+
+# 0.22289748 0.8233093
+# p24341_1 defaultdict(<class 'set'>, {'prefLabel': {('Wegelius', 'Karl', 'Theodor', 'Alexander')}, 'label': {'l2577607688163097700'}, 'gender': 'Male', 'title': {'pankinjohtaja', 'filosofian maisteri', 'molempien oikeuksien kandidaatti', 'senaattori'}, 'class': 'ReferencedPerson', 'in_bio': {'p24341'}, 'child': {'p24341'}, 'spouse': {'p24341_2'}})
+# p21524 defaultdict(<class 'set'>, {'prefLabel': {('Wegelius', 'Karl', 'Sigvard')}, 'label': {'l1336720890523801638'}, 'gender': 'Male', 'birth': 1866, 'death': 1916, 'title': {'opettaja'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p21524_2', 'father': 'p21524_1'})
+people:p24341_1 tmp:differentFrom people:p21524 .
+
+# 0.29994565 0.7116468
+# p19114_1 defaultdict(<class 'set'>, {'spouse': {'p19114_2'}, 'prefLabel': {('Thesleff', 'Alexander', 'Adam')}, 'label': {'l1464681002719940088'}, 'gender': 'Male', 'title': {'kenraalimajuri', 'kuvernööri'}, 'sameAs': {'p18885_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p19114'}, 'child': {'p19114'}})
+# p18885 defaultdict(<class 'set'>, {'prefLabel': {('Thesleff', 'Alexander')}, 'label': {'l3309641186804889735'}, 'gender': 'Male', 'birth': 1846, 'death': 1910, 'title': {'isännöitsijä', 'tilanomistaja'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p18885_2', 'father': 'p18885_1', 'spouse': {'p18885_3'}})
+people:p19114_1 tmp:differentFrom people:p18885 .
+
+# 0.13187084 0.85226893
+# p23080_1 defaultdict(<class 'set'>, {'spouse': {'p23080_2'}, 'prefLabel': {('Hellsten', 'Johan', 'August')}, 'label': {'l1105919662649857498'}, 'gender': 'Male', 'title': {'kauppias'}, 'class': 'ReferencedPerson', 'in_bio': {'p23080'}, 'child': {'p23080'}})
+# p17246 defaultdict(<class 'set'>, {'prefLabel': {('Hellström', 'Johan', 'Alfred')}, 'label': {'l1601413272411861164'}, 'gender': 'Male', 'birth': 1834, 'death': 1884, 'title': {'kauppias'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p17246_1', 'spouse': {'p17246_3'}, 'mother': 'p17246_2'})
+people:p23080_1 tmp:differentFrom people:p17246 .
+
+# 0.17417434 0.84777164
+# p25456_1 defaultdict(<class 'set'>, {'spouse': {'p25456_2'}, 'prefLabel': {('Brotherus', 'Karl', 'Gottfrid')}, 'label': {'l2285968411255040990'}, 'gender': 'Male', 'title': {'yliopiston lehtori', 'filosofian tohtori'}, 'class': 'ReferencedPerson', 'in_bio': {'p25456'}, 'child': {'p25456'}})
+# p25829 defaultdict(<class 'set'>, {'prefLabel': {('Brotherus', 'Karl', 'Robert')}, 'label': {'l2061026219926954523'}, 'gender': 'Male', 'birth': 1880, 'death': 1949, 'title': {'rehtori'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p25829_3'}, 'mother': 'p25829_2', 'father': 'p25829_1'})
+people:p25456_1 tmp:differentFrom people:p25829 .
+
+# 0.21769066 0.81238586
+# p18512_1 defaultdict(<class 'set'>, {'spouse': {'p18512_2'}, 'prefLabel': {('Sahlberg', 'Reinhold', 'Ferdinand')}, 'label': {'l1452992724560208973'}, 'gender': 'Male', 'title': {'lääketieteen tohtori', 'yliopistonapulainen'}, 'sameAs': {'p18430_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p18512'}, 'child': {'p18512'}})
+# p18430 defaultdict(<class 'set'>, {'prefLabel': {('Sahlberg', 'Reinhold', 'Walter')}, 'label': {'l1404786291286221265'}, 'gender': 'Male', 'birth': 1844, 'death': 1881, 'title': {'tilanomistaja'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p18430_1', 'mother': 'p18430_2', 'spouse': {'p18430_3'}})
+people:p18512_1 tmp:differentFrom people:p18430 .
+
+# 0.118597604 0.8760833
+# p20592_1 defaultdict(<class 'set'>, {'spouse': {'p20592_2'}, 'prefLabel': {('Mechelin', 'Henrik', 'Adolf')}, 'label': {'l8619399806195011193'}, 'gender': 'Male', 'title': {'filosofian maisteri', 'todellinen valtioneuvos', 'senaattori'}, 'sameAs': {'p18984_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p20592'}, 'child': {'p20592'}})
+# p20823 defaultdict(<class 'set'>, {'prefLabel': {('Mechelin', 'Henrik', 'Josef', 'Gustaf')}, 'label': {'l2064052509342497648'}, 'gender': 'Male', 'birth': 1864, 'death': 1920, 'title': {'asianajaja', 'valtiopäivämies'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p20823_3'}, 'mother': 'p20823_2', 'father': 'p20823_1'})
+people:p20592_1 tmp:differentFrom people:p20823 .
+
+# 0.4020326 0.8321598
+# p23883_1 defaultdict(<class 'set'>, {'prefLabel': {('Saarinen', 'Juho')}, 'label': {'l2467277474829951425'}, 'gender': 'Male', 'title': {'kirkkoherra', 'rovasti'}, 'class': 'ReferencedPerson', 'in_bio': {'p24099', 'p23883'}, 'child': {'p24099', 'p23883'}, 'spouse': {'p23883_2'}})
+# p18689 defaultdict(<class 'set'>, {'prefLabel': {('Saarinen', 'Juho')}, 'label': {'l2467277474829951425'}, 'gender': 'Male', 'birth': 1846, 'death': 1920, 'title': {'kirkkoherra', 'komministeri'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p18689_1', 'spouse': {'p18689_3'}, 'mother': 'p18689_2'})
+people:p23883_1 tmp:sameAs people:p18689 .
+
+# 0.41427243 0.6769333
+# p22154_1 defaultdict(<class 'set'>, {'spouse': {'p22154_2'}, 'prefLabel': {('Ottelin', 'Fredrik', 'Napoleon')}, 'label': {'l3340581628547895604'}, 'gender': 'Male', 'title': {'kirkkoherra', 'rovasti'}, 'sameAs': {'p19757_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p22154'}, 'child': {'p22154'}})
+# p19757 defaultdict(<class 'set'>, {'prefLabel': {('Ottelin', 'Fredrik', 'Alarik')}, 'label': {'l1175958662967093316'}, 'gender': 'Male', 'birth': 1853, 'death': 1916, 'title': {'tilanhoitaja', 'agronomi'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p19757_1', 'mother': 'p19757_2'})
+people:p22154_1 tmp:differentFrom people:p19757 .
+
+# 0.45183152 0.66292083
+# p18281_1 defaultdict(<class 'set'>, {'prefLabel': {('Forsman', 'Karl', 'Rudolf')}, 'label': {'l3259606227059087580'}, 'gender': 'Male', 'title': {'filosofian tohtori', 'kirkkoherra', 'teologian tohtori', 'lääninrovasti'}, 'sameAs': {'p18262_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p18281'}, 'spouse': {'p18281_2'}, 'child': {'p18281'}})
+# p17226 defaultdict(<class 'set'>, {'prefLabel': {('Forsman', 'Karl', 'Julian')}, 'label': {'l2474768842774065771'}, 'gender': 'Male', 'birth': 1835, 'death': 1888, 'title': {'asianajaja', 'varalääninsihteeri'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p17226_3'}, 'mother': 'p17226_2', 'father': 'p17226_1'})
+people:p18281_1 tmp:differentFrom people:p17226 .
+
+# 0.19407289 0.8343456
+# p19145_1 defaultdict(<class 'set'>, {'prefLabel': {('Grotenfelt', 'Nils', 'Karl', 'Elias')}, 'label': {'l2208983472353145463'}, 'gender': 'Male', 'title': {'hovioikeuden neuvos'}, 'sameAs': {'p18287_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p19145'}, 'spouse': {'p19145_2'}, 'child': {'p19145'}})
+# p18287 defaultdict(<class 'set'>, {'prefLabel': {('Grotenfelt', 'Nils', 'Gustaf', 'Maximilian')}, 'label': {'l5836507866785114248'}, 'gender': 'Male', 'birth': 1846, 'death': 1902, 'title': {'maanviljelysneuvos', 'ylijohtaja', 'agronomi', 'valtiopäivämies'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p18287_1', 'mother': 'p18287_2', 'spouse': {'p18287_3'}})
+people:p19145_1 tmp:differentFrom people:p18287 .
+
+# 0.30777636 0.74881333
+# p22103_1 defaultdict(<class 'set'>, {'prefLabel': {('Fagerström', 'Henrik', 'Alexander', 'Edvard')}, 'label': {'l1888077995243380011'}, 'gender': 'Male', 'title': {'sairaalan taloudenhoitaja'}, 'sameAs': {'p21807_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p22103'}, 'spouse': {'p22103_2'}, 'child': {'p22103'}})
+# p21807 defaultdict(<class 'set'>, {'prefLabel': {('Fagerström', 'Alexander', 'Bernhard')}, 'label': {'l1163947191182848112'}, 'gender': 'Male', 'birth': 1863, 'death': 1934, 'title': {'henkikirjoittaja'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p21807_2', 'father': 'p21807_1'})
+people:p22103_1 tmp:differentFrom people:p21807 .
+
+# 0.104404315 0.8875208
+# p19152_1 defaultdict(<class 'set'>, {'prefLabel': {('Laurell', 'Axel', 'Adolf')}, 'label': {'l3198720179915738604'}, 'gender': 'Male', 'title': {'professori'}, 'sameAs': {'p17861_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p19152'}, 'spouse': {'p19152_2'}, 'child': {'p19152'}})
+# p17861 defaultdict(<class 'set'>, {'prefLabel': {('Laurell', 'Axel', 'Fredrik')}, 'label': {'l2621730581651683037'}, 'gender': 'Male', 'birth': 1841, 'death': 1887, 'title': {'yliopettaja', 'ylitarkastaja'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p17861_2', 'father': 'p17861_1'})
+people:p19152_1 tmp:differentFrom people:p17861 .
+
+# 0.11087236 0.872428
+# p23526_1 defaultdict(<class 'set'>, {'spouse': {'p23526_2'}, 'prefLabel': {('Hymander', 'Johan', 'August', 'Gottlieb')}, 'label': {'l4360759858624421854'}, 'gender': 'Male', 'title': {'kanttori'}, 'class': 'ReferencedPerson', 'in_bio': {'p23526'}, 'child': {'p23526'}})
+# p17444 defaultdict(<class 'set'>, {'prefLabel': {('Hymander', 'Johan', 'August', 'Gottlieb')}, 'label': {'l4360759858624421854'}, 'gender': 'Male', 'birth': 1831, 'death': 1896, 'title': {'kanttori'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p17444_1', 'spouse': {'p17444_3'}, 'mother': 'p17444_2'})
+people:p23526_1 tmp:differentFrom people:p17444 .
+
+# 0.28736058 0.6537795
+# p18304_1 defaultdict(<class 'set'>, {'prefLabel': {('von Pfaler', 'Anders', 'August')}, 'label': {'l1126696768315208983'}, 'gender': 'Male', 'title': {'filosofian maisteri', 'kirkkoherra', 'rovasti'}, 'class': 'ReferencedPerson', 'in_bio': {'p18304'}, 'spouse': {'p18304_2'}, 'child': {'p18304'}})
+# p18838 defaultdict(<class 'set'>, {'prefLabel': {('von Pfaler', 'August')}, 'label': {'l1817454995130707840'}, 'gender': 'Male', 'birth': 1848, 'death': 1902, 'title': {'johtaja'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p18838_3'}, 'mother': 'p18838_2', 'father': 'p18838_1'})
+people:p18304_1 tmp:differentFrom people:p18838 .
+
+# 0.13512313 0.8685388
+# p25439_1 defaultdict(<class 'set'>, {'spouse': {'p25439_2'}, 'prefLabel': {('Silen', 'August')}, 'label': {'l2030790444486529297'}, 'gender': 'Male', 'title': {'kauppias'}, 'class': 'ReferencedPerson', 'in_bio': {'p25439', 'p25826'}, 'child': {'p25439', 'p25826'}})
+# p22256 defaultdict(<class 'set'>, {'prefLabel': {('Silen', 'August', 'Wilhelm')}, 'label': {'l2947054484245989722'}, 'gender': 'Male', 'birth': 1866, 'death': 1912, 'title': {'kaupunginlääkäri'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p22256_2', 'father': 'p22256_1', 'spouse': {'p22256_3'}})
+people:p25439_1 tmp:differentFrom people:p22256 .
+
+# 0.13816252 0.86885315
+# p18497_1 defaultdict(<class 'set'>, {'spouse': {'p18497_2'}, 'prefLabel': {('Chydenius', 'Karl', 'Fredrik')}, 'label': {'l1177600271591417638'}, 'gender': 'Male', 'title': {'varapastori', 'vankilasaarnaaja'}, 'class': 'ReferencedPerson', 'in_bio': {'p18497'}, 'child': {'p18497'}})
+# p21618 defaultdict(<class 'set'>, {'prefLabel': {('Chydenius', 'Karl', 'Samuel')}, 'label': {'l6005604181470205924'}, 'gender': 'Male', 'birth': 1865, 'death': 1917, 'title': {'kaup.lääkäri'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p20837_1', 'spouse': {'p21618_1'}, 'mother': 'p20837_2'})
+people:p18497_1 tmp:differentFrom people:p21618 .
+
+# 0.24922119 0.81872785
+# p19867_1 defaultdict(<class 'set'>, {'prefLabel': {('Malmberg', 'Nils', 'Gustaf')}, 'label': {'l1675131370145623828'}, 'gender': 'Male', 'title': {'pitäjänapulainen'}, 'sameAs': {'p18318_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p19867'}, 'spouse': {'p19867_2'}, 'child': {'p19867'}})
+# p18318 defaultdict(<class 'set'>, {'prefLabel': {('Malmberg', 'Gustaf')}, 'label': {'l8708398547427187560'}, 'gender': 'Male', 'birth': 1841, 'death': 1917, 'title': {'rajaviskaali'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p18318_1', 'spouse': {'p18318_4', 'p18318_3'}, 'mother': 'p18318_2'})
+people:p19867_1 tmp:differentFrom people:p18318 .
+
+# 0.11261387 0.87471354
+# p18444_1 defaultdict(<class 'set'>, {'spouse': {'p18444_2'}, 'prefLabel': {('Lagerblad', 'Gustaf', 'Adolf')}, 'label': {'l1196405566618112564'}, 'gender': 'Male', 'title': {'kihlakunnan tuomari'}, 'class': 'ReferencedPerson', 'in_bio': {'p18444'}, 'child': {'p18444'}})
+# p20849 defaultdict(<class 'set'>, {'prefLabel': {('Lagerblad', 'Gustaf', 'Uno')}, 'label': {'l3087433818171136420'}, 'gender': 'Male', 'birth': 1861, 'death': 1949, 'title': {'opettaja', 'rehtori', 'lehtori'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p20849_2', 'spouse': {'p20849_3'}, 'father': 'p20849_1'})
+people:p18444_1 tmp:differentFrom people:p20849 .
+
+# 0.2470422 0.79883283
+# p18363_1 defaultdict(<class 'set'>, {'prefLabel': {('Inberg', 'Herman', 'Magnus')}, 'label': {'l1891896593050092260'}, 'gender': 'Male', 'title': {'kirkkoherra', 'rovasti'}, 'sameAs': {'p17321_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p18363'}, 'child': {'p18363'}, 'spouse': {'p18363_2'}})
+# p17321 defaultdict(<class 'set'>, {'prefLabel': {('Inberg', 'Herman', 'Mauritz')}, 'label': {'l1747631640460347946'}, 'gender': 'Male', 'birth': 1835, 'death': 1870, 'title': {'kappalainen'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p17321_2', 'father': 'p17321_1', 'spouse': {'p17321_3'}})
+people:p18363_1 tmp:differentFrom people:p17321 .
+
+# 0.39838046 0.59914047
+# p24657_1 defaultdict(<class 'set'>, {'prefLabel': {('Björksten af Björkesten', 'Sune', 'Birger', 'Johan')}, 'label': {'l9825147935208366093', 'l2414789215952432805', 'l3147133530871892330'}, 'altLabel': {('Björksten', 'Sune', 'Birger', 'Johan'), ('af Björkesten', 'Sune', 'Birger', 'Johan')}, 'gender': 'Male', 'title': {'senaattori'}, 'sameAs': {'p22380_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p24657'}, 'spouse': {'p24657_2'}, 'child': {'p24657'}})
+# p22380 defaultdict(<class 'set'>, {'prefLabel': {('Björksten  af Björkesten', 'Sune', 'Bertil')}, 'label': {'l7109274234861806695', 'l1488678152186410022', 'l3601463792656877770'}, 'altLabel': {('af Björkesten', 'Sune', 'Bertil'), ('Björksten', 'Sune', 'Bertil')}, 'gender': 'Male', 'birth': 1866, 'death': 1939, 'title': {'hovioikeudenneuvos'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p22380_2', 'father': 'p22380_1', 'spouse': {'p22380_3'}})
+people:p24657_1 tmp:differentFrom people:p22380 .
+
+# 0.20681691 0.87818927
+# p24805_1 defaultdict(<class 'set'>, {'prefLabel': {('Gummerus', 'Herman', 'Erik')}, 'label': {'l1097870122108126408'}, 'gender': 'Male', 'title': {'insinööri', 'liikennejohtajan apulainen'}, 'class': 'ReferencedPerson', 'in_bio': {'p24805', 'p26008'}, 'spouse': {'p24805_2'}, 'child': {'p24805', 'p26008'}})
+# p17966 defaultdict(<class 'set'>, {'prefLabel': {('Gummerus', 'Herman', 'Erik')}, 'label': {'l1097870122108126408'}, 'gender': 'Male', 'birth': 1841, 'death': 1892, 'title': {'liikennejohtajan apulainen', 'valtiopäivämies'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p17539_2', 'father': 'p17539_1', 'spouse': {'p17966_1'}})
+people:p24805_1 tmp:sameAs people:p17966 .
+
+# 0.13957886 0.8308137
+# p19464_1 defaultdict(<class 'set'>, {'prefLabel': {('Karsten', 'Klas', 'Adolf')}, 'label': {'l2595414834565138807'}, 'gender': 'Male', 'title': {'kirkkoherra'}, 'sameAs': {'p17382_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p19464'}, 'spouse': {'p19464_2'}, 'child': {'p19464'}})
+# p17382 defaultdict(<class 'set'>, {'prefLabel': {('Karsten', 'Klas', 'Edvin')}, 'label': {'l2277878172583894841'}, 'gender': 'Male', 'birth': 1836, 'death': 1908, 'title': {'kirkkoherra', 'rehtori', 'rovasti'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p17382_1', 'spouse': {'p17382_3'}, 'mother': 'p17382_2'})
+people:p19464_1 tmp:differentFrom people:p17382 .
+
+# 0.4257313 0.70748746
+# p25803_1 defaultdict(<class 'set'>, {'spouse': {'p25803_2'}, 'prefLabel': {('Söderström', 'Carl', 'Johan', 'Ferdinand')}, 'label': {'l1470580211241656078'}, 'gender': 'Male', 'title': {'konttoristi'}, 'sameAs': {'p24653_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p25803'}, 'child': {'p25803'}})
+# p24653 defaultdict(<class 'set'>, {'prefLabel': {('Söderström', 'Carl', 'August', 'Waldemar')}, 'label': {'l1332062431062549619'}, 'gender': 'Male', 'birth': 1876, 'death': 1934, 'title': {'opettaja', 'kansak.tarkastaja'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p24653_4', 'p24653_5', 'p24653_3'}, 'father': 'p24653_1', 'mother': 'p24653_2'})
+people:p25803_1 tmp:differentFrom people:p24653 .
+
+# 0.34691486 0.5507082
+# p25450_1 defaultdict(<class 'set'>, {'spouse': {'p25450_2'}, 'prefLabel': {('Grönroos', 'Johan', 'Fridolf')}, 'label': {'l1899128033236524684'}, 'gender': 'Male', 'title': {'rehtori'}, 'sameAs': {'p20288_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p25450'}, 'child': {'p25450'}})
+# p20464 defaultdict(<class 'set'>, {'prefLabel': {('Grönroos', 'Fridolf', 'Bernhard')}, 'label': {'l1010089413748272561'}, 'gender': 'Male', 'birth': 1861, 'death': 1936, 'title': {'agronomi', 'tilanomistaja', 'kanavakasööri'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p20464_1'}, 'father': 'p20288_1', 'mother': 'p20288_2'})
+people:p25450_1 tmp:differentFrom people:p20464 .
+
+# 0.21940163 0.8255536
+# p25071_1 defaultdict(<class 'set'>, {'prefLabel': {('Wegelius', 'Karl', 'Theodor', 'Alexander')}, 'label': {'l2577607688163097700'}, 'gender': 'Male', 'title': {'pankinjohtaja', 'filosofian maisteri', 'molempien oikeuksien kandidaatti', 'senaattori'}, 'class': 'ReferencedPerson', 'in_bio': {'p25071'}, 'spouse': {'p25071_2'}, 'child': {'p25071'}})
+# p21524 defaultdict(<class 'set'>, {'prefLabel': {('Wegelius', 'Karl', 'Sigvard')}, 'label': {'l1336720890523801638'}, 'gender': 'Male', 'birth': 1866, 'death': 1916, 'title': {'opettaja'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p21524_2', 'father': 'p21524_1'})
+people:p25071_1 tmp:differentFrom people:p21524 .
+
+# 0.3089003 0.752698
+# p22435_1 defaultdict(<class 'set'>, {'prefLabel': {('Rosenlew', 'Karl', 'Petter')}, 'label': {'l2029393305429844898'}, 'gender': 'Male', 'title': {'liikemies'}, 'sameAs': {'p21067_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p22435'}, 'spouse': {'p22435_2'}, 'child': {'p22435'}})
+# p21067 defaultdict(<class 'set'>, {'prefLabel': {('Rosenlew', 'Karl', 'Fredrik')}, 'label': {'l1021230803345660947'}, 'gender': 'Male', 'birth': 1863, 'death': 1887, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p21067_2', 'father': 'p21067_1'})
+people:p22435_1 tmp:differentFrom people:p21067 .
+
+# 0.4333042 0.6801197
+# p24053_1 defaultdict(<class 'set'>, {'prefLabel': {('Lilius', 'Karl', 'Fredrik', 'Samuel')}, 'label': {'l2480094382130581134'}, 'gender': 'Male', 'title': {'oikeuspormestari'}, 'class': 'ReferencedPerson', 'in_bio': {'p24053'}, 'child': {'p24053'}, 'spouse': {'p24053_2'}})
+# p25919 defaultdict(<class 'set'>, {'prefLabel': {('Lilius', 'Karl', 'Åke')}, 'label': {'l2299776853063323055'}, 'gender': 'Male', 'birth': 1880, 'death': 1953, 'title': {'johtaja', 'tilintarkastaja'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p25919_1', 'mother': 'p25919_2', 'spouse': {'p25919_3'}})
+people:p24053_1 tmp:differentFrom people:p25919 .
+
+# 0.17289749 0.89228445
+# p19386_1 defaultdict(<class 'set'>, {'prefLabel': {('Anthoni', 'Berndt', 'Robert')}, 'label': {'l2090007312504818670'}, 'gender': 'Male', 'title': {'nimismies'}, 'sameAs': {'p17247_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p19386'}, 'child': {'p19386'}, 'spouse': {'p19386_2'}})
+# p17247 defaultdict(<class 'set'>, {'prefLabel': {('Anthoni', 'Berndt', 'Johan')}, 'label': {'l1124372885226005687'}, 'gender': 'Male', 'birth': 1833, 'death': 1905, 'title': {'kirkkoherra', 'rehtori', 'rovasti'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p17247_4', 'p17247_3'}, 'mother': 'p17247_2', 'father': 'p17247_1'})
+people:p19386_1 tmp:differentFrom people:p17247 .
+
+# 0.15414491 0.84804523
+# p24501_1 defaultdict(<class 'set'>, {'spouse': {'p24501_2'}, 'prefLabel': {('Axelson', 'Axel', 'Johan', 'Julius')}, 'label': {'l1721400273372982494'}, 'gender': 'Male', 'title': {'kollega'}, 'class': 'ReferencedPerson', 'in_bio': {'p24501'}, 'child': {'p24501'}})
+# p23500 defaultdict(<class 'set'>, {'prefLabel': {('Axelson', 'Axel', 'Wäinö')}, 'label': {'l3789441103659464324'}, 'gender': 'Male', 'birth': 1873, 'death': 1920, 'title': {'agronomi', 'lehtori'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p23500_1', 'mother': 'p23500_2', 'spouse': {'p23500_3'}})
+people:p24501_1 tmp:differentFrom people:p23500 .
+
+# 0.47362193 0.5745657
+# p19145_1 defaultdict(<class 'set'>, {'prefLabel': {('Grotenfelt', 'Nils', 'Karl', 'Elias')}, 'label': {'l2208983472353145463'}, 'gender': 'Male', 'title': {'hovioikeuden neuvos'}, 'sameAs': {'p18287_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p19145'}, 'spouse': {'p19145_2'}, 'child': {'p19145'}})
+# p18607 defaultdict(<class 'set'>, {'prefLabel': {('Grotenfelt', 'Karl', 'Herman', 'Ossian')}, 'label': {'l8318355263196772119'}, 'gender': 'Male', 'birth': 1848, 'death': 1910, 'title': {'kollega'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p18287_2', 'spouse': {'p18607_1'}, 'father': 'p18287_1'})
+people:p19145_1 tmp:differentFrom people:p18607 .
+
+# 0.12713034 0.87112516
+# p20927_1 defaultdict(<class 'set'>, {'prefLabel': {('Hellström', 'Fredrik')}, 'label': {'l1814047761345262937'}, 'gender': 'Male', 'title': {'lääketieteen ja kirurgian tohtori', 'filosofian maisteri', 'piirilääkäri'}, 'sameAs': {'p20505_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p20927'}, 'spouse': {'p20927_2'}, 'child': {'p20927'}})
+# p20505 defaultdict(<class 'set'>, {'prefLabel': {('Hellström', 'Fredrik', 'Elifas')}, 'label': {'l3313200822349674475'}, 'gender': 'Male', 'birth': 1859, 'death': 1901, 'title': {'kaup.lääkäri'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p20505_2', 'father': 'p20505_1', 'spouse': {'p20505_3'}})
+people:p20927_1 tmp:sameAs people:p20505 .
+
+# 0.13294974 0.87852573
+# p17612_1 defaultdict(<class 'set'>, {'spouse': {'p17612_2'}, 'prefLabel': {('Rancken', 'Fredrik', 'Wilhelm')}, 'label': {'l3271266180848421259'}, 'gender': 'Male', 'title': {'kirkkoherra'}, 'class': 'ReferencedPerson', 'in_bio': {'p17612'}, 'child': {'p17612'}})
+# p19821 defaultdict(<class 'set'>, {'prefLabel': {('Rancken', 'Fredrik', 'Gerhard')}, 'label': {'l8065657556046331870'}, 'gender': 'Male', 'birth': 1855, 'death': 1923, 'title': {'sairaalan taloudenhoitaja'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p19821_2', 'father': 'p19821_1'})
+people:p17612_1 tmp:differentFrom people:p19821 .
+
+# 0.12311454 0.88108623
+# p23450_1 defaultdict(<class 'set'>, {'prefLabel': {('Grundström', 'Robert')}, 'label': {'l1851290992224819606'}, 'gender': 'Male', 'title': {'maanviljelijä'}, 'class': 'ReferencedPerson', 'in_bio': {'p23450'}, 'child': {'p23450'}, 'spouse': {'p23450_2'}})
+# p24104 defaultdict(<class 'set'>, {'prefLabel': {('Grundström', 'Robert')}, 'label': {'l1851290992224819606'}, 'gender': 'Male', 'birth': 1872, 'death': 1949, 'title': {'kamarineuvos'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p24104_3'}, 'father': 'p24104_1', 'mother': 'p24104_2'})
+people:p23450_1 tmp:differentFrom people:p24104 .
+
+# 0.19693856 0.78369045
+# p17295_1 defaultdict(<class 'set'>, {'prefLabel': {('Ottelin', 'Karl', 'Gustaf')}, 'label': {'l2531053070972977477'}, 'gender': 'Male', 'title': {'teologian tohtori', 'piispa'}, 'class': 'ReferencedPerson', 'in_bio': {'p17295'}, 'spouse': {'p17295_2'}, 'child': {'p17295'}})
+# p22154 defaultdict(<class 'set'>, {'prefLabel': {('Ottelin', 'Karl', 'Eino')}, 'label': {'l1326133504359235969'}, 'gender': 'Male', 'birth': 1865, 'death': 1930, 'title': {'lääninsihteeri'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p22154_3'}, 'father': 'p22154_1', 'mother': 'p22154_2'})
+people:p17295_1 tmp:differentFrom people:p22154 .
+
+# 0.48952487 0.52600837
+# p23320_1 defaultdict(<class 'set'>, {'spouse': {'p23320_2'}, 'prefLabel': {('Silen', 'August', 'Oskar')}, 'label': {'l2904717769286593251'}, 'gender': 'Male', 'title': {'kauppias'}, 'sameAs': {'p22256_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p23320'}, 'child': {'p23320'}})
+# p22256 defaultdict(<class 'set'>, {'prefLabel': {('Silen', 'August', 'Wilhelm')}, 'label': {'l2947054484245989722'}, 'gender': 'Male', 'birth': 1866, 'death': 1912, 'title': {'kaupunginlääkäri'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p22256_2', 'father': 'p22256_1', 'spouse': {'p22256_3'}})
+people:p23320_1 tmp:differentFrom people:p22256 .
+
+# 0.20100853 0.7742234
+# p23721_1 defaultdict(<class 'set'>, {'prefLabel': {('Uschanoff Uskanov', 'Eugenia')}, 'label': {'l4437925023303470996', 'l2557576308875813497', 'l3144574114577130630'}, 'altLabel': {('Uskanov', 'Eugenia'), ('Uschanoff', 'Eugenia')}, 'gender': 'Female', 'death': 1943, 'class': 'ReferencedPerson', 'in_bio': {'p23721'}, 'spouse': {'p23721'}})
+# p25429 defaultdict(<class 'set'>, {'prefLabel': {('Uschanoff av Kranck', 'Eugenia')}, 'label': {'l2016973163103005257', 'l1333244244247617705', 'l2557576308875813497'}, 'altLabel': {('Kranck', 'Eugenia'), ('Uschanoff', 'Eugenia')}, 'gender': 'Female', 'birth': 1880, 'death': 1943, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p25429_3'}, 'mother': 'p25429_2', 'father': 'p25429_1'})
+people:p23721_1 tmp:sameAs people:p25429 .
+
+# 0.08105616 0.8964223
+# p19695_1 defaultdict(<class 'set'>, {'spouse': {'p19695_2'}, 'prefLabel': {('Stigzelius', 'Lars', 'Evert')}, 'label': {'l2705808140897780182'}, 'gender': 'Male', 'title': {'apteekkari'}, 'sameAs': {'p17314_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p19695'}, 'child': {'p19695'}})
+# p17314 defaultdict(<class 'set'>, {'prefLabel': {('Stigzelius', 'Lars', 'Herman')}, 'label': {'l2503048966307288262'}, 'gender': 'Male', 'birth': 1833, 'death': 1864, 'title': {'kaupunginlääkäri'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p17314_3'}, 'mother': 'p17314_2', 'father': 'p17314_1'})
+people:p19695_1 tmp:differentFrom people:p17314 .
+
+# 0.2290566 0.8650901
+# p18010_1 defaultdict(<class 'set'>, {'prefLabel': {('Stenius', 'Bengt', 'Mårten')}, 'label': {'l3283968152805031029'}, 'gender': 'Male', 'title': {'varapastori', 'kappalainen'}, 'sameAs': {'p17491_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p18010'}, 'spouse': {'p18010_2'}, 'child': {'p18010'}})
+# p17472 defaultdict(<class 'set'>, {'prefLabel': {('Stenius', 'Bengt', 'Ivar')}, 'label': {'l8395343627843561082'}, 'gender': 'Male', 'birth': 1833, 'death': 1902, 'title': {'kirkkoherra', 'rovasti'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p17472_5', 'p17472_3', 'p17472_4'}, 'mother': 'p17472_2', 'father': 'p17472_1'})
+people:p18010_1 tmp:differentFrom people:p17472 .
+
+# 0.33939052 0.7324183
+# p17606_1 defaultdict(<class 'set'>, {'spouse': {'p17606_2'}, 'prefLabel': {('Roschier', 'Karl', 'Wilhelm')}, 'label': {'l3246017303621619203'}, 'gender': 'Male', 'title': {'varatuomari', 'tilanomistaja'}, 'class': 'ReferencedPerson', 'in_bio': {'p17606'}, 'child': {'p17606'}})
+# p21287 defaultdict(<class 'set'>, {'prefLabel': {('Roschier', 'Karl', 'Julius')}, 'label': {'l3047993326944851100'}, 'gender': 'Male', 'birth': 1866, 'death': 1886, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p21287_2', 'father': 'p21287_1'})
+people:p17606_1 tmp:differentFrom people:p21287 .
+
+# 0.288494 0.6737729
+# p21603_1 defaultdict(<class 'set'>, {'spouse': {'p21603_2'}, 'prefLabel': {('Wegelius', 'Karl', 'Fredrik')}, 'label': {'l2815300137134126763'}, 'gender': 'Male', 'title': {'nimismies'}, 'sameAs': {'p20896_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p21603'}, 'child': {'p21603'}})
+# p20970 defaultdict(<class 'set'>, {'prefLabel': {('Wegelius', 'Fredrik')}, 'label': {'l3386844943896241268'}, 'gender': 'Male', 'birth': 1860, 'death': 1932, 'title': {'reviisori'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p20896_2', 'father': 'p20896_1', 'spouse': {'p20970_1'}})
+people:p21603_1 tmp:differentFrom people:p20970 .
+
+# 0.22053677 0.8477233
+# p17118_1 defaultdict(<class 'set'>, {'prefLabel': {('von Haartman', 'Carl', 'Daniel')}, 'label': {'l9430827164646492368'}, 'gender': 'Male', 'title': {'lääkintölaitoksen pääjohtaja', 'valtioneuvos'}, 'class': 'ReferencedPerson', 'in_bio': {'p17118'}, 'child': {'p17118'}, 'spouse': {'p17118_2'}})
+# p22253 defaultdict(<class 'set'>, {'prefLabel': {('von Haartman', 'Carl', 'Erik', 'Johannes')}, 'label': {'l2324500839369889204'}, 'gender': 'Male', 'birth': 1869, 'death': 1925, 'title': {'kunnallisneuvosmies', 'asianajaja', 'kunnallispormestari', 'valtiopäivämies'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p22253_3'}, 'mother': 'p22253_2', 'father': 'p22253_1'})
+people:p17118_1 tmp:differentFrom people:p22253 .
+
+# 0.23573296 0.8071442
+# p17550_1 defaultdict(<class 'set'>, {'prefLabel': {('Colerus', 'Fredrik', 'Johan')}, 'label': {'l1861499876618747762'}, 'gender': 'Male', 'title': {'pitäjänapulainen'}, 'class': 'ReferencedPerson', 'in_bio': {'p17550'}, 'spouse': {'p17550_2'}, 'child': {'p17550'}})
+# p22852 defaultdict(<class 'set'>, {'prefLabel': {('Colerus', 'Fredrik', 'Magnus')}, 'label': {'l3197947334687844150'}, 'gender': 'Male', 'birth': 1870, 'death': 1940, 'title': {'opettaja', 'rehtori', 'lehtori'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p22852_1', 'mother': 'p22852_2', 'spouse': {'p22852_3'}})
+people:p17550_1 tmp:differentFrom people:p22852 .
+
+# 0.17976193 0.84037745
+# p25071_1 defaultdict(<class 'set'>, {'prefLabel': {('Wegelius', 'Karl', 'Theodor', 'Alexander')}, 'label': {'l2577607688163097700'}, 'gender': 'Male', 'title': {'pankinjohtaja', 'filosofian maisteri', 'molempien oikeuksien kandidaatti', 'senaattori'}, 'class': 'ReferencedPerson', 'in_bio': {'p25071'}, 'spouse': {'p25071_2'}, 'child': {'p25071'}})
+# p17142 defaultdict(<class 'set'>, {'prefLabel': {('Wegelius', 'Karl', 'Waldemar')}, 'label': {'l1094105033050936959'}, 'gender': 'Male', 'birth': 1833, 'death': 1909, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p17142_2', 'father': 'p17142_1'})
+people:p25071_1 tmp:differentFrom people:p17142 .
+
+# 0.27106908 0.73798454
+# p23090_1 defaultdict(<class 'set'>, {'prefLabel': {('Ingman', 'Erik', 'Johan')}, 'label': {'l5566963276678700402'}, 'gender': 'Male', 'title': {'tuomiokunnan tuomari'}, 'class': 'ReferencedPerson', 'in_bio': {'p23090'}, 'spouse': {'p23090_2'}, 'child': {'p23090'}})
+# p25167 defaultdict(<class 'set'>, {'prefLabel': {('Ingman', 'Erik', 'Johan')}, 'label': {'l5566963276678700402'}, 'gender': 'Male', 'birth': 1878, 'death': 1950, 'title': {'kemisti'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p23675_2', 'spouse': {'p25167_1'}, 'father': 'p23675_1'})
+people:p23090_1 tmp:differentFrom people:p25167 .
+
+# 0.37031853 0.61003983
+# p24628_1 defaultdict(<class 'set'>, {'spouse': {'p24628_2'}, 'prefLabel': {('Nyqvist', 'Johan', 'August')}, 'label': {'l3388195562362097031'}, 'gender': 'Male', 'title': {'tullivartija'}, 'sameAs': {'p24308_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p24628'}, 'child': {'p24628'}})
+# p24308 defaultdict(<class 'set'>, {'prefLabel': {('Nyqvist', 'Johan', 'Oskar')}, 'label': {'l2077865022685515926'}, 'gender': 'Male', 'birth': 1875, 'death': 1932, 'title': {'kaup.lääkäri'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p24308_1', 'spouse': {'p24308_3'}, 'mother': 'p24308_2'})
+people:p24628_1 tmp:differentFrom people:p24308 .
+
+# 0.22444743 0.866661
+# p18574_1 defaultdict(<class 'set'>, {'spouse': {'p18574_2'}, 'prefLabel': {('Arppe', 'Nils', 'Ludvig')}, 'label': {'l1987254194255790989'}, 'gender': 'Male', 'title': {'tehtailija'}, 'sameAs': {'p17859_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p18574'}, 'child': {'p18574'}})
+# p17859 defaultdict(<class 'set'>, {'prefLabel': {('Arppe', 'Nils', 'Josef', 'Edvard')}, 'label': {'l1720704299161811378'}, 'gender': 'Male', 'birth': 1841, 'death': 1887, 'title': {'tehtailija', 'kunnallisneuvos', 'tilanomistaja'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p17859_3', 'p17859_4'}, 'father': 'p17859_1', 'mother': 'p17859_2'})
+people:p18574_1 tmp:differentFrom people:p17859 .
+
+# 0.2431615 0.77995944
+# p23065_1 defaultdict(<class 'set'>, {'prefLabel': {('Andersin', 'August', 'Fredrik')}, 'label': {'l2171986709008550320'}, 'gender': 'Male', 'title': {'lääninsihteeri', 'kihlakunnan tuomari'}, 'class': 'ReferencedPerson', 'in_bio': {'p23065'}, 'child': {'p23065'}, 'spouse': {'p23065_2'}})
+# p26046 defaultdict(<class 'set'>, {'prefLabel': {('Andersin', 'August', 'Fjalar')}, 'label': {'l1768035648053639870'}, 'gender': 'Male', 'birth': 1877, 'death': 1952, 'title': {'johtaja'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p26046_1', 'spouse': {'p26046_3'}, 'mother': 'p26046_2'})
+people:p23065_1 tmp:differentFrom people:p26046 .
+
+# 0.11736869 0.8767808
+# p17841_1 defaultdict(<class 'set'>, {'spouse': {'p17841_2'}, 'prefLabel': {('Bergholm', 'Karl', 'Fredrik')}, 'label': {'l2466806828565599724'}, 'gender': 'Male', 'title': {'kirkkoherra'}, 'class': 'ReferencedPerson', 'in_bio': {'p17841'}, 'child': {'p17841'}})
+# p23124 defaultdict(<class 'set'>, {'prefLabel': {('Bergholm', 'Karl', 'Hjalmar')}, 'label': {'l1289903716708133408'}, 'gender': 'Male', 'birth': 1872, 'death': 1932, 'title': {'ylilääkäri'}, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p23124_2', 'spouse': {'p23124_3'}, 'father': 'p23124_1'})
+people:p17841_1 tmp:differentFrom people:p23124 .
+
+# 0.119190566 0.8768615
+# p18551_1 defaultdict(<class 'set'>, {'spouse': {'p18551_2'}, 'prefLabel': {('Sahlstein', 'Georg', 'Magnus')}, 'label': {'l2473834970955798692'}, 'gender': 'Male', 'title': {'kruununvouti'}, 'class': 'ReferencedPerson', 'in_bio': {'p19083', 'p18551'}, 'child': {'p19083', 'p18551'}})
+# p25978 defaultdict(<class 'set'>, {'prefLabel': {('Sahlstein', 'Georg', 'Karl', 'Gunnar')}, 'label': {'l3529977201913506797'}, 'gender': 'Male', 'birth': 1879, 'death': 1935, 'title': {'asessori', 'tuomari'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p25978_3'}, 'father': 'p25978_1', 'mother': 'p25978_2'})
+people:p18551_1 tmp:differentFrom people:p25978 .
+
+# 0.48756567 0.6900044
+# p21652_1 defaultdict(<class 'set'>, {'spouse': {'p21652_2'}, 'prefLabel': {('Rosenlew', 'Fredrik', 'Wilhelm')}, 'label': {'l2043521220202878859'}, 'gender': 'Male', 'title': {'kauppaneuvos'}, 'class': 'ReferencedPerson', 'in_bio': {'p21652', 'p23390'}, 'child': {'p21652', 'p23390'}})
+# p22452 defaultdict(<class 'set'>, {'prefLabel': {('Rosenlew', 'Fredrik', 'Walter')}, 'label': {'l3100607493161965334'}, 'gender': 'Male', 'birth': 1867, 'death': 1951, 'title': {'asianajaja', 'valtiopäivämies'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p22452_1', 'mother': 'p22452_2', 'spouse': {'p22452_3'}})
+people:p21652_1 tmp:differentFrom people:p22452 .
+
+# 0.11483536 0.87865925
+# p18154_1 defaultdict(<class 'set'>, {'prefLabel': {('Selin', 'Johan', 'Fredrik')}, 'label': {'l5636925024754551952'}, 'gender': 'Male', 'title': {'hovioikeuden neuvos'}, 'class': 'ReferencedPerson', 'in_bio': {'p18154'}, 'child': {'p18154'}, 'spouse': {'p18154_2'}})
+# p19645 defaultdict(<class 'set'>, {'prefLabel': {('Selin', 'Johan', 'Robert', 'Benjamin')}, 'label': {'l1559985112333473993'}, 'gender': 'Male', 'birth': 1856, 'death': 1924, 'title': {'asessori', 'laamanni', 'tuomari'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p19645_1', 'spouse': {'p19645_3'}, 'mother': 'p19645_2'})
+people:p18154_1 tmp:differentFrom people:p19645 .
+
+# 0.07973942 0.89607567
+# p18984_1 defaultdict(<class 'set'>, {'prefLabel': {('Mechelin', 'Henrik', 'Adolf')}, 'label': {'l8619399806195011193'}, 'gender': 'Male', 'title': {'filosofian maisteri', 'todellinen valtioneuvos', 'senaattori'}, 'class': 'ReferencedPerson', 'in_bio': {'p18984'}, 'spouse': {'p18984_2'}, 'child': {'p18984'}})
+# p20823 defaultdict(<class 'set'>, {'prefLabel': {('Mechelin', 'Henrik', 'Josef', 'Gustaf')}, 'label': {'l2064052509342497648'}, 'gender': 'Male', 'birth': 1864, 'death': 1920, 'title': {'asianajaja', 'valtiopäivämies'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p20823_3'}, 'mother': 'p20823_2', 'father': 'p20823_1'})
+people:p18984_1 tmp:differentFrom people:p20823 .
+
+# 0.40351006 0.6540563
+# p22063_2 defaultdict(<class 'set'>, {'prefLabel': {('Alander', 'Anna', 'Matilda')}, 'label': {'l4207587211569956806'}, 'gender': 'Female', 'class': 'ReferencedPerson', 'in_bio': {'p22063'}, 'spouse': {'p22063'}})
+# p24730 defaultdict(<class 'set'>, {'prefLabel': {('Alander av Tiililä', 'Anna', 'Matilda')}, 'label': {'l2580962994439805449', 'l1733339248452930999', 'l4207587211569956806'}, 'altLabel': {('Tiililä', 'Anna', 'Matilda'), ('Alander', 'Anna', 'Matilda')}, 'gender': 'Female', 'birth': 1875, 'death': 1949, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p24730_1', 'mother': 'p24730_2'})
+people:p22063_2 tmp:sameAs people:p24730 .
+
+# 0.37682498 0.6552084
+# p22895_1 defaultdict(<class 'set'>, {'prefLabel': {('Ottelin', 'Konrad', 'Fredrik')}, 'label': {'l1521669788273015747'}, 'gender': 'Male', 'title': {'filosofian maisteri', 'kollega'}, 'class': 'ReferencedPerson', 'in_bio': {'p22895'}, 'child': {'p22895'}, 'spouse': {'p22895_2'}})
+# p19757 defaultdict(<class 'set'>, {'prefLabel': {('Ottelin', 'Fredrik', 'Alarik')}, 'label': {'l1175958662967093316'}, 'gender': 'Male', 'birth': 1853, 'death': 1916, 'title': {'tilanhoitaja', 'agronomi'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p19757_1', 'mother': 'p19757_2'})
+people:p22895_1 tmp:differentFrom people:p19757 .
+
+# 0.3798594 0.63482296
+# p21821_1 defaultdict(<class 'set'>, {'spouse': {'p21821_2'}, 'prefLabel': {('Sandelin', 'Frans', 'Viktor')}, 'label': {'l2119806366864784720'}, 'gender': 'Male', 'title': {'kirkkoherra', 'lääninrovasti'}, 'class': 'ReferencedPerson', 'in_bio': {'p21821'}, 'child': {'p21821'}})
+# p17358 defaultdict(<class 'set'>, {'prefLabel': {('Sandelin', 'Frans', 'Viktor')}, 'label': {'l2119806366864784720'}, 'gender': 'Male', 'birth': 1833, 'death': 1897, 'title': {'kirkkoherra', 'rovasti', 'valtiopäivämies'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p17358_1', 'mother': 'p17358_2', 'spouse': {'p17358_3'}})
+people:p21821_1 tmp:sameAs people:p17358 .
+
+# 0.21327241 0.84380364
+# p22006_3 defaultdict(<class 'set'>, {'prefLabel': {('Finerus', 'Hilma', 'Sigrid')}, 'label': {'l1233213210695154832'}, 'gender': 'Female', 'title': {'filosofian maisteri', 'lehtori'}, 'class': 'ReferencedPerson', 'in_bio': {'p22006'}, 'spouse': {'p22006'}})
+# p23655 defaultdict(<class 'set'>, {'prefLabel': {('Finerus av Pahlman', 'Hilma', 'Sigrid', 'Siiri')}, 'label': {'l2381017590185069453', 'l2027760971809025135', 'l1765830105057350588', 'l1498184191348771678', 'l2670215130699032462'}, 'altLabel': {('Pahlman', 'Hilma', 'Sigrid'), ('Finerus', 'Siiri'), ('Finerus', 'Hilma', 'Sigrid'), ('Pahlman', 'Siiri')}, 'gender': 'Female', 'birth': 1871, 'death': 1952, 'title': {'lehtori'}, 'source': {'yo1853'}, 'class': 'Person', 'spouse': {'p23655_1'}})
+people:p22006_3 tmp:sameAs people:p23655 .
+
+# 0.17272267 0.8859629
+# p21603_1 defaultdict(<class 'set'>, {'spouse': {'p21603_2'}, 'prefLabel': {('Wegelius', 'Karl', 'Fredrik')}, 'label': {'l2815300137134126763'}, 'gender': 'Male', 'title': {'nimismies'}, 'sameAs': {'p20896_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p21603'}, 'child': {'p21603'}})
+# p18565 defaultdict(<class 'set'>, {'prefLabel': {('Wegelius', 'Karl', 'Theodor', 'Alexander')}, 'label': {'l2577607688163097700'}, 'gender': 'Male', 'birth': 1850, 'death': 1932, 'title': {'senaattori', 'valtiopäivämies'}, 'source': {'yo1853'}, 'class': 'Person', 'father': 'p18565_1', 'spouse': {'p18565_3'}, 'mother': 'p18565_2'})
+people:p21603_1 tmp:differentFrom people:p18565 .
+
+# 0.25374576 0.8085625
+# p19174_1 defaultdict(<class 'set'>, {'prefLabel': {('von Wendt', 'Alexander', 'Jakob')}, 'label': {'l1287205639539047299'}, 'gender': 'Male', 'title': {'kenraaliluutnantti'}, 'sameAs': {'p17714_1'}, 'class': 'ReferencedPerson', 'in_bio': {'p19174'}, 'child': {'p19174'}, 'spouse': {'p19174_2'}})
+# p17714 defaultdict(<class 'set'>, {'prefLabel': {('von Wendt', 'Alexander', 'Edvard')}, 'label': {'l1984241333359720880'}, 'gender': 'Male', 'birth': 1838, 'death': 1875, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p17714_2', 'father': 'p17714_1'})
+people:p19174_1 tmp:differentFrom people:p17714 .
+
+
+
+
