@@ -1,0 +1,4611 @@
+#	created with https://api.triplydb.com/s/iLaHapITS
+@prefix gvp:   <http://vocab.getty.edu/ontology#> .
+@prefix schema: <http://schema.org/> .
+@prefix :      <http://ldf.fi/schema/yoma/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix people: <http://ldf.fi/yoma/people/> .
+@prefix rels:  <http://ldf.fi/yoma/relations/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix bioc:  <http://ldf.fi/schema/bioc/> .
+@prefix tmp:   <http://ldf.fi/yoma/tmp/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+people:p18783_2  tmp:sameAs  people:p13069_1 .
+
+people:p21580_1  tmp:sameAs  people:p16222 .
+
+people:p19924_1  tmp:sameAs  people:p16640 .
+
+people:p18747_1  tmp:sameAs  people:p15452 .
+
+people:p25543_2  tmp:sameAs  people:p16367_3 .
+
+people:p18252_1  tmp:sameAs  people:p14239 .
+
+people:p17153_2  tmp:sameAs  people:p13111_1 .
+
+people:p19560_1  tmp:sameAs  people:p15075 .
+
+people:p20108_1  tmp:sameAs  people:p16383 .
+
+people:p20682_1  tmp:sameAs  people:p16597 .
+
+people:p19390_2  tmp:sameAs  people:p15589_1 .
+
+people:p19181_1  tmp:sameAs  people:p15277 .
+
+people:p19339_1  tmp:sameAs  people:p15173 .
+
+people:p17560_1  tmp:sameAs  people:p14749 .
+
+people:p18984_1  tmp:sameAs  people:p14677 .
+
+people:p18910_1  tmp:sameAs  people:p14184 .
+
+people:p17811_2  tmp:sameAs  people:p14522_2 .
+
+people:p21975_1  tmp:sameAs  people:p15666 .
+
+people:p17849_1  tmp:sameAs  people:p13029 .
+
+people:p18647_1  tmp:sameAs  people:p15474 .
+
+people:p20345_1  tmp:sameAs  people:p17050 .
+
+people:p21653_1  tmp:sameAs  people:p16563 .
+
+people:p17679_2  tmp:sameAs  people:p12818_1 .
+
+people:p19460_1  tmp:sameAs  people:p16088 .
+
+people:p19576_1  tmp:sameAs  people:p14574 .
+
+people:p18283_1  tmp:sameAs  people:p13613 .
+
+people:p17184_2  tmp:sameAs  people:p13107_1 .
+
+people:p18403_2  tmp:sameAs  people:p13893_1 .
+
+people:p17226_2  tmp:sameAs  people:p12993_1 .
+
+people:p22609_1  tmp:sameAs  people:p16469 .
+
+people:p19290_2  tmp:sameAs  people:p16112_2 .
+
+people:p21030_2  tmp:sameAs  people:p17079_1 .
+
+people:p21932_1  tmp:sameAs  people:p16787 .
+
+people:p19254_1  tmp:sameAs  people:p15399 .
+
+people:p21068_1  tmp:sameAs  people:p16683 .
+
+people:p17633_1  tmp:sameAs  people:p11941 .
+
+people:p17842_2  tmp:sameAs  people:p14660_1 .
+
+people:p23669_1  tmp:sameAs  people:p16700 .
+
+people:p25853_2  tmp:sameAs  people:p15988_1 .
+
+people:p24598_1  tmp:sameAs  people:p17106 .
+
+people:p18640_2  tmp:sameAs  people:p16007_1 .
+
+people:p21762_2  tmp:sameAs  people:p15902_1 .
+
+people:p18604_1  tmp:sameAs  people:p15799 .
+
+people:p18562_1  tmp:sameAs  people:p15395 .
+
+people:p18887_2  tmp:sameAs  people:p15289_4 .
+
+people:p18771_2  tmp:sameAs  people:p12833_1 .
+
+people:p18678_1  tmp:sameAs  people:p15002 .
+
+people:p20376_1  tmp:sameAs  people:p14357 .
+
+people:p20585_2  tmp:sameAs  people:p16066_1 .
+
+people:p19727_2  tmp:sameAs  people:p15645_1 .
+
+people:p21425_2  tmp:sameAs  people:p16169_1 .
+
+people:p17912_1  tmp:sameAs  people:p13549 .
+
+people:p20248_2  tmp:sameAs  people:p15991_2 .
+
+people:p19363_2  tmp:sameAs  people:p15661_1 .
+
+people:p19479_2  tmp:sameAs  people:p16204_1 .
+
+people:p18019_1  tmp:sameAs  people:p13303 .
+
+people:p18957_1  tmp:sameAs  people:p14123 .
+
+people:p17664_1  tmp:sameAs  people:p12368 .
+
+people:p19812_1  tmp:sameAs  people:p16203 .
+
+people:p17285_1  tmp:sameAs  people:p13810 .
+
+people:p17211_1  tmp:sameAs  people:p13978 .
+
+people:p17494_2  tmp:sameAs  people:p12151_1 .
+
+people:p17327_1  tmp:sameAs  people:p13424 .
+
+people:p20318_1  tmp:sameAs  people:p14077 .
+
+people:p22919_1  tmp:sameAs  people:p16337 .
+
+people:p20449_1  tmp:sameAs  people:p16695 .
+
+people:p19433_1  tmp:sameAs  people:p15424 .
+
+people:p17157_2  tmp:sameAs  people:p13056_2 .
+
+people:p19185_1  tmp:sameAs  people:p14328 .
+
+people:p22385_2  tmp:sameAs  people:p16118_1 .
+
+people:p18988_1  tmp:sameAs  people:p13634 .
+
+people:p17606_1  tmp:sameAs  people:p13387 .
+
+people:p17889_2  tmp:sameAs  people:p14505_3 .
+
+people:p21979_1  tmp:sameAs  people:p16803 .
+
+people:p17320_2  tmp:sameAs  people:p12794_1 .
+
+people:p18535_1  tmp:sameAs  people:p13470 .
+
+people:p17242_1  tmp:sameAs  people:p12947 .
+
+people:p17358_1  tmp:sameAs  people:p12983 .
+
+people:p19959_1  tmp:sameAs  people:p15868 .
+
+people:p23763_1  tmp:sameAs  people:p16214_4 .
+
+people:p19506_1  tmp:sameAs  people:p15389 .
+
+people:p18287_1  tmp:sameAs  people:p15225 .
+
+people:p19464_1  tmp:sameAs  people:p14663_4 .
+
+people:p18365_2  tmp:sameAs  people:p12738_1 .
+
+people:p19673_2  tmp:sameAs  people:p14820_2 .
+
+people:p18407_2  tmp:sameAs  people:p14864_3 .
+
+people:p21278_1  tmp:sameAs  people:p16303 .
+
+people:p17974_1  tmp:sameAs  people:p13869 .
+
+people:p19258_1  tmp:sameAs  people:p13876 .
+
+people:p18159_2  tmp:sameAs  people:p14764_1 .
+
+people:p17521_1  tmp:sameAs  people:p12759 .
+
+people:p20512_1  tmp:sameAs  people:p16823 .
+
+people:p17637_1  tmp:sameAs  people:p12809_1 .
+
+people:p20837_2  tmp:sameAs  people:p16933_1 .
+
+people:p22079_2  tmp:sameAs  people:p16278_1 .
+
+people:p18566_1  tmp:sameAs  people:p14174 .
+
+people:p17142_1  tmp:sameAs  people:p13394 .
+
+people:p19088_2  tmp:sameAs  people:p13509_1 .
+
+people:p22005_2  tmp:sameAs  people:p15632_1 .
+
+people:p17467_2  tmp:sameAs  people:p13185_1 .
+
+people:p18775_2  tmp:sameAs  people:p13433_4 .
+
+people:p18071_1  tmp:sameAs  people:p14289 .
+
+people:p18396_2  tmp:sameAs  people:p15438_1 .
+
+people:p19495_1  tmp:sameAs  people:p14086 .
+
+people:p19537_1  tmp:sameAs  people:p15551 .
+
+people:p18438_2  tmp:sameAs  people:p12265_3 .
+
+people:p21235_1  tmp:sameAs  people:p15905 .
+
+people:p20880_1  tmp:sameAs  people:p16121 .
+
+people:p17552_1  tmp:sameAs  people:p13415 .
+
+people:p17746_2  tmp:sameAs  people:p12527_3 .
+
+people:p17668_1  tmp:sameAs  people:p11968 .
+
+people:p21967_1  tmp:sameAs  people:p17012 .
+
+people:p23329_2  tmp:sameAs  people:p16374_2 .
+
+people:p26085_2  tmp:sameAs  people:p16178_1 .
+
+people:p17215_1  tmp:sameAs  people:p13164 .
+
+people:p17409_2  tmp:sameAs  people:p12247_1 .
+
+people:p18481_1  tmp:sameAs  people:p14693 .
+
+people:p17173_1  tmp:sameAs  people:p12503 .
+
+people:p17382_2  tmp:sameAs  people:p14663_1 .
+
+people:p17289_1  tmp:sameAs  people:p14213 .
+
+people:p20295_1  tmp:sameAs  people:p16773 .
+
+people:p19530_2  tmp:sameAs  people:p15856_1 .
+
+people:p18469_2  tmp:sameAs  people:p15443_1 .
+
+people:p19309_2  tmp:sameAs  people:p14884_1 .
+
+people:p17452_1  tmp:sameAs  people:p11418 .
+
+people:p17661_2  tmp:sameAs  people:p12599_1 .
+
+people:p17568_1  tmp:sameAs  people:p12939 .
+
+people:p20768_2  tmp:sameAs  people:p15492_2 .
+
+people:p18381_1  tmp:sameAs  people:p12703 .
+
+people:p19600_1  tmp:sameAs  people:p14808 .
+
+people:p18423_1  tmp:sameAs  people:p14583 .
+
+people:p18539_1  tmp:sameAs  people:p15257 .
+
+people:p21623_2  tmp:sameAs  people:p15560_1 .
+
+people:p19352_1  tmp:sameAs  people:p14268_3 .
+
+people:p17731_1  tmp:sameAs  people:p12445 .
+
+people:p20067_2  tmp:sameAs  people:p16241_3 .
+
+people:p17978_1  tmp:sameAs  people:p13306 .
+
+people:p19015_1  tmp:sameAs  people:p13319 .
+
+people:p18047_2  tmp:sameAs  people:p12750_1 .
+
+people:p20516_1  tmp:sameAs  people:p16577 .
+
+people:p22622_1  tmp:sameAs  people:p16135 .
+
+people:p18532_2  tmp:sameAs  people:p14554_3 .
+
+people:p17146_1  tmp:sameAs  people:p12712 .
+
+people:p18454_1  tmp:sameAs  people:p13361 .
+
+people:p18779_2  tmp:sameAs  people:p14943_3 .
+
+people:p25172_1  tmp:sameAs  people:p15579 .
+
+people:p18001_1  tmp:sameAs  people:p12516 .
+
+people:p18075_1  tmp:sameAs  people:p12342 .
+
+people:p18284_2  tmp:sameAs  people:p13693_1 .
+
+people:p19619_2  tmp:sameAs  people:p14889_3 .
+
+people:p18326_2  tmp:sameAs  people:p14126_1 .
+
+people:p23918_2  tmp:sameAs  people:p16104_2 .
+
+people:p19046_1  tmp:sameAs  people:p15264 .
+
+people:p22246_2  tmp:sameAs  people:p14360_1 .
+
+people:p17425_1  tmp:sameAs  people:p13235 .
+
+people:p20625_2  tmp:sameAs  people:p15837_3 .
+
+people:p18563_2  tmp:sameAs  people:p16132_3 .
+
+people:p19740_2  tmp:sameAs  people:p15849_2 .
+
+people:p20303_2  tmp:sameAs  people:p15843_2 .
+
+people:p18679_2  tmp:sameAs  people:p15372_1 .
+
+people:p19662_1  tmp:sameAs  people:p14595 .
+
+people:p18485_1  tmp:sameAs  people:p15352 .
+
+people:p17386_2  tmp:sameAs  people:p13539_1 .
+
+people:p19987_2  tmp:sameAs  people:p15089_1 .
+
+people:p21518_1  tmp:sameAs  people:p16786 .
+
+people:p20419_2  tmp:sameAs  people:p16758_1 .
+
+people:p19283_1  tmp:sameAs  people:p13372 .
+
+people:p15270_2  tmp:sameAs  people:p15938 .
+
+people:p17793_1  tmp:sameAs  people:p12987 .
+
+people:p17835_1  tmp:sameAs  people:p13274 .
+
+people:p20826_1  tmp:sameAs  people:p14714 .
+
+people:p19077_1  tmp:sameAs  people:p15377 .
+
+people:p18633_1  tmp:sameAs  people:p15358 .
+
+people:p17340_1  tmp:sameAs  people:p12062 .
+
+people:p18764_1  tmp:sameAs  people:p15451 .
+
+people:p17665_2  tmp:sameAs  people:p13448_1 .
+
+people:p21964_2  tmp:sameAs  people:p16769_1 .
+
+people:p25482_1  tmp:sameAs  people:p16776 .
+
+people:p23090_2  tmp:sameAs  people:p15770_1 .
+
+people:p21260_1  tmp:sameAs  people:p15352 .
+
+people:p19604_1  tmp:sameAs  people:p15169 .
+
+people:p17212_2  tmp:sameAs  people:p12370_2 .
+
+people:p18594_2  tmp:sameAs  people:p13293_3 .
+
+people:p21418_1  tmp:sameAs  people:p15700_1 .
+
+people:p20125_1  tmp:sameAs  people:p15217 .
+
+people:p20741_1  tmp:sameAs  people:p15348 .
+
+people:p24704_2  tmp:sameAs  people:p15282_1 .
+
+people:p19019_1  tmp:sameAs  people:p14733 .
+
+people:p18664_1  tmp:sameAs  people:p13901 .
+
+people:p19972_1  tmp:sameAs  people:p15611 .
+
+people:p18706_1  tmp:sameAs  people:p14373 .
+
+people:p18288_2  tmp:sameAs  people:p14626_2 .
+
+people:p17766_1  tmp:sameAs  people:p12714 .
+
+people:p20393_1  tmp:sameAs  people:p16911 .
+
+people:p19914_1  tmp:sameAs  people:p15708 .
+
+people:p17313_1  tmp:sameAs  people:p12790 .
+
+people:p18621_1  tmp:sameAs  people:p13972 .
+
+people:p22994_1  tmp:sameAs  people:p16026 .
+
+people:p18737_1  tmp:sameAs  people:p14510 .
+
+people:p20435_1  tmp:sameAs  people:p16046 .
+
+people:p21937_2  tmp:sameAs  people:p15518_1 .
+
+people:p18242_1  tmp:sameAs  people:p14576 .
+
+people:p19744_2  tmp:sameAs  people:p15279_3 .
+
+people:p18358_1  tmp:sameAs  people:p14720 .
+
+people:p18567_2  tmp:sameAs  people:p14949_1 .
+
+people:p18609_2  tmp:sameAs  people:p11640_3 .
+
+people:p18489_1  tmp:sameAs  people:p13962 .
+
+people:p20307_2  tmp:sameAs  people:p16821_1 .
+
+people:p19213_1  tmp:sameAs  people:p16218 .
+
+people:p18114_2  tmp:sameAs  people:p14678_2 .
+
+people:p20750_2  tmp:sameAs  people:p16391_4 .
+
+people:p18036_1  tmp:sameAs  people:p14913 .
+
+people:p17875_2  tmp:sameAs  people:p12715_1 .
+
+people:p20788_1  tmp:sameAs  people:p15175 .
+
+people:p20714_1  tmp:sameAs  people:p15850 .
+
+people:p17839_1  tmp:sameAs  people:p11553 .
+
+people:p17344_1  tmp:sameAs  people:p12397 .
+
+people:p22820_1  tmp:sameAs  people:p15429 .
+
+people:p18846_2  tmp:sameAs  people:p15800_3 .
+
+people:p18768_1  tmp:sameAs  people:p14717 .
+
+people:p17669_2  tmp:sameAs  people:p12621_1 .
+
+people:p19697_1  tmp:sameAs  people:p16375 .
+
+people:p20087_1  tmp:sameAs  people:p16292 .
+
+people:p19608_1  tmp:sameAs  people:p16114 .
+
+people:p18273_1  tmp:sameAs  people:p14524 .
+
+people:p20207_2  tmp:sameAs  people:p14954_3 .
+
+people:p17216_2  tmp:sameAs  people:p13815_1 .
+
+people:p17960_1  tmp:sameAs  people:p13951 .
+
+people:p22688_1  tmp:sameAs  people:p16950 .
+
+people:p17581_1  tmp:sameAs  people:p13221 .
+
+people:p17701_2  tmp:sameAs  people:p13808_1 .
+
+people:p17623_1  tmp:sameAs  people:p13712 .
+
+people:p21922_1  tmp:sameAs  people:p17062 .
+
+people:p22065_2  tmp:sameAs  people:p16892_1 .
+
+people:p21543_1  tmp:sameAs  people:p15830 .
+
+people:p18630_2  tmp:sameAs  people:p15679_3 .
+
+people:p18668_1  tmp:sameAs  people:p14632 .
+
+people:p17375_1  tmp:sameAs  people:p13852 .
+
+people:p18761_2  tmp:sameAs  people:p13462_3 .
+
+people:p19976_1  tmp:sameAs  people:p13706 .
+
+people:p18877_2  tmp:sameAs  people:p14753_1 .
+
+people:p20408_1  tmp:sameAs  people:p17054 .
+
+people:p20080_2  tmp:sameAs  people:p16235_3 .
+
+people:p18424_2  tmp:sameAs  people:p14847_1 .
+
+people:p18215_1  tmp:sameAs  people:p14129 .
+
+people:p17860_1  tmp:sameAs  people:p13277 .
+
+people:p20029_1  tmp:sameAs  people:p16098 .
+
+people:p19639_1  tmp:sameAs  people:p15952 .
+
+people:p25064_1  tmp:sameAs  people:p16072 .
+
+people:p17654_1  tmp:sameAs  people:p13403 .
+
+people:p20854_2  tmp:sameAs  people:p15866_4 .
+
+people:p24372_1  tmp:sameAs  people:p16544 .
+
+people:p19760_1  tmp:sameAs  people:p15582 .
+
+people:p17201_1  tmp:sameAs  people:p12671 .
+
+people:p18661_2  tmp:sameAs  people:p13934_3 .
+
+people:p22096_2  tmp:sameAs  people:p16674_1 .
+
+people:p18583_1  tmp:sameAs  people:p14897 .
+
+people:p21783_2  tmp:sameAs  people:p16986_1 .
+
+people:p19918_1  tmp:sameAs  people:p16107 .
+
+people:p20517_2  tmp:sameAs  people:p16576_2 .
+
+people:p19423_1  tmp:sameAs  people:p15932 .
+
+people:p21330_2  tmp:sameAs  people:p15307_1 .
+
+people:p22623_2  tmp:sameAs  people:p13749_3 .
+
+people:p17147_2  tmp:sameAs  people:p11387_2 .
+
+people:p21198_2  tmp:sameAs  people:p16387_2 .
+
+people:p19384_2  tmp:sameAs  people:p14975_3 .
+
+people:p19217_1  tmp:sameAs  people:p14146 .
+
+people:p22208_1  tmp:sameAs  people:p15906 .
+
+people:p18904_1  tmp:sameAs  people:p15987 .
+
+people:p18978_1  tmp:sameAs  people:p13310 .
+
+people:p19702_1  tmp:sameAs  people:p14145 .
+
+people:p17348_1  tmp:sameAs  people:p12977 .
+
+people:p21647_1  tmp:sameAs  people:p16875 .
+
+people:p21152_1  tmp:sameAs  people:p15209 .
+
+people:p17178_2  tmp:sameAs  people:p11927_2 .
+
+people:p18277_1  tmp:sameAs  people:p14228 .
+
+people:p21477_2  tmp:sameAs  people:p15974_1 .
+
+people:p22081_1  tmp:sameAs  people:p16646 .
+
+people:p22197_1  tmp:sameAs  people:p16590 .
+
+people:p24798_1  tmp:sameAs  people:p16641 .
+
+people:p18893_1  tmp:sameAs  people:p15330 .
+
+people:p17836_2  tmp:sameAs  people:p13744_1 .
+
+people:p20332_2  tmp:sameAs  people:p16857_2 .
+
+people:p18440_1  tmp:sameAs  people:p15128 .
+
+people:p18634_2  tmp:sameAs  people:p13903_1 .
+
+people:p17263_1  tmp:sameAs  people:p13116 .
+
+people:p17457_2  tmp:sameAs  people:p13910_1 .
+
+people:p18765_2  tmp:sameAs  people:p14851_1 .
+
+people:p22855_1  tmp:sameAs  people:p16744 .
+
+people:p20579_2  tmp:sameAs  people:p15663_1 .
+
+people:p21299_1  tmp:sameAs  people:p16734 .
+
+people:p22518_1  tmp:sameAs  people:p16553 .
+
+people:p18270_2  tmp:sameAs  people:p15256_2 .
+
+people:p20870_1  tmp:sameAs  people:p16106 .
+
+people:p19527_1  tmp:sameAs  people:p15933 .
+
+people:p18219_1  tmp:sameAs  people:p14262 .
+
+people:p17864_1  tmp:sameAs  people:p14729 .
+
+people:p20126_2  tmp:sameAs  people:p15938_2 .
+
+people:p17906_1  tmp:sameAs  people:p14365 .
+
+people:p19241_2  tmp:sameAs  people:p15875_1 .
+
+people:p18913_2  tmp:sameAs  people:p13849_2 .
+
+people:p20533_1  tmp:sameAs  people:p17025 .
+
+people:p17658_1  tmp:sameAs  people:p12103_2 .
+
+people:p18471_1  tmp:sameAs  people:p13993 .
+
+people:p18665_2  tmp:sameAs  people:p12161_3 .
+
+people:p17372_2  tmp:sameAs  people:p13296_1 .
+
+people:p17205_1  tmp:sameAs  people:p12436 .
+
+people:p21504_1  tmp:sameAs  people:p16680 .
+
+people:p21292_2  tmp:sameAs  people:p15941_1 .
+
+people:p22511_2  tmp:sameAs  people:p16176_1 .
+
+people:p21334_2  tmp:sameAs  people:p16582_2 .
+
+people:p18459_2  tmp:sameAs  people:p15620_1 .
+
+people:p20157_2  tmp:sameAs  people:p16193_1 .
+
+people:p19179_1  tmp:sameAs  people:p14688 .
+
+people:p19388_2  tmp:sameAs  people:p16293_1 .
+
+people:p17767_2  tmp:sameAs  people:p13281_1 .
+
+people:p17809_2  tmp:sameAs  people:p12832_1 .
+
+people:p20889_2  tmp:sameAs  people:p16735_1 .
+
+people:p18371_1  tmp:sameAs  people:p14771 .
+
+people:p20185_1  tmp:sameAs  people:p14352 .
+
+people:p18529_1  tmp:sameAs  people:p13379 .
+
+people:p17236_1  tmp:sameAs  people:p11770 .
+
+people:p19837_1  tmp:sameAs  people:p15158 .
+
+people:p19551_2  tmp:sameAs  people:p14452_4 .
+
+people:p17968_1  tmp:sameAs  people:p13422 .
+
+people:p20506_1  tmp:sameAs  people:p16762 .
+
+people:p18808_1  tmp:sameAs  people:p16217 .
+
+people:p18650_1  tmp:sameAs  people:p15563 .
+
+people:p19005_1  tmp:sameAs  people:p15437 .
+
+people:p19094_1  tmp:sameAs  people:p14993 .
+
+people:p21814_1  tmp:sameAs  people:p15955 .
+
+people:p17473_1  tmp:sameAs  people:p12895 .
+
+people:p18975_2  tmp:sameAs  people:p15862_1 .
+
+people:p18897_1  tmp:sameAs  people:p15205 .
+
+people:p17798_2  tmp:sameAs  people:p14460_1 .
+
+people:p20789_2  tmp:sameAs  people:p14969_2 .
+
+people:p20258_1  tmp:sameAs  people:p15598 .
+
+people:p22406_1  tmp:sameAs  people:p16820 .
+
+people:p17961_2  tmp:sameAs  people:p14273_1 .
+
+people:p17868_1  tmp:sameAs  people:p14044 .
+
+people:p21229_1  tmp:sameAs  people:p17072 .
+
+people:p17999_1  tmp:sameAs  people:p14649 .
+
+people:p19036_1  tmp:sameAs  people:p16008 .
+
+people:p18801_2  tmp:sameAs  people:p14112_1 .
+
+people:p17624_2  tmp:sameAs  people:p12978_1 .
+
+people:p20495_1  tmp:sameAs  people:p16389 .
+
+people:p17546_1  tmp:sameAs  people:p11072 .
+
+people:p20173_1  tmp:sameAs  people:p16843 .
+
+people:p20367_2  tmp:sameAs  people:p15721_3 .
+
+people:p19652_1  tmp:sameAs  people:p15423 .
+
+people:p17167_1  tmp:sameAs  people:p13473 .
+
+people:p17376_2  tmp:sameAs  people:p11797_1 .
+
+people:p17209_1  tmp:sameAs  people:p12900 .
+
+people:p22968_2  tmp:sameAs  people:p16418_3 .
+
+people:p21508_1  tmp:sameAs  people:p16681 .
+
+people:p23572_1  tmp:sameAs  people:p14811 .
+
+people:p18960_1  tmp:sameAs  people:p14784 .
+
+people:p17861_2  tmp:sameAs  people:p13135_1 .
+
+people:p17903_2  tmp:sameAs  people:p13801_3 .
+
+people:p17783_1  tmp:sameAs  people:p13242 .
+
+people:p22437_1  tmp:sameAs  people:p16348 .
+
+people:p25836_1  tmp:sameAs  people:p16701 .
+
+people:p17446_1  tmp:sameAs  people:p12122 .
+
+people:p20452_1  tmp:sameAs  people:p15519 .
+
+people:p13355_1  tmp:sameAs  people:p11877_1 .
+
+people:p18301_1  tmp:sameAs  people:p13825 .
+
+people:p19799_1  tmp:sameAs  people:p14390 .
+
+people:p21497_1  tmp:sameAs  people:p16534 .
+
+people:p18131_2  tmp:sameAs  people:p12771_1 .
+
+people:p18247_2  tmp:sameAs  people:p15806_1 .
+
+people:p18053_1  tmp:sameAs  people:p12925 .
+
+people:p17934_2  tmp:sameAs  people:p14397_3 .
+
+people:p24768_2  tmp:sameAs  people:p16961_1 .
+
+people:p25867_1  tmp:sameAs  people:p16350 .
+
+people:p17403_1  tmp:sameAs  people:p13990 .
+
+people:p17519_1  tmp:sameAs  people:p12510 .
+
+people:p18228  tmp:sameAs  people:p15770 .
+
+people:p18448_1  tmp:sameAs  people:p13098 .
+
+people:p20146_1  tmp:sameAs  people:p15454 .
+
+people:p17640_1  tmp:sameAs  people:p12263 .
+
+people:p23339_1  tmp:sameAs  people:p17006 .
+
+people:p18611_1  tmp:sameAs  people:p14520 .
+
+people:p17303_1  tmp:sameAs  people:p13773 .
+
+people:p17470_2  tmp:sameAs  people:p13600_2 .
+
+people:p17392_1  tmp:sameAs  people:p12708 .
+
+people:p17586_2  tmp:sameAs  people:p11432_1 .
+
+people:p20503_2  tmp:sameAs  people:p16251_3 .
+
+people:p21718_1  tmp:sameAs  people:p16956 .
+
+people:p18232_1  tmp:sameAs  people:p12862 .
+
+people:p17133_2  tmp:sameAs  people:p12778_1 .
+
+people:p21354_1  tmp:sameAs  people:p16628 .
+
+people:p20177_1  tmp:sameAs  people:p16502 .
+
+people:p21679_2  tmp:sameAs  people:p15146_1 .
+
+people:p25081_1  tmp:sameAs  people:p15976 .
+
+people:p23502_1  tmp:sameAs  people:p15947 .
+
+people:p18026_1  tmp:sameAs  people:p14307 .
+
+people:p17671_1  tmp:sameAs  people:p13036 .
+
+people:p21017_1  tmp:sameAs  people:p15642 .
+
+people:p23618_1  tmp:sameAs  people:p16780 .
+
+people:p20778_1  tmp:sameAs  people:p13443 .
+
+people:p20325_1  tmp:sameAs  people:p16181 .
+
+people:p18511_1  tmp:sameAs  people:p15335 .
+
+people:p19935_1  tmp:sameAs  people:p16968 .
+
+people:p18720_2  tmp:sameAs  people:p13855_1 .
+
+people:p17334_1  tmp:sameAs  people:p13994 .
+
+people:p17543_2  tmp:sameAs  people:p14025_3 .
+
+people:p18758_1  tmp:sameAs  people:p15229 .
+
+people:p17659_2  tmp:sameAs  people:p13388_2 .
+
+people:p18341_2  tmp:sameAs  people:p15263_1 .
+
+people:p17164_2  tmp:sameAs  people:p12371_1 .
+
+people:p19687_1  tmp:sameAs  people:p12782 .
+
+people:p17206_2  tmp:sameAs  people:p13446_2 .
+
+people:p17950_1  tmp:sameAs  people:p13270 .
+
+people:p21385_1  tmp:sameAs  people:p16061 .
+
+people:p19192_1  tmp:sameAs  people:p15689 .
+
+people:p21010_2  tmp:sameAs  people:p16757_1 .
+
+people:p18135_2  tmp:sameAs  people:p14601_1 .
+
+people:p17613_1  tmp:sameAs  people:p12880 .
+
+people:p17822_2  tmp:sameAs  people:p12936_1 .
+
+people:p24656_2  tmp:sameAs  people:p16711_1 .
+
+people:p17443_2  tmp:sameAs  people:p10699_2 .
+
+people:p20240_1  tmp:sameAs  people:p15476 .
+
+people:p18658_1  tmp:sameAs  people:p15811 .
+
+people:p24125_1  tmp:sameAs  people:p16765 .
+
+people:p23812_1  tmp:sameAs  people:p16966 .
+
+people:p20112_2  tmp:sameAs  people:p15815_2 .
+
+people:p19838_2  tmp:sameAs  people:p15320_2 .
+
+people:p17981_1  tmp:sameAs  people:p14100 .
+
+people:p19134_1  tmp:sameAs  people:p15636 .
+
+people:p19343_2  tmp:sameAs  people:p15327_2 .
+
+people:p19265_1  tmp:sameAs  people:p15864 .
+
+people:p17644_1  tmp:sameAs  people:p13697 .
+
+people:p21079_1  tmp:sameAs  people:p17068 .
+
+people:p21943_1  tmp:sameAs  people:p16726 .
+
+people:p17969_2  tmp:sameAs  people:p13083_2 .
+
+people:p20507_2  tmp:sameAs  people:p16871_1 .
+
+people:p0899_1  tmp:sameAs  people:p15064 .
+
+people:p19908_1  tmp:sameAs  people:p13963 .
+
+people:p19095_2  tmp:sameAs  people:p14323_2 .
+
+people:p17400_2  tmp:sameAs  people:p13930_1 .
+
+people:p18573_1  tmp:sameAs  people:p13924 .
+
+people:p17516_2  tmp:sameAs  people:p12635_1 .
+
+people:p17396_1  tmp:sameAs  people:p14201 .
+
+people:p18898_2  tmp:sameAs  people:p15052_1 .
+
+people:p21815_2  tmp:sameAs  people:p16171_2 .
+
+people:p17923_1  tmp:sameAs  people:p12712 .
+
+people:p18066_2  tmp:sameAs  people:p15049_1 .
+
+people:p19374_2  tmp:sameAs  people:p15362_1 .
+
+people:p19207_1  tmp:sameAs  people:p14951 .
+
+people:p20380_2  tmp:sameAs  people:p16455_2 .
+
+people:p17222_1  tmp:sameAs  people:p13999 .
+
+people:p17180_1  tmp:sameAs  people:p13917 .
+
+people:p19901_2  tmp:sameAs  people:p14722_1 .
+
+people:p17296_1  tmp:sameAs  people:p11594 .
+
+people:p22981_2  tmp:sameAs  people:p16075_3 .
+
+people:p20496_2  tmp:sameAs  people:p13455_1 .
+
+people:p18151_1  tmp:sameAs  people:p14606 .
+
+people:p22450_1  tmp:sameAs  people:p16517 .
+
+people:p17168_2  tmp:sameAs  people:p12353_1 .
+
+people:p20945_1  tmp:sameAs  people:p16443 .
+
+people:p19080_1  tmp:sameAs  people:p15827 .
+
+people:p19196_1  tmp:sameAs  people:p16535 .
+
+people:p19238_1  tmp:sameAs  people:p15981 .
+
+people:p17784_2  tmp:sameAs  people:p12169_1 .
+
+people:p17826_2  tmp:sameAs  people:p13720_3 .
+
+people:p20817_2  tmp:sameAs  people:p16187_1 .
+
+people:p20739_1  tmp:sameAs  people:p16396 .
+
+people:p19890_2  tmp:sameAs  people:p16035_3 .
+
+people:p18430_1  tmp:sameAs  people:p14338 .
+
+people:p19932_2  tmp:sameAs  people:p16131_2 .
+
+people:p21630_2  tmp:sameAs  people:p15326_1 .
+
+people:p17369_1  tmp:sameAs  people:pU973 .
+
+people:p20453_2  tmp:sameAs  people:p16231_1 .
+
+people:p18260_2  tmp:sameAs  people:p12836_1 .
+
+people:p21251_2  tmp:sameAs  people:p16301_1 .
+
+people:p21409_2  tmp:sameAs  people:p17027_1 .
+
+people:p20074_2  tmp:sameAs  people:p15152_1 .
+
+people:p18298_1  tmp:sameAs  people:p14266 .
+
+people:p20860_1  tmp:sameAs  people:p15738 .
+
+people:p21498_2  tmp:sameAs  people:p15595_1 .
+
+people:p20481_1  tmp:sameAs  people:p16353 .
+
+people:p19138_1  tmp:sameAs  people:p14884 .
+
+people:p19231_2  tmp:sameAs  people:p14607_1 .
+
+people:p18783_1  tmp:sameAs  people:p13069 .
+
+people:p17610_2  tmp:sameAs  people:p14319_2 .
+
+people:p21045_2  tmp:sameAs  people:p15392_3 .
+
+people:p20690_2  tmp:sameAs  people:p16944_2 .
+
+people:p20732_2  tmp:sameAs  people:p17004_1 .
+
+people:p20848_2  tmp:sameAs  people:p16117_1 .
+
+people:p25543_1  tmp:sameAs  people:p16367 .
+
+people:p19099_2  tmp:sameAs  people:p14000_1 .
+
+people:p18655_2  tmp:sameAs  people:p14222_2 .
+
+people:p17153_1  tmp:sameAs  people:p13111 .
+
+people:p17362_2  tmp:sameAs  people:p12533_1 .
+
+people:p22016_2  tmp:sameAs  people:p16738_1 .
+
+people:p17478_2  tmp:sameAs  people:p14022_1 .
+
+people:p21819_2  tmp:sameAs  people:p16516_1 .
+
+people:p19390_1  tmp:sameAs  people:p15589 .
+
+people:p19584_2  tmp:sameAs  people:p12963_1 .
+
+people:p18333_2  tmp:sameAs  people:p14602_3 .
+
+people:p17811_1  tmp:sameAs  people:p14522 .
+
+people:p17885_1  tmp:sameAs  people:p13405 .
+
+people:p18740_1  tmp:sameAs  people:p16279 .
+
+people:p17641_2  tmp:sameAs  people:p13834_1 .
+
+people:p21076_2  tmp:sameAs  people:p15579_3 .
+
+people:p17679_1  tmp:sameAs  people:p12818 .
+
+people:p19785_1  tmp:sameAs  people:p15836 .
+
+people:p19863_2  tmp:sameAs  people:p15568_3 .
+
+people:p18403_1  tmp:sameAs  people:p13893 .
+
+people:p17184_1  tmp:sameAs  people:p13107 .
+
+people:p18686_2  tmp:sameAs  people:p14320_2 .
+
+people:p17226_1  tmp:sameAs  people:p12993 .
+
+people:p19290_1  tmp:sameAs  people:p16112 .
+
+people:p21030_1  tmp:sameAs  people:p17079 .
+
+people:p22454_1  tmp:sameAs  people:p14822 .
+
+people:p17842_1  tmp:sameAs  people:p14660 .
+
+people:p25853_1  tmp:sameAs  people:p15988 .
+
+people:p18640_1  tmp:sameAs  people:p16007 .
+
+people:p21762_1  tmp:sameAs  people:p15902 .
+
+people:p18887_1  tmp:sameAs  people:p15289 .
+
+people:p17463_1  tmp:sameAs  people:p13816 .
+
+people:p18771_1  tmp:sameAs  people:p12833 .
+
+people:p17505_1  tmp:sameAs  people:p13914 .
+
+people:p17788_2  tmp:sameAs  people:p13401_1 .
+
+people:p20585_1  tmp:sameAs  people:p16066 .
+
+people:p17293_2  tmp:sameAs  people:p14386_1 .
+
+people:p21634_2  tmp:sameAs  people:p16572_2 .
+
+people:p19727_1  tmp:sameAs  people:p15645 .
+
+people:p21425_1  tmp:sameAs  people:p16169 .
+
+people:p20248_1  tmp:sameAs  people:p15991 .
+
+people:p18759_2  tmp:sameAs  people:p14662_3 .
+
+people:p19363_1  tmp:sameAs  people:p15661 .
+
+people:p19479_1  tmp:sameAs  people:p16204 .
+
+people:p17989_1  tmp:sameAs  people:p12595 .
+
+people:p17494_1  tmp:sameAs  people:p12151 .
+
+people:p20605_2  tmp:sameAs  people:p14359_1 .
+
+people:p21913_2  tmp:sameAs  people:p14902_1 .
+
+people:p25547_1  tmp:sameAs  people:p16961 .
+
+people:p18465_1  tmp:sameAs  people:pU1051 .
+
+people:p17157_1  tmp:sameAs  people:p13056 .
+
+people:p17366_2  tmp:sameAs  people:p13450_3 .
+
+people:p22385_1  tmp:sameAs  people:p16118 .
+
+people:p18295_2  tmp:sameAs  people:p14111_1 .
+
+people:p18128_1  tmp:sameAs  people:p11854 .
+
+people:p17889_1  tmp:sameAs  people:p14505 .
+
+people:p17320_1  tmp:sameAs  people:p12794 .
+
+people:p21693_1  tmp:sameAs  people:p16309 .
+
+people:p17150_2  tmp:sameAs  people:p13103_2 .
+
+people:p17188_1  tmp:sameAs  people:p13859 .
+
+people:p18365_1  tmp:sameAs  people:p12738 .
+
+people:p19673_1  tmp:sameAs  people:p14820 .
+
+people:p18407_1  tmp:sameAs  people:p14864 .
+
+people:p18616_2  tmp:sameAs  people:p14252_4 .
+
+people:p25292_2  tmp:sameAs  people:p16485_1 .
+
+people:p21844_2  tmp:sameAs  people:p17057_1 .
+
+people:p21112_2  tmp:sameAs  people:p16520_1 .
+
+people:p18159_1  tmp:sameAs  people:p14764 .
+
+people:p22494_2  tmp:sameAs  people:p15364_1 .
+
+people:p17882_2  tmp:sameAs  people:p13587_1 .
+
+people:p17715_1  tmp:sameAs  people:p12702 .
+
+people:p22079_1  tmp:sameAs  people:p16278 .
+
+people:p20721_1  tmp:sameAs  people:p16063 .
+
+people:p20342_1  tmp:sameAs  people:p15769 .
+
+people:p20837_1  tmp:sameAs  people:p16933 .
+
+people:p18853_2  tmp:sameAs  people:p15605_1 .
+
+people:p18775_1  tmp:sameAs  people:p13433 .
+
+people:p19088_1  tmp:sameAs  people:p13509 .
+
+people:p19166_2  tmp:sameAs  people:p14910_1 .
+
+people:p18644_1  tmp:sameAs  people:p13502 .
+
+people:p17351_1  tmp:sameAs  people:p12380 .
+
+people:p22005_1  tmp:sameAs  people:p15632 .
+
+people:p17467_1  tmp:sameAs  people:p13185 .
+
+people:p17676_2  tmp:sameAs  people:p10849_1 .
+
+people:p17509_1  tmp:sameAs  people:p12688 .
+
+people:p21480_2  tmp:sameAs  people:p16770_1 .
+
+people:p25571_2  tmp:sameAs  people:p16669_1 .
+
+people:p19782_2  tmp:sameAs  people:p16398_1 .
+
+people:p18396_1  tmp:sameAs  people:p15438 .
+
+people:p17181_2  tmp:sameAs  people:p12103_3 .
+
+people:p17223_2  tmp:sameAs  people:p14066_1 .
+
+people:p17297_2  tmp:sameAs  people:p14089_1 .
+
+people:p18438_1  tmp:sameAs  people:p13376 .
+
+people:p21638_2  tmp:sameAs  people:p16027_1 .
+
+people:p17746_1  tmp:sameAs  people:p12527 .
+
+people:p17955_2  tmp:sameAs  people:p13739_1 .
+
+people:p23380_2  tmp:sameAs  people:p16735_1 .
+
+people:p21801_2  tmp:sameAs  people:p16531_1 .
+
+people:p26085_1  tmp:sameAs  people:p16178 .
+
+people:p23329_1  tmp:sameAs  people:p16374 .
+
+people:p19239_2  tmp:sameAs  people:p15306_2 .
+
+people:p17382_1  tmp:sameAs  people:p14663 .
+
+people:p17576_2  tmp:sameAs  people:p13406_3 .
+
+people:p18675_1  tmp:sameAs  people:p15018 .
+
+people:p17409_1  tmp:sameAs  people:p12247 .
+
+people:p17618_2  tmp:sameAs  people:p13447_1 .
+
+people:p19530_1  tmp:sameAs  people:p15856 .
+
+people:p19724_2  tmp:sameAs  people:p14855_1 .
+
+people:p18222_1  tmp:sameAs  people:p14127_2 .
+
+people:p18431_2  tmp:sameAs  people:p15720_1 .
+
+people:p22730_2  tmp:sameAs  people:p16273_2 .
+
+people:p18469_1  tmp:sameAs  people:p15443 .
+
+people:p21174_2  tmp:sameAs  people:p16702_1 .
+
+people:p19309_1  tmp:sameAs  people:p15069 .
+
+people:p18183_2  tmp:sameAs  people:p13503_1 .
+
+people:p17661_1  tmp:sameAs  people:p12599 .
+
+people:p21007_1  tmp:sameAs  people:p13434 .
+
+people:p20768_1  tmp:sameAs  people:p15492 .
+
+people:p19139_2  tmp:sameAs  people:p15782_1 .
+
+people:p18590_1  tmp:sameAs  people:p16013 .
+
+people:p17491_2  tmp:sameAs  people:p13001_3 .
+
+people:p20315_1  tmp:sameAs  people:p16470 .
+
+people:p21623_1  tmp:sameAs  people:p15560 .
+
+people:p18748_1  tmp:sameAs  people:p13052 .
+
+people:p20067_1  tmp:sameAs  people:p16241 .
+
+people:p20276_2  tmp:sameAs  people:p15241_1 .
+
+people:p17561_1  tmp:sameAs  people:p14054 .
+
+people:p18083_2  tmp:sameAs  people:p12559_2 .
+
+people:p18047_1  tmp:sameAs  people:p12750 .
+
+people:p19418_2  tmp:sameAs  people:p14476_3 .
+
+people:p17770_2  tmp:sameAs  people:p13439_1 .
+
+people:p17603_1  tmp:sameAs  people:p13942 .
+
+people:p18532_1  tmp:sameAs  people:p14554 .
+
+people:p17433_2  tmp:sameAs  people:p13862_1 .
+
+people:p18741_2  tmp:sameAs  people:p15134_3 .
+
+people:p18779_1  tmp:sameAs  people:p14943 .
+
+people:p21275_1  tmp:sameAs  people:p15413 .
+
+people:p19461_1  tmp:sameAs  people:p15156 .
+
+people:p18284_1  tmp:sameAs  people:p13693 .
+
+people:p17185_2  tmp:sameAs  people:p12215_4 .
+
+people:p19619_1  tmp:sameAs  people:p14889 .
+
+people:p18326_1  tmp:sameAs  people:p14126 .
+
+people:p23918_1  tmp:sameAs  people:p16104 .
+
+people:p18040_2  tmp:sameAs  people:p13742_3 .
+
+people:p17592_1  tmp:sameAs  people:p13456 .
+
+people:p22246_1  tmp:sameAs  people:p14360 .
+
+people:p20625_1  tmp:sameAs  people:p15837 .
+
+people:p18563_1  tmp:sameAs  people:p16132 .
+
+people:p19740_1  tmp:sameAs  people:p15849 .
+
+people:p18641_2  tmp:sameAs  people:p14030_1 .
+
+people:p20303_1  tmp:sameAs  people:p15843 .
+
+people:p18679_1  tmp:sameAs  people:p15372 .
+
+people:p18888_2  tmp:sameAs  people:p15349_1 .
+
+people:p17386_1  tmp:sameAs  people:p13539 .
+
+people:p19987_1  tmp:sameAs  people:p15089 .
+
+people:p21805_2  tmp:sameAs  people:p16763_2 .
+
+people:p20419_1  tmp:sameAs  people:p16758 .
+
+people:p18110_1  tmp:sameAs  people:p13597 .
+
+people:p17871_1  tmp:sameAs  people:p13530 .
+
+people:p23779_2  tmp:sameAs  people:p17049_2 .
+
+people:p22277_1  tmp:sameAs  people:p16928 .
+
+people:p17665_1  tmp:sameAs  people:p13448 .
+
+people:p21964_1  tmp:sameAs  people:p16769 .
+
+people:p21585_1  tmp:sameAs  people:p16768 .
+
+people:p18594_1  tmp:sameAs  people:p13293 .
+
+people:p17212_1  tmp:sameAs  people:p12370 .
+
+people:p17406_2  tmp:sameAs  people:p13272_3 .
+
+people:p17495_2  tmp:sameAs  people:p12562_2 .
+
+people:p20412_2  tmp:sameAs  people:p16727_1 .
+
+people:p24704_1  tmp:sameAs  people:p15282 .
+
+people:p22270_2  tmp:sameAs  people:p16785_1 .
+
+people:p21004_2  tmp:sameAs  people:p16934_1 .
+
+people:p18129_2  tmp:sameAs  people:p15178_1 .
+
+people:p17774_2  tmp:sameAs  people:p14414_3 .
+
+people:p19880_2  tmp:sameAs  people:p16161_1 .
+
+people:p21620_2  tmp:sameAs  people:p16955_1 .
+
+people:p17359_1  tmp:sameAs  people:p13393 .
+
+people:p18366_2  tmp:sameAs  people:p13644_1 .
+
+people:p18288_1  tmp:sameAs  people:p14626 .
+
+people:p18497_2  tmp:sameAs  people:p12410_1 .
+
+people:p19337_2  tmp:sameAs  people:p16509_2 .
+
+people:p18044_2  tmp:sameAs  people:p13701_1 .
+
+people:p17600_2  tmp:sameAs  people:p12100_3 .
+
+people:p20680_2  tmp:sameAs  people:p16527_2 .
+
+people:p20838_2  tmp:sameAs  people:p16751_1 .
+
+people:p21937_1  tmp:sameAs  people:p15518 .
+
+people:p17352_2  tmp:sameAs  people:pU989_1 .
+
+people:p23388_2  tmp:sameAs  people:p16184_2 .
+
+people:p19744_1  tmp:sameAs  people:p15279 .
+
+people:p21651_2  tmp:sameAs  people:p16143_2 .
+
+people:p18567_1  tmp:sameAs  people:p14949 .
+
+people:p18609_1  tmp:sameAs  people:p11640 .
+
+people:p20307_1  tmp:sameAs  people:p16821 .
+
+people:p19500_2  tmp:sameAs  people:p15829_1 .
+
+people:p18114_1  tmp:sameAs  people:p14678 .
+
+people:p21194_1  tmp:sameAs  people:p16798 .
+
+people:p17875_1  tmp:sameAs  people:p12715 .
+
+people:p22529_1  tmp:sameAs  people:p16269 .
+
+people:p22165_1  tmp:sameAs  people:p16992 .
+
+people:p18924_2  tmp:sameAs  people:p15465_2 .
+
+people:p18846_1  tmp:sameAs  people:p15800 .
+
+people:p23458_1  tmp:sameAs  people:p16150_4 .
+
+people:p17553_1  tmp:sameAs  people:p11717 .
+
+people:p17669_1  tmp:sameAs  people:p12621 .
+
+people:p19853_2  tmp:sameAs  people:p13511_1 .
+
+people:p20300_2  tmp:sameAs  people:p16194_2 .
+
+people:p18676_2  tmp:sameAs  people:p15163_2 .
+
+people:p17216_1  tmp:sameAs  people:p13815 .
+
+people:p18223_2  tmp:sameAs  people:p15024_1 .
+
+people:p17701_1  tmp:sameAs  people:p13808 .
+
+people:p24550_1  tmp:sameAs  people:p16047 .
+
+people:p18630_1  tmp:sameAs  people:p15679 .
+
+people:p22065_1  tmp:sameAs  people:p16892 .
+
+people:p18761_1  tmp:sameAs  people:p13462 .
+
+people:p18877_1  tmp:sameAs  people:p14753 .
+
+people:p20080_1  tmp:sameAs  people:p16235 .
+
+people:p18424_1  tmp:sameAs  people:p14847 .
+
+people:p21624_2  tmp:sameAs  people:p15093_2 .
+
+people:p24174_2  tmp:sameAs  people:p16854_1 .
+
+people:p18254_2  tmp:sameAs  people:p14481_1 .
+
+people:p19562_2  tmp:sameAs  people:p14519_1 .
+
+people:p19469_1  tmp:sameAs  people:p12796 .
+
+people:p20854_1  tmp:sameAs  people:p15866 .
+
+people:p21783_1  tmp:sameAs  people:p16986 .
+
+people:p14570_1  tmp:sameAs  people:p16391 .
+
+people:p19225_2  tmp:sameAs  people:p14167_2 .
+
+people:p19299_2  tmp:sameAs  people:p15561_3 .
+
+people:p18661_1  tmp:sameAs  people:p13934 .
+
+people:p22096_1  tmp:sameAs  people:p16674 .
+
+people:p18986_2  tmp:sameAs  people:p15700_4 .
+
+people:p17693_2  tmp:sameAs  people:p12937_1 .
+
+people:p18819_1  tmp:sameAs  people:p13388_1 .
+
+people:p20517_1  tmp:sameAs  people:p16576 .
+
+people:p20231_2  tmp:sameAs  people:p15414_1 .
+
+people:p21330_1  tmp:sameAs  people:p15307 .
+
+people:p18649_2  tmp:sameAs  people:p14880_3 .
+
+people:p22623_1  tmp:sameAs  people:p13749 .
+
+people:p17147_1  tmp:sameAs  people:p11387 .
+
+people:p17356_2  tmp:sameAs  people:p13865_3 .
+
+people:p13134_2  tmp:sameAs  people:p16094_1 .
+
+people:p25409_2  tmp:sameAs  people:p16817_1 .
+
+people:p19384_1  tmp:sameAs  people:p14975 .
+
+people:p18327_2  tmp:sameAs  people:p14473_1 .
+
+people:p17763_1  tmp:sameAs  people:p14508 .
+
+people:p21198_1  tmp:sameAs  people:p16387 .
+
+people:p18928_2  tmp:sameAs  people:p16478_2 .
+
+people:p17593_2  tmp:sameAs  people:p12644_3 .
+
+people:p18812_2  tmp:sameAs  people:p14893_1 .
+
+people:p17426_1  tmp:sameAs  people:p14697 .
+
+people:p17635_2  tmp:sameAs  people:p13383_2 .
+
+people:p21725_1  tmp:sameAs  people:p15181 .
+
+people:p17271_2  tmp:sameAs  people:p14317_3 .
+
+people:p17178_1  tmp:sameAs  people:p11927 .
+
+people:p18606_2  tmp:sameAs  people:p15154_2 .
+
+people:p21477_1  tmp:sameAs  people:p15974 .
+
+people:p22410_2  tmp:sameAs  people:p16476_2 .
+
+people:p24802_1  tmp:sameAs  people:p16198 .
+
+people:p17872_2  tmp:sameAs  people:p14335_2 .
+
+people:p20994_2  tmp:sameAs  people:p16635_3 .
+
+people:p17836_1  tmp:sameAs  people:p13744 .
+
+people:p26253_2  tmp:sameAs  people:p16664_1 .
+
+people:p19040_2  tmp:sameAs  people:p14592_3 .
+
+people:p20332_1  tmp:sameAs  people:p16857 .
+
+people:p18634_1  tmp:sameAs  people:p13903 .
+
+people:p17550_2  tmp:sameAs  people:p14085_1 .
+
+people:p17457_1  tmp:sameAs  people:p13910 .
+
+people:p18765_1  tmp:sameAs  people:p14851 .
+
+people:p20579_1  tmp:sameAs  people:p15663 .
+
+people:p18270_1  tmp:sameAs  people:p15256 .
+
+people:p19241_1  tmp:sameAs  people:p15875 .
+
+people:p19435_2  tmp:sameAs  people:p15130_2 .
+
+people:p17620_1  tmp:sameAs  people:p11311 .
+
+people:p18913_1  tmp:sameAs  people:p13849 .
+
+people:p20820_2  tmp:sameAs  people:p16247_2 .
+
+people:p17736_1  tmp:sameAs  people:p13497 .
+
+people:p17945_2  tmp:sameAs  people:p15186_3 .
+
+people:p25878_1  tmp:sameAs  people:p17054 .
+
+people:p22026_1  tmp:sameAs  people:p16358 .
+
+people:p19187_2  tmp:sameAs  people:p14551_1 .
+
+people:p17450_2  tmp:sameAs  people:p12633_3 .
+
+people:p18665_1  tmp:sameAs  people:p12161 .
+
+people:p17372_1  tmp:sameAs  people:p13296 .
+
+people:p18874_2  tmp:sameAs  people:p13944_1 .
+
+people:p17608_2  tmp:sameAs  people:p12792_1 .
+
+people:p21334_1  tmp:sameAs  people:p16582 .
+
+people:p21292_1  tmp:sameAs  people:p15941 .
+
+people:p19520_1  tmp:sameAs  people:p15838 .
+
+people:p22511_1  tmp:sameAs  people:p16176 .
+
+people:p17244_2  tmp:sameAs  people:p13255_1 .
+
+people:p20235_2  tmp:sameAs  people:p15580_3 .
+
+people:p18459_1  tmp:sameAs  people:p15620 .
+
+people:p20157_1  tmp:sameAs  people:p16193 .
+
+people:p19141_1  tmp:sameAs  people:p12782 .
+
+people:p18173_2  tmp:sameAs  people:p13206_1 .
+
+people:p19388_1  tmp:sameAs  people:p16293 .
+
+people:p20642_1  tmp:sameAs  people:p16214 .
+
+people:p17767_1  tmp:sameAs  people:p13281 .
+
+people:p17809_1  tmp:sameAs  people:p12832 .
+
+people:p20889_1  tmp:sameAs  people:p16735 .
+
+people:p25871_2  tmp:sameAs  people:p16887_1 .
+
+people:p22093_2  tmp:sameAs  people:p16495_1 .
+
+people:p18700_2  tmp:sameAs  people:p15391_1 .
+
+people:p18580_1  tmp:sameAs  people:p15025 .
+
+people:p17314_1  tmp:sameAs  people:p12388 .
+
+people:p20514_2  tmp:sameAs  people:p15978_2 .
+
+people:p21896_2  tmp:sameAs  people:p15880_1 .
+
+people:p17639_2  tmp:sameAs  people:p12069_1 .
+
+people:p20436_1  tmp:sameAs  people:p16746 .
+
+people:p22620_2  tmp:sameAs  people:p15926_2 .
+
+people:p19551_1  tmp:sameAs  people:p14452 .
+
+people:p19745_2  tmp:sameAs  people:p14482_1 .
+
+people:p20266_2  tmp:sameAs  people:p16382_3 .
+
+people:p20308_2  tmp:sameAs  people:p15164_5 .
+
+people:p21195_2  tmp:sameAs  people:p16325_3 .
+
+people:p18115_2  tmp:sameAs  people:p12699_4 .
+
+people:p17760_2  tmp:sameAs  people:p12786_1 .
+
+people:p18975_1  tmp:sameAs  people:p15862 .
+
+people:p17802_2  tmp:sameAs  people:p14901_1 .
+
+people:p17798_1  tmp:sameAs  people:p14460 .
+
+people:p20789_1  tmp:sameAs  people:p14969 .
+
+people:p22035_2  tmp:sameAs  people:p16802_2 .
+
+people:p18638_1  tmp:sameAs  people:p14768 .
+
+people:p17217_2  tmp:sameAs  people:p12948_2 .
+
+people:p17961_1  tmp:sameAs  people:p14273 .
+
+people:p18030_2  tmp:sameAs  people:p14030_1 .
+
+people:p18801_1  tmp:sameAs  people:p14112 .
+
+people:p17624_1  tmp:sameAs  people:p12978 .
+
+people:p20746_1  tmp:sameAs  people:p16028 .
+
+people:p19075_2  tmp:sameAs  people:p14235_1 .
+
+people:p22066_2  tmp:sameAs  people:p16073_1 .
+
+people:p18762_2  tmp:sameAs  people:p15276_2 .
+
+people:p17376_1  tmp:sameAs  people:p11797 .
+
+people:p20367_1  tmp:sameAs  people:p15721 .
+
+people:p22968_1  tmp:sameAs  people:p16418 .
+
+people:p21300_2  tmp:sameAs  people:p16824_2 .
+
+people:p21296_1  tmp:sameAs  people:p16263 .
+
+people:p18425_2  tmp:sameAs  people:p14927_2 .
+
+people:p19691_2  tmp:sameAs  people:p14906_1 .
+
+people:p21416_2  tmp:sameAs  people:p15653_1 .
+
+people:p18216_1  tmp:sameAs  people:p14854 .
+
+people:p17861_1  tmp:sameAs  people:p13135 .
+
+people:p17248_2  tmp:sameAs  people:p13386_3 .
+
+people:p17903_1  tmp:sameAs  people:p13801 .
+
+people:p17992_1  tmp:sameAs  people:p13850 .
+
+people:p19145_1  tmp:sameAs  people:p15225_3 .
+
+people:p18832_1  tmp:sameAs  people:p15662 .
+
+people:p25550_1  tmp:sameAs  people:p15814 .
+
+people:p17160_1  tmp:sameAs  people:p14093 .
+
+people:p20360_2  tmp:sameAs  people:p15770_2 .
+
+people:p19970_2  tmp:sameAs  people:p15758_3 .
+
+people:p20282_1  tmp:sameAs  people:p16444 .
+
+people:p17527_2  tmp:sameAs  people:p12772_1 .
+
+people:p18131_1  tmp:sameAs  people:p12771 .
+
+people:p20023_2  tmp:sameAs  people:p15615_3 .
+
+people:p18247_1  tmp:sameAs  people:p15806 .
+
+people:p17892_1  tmp:sameAs  people:p14248 .
+
+people:p17934_1  tmp:sameAs  people:p14397 .
+
+people:p19102_1  tmp:sameAs  people:p13806 .
+
+people:p24768_1  tmp:sameAs  people:p16961 .
+
+people:p20677_1  tmp:sameAs  people:p16268 .
+
+people:p17311_2  tmp:sameAs  people:p12817_1 .
+
+people:p20433_2  tmp:sameAs  people:p16273_3 .
+
+people:p18240_2  tmp:sameAs  people:p14290_1 .
+
+people:p21362_2  tmp:sameAs  people:p16625_1 .
+
+people:p17179_2  tmp:sameAs  people:p11666_1 .
+
+people:p18487_2  tmp:sameAs  people:p14797_1 .
+
+people:p20503_1  tmp:sameAs  people:p16251 .
+
+people:p17470_1  tmp:sameAs  people:p13600 .
+
+people:p19327_2  tmp:sameAs  people:p12320_1 .
+
+people:p18894_1  tmp:sameAs  people:p15441 .
+
+people:p17586_1  tmp:sameAs  people:p11432 .
+
+people:p17795_2  tmp:sameAs  people:p13201_1 .
+
+people:p22934_2  tmp:sameAs  people:p16644_1 .
+
+people:p17133_1  tmp:sameAs  people:p12778 .
+
+people:p17342_2  tmp:sameAs  people:p14127_1 .
+
+people:p20333_2  tmp:sameAs  people:p13951_2 .
+
+people:p17264_1  tmp:sameAs  people:p13217 .
+
+people:p18766_2  tmp:sameAs  people:p15699_1 .
+
+people:p21679_1  tmp:sameAs  people:p15146 .
+
+people:p25317_1  tmp:sameAs  people:p15666 .
+
+people:p18104_1  tmp:sameAs  people:p14772 .
+
+people:p23863_2  tmp:sameAs  people:p16157_1 .
+
+people:p22519_1  tmp:sameAs  people:p16612 .
+
+people:p21226_1  tmp:sameAs  people:p16105 .
+
+people:p17996_1  tmp:sameAs  people:p13729 .
+
+people:p21994_2  tmp:sameAs  people:p16045_1 .
+
+people:p19033_1  tmp:sameAs  people:p14901 .
+
+people:p19242_2  tmp:sameAs  people:p15293_1 .
+
+people:p17621_2  tmp:sameAs  people:p15055_1 .
+
+people:p18720_1  tmp:sameAs  people:p13855 .
+
+people:p20492_1  tmp:sameAs  people:p16205_1 .
+
+people:p17543_1  tmp:sameAs  people:p14025 .
+
+people:p20743_2  tmp:sameAs  people:p15232_1 .
+
+people:p17659_1  tmp:sameAs  people:p13388 .
+
+people:p20859_2  tmp:sameAs  people:p16852_1 .
+
+people:p21958_1  tmp:sameAs  people:p16591 .
+
+people:p18341_1  tmp:sameAs  people:p15263 .
+
+people:p17164_1  tmp:sameAs  people:p12371 .
+
+people:p20170_1  tmp:sameAs  people:p16515 .
+
+people:p21010_1  tmp:sameAs  people:p16757 .
+
+people:p19559_1  tmp:sameAs  people:p16249 .
+
+people:p18135_1  tmp:sameAs  people:p14601 .
+
+people:p20027_2  tmp:sameAs  people:p15963_3 .
+
+people:p22434_1  tmp:sameAs  people:p16173 .
+
+people:p17822_1  tmp:sameAs  people:p12936 .
+
+people:p24656_1  tmp:sameAs  people:p16711 .
+
+people:p17443_1  tmp:sameAs  people:p10699 .
+
+people:p19389_2  tmp:sameAs  people:p16154_1 .
+
+people:p17768_2  tmp:sameAs  people:p12541_1 .
+
+people:p20112_1  tmp:sameAs  people:p15815 .
+
+people:p18697_2  tmp:sameAs  people:p15418_1 .
+
+people:p19874_2  tmp:sameAs  people:p15302_1 .
+
+people:p17315_2  tmp:sameAs  people:p13099_1 .
+
+people:p18623_2  tmp:sameAs  people:p14770_1 .
+
+people:p18739_2  tmp:sameAs  people:p15469_1 .
+
+people:p19838_1  tmp:sameAs  people:p15320 .
+
+people:p20437_2  tmp:sameAs  people:p15876_1 .
+
+people:p19421_2  tmp:sameAs  people:p14818_4 .
+
+people:p19343_1  tmp:sameAs  people:p15327 .
+
+people:p18166_1  tmp:sameAs  people:p14233 .
+
+people:p22659_2  tmp:sameAs  people:p15461_1 .
+
+people:p17969_1  tmp:sameAs  people:p13083 .
+
+people:p19095_1  tmp:sameAs  people:p14323 .
+
+people:p20507_1  tmp:sameAs  people:p16871 .
+
+people:p17400_1  tmp:sameAs  people:p13930 .
+
+people:p18902_2  tmp:sameAs  people:p15602_1 .
+
+people:p17516_1  tmp:sameAs  people:p12635 .
+
+people:p18898_1  tmp:sameAs  people:p15052 .
+
+people:p21815_1  tmp:sameAs  people:p16171 .
+
+people:p19947_2  tmp:sameAs  people:p15269_1 .
+
+people:p18066_1  tmp:sameAs  people:p15049 .
+
+people:p19374_1  tmp:sameAs  people:p15362 .
+
+people:p18108_1  tmp:sameAs  people:p15046 .
+
+people:p17962_2  tmp:sameAs  people:p14407_3 .
+
+people:p17869_1  tmp:sameAs  people:p12981 .
+
+people:p20380_1  tmp:sameAs  people:p16455 .
+
+people:p19901_1  tmp:sameAs  people:p14722 .
+
+people:p19037_1  tmp:sameAs  people:p14686 .
+
+people:p18682_1  tmp:sameAs  people:p13328 .
+
+people:p22981_1  tmp:sameAs  people:p16075 .
+
+people:p18918_2  tmp:sameAs  people:p15010_4 .
+
+people:p18554_2  tmp:sameAs  people:p15062_1 .
+
+people:p19731_2  tmp:sameAs  people:p14881_1 .
+
+people:p18345_1  tmp:sameAs  people:p13949 .
+
+people:p19653_1  tmp:sameAs  people:p13133_1 .
+
+people:p17168_1  tmp:sameAs  people:p12353 .
+
+people:p20174_1  tmp:sameAs  people:p14928 .
+
+people:p21676_2  tmp:sameAs  people:p15970_1 .
+
+people:p19599_2  tmp:sameAs  people:p15647_1 .
+
+people:p19316_1  tmp:sameAs  people:p15421 .
+
+people:p20984_2  tmp:sameAs  people:p16296_2 .
+
+people:p21223_2  tmp:sameAs  people:p12928_1 .
+
+people:p17862_2  tmp:sameAs  people:p12580_1 .
+
+people:p17784_1  tmp:sameAs  people:p12169 .
+
+people:p17904_2  tmp:sameAs  people:p13610_3 .
+
+people:p17993_2  tmp:sameAs  people:p14629_2 .
+
+people:p17826_1  tmp:sameAs  people:p13720 .
+
+people:p20817_1  tmp:sameAs  people:p16187 .
+
+people:p19890_1  tmp:sameAs  people:p16035 .
+
+people:p19932_1  tmp:sameAs  people:p16131 .
+
+people:p21630_1  tmp:sameAs  people:p15326 .
+
+people:p17656_2  tmp:sameAs  people:p13464_1 .
+
+people:p20453_1  tmp:sameAs  people:p16231 .
+
+people:p21409_1  tmp:sameAs  people:p17027 .
+
+people:p20074_1  tmp:sameAs  people:p15152 .
+
+people:p18376_1  tmp:sameAs  people:p13227 .
+
+people:p17277_2  tmp:sameAs  people:p12709_3 .
+
+people:p18260_1  tmp:sameAs  people:p12836 .
+
+people:p21251_1  tmp:sameAs  people:p16301 .
+
+people:p18302_1  tmp:sameAs  people:p14722 .
+
+people:p19804_2  tmp:sameAs  people:p14973_1 .
+
+people:p21576_2  tmp:sameAs  people:p15317_4 .
+
+people:p18627_2  tmp:sameAs  people:p14754_1 .
+
+people:p21498_1  tmp:sameAs  people:p15595 .
+
+people:p20690_1  tmp:sameAs  people:p16944 .
+
+people:p25136_1  tmp:sameAs  people:p16860 .
+
+people:p22222_1  tmp:sameAs  people:p15652 .
+
+people:p19231_1  tmp:sameAs  people:p14607 .
+
+people:p18992_1  tmp:sameAs  people:p15588 .
+
+people:p17610_1  tmp:sameAs  people:p14319 .
+
+people:p21045_1  tmp:sameAs  people:p15392 .
+
+people:p22547_2  tmp:sameAs  people:p14962_1 .
+
+people:p20732_1  tmp:sameAs  people:p17004 .
+
+people:p20848_1  tmp:sameAs  people:p16117 .
+
+people:p22183_2  tmp:sameAs  people:p16071_1 .
+
+people:p17362_1  tmp:sameAs  people:p12533 .
+
+people:p19099_1  tmp:sameAs  people:p14000 .
+
+people:p18655_1  tmp:sameAs  people:p14222 .
+
+people:p22016_1  tmp:sameAs  people:p16738 .
+
+people:p17478_1  tmp:sameAs  people:p14022 .
+
+people:p20678_2  tmp:sameAs  people:p15771_3 .
+
+people:p21819_1  tmp:sameAs  people:p16516 .
+
+people:p19584_1  tmp:sameAs  people:p12963 .
+
+people:p20183_2  tmp:sameAs  people:p14110_2 .
+
+people:p18333_1  tmp:sameAs  people:p14602 .
+
+people:p21649_2  tmp:sameAs  people:p16927_1 .
+
+people:p17641_1  tmp:sameAs  people:p13834 .
+
+people:p21076_1  tmp:sameAs  people:p15579 .
+
+people:p20841_2  tmp:sameAs  people:p14746_3 .
+
+people:p25039_2  tmp:sameAs  people:p15925_1 .
+
+people:p19863_1  tmp:sameAs  people:p15568 .
+
+people:p18686_1  tmp:sameAs  people:p14320 .
+
+people:p17587_2  tmp:sameAs  people:p14237_1 .
+
+people:p18806_2  tmp:sameAs  people:p13455_2 .
+
+people:p18728_1  tmp:sameAs  people:p15353 .
+
+people:p17629_2  tmp:sameAs  people:p12437_2 .
+
+people:p22490_1  tmp:sameAs  people:p16618 .
+
+people:p17920_1  tmp:sameAs  people:p12453 .
+
+people:p20047_1  tmp:sameAs  people:p14801 .
+
+people:p23670_2  tmp:sameAs  people:p16848_1 .
+
+people:p17866_2  tmp:sameAs  people:p11678_3 .
+
+people:p17788_1  tmp:sameAs  people:p13401 .
+
+people:p17997_2  tmp:sameAs  people:p15054_1 .
+
+people:p17293_1  tmp:sameAs  people:p14386 .
+
+people:p17544_2  tmp:sameAs  people:p12596_1 .
+
+people:p21634_1  tmp:sameAs  people:p16572 .
+
+people:p18759_1  tmp:sameAs  people:p14662 .
+
+people:p22641_2  tmp:sameAs  people:p16953_3 .
+
+people:p19650_2  tmp:sameAs  people:p14194_2 .
+
+people:p18264_1  tmp:sameAs  people:p14978 .
+
+people:p17207_2  tmp:sameAs  people:p13427_2 .
+
+people:p23570_2  tmp:sameAs  people:p16675_1 .
+
+people:p19193_1  tmp:sameAs  people:p14856_1 .
+
+people:p18094_2  tmp:sameAs  people:p14563_1 .
+
+people:p22110_1  tmp:sameAs  people:p16999 .
+
+people:p17572_1  tmp:sameAs  people:p14283 .
+
+people:p20772_2  tmp:sameAs  people:p15921_1 .
+
+people:p20605_1  tmp:sameAs  people:p14359 .
+
+people:p21913_1  tmp:sameAs  people:p14902 .
+
+people:p20450_2  tmp:sameAs  people:p16289_2 .
+
+people:p18752_2  tmp:sameAs  people:p14260_1 .
+
+people:p17366_1  tmp:sameAs  people:p13450 .
+
+people:p24010_1  tmp:sameAs  people:p15181 .
+
+people:p19514_1  tmp:sameAs  people:p15180 .
+
+people:p18373_2  tmp:sameAs  people:p14177_1 .
+
+people:p21170_1  tmp:sameAs  people:p14968 .
+
+people:p18295_1  tmp:sameAs  people:p14111 .
+
+people:p21495_2  tmp:sameAs  people:p16837_2 .
+
+people:p20845_2  tmp:sameAs  people:p15309_1 .
+
+people:p19007_2  tmp:sameAs  people:p15481_1 .
+
+people:p18652_2  tmp:sameAs  people:p14985_2 .
+
+people:p17150_1  tmp:sameAs  people:p13103 .
+
+people:p17397_1  tmp:sameAs  people:p14165 .
+
+people:p19867_1  tmp:sameAs  people:p14377_1 .
+
+people:p18574_1  tmp:sameAs  people:p13368_2 .
+
+people:p18616_1  tmp:sameAs  people:p14252 .
+
+people:p17517_2  tmp:sameAs  people:p13351_1 .
+
+people:p25292_1  tmp:sameAs  people:p16485 .
+
+people:p21112_1  tmp:sameAs  people:p16520 .
+
+people:p17882_1  tmp:sameAs  people:p13587 .
+
+people:p22494_1  tmp:sameAs  people:p15364 .
+
+people:p18237_1  tmp:sameAs  people:p14282 .
+
+people:p19545_1  tmp:sameAs  people:p16630 , people:p12484 .
+
+people:p20144_2  tmp:sameAs  people:p15823_1 .
+
+people:p17269_2  tmp:sameAs  people:p13458_3 .
+
+people:p19166_1  tmp:sameAs  people:p14910 .
+
+people:p18067_2  tmp:sameAs  people:p12977_2 .
+
+people:p21844_1  tmp:sameAs  people:p17057 .
+
+people:p18853_1  tmp:sameAs  people:p15605 .
+
+people:p17754_2  tmp:sameAs  people:p14741_1 .
+
+people:p18969_1  tmp:sameAs  people:p14477 .
+
+people:p17676_1  tmp:sameAs  people:p12882 .
+
+people:p20876_2  tmp:sameAs  people:p15456_1 .
+
+people:p21480_1  tmp:sameAs  people:p16770 .
+
+people:p25571_1  tmp:sameAs  people:p16669 .
+
+people:p19782_1  tmp:sameAs  people:p16398 .
+
+people:p17297_1  tmp:sameAs  people:p14089 .
+
+people:p17181_1  tmp:sameAs  people:p12103 .
+
+people:p17390_2  tmp:sameAs  people:p13533_1 .
+
+people:p17223_1  tmp:sameAs  people:p14066 .
+
+people:p21596_1  tmp:sameAs  people:p16495 .
+
+people:p17548_2  tmp:sameAs  people:p12819_1 .
+
+people:p21638_1  tmp:sameAs  people:p16027 .
+
+people:p18230_2  tmp:sameAs  people:p14292_2 .
+
+people:p18346_2  tmp:sameAs  people:p14636_2 .
+
+people:p19654_2  tmp:sameAs  people:p16288_1 .
+
+people:p18477_2  tmp:sameAs  people:p13046_3 .
+
+people:p20008_1  tmp:sameAs  people:p15116 .
+
+people:p17955_1  tmp:sameAs  people:p13739 .
+
+people:p23380_1  tmp:sameAs  people:p17094 .
+
+people:p19197_1  tmp:sameAs  people:p15019 .
+
+people:p19239_1  tmp:sameAs  people:p15306 .
+
+people:p17576_1  tmp:sameAs  people:p13406 .
+
+people:p21801_1  tmp:sameAs  people:p16531 .
+
+people:p17618_1  tmp:sameAs  people:p13447 .
+
+people:p23121_2  tmp:sameAs  people:p16782_1 .
+
+people:p19724_1  tmp:sameAs  people:p14855 .
+
+people:p18431_1  tmp:sameAs  people:p15720 .
+
+people:p19891_2  tmp:sameAs  people:p14747_3 .
+
+people:p17332_2  tmp:sameAs  people:p12583_1 .
+
+people:p17254_1  tmp:sameAs  people:p11816 .
+
+people:p17448_2  tmp:sameAs  people:p13421_3 .
+
+people:p21669_1  tmp:sameAs  people:p15597 .
+
+people:p18183_1  tmp:sameAs  people:p13503 .
+
+people:p21174_1  tmp:sameAs  people:p16702 .
+
+people:p17986_1  tmp:sameAs  people:p11670 .
+
+people:p19139_1  tmp:sameAs  people:p15782 .
+
+people:p18055_2  tmp:sameAs  people:p14680_1 .
+
+people:p17491_1  tmp:sameAs  people:p13001 .
+
+people:p18993_2  tmp:sameAs  people:p16369_1 .
+
+people:p20691_2  tmp:sameAs  people:p16538_2 .
+
+people:p22955_2  tmp:sameAs  people:p16397_1 .
+
+people:p20354_2  tmp:sameAs  people:p14274_1 .
+
+people:p18578_1  tmp:sameAs  people:p14147 .
+
+people:p17479_2  tmp:sameAs  people:p13703_1 .
+
+people:p20276_1  tmp:sameAs  people:p15241 .
+
+people:p23601_1  tmp:sameAs  people:p16936 .
+
+people:p19511_2  tmp:sameAs  people:p16626_1 .
+
+people:p18083_1  tmp:sameAs  people:p12559 .
+
+people:p24239_2  tmp:sameAs  people:p15748_3 .
+
+people:p19418_1  tmp:sameAs  people:p14476 .
+
+people:p17770_1  tmp:sameAs  people:p13439 .
+
+people:p20148_2  tmp:sameAs  people:p15092_2 .
+
+people:p17433_1  tmp:sameAs  people:p13862 .
+
+people:p18741_1  tmp:sameAs  people:p15134 .
+
+people:p21941_2  tmp:sameAs  people:p15831_1 .
+
+people:p17758_2  tmp:sameAs  people:p14267_1 .
+
+people:p20555_1  tmp:sameAs  people:p16137 .
+
+people:p18687_2  tmp:sameAs  people:p14798_4 .
+
+people:p17185_1  tmp:sameAs  people:p12215 .
+
+people:p18613_2  tmp:sameAs  people:p14792_1 .
+
+people:p18040_1  tmp:sameAs  people:p13742 .
+
+people:p18234_2  tmp:sameAs  people:p14130_1 .
+
+people:p17712_1  tmp:sameAs  people:p12802 .
+
+people:p23253_1  tmp:sameAs  people:p15960 .
+
+people:p18641_1  tmp:sameAs  people:p14030 .
+
+people:p18028_2  tmp:sameAs  people:p14947_3 .
+
+people:p17464_1  tmp:sameAs  people:p12560 .
+
+people:p18888_1  tmp:sameAs  people:p15349 .
+
+people:p17789_2  tmp:sameAs  people:p14347_3 .
+
+people:p21805_1  tmp:sameAs  people:p16763 .
+
+people:p17294_2  tmp:sameAs  people:p12928_2 .
+
+people:p21593_2  tmp:sameAs  people:p16891_1 .
+
+people:p22692_1  tmp:sameAs  people:p16729 .
+
+people:p20458_2  tmp:sameAs  people:p14457_2 .
+
+people:p18265_2  tmp:sameAs  people:p15214_4 .
+
+people:p23779_1  tmp:sameAs  people:p17049 .
+
+people:p19689_2  tmp:sameAs  people:p15154_1 .
+
+people:p20005_2  tmp:sameAs  people:p14895_1 .
+
+people:p17859_1  tmp:sameAs  people:p13368 .
+
+people:p19027_1  tmp:sameAs  people:p14286 .
+
+people:p20412_1  tmp:sameAs  people:p16727 .
+
+people:p17406_1  tmp:sameAs  people:p13272 .
+
+people:p17495_1  tmp:sameAs  people:p13683 .
+
+people:p20606_2  tmp:sameAs  people:p16425_2 .
+
+people:p20737_2  tmp:sameAs  people:p13316_2 .
+
+people:p17120_2  tmp:sameAs  people:p11554_3 .
+
+people:p19721_2  tmp:sameAs  people:p15845_1 .
+
+people:p17251_2  tmp:sameAs  people:p13582_1 .
+
+people:p21004_1  tmp:sameAs  people:p16934 .
+
+people:p22270_1  tmp:sameAs  people:p16785 .
+
+people:p18013_1  tmp:sameAs  people:p14869 .
+
+people:p18207_2  tmp:sameAs  people:p12698_3 .
+
+people:p18296_2  tmp:sameAs  people:p14070_1 .
+
+people:p18129_1  tmp:sameAs  people:p15178 .
+
+people:p17774_1  tmp:sameAs  people:p14414 .
+
+people:p19880_1  tmp:sameAs  people:p16161 .
+
+people:p17321_1  tmp:sameAs  people:p13839 .
+
+people:p19922_1  tmp:sameAs  people:p16126 .
+
+people:p21620_1  tmp:sameAs  people:p16955 .
+
+people:p18745_1  tmp:sameAs  people:p12986 .
+
+people:p20443_1  tmp:sameAs  people:p15819 .
+
+people:p18575_2  tmp:sameAs  people:p15809_3 .
+
+people:p18366_1  tmp:sameAs  people:p13644 .
+
+people:p18617_2  tmp:sameAs  people:p15129_1 .
+
+people:p17189_1  tmp:sameAs  people:p13736 .
+
+people:p18497_1  tmp:sameAs  people:p12410 .
+
+people:p20389_2  tmp:sameAs  people:p16954_1 .
+
+people:p19337_1  tmp:sameAs  people:p16509 .
+
+people:p19415_2  tmp:sameAs  people:p15586_3 .
+
+people:p18122_2  tmp:sameAs  people:p14433_2 .
+
+people:p17600_1  tmp:sameAs  people:p16277 , people:p12100 .
+
+people:p18044_1  tmp:sameAs  people:p13701 .
+
+people:p20680_1  tmp:sameAs  people:p16527 .
+
+people:p20800_2  tmp:sameAs  people:p15340_1 .
+
+people:p20838_1  tmp:sameAs  people:p16751 .
+
+people:p17352_1  tmp:sameAs  people:pU989 .
+
+people:p19167_2  tmp:sameAs  people:p14438_2 .
+
+people:p23388_1  tmp:sameAs  people:p16184 .
+
+people:p19209_2  tmp:sameAs  people:p16044_1 .
+
+people:p19953_1  tmp:sameAs  people:p16057 .
+
+people:p21651_1  tmp:sameAs  people:p16143 .
+
+people:p19500_1  tmp:sameAs  people:p15829 .
+
+people:p21481_2  tmp:sameAs  people:p16158_1 .
+
+people:p17298_2  tmp:sameAs  people:p12687_1 .
+
+people:p19446_2  tmp:sameAs  people:p15334_2 .
+
+people:p19252_1  tmp:sameAs  people:p13712_2 .
+
+people:p18924_1  tmp:sameAs  people:p15465 .
+
+people:p18269_2  tmp:sameAs  people:p15098_1 .
+
+people:p19853_1  tmp:sameAs  people:p13511 .
+
+people:p20300_1  tmp:sameAs  people:p16194 .
+
+people:p18676_1  tmp:sameAs  people:p15163 .
+
+people:p18718_1  tmp:sameAs  people:p15808 .
+
+people:p17619_2  tmp:sameAs  people:p14108_1 .
+
+people:p18223_1  tmp:sameAs  people:p15024 .
+
+people:p23982_2  tmp:sameAs  people:p13861_1 .
+
+people:p20130_2  tmp:sameAs  people:p16781_3 .
+
+people:p17255_2  tmp:sameAs  people:p12071_1 .
+
+people:p20246_2  tmp:sameAs  people:p14230_1 .
+
+people:p23946_1  tmp:sameAs  people:p16316 .
+
+people:p23776_2  tmp:sameAs  people:p16552_4 .
+
+people:p23818_2  tmp:sameAs  people:p16277_1 .
+
+people:p18591_1  tmp:sameAs  people:p15260 .
+
+people:p17492_2  tmp:sameAs  people:p13946_1 .
+
+people:p23439_2  tmp:sameAs  people:p16595_3 .
+
+people:p21791_2  tmp:sameAs  people:p16003_1 .
+
+people:p21624_1  tmp:sameAs  people:p15093 .
+
+people:p24174_1  tmp:sameAs  people:p16854 .
+
+people:p18254_1  tmp:sameAs  people:p14481 .
+
+people:p19562_1  tmp:sameAs  people:p14519 .
+
+people:p20161_2  tmp:sameAs  people:p14952_1 .
+
+people:p20068_1  tmp:sameAs  people:p16004 .
+
+people:p22100_1  tmp:sameAs  people:p16403 .
+
+people:p21090_2  tmp:sameAs  people:p17009_1 .
+
+people:p19225_1  tmp:sameAs  people:p15376 .
+
+people:p19299_1  tmp:sameAs  people:p15561 .
+
+people:p18986_1  tmp:sameAs  people:p15700 .
+
+people:p17693_1  tmp:sameAs  people:p12937 .
+
+people:p20231_1  tmp:sameAs  people:p15414 .
+
+people:p17240_1  tmp:sameAs  people:p12480 .
+
+people:p18649_1  tmp:sameAs  people:p14880 .
+
+people:p17356_1  tmp:sameAs  people:p13865 .
+
+people:p20347_1  tmp:sameAs  people:p16307 .
+
+people:p20103_2  tmp:sameAs  people:p15528_1 .
+
+people:p19671_2  tmp:sameAs  people:p15993_3 .
+
+people:p17186_2  tmp:sameAs  people:p12058_3 .
+
+people:p18327_1  tmp:sameAs  people:p14473 .
+
+people:p17228_2  tmp:sameAs  people:p13291_3 .
+
+people:p19292_2  tmp:sameAs  people:p15983_1 .
+
+people:p18812_1  tmp:sameAs  people:p14893 .
+
+people:p17593_1  tmp:sameAs  people:p12644 .
+
+people:p18928_1  tmp:sameAs  people:p16478 .
+
+people:p17635_1  tmp:sameAs  people:p13383 .
+
+people:p23254_2  tmp:sameAs  people:p16620_1 .
+
+people:p17271_1  tmp:sameAs  people:p14317 .
+
+people:p18564_1  tmp:sameAs  people:p14354_2 .
+
+people:p18606_1  tmp:sameAs  people:p15154 .
+
+people:p22410_1  tmp:sameAs  people:p16476 .
+
+people:p19613_2  tmp:sameAs  people:p14019_1 .
+
+people:p18227_1  tmp:sameAs  people:p14515 .
+
+people:p17128_2  tmp:sameAs  people:p11411_1 .
+
+people:p17872_1  tmp:sameAs  people:p14335 .
+
+people:p21063_2  tmp:sameAs  people:p16904_1 .
+
+people:p20994_1  tmp:sameAs  people:p16635 .
+
+people:p26253_1  tmp:sameAs  people:p16664 .
+
+people:p23664_2  tmp:sameAs  people:p15994_1 .
+
+people:p19040_1  tmp:sameAs  people:p14592 .
+
+people:p22031_1  tmp:sameAs  people:p16878 .
+
+people:p18921_2  tmp:sameAs  people:p15728_1 .
+
+people:p19407_2  tmp:sameAs  people:p15490_1 .
+
+people:p18188_2  tmp:sameAs  people:p14856_2 .
+
+people:p17550_1  tmp:sameAs  people:p14085 .
+
+people:p17380_2  tmp:sameAs  people:p13952_2 .
+
+people:p20371_2  tmp:sameAs  people:p14151_1 .
+
+people:p19435_1  tmp:sameAs  people:p15130 .
+
+people:p20034_2  tmp:sameAs  people:p15698_2 .
+
+people:p21342_2  tmp:sameAs  people:p14006_2 .
+
+people:p20820_1  tmp:sameAs  people:p16247 .
+
+people:p21458_2  tmp:sameAs  people:p15812_1 .
+
+people:p17945_1  tmp:sameAs  people:p15186 .
+
+people:p19187_1  tmp:sameAs  people:p14551 .
+
+people:p17450_1  tmp:sameAs  people:p12633 .
+
+people:p20766_2  tmp:sameAs  people:p16958_1 .
+
+people:p17566_1  tmp:sameAs  people:p12809 .
+
+people:p18874_1  tmp:sameAs  people:p13944 .
+
+people:p17608_1  tmp:sameAs  people:p12792 .
+
+people:p17817_2  tmp:sameAs  people:p13022_1 .
+
+people:p20235_1  tmp:sameAs  people:p15580 .
+
+people:p17244_1  tmp:sameAs  people:p13255 .
+
+people:p17438_2  tmp:sameAs  people:p13218_2 .
+
+people:p18746_2  tmp:sameAs  people:p14387_1 .
+
+people:p18173_1  tmp:sameAs  people:p13206 .
+
+people:p20065_2  tmp:sameAs  people:p15912_1 .
+
+people:p18289_1  tmp:sameAs  people:p14545 .
+
+people:p25871_1  tmp:sameAs  people:p16887 .
+
+people:p22093_1  tmp:sameAs  people:p16495 .
+
+people:p18816_1  tmp:sameAs  people:p16401 .
+
+people:p20514_1  tmp:sameAs  people:p15978 .
+
+people:p20681_2  tmp:sameAs  people:p15967_3 .
+
+people:p18700_1  tmp:sameAs  people:p15391 .
+
+people:p17523_1  tmp:sameAs  people:p14042 .
+
+people:p17717_2  tmp:sameAs  people:p13860_3 .
+
+people:p21896_1  tmp:sameAs  people:p15880 .
+
+people:p17639_1  tmp:sameAs  people:p12069 .
+
+people:p18452_1  tmp:sameAs  people:p15317 .
+
+people:p19745_1  tmp:sameAs  people:p14482 .
+
+people:p17353_2  tmp:sameAs  people:p12500_1 .
+
+people:p20266_1  tmp:sameAs  people:p16382 .
+
+people:p20308_1  tmp:sameAs  people:p15164 .
+
+people:p18115_1  tmp:sameAs  people:p12699 .
+
+people:p17760_1  tmp:sameAs  people:p12786 .
+
+people:p21195_1  tmp:sameAs  people:p16325 .
+
+people:p17802_1  tmp:sameAs  people:p14901 .
+
+people:p20882_1  tmp:sameAs  people:p13325 .
+
+people:p22035_1  tmp:sameAs  people:p16802 .
+
+people:p18925_2  tmp:sameAs  people:p15444_3 .
+
+people:p19253_2  tmp:sameAs  people:p14873_1 .
+
+people:p19369_2  tmp:sameAs  people:p15344_5 .
+
+people:p17632_2  tmp:sameAs  people:p13618_2 .
+
+people:p18847_1  tmp:sameAs  people:p15566 .
+
+people:p18352_1  tmp:sameAs  people:p14954 .
+
+people:p22767_1  tmp:sameAs  people:p16928_1 .
+
+people:p19985_2  tmp:sameAs  people:p15061_1 .
+
+people:p17217_1  tmp:sameAs  people:p12948 .
+
+people:p18719_2  tmp:sameAs  people:p15308_1 .
+
+people:p18030_1  tmp:sameAs  people:p14030 .
+
+people:p17702_1  tmp:sameAs  people:p13700 .
+
+people:p21137_1  tmp:sameAs  people:p16704 .
+
+people:p20824_1  tmp:sameAs  people:p15110 .
+
+people:p19075_1  tmp:sameAs  people:p14235 .
+
+people:p22066_1  tmp:sameAs  people:p16073 .
+
+people:p18018_2  tmp:sameAs  people:p13316_1 .
+
+people:p18762_1  tmp:sameAs  people:p15276 .
+
+people:p24709_1  tmp:sameAs  people:p15735_3 .
+
+people:p22798_1  tmp:sameAs  people:p16982 .
+
+people:p21300_1  tmp:sameAs  people:p16824 .
+
+people:p21625_2  tmp:sameAs  people:p15652_1 .
+
+people:p17210_2  tmp:sameAs  people:p12401_1 .
+
+people:p19691_1  tmp:sameAs  people:p14906 .
+
+people:p18425_1  tmp:sameAs  people:p14927 .
+
+people:p21416_1  tmp:sameAs  people:p15653 .
+
+people:p17248_1  tmp:sameAs  people:p13386 .
+
+people:p17942_2  tmp:sameAs  people:p14336_3 .
+
+people:p19110_2  tmp:sameAs  people:p15494_2 .
+
+people:p19970_1  tmp:sameAs  people:p15758 .
+
+people:p17694_2  tmp:sameAs  people:p13719_3 .
+
+people:p17527_1  tmp:sameAs  people:p12772 .
+
+people:p20518_1  tmp:sameAs  people:p16977 .
+
+people:p24323_2  tmp:sameAs  people:p16616_4 .
+
+people:p19842_2  tmp:sameAs  people:p16306_1 .
+
+people:p20023_1  tmp:sameAs  people:p15615 .
+
+people:p17148_1  tmp:sameAs  people:p12302 .
+
+people:p18077_1  tmp:sameAs  people:p14658 .
+
+people:p19579_2  tmp:sameAs  people:p15942_2 .
+
+people:p21277_2  tmp:sameAs  people:p16551_1 .
+
+people:p17764_1  tmp:sameAs  people:p14759 .
+
+people:p19010_2  tmp:sameAs  people:p15097_1 .
+
+people:p22039_1  tmp:sameAs  people:p16263 .
+
+people:p19126_2  tmp:sameAs  people:p14076_1 .
+
+people:p18813_2  tmp:sameAs  people:p14681_1 .
+
+people:p17311_1  tmp:sameAs  people:p12817 .
+
+people:p17520_2  tmp:sameAs  people:p13337_2 .
+
+people:p20433_1  tmp:sameAs  people:p16273 .
+
+people:p18240_1  tmp:sameAs  people:p14290 .
+
+people:p21556_2  tmp:sameAs  people:p16847_1 .
+
+people:p21362_1  tmp:sameAs  people:p16625 .
+
+people:p18565_2  tmp:sameAs  people:p12727_1 .
+
+people:p17179_1  tmp:sameAs  people:p11666 .
+
+people:p18487_1  tmp:sameAs  people:p14797 .
+
+people:p20906_2  tmp:sameAs  people:p16017_1 .
+
+people:p19494_2  tmp:sameAs  people:p13740_1 .
+
+people:p19327_1  tmp:sameAs  people:p12320 .
+
+people:p19536_2  tmp:sameAs  people:p15525_1 .
+
+people:p20786_1  tmp:sameAs  people:p15614 .
+
+people:p17795_1  tmp:sameAs  people:p13201 .
+
+people:p20712_1  tmp:sameAs  people:p15477_1 .
+
+people:p17837_1  tmp:sameAs  people:p14429 .
+
+people:p22934_1  tmp:sameAs  people:p16644 .
+
+people:p18635_1  tmp:sameAs  people:p15484 .
+
+people:p17420_2  tmp:sameAs  people:p12529_1 .
+
+people:p18844_2  tmp:sameAs  people:p14997_2 .
+
+people:p17342_1  tmp:sameAs  people:p14127 .
+
+people:p20333_1  tmp:sameAs  people:p13951 .
+
+people:p18766_1  tmp:sameAs  people:p15699 .
+
+people:p17667_2  tmp:sameAs  people:p12031_2 .
+
+people:p23092_2  tmp:sameAs  people:p16838_1 .
+
+people:p21304_1  tmp:sameAs  people:p16459 .
+
+people:p18596_2  tmp:sameAs  people:p15919_1 .
+
+people:p23863_1  tmp:sameAs  people:p16157 .
+
+people:p19695_1  tmp:sameAs  people:p12388_3 .
+
+people:p19242_1  tmp:sameAs  people:p15293 .
+
+people:p17621_1  tmp:sameAs  people:p15055 .
+
+people:p19567_2  tmp:sameAs  people:p13371_1 .
+
+people:p19358_1  tmp:sameAs  people:p16094 .
+
+people:p21056_1  tmp:sameAs  people:p15865 .
+
+people:p21994_1  tmp:sameAs  people:p16045 .
+
+people:p20743_1  tmp:sameAs  people:p15232 .
+
+people:p20859_1  tmp:sameAs  people:p16852 .
+
+people:p23371_2  tmp:sameAs  people:p14858_2 .
+
+people:p17567_2  tmp:sameAs  people:p14356_1 .
+
+people:p20573_2  tmp:sameAs  people:p15356_3 .
+
+people:p20406_1  tmp:sameAs  people:p16581 .
+
+people:p18422_2  tmp:sameAs  people:p12505_1 .
+
+people:p20027_1  tmp:sameAs  people:p15963 .
+
+people:p19637_1  tmp:sameAs  people:p15190 .
+
+people:p19846_2  tmp:sameAs  people:p15773_1 .
+
+people:p19351_2  tmp:sameAs  people:p14867_1 .
+
+people:p19273_1  tmp:sameAs  people:p14743 .
+
+people:p18174_2  tmp:sameAs  people:p13845_3 .
+
+people:p19389_1  tmp:sameAs  people:p16154 .
+
+people:p17652_1  tmp:sameAs  people:p13313 .
+
+people:p17768_1  tmp:sameAs  people:p12541 .
+
+people:p18701_2  tmp:sameAs  people:p16081_1 .
+
+people:p18697_1  tmp:sameAs  people:p15418 .
+
+people:p19874_1  tmp:sameAs  people:p15302 .
+
+people:p17315_1  tmp:sameAs  people:p13099 .
+
+people:p17598_2  tmp:sameAs  people:p13127_1 .
+
+people:p18623_1  tmp:sameAs  people:p14770 .
+
+people:p20515_2  tmp:sameAs  people:p16384_2 .
+
+people:p18739_1  tmp:sameAs  people:p15469 .
+
+people:p20437_1  tmp:sameAs  people:p15876 .
+
+people:p19421_1  tmp:sameAs  people:p14818 .
+
+people:p19630_2  tmp:sameAs  people:p15918_1 .
+
+people:p21444_2  tmp:sameAs  people:p16200_3 .
+
+people:p22659_1  tmp:sameAs  people:p15461 .
+
+people:p18074_2  tmp:sameAs  people:p14119_1 .
+
+people:p19215_1  tmp:sameAs  people:p15733 .
+
+people:p18902_1  tmp:sameAs  people:p15602 .
+
+people:p25620_1  tmp:sameAs  people:p16841 .
+
+people:p22780_1  tmp:sameAs  people:p16663 .
+
+people:p19947_1  tmp:sameAs  people:p15269 .
+
+people:p19568_1  tmp:sameAs  people:p16156 .
+
+people:p21475_2  tmp:sameAs  people:p16736_2 .
+
+people:p17962_1  tmp:sameAs  people:p14407 .
+
+people:p18031_2  tmp:sameAs  people:p13133_2 .
+
+people:p18918_1  tmp:sameAs  people:p15010 .
+
+people:p19731_1  tmp:sameAs  people:p14881 .
+
+people:p18554_1  tmp:sameAs  people:p15062 .
+
+people:p17261_1  tmp:sameAs  people:p13008 .
+
+people:p21676_1  tmp:sameAs  people:p15970 .
+
+people:p19599_1  tmp:sameAs  people:p15647 .
+
+people:p17862_1  tmp:sameAs  people:p12580 .
+
+people:p21223_1  tmp:sameAs  people:p12928 .
+
+people:p17904_1  tmp:sameAs  people:p13610 .
+
+people:p17993_1  tmp:sameAs  people:p14629 .
+
+people:p20984_1  tmp:sameAs  people:p16296 .
+
+people:p19355_2  tmp:sameAs  people:p15221_1 .
+
+people:p17656_1  tmp:sameAs  people:p13464 .
+
+people:p17161_1  tmp:sameAs  people:p12960 .
+
+people:p20361_2  tmp:sameAs  people:p15726_1 .
+
+people:p17277_1  tmp:sameAs  people:p12709 .
+
+people:p19804_1  tmp:sameAs  people:p14973 .
+
+people:p17319_1  tmp:sameAs  people:p13305 .
+
+people:p18627_1  tmp:sameAs  people:p14754 .
+
+people:p18210_2  tmp:sameAs  people:p14752_3 .
+
+people:p17149_2  tmp:sameAs  people:p12758_3 .
+
+people:p18457_2  tmp:sameAs  people:p14989_3 .
+
+people:p22547_1  tmp:sameAs  people:p14962 .
+
+people:p19061_1  tmp:sameAs  people:p15534 .
+
+people:p25097_1  tmp:sameAs  people:p17061 .
+
+people:p22183_1  tmp:sameAs  people:p16071 .
+
+people:p18864_1  tmp:sameAs  people:p16015 .
+
+people:p17687_1  tmp:sameAs  people:p11163 .
+
+people:p20678_1  tmp:sameAs  people:p15771 .
+
+people:p20183_1  tmp:sameAs  people:p14110 .
+
+people:p17428_2  tmp:sameAs  people:p13432_1 .
+
+people:p18736_2  tmp:sameAs  people:p15198_3 .
+
+people:p17559_2  tmp:sameAs  people:p12266_1 .
+
+people:p21649_1  tmp:sameAs  people:p16927 .
+
+people:p20841_1  tmp:sameAs  people:p14746 .
+
+people:p25039_1  tmp:sameAs  people:p15925 .
+
+people:p18973_2  tmp:sameAs  people:p15692_3 .
+
+people:p19286_2  tmp:sameAs  people:p13012_1 .
+
+people:p17629_1  tmp:sameAs  people:p12437 .
+
+people:p17471_1  tmp:sameAs  people:p12896 .
+
+people:p18806_1  tmp:sameAs  people:p13455 .
+
+people:p17587_1  tmp:sameAs  people:p14237 .
+
+people:p17796_2  tmp:sameAs  people:p13844_1 .
+
+people:p20787_2  tmp:sameAs  people:p15091_1 .
+
+people:p17343_2  tmp:sameAs  people:p12426_3 .
+
+people:p25160_1  tmp:sameAs  people:p16372 .
+
+people:p22362_1  tmp:sameAs  people:p16115 .
+
+people:p23670_1  tmp:sameAs  people:p16848 .
+
+people:p20086_2  tmp:sameAs  people:p15401_2 .
+
+people:p17866_1  tmp:sameAs  people:p11678 .
+
+people:p20872_1  tmp:sameAs  people:p15402 .
+
+people:p17997_1  tmp:sameAs  people:p15054 .
+
+people:p17580_2  tmp:sameAs  people:p12879_1 .
+
+people:p18837_1  tmp:sameAs  people:p15433 .
+
+people:p17544_1  tmp:sameAs  people:p12596 .
+
+people:p17738_2  tmp:sameAs  people:p12305_1 .
+
+people:p20040_1  tmp:sameAs  people:p15895 .
+
+people:p19650_1  tmp:sameAs  people:p14194 .
+
+people:p22641_1  tmp:sameAs  people:p16953 .
+
+people:p24587_2  tmp:sameAs  people:p17076_1 .
+
+people:p17207_1  tmp:sameAs  people:p13427 .
+
+people:p23570_1  tmp:sameAs  people:p16675 .
+
+people:p22471_2  tmp:sameAs  people:p15253_1 .
+
+people:p18094_1  tmp:sameAs  people:p14563 .
+
+people:p21336_2  tmp:sameAs  people:p16975_1 .
+
+people:p21294_2  tmp:sameAs  people:p16827_4 .
+
+people:p17781_1  tmp:sameAs  people:p13823 .
+
+people:p20772_1  tmp:sameAs  people:p15921 .
+
+people:p19274_2  tmp:sameAs  people:p15259_1 .
+
+people:p17444_1  tmp:sameAs  people:p14185 .
+
+people:p18752_1  tmp:sameAs  people:p14260 .
+
+people:p20450_1  tmp:sameAs  people:p16289 .
+
+people:p18373_1  tmp:sameAs  people:p14177 .
+
+people:p18582_2  tmp:sameAs  people:p13583_2 .
+
+people:p21495_1  tmp:sameAs  people:p16837 .
+
+people:p20229_1  tmp:sameAs  people:p15996 .
+
+people:p17890_2  tmp:sameAs  people:p13410_1 .
+
+people:p20059_2  tmp:sameAs  people:p14777_3 .
+
+people:p20845_1  tmp:sameAs  people:p15309 .
+
+people:p19007_1  tmp:sameAs  people:p15481 .
+
+people:p18652_1  tmp:sameAs  people:p14985 .
+
+people:p17517_1  tmp:sameAs  people:p13351 .
+
+people:p23922_1  tmp:sameAs  people:p16886 .
+
+people:p17231_2  tmp:sameAs  people:p13997_1 .
+
+people:p20144_1  tmp:sameAs  people:p15823 .
+
+people:p18446_1  tmp:sameAs  people:p13000_2 .
+
+people:p19948_2  tmp:sameAs  people:p14568_1 .
+
+people:p17269_1  tmp:sameAs  people:p13458 .
+
+people:p21267_2  tmp:sameAs  people:p16826_1 .
+
+people:p18067_1  tmp:sameAs  people:p12977 .
+
+people:p18318_2  tmp:sameAs  people:p14377_2 .
+
+people:p19569_2  tmp:sameAs  people:p13868_1 .
+
+people:p18109_1  tmp:sameAs  people:p12898 .
+
+people:p17754_1  tmp:sameAs  people:p14741 .
+
+people:p21309_2  tmp:sameAs  people:p15145_1 .
+
+people:p20876_1  tmp:sameAs  people:p15456 .
+
+people:p23221_1  tmp:sameAs  people:p16967 .
+
+people:p21716_1  tmp:sameAs  people:p16049 .
+
+people:p18725_1  tmp:sameAs  people:p15477 .
+
+people:p17390_1  tmp:sameAs  people:p13533 .
+
+people:p17417_1  tmp:sameAs  people:p13498 .
+
+people:p18799_1  tmp:sameAs  people:p14641 .
+
+people:p21999_2  tmp:sameAs  people:p15787_4 .
+
+people:p17548_1  tmp:sameAs  people:p12819 .
+
+people:p17131_2  tmp:sameAs  people:p13418_1 .
+
+people:p18230_1  tmp:sameAs  people:p14292 .
+
+people:p21430_2  tmp:sameAs  people:p16537_1 .
+
+people:p18346_1  tmp:sameAs  people:p14636 .
+
+people:p19654_1  tmp:sameAs  people:p16288 .
+
+people:p18477_1  tmp:sameAs  people:p13046 .
+
+people:p19979_2  tmp:sameAs  people:p13382_1 .
+
+people:p18218_2  tmp:sameAs  people:p12861_1 .
+
+people:p21015_1  tmp:sameAs  people:p16095 .
+
+people:p17905_2  tmp:sameAs  people:p13681_1 .
+
+people:p23121_1  tmp:sameAs  people:p16782 .
+
+people:p19891_1  tmp:sameAs  people:p14747 .
+
+people:p17332_1  tmp:sameAs  people:p12583 .
+
+people:p17448_1  tmp:sameAs  people:p13421 .
+
+people:p20648_2  tmp:sameAs  people:p16817_2 .
+
+people:p21461_2  tmp:sameAs  people:p16713_1 .
+
+people:p20075_1  tmp:sameAs  people:p15779 .
+
+people:p19879_2  tmp:sameAs  people:p15704_3 .
+
+people:p19685_1  tmp:sameAs  people:p15513 .
+
+people:p19805_2  tmp:sameAs  people:p15055_2 .
+
+people:p18993_1  tmp:sameAs  people:p16369 .
+
+people:p19348_1  tmp:sameAs  people:p16355 .
+
+people:p17611_1  tmp:sameAs  people:p14325 .
+
+people:p24902_2  tmp:sameAs  people:p14794_3 .
+
+people:p20602_1  tmp:sameAs  people:p16909 .
+
+people:p18055_1  tmp:sameAs  people:p14680 .
+
+people:p17820_2  tmp:sameAs  people:p13102_1 .
+
+people:p20691_1  tmp:sameAs  people:p16538 .
+
+people:p19062_2  tmp:sameAs  people:p14814_3 .
+
+people:p22017_1  tmp:sameAs  people:p16753 .
+
+people:p19178_2  tmp:sameAs  people:p13622_3 .
+
+people:p21531_1  tmp:sameAs  people:p16379 .
+
+people:p22955_1  tmp:sameAs  people:p16397 .
+
+people:p20354_1  tmp:sameAs  people:p14274 .
+
+people:p17479_1  tmp:sameAs  people:p13703 .
+
+people:p18907_2  tmp:sameAs  people:p15986_1 .
+
+people:p19794_2  tmp:sameAs  people:p16791_1 .
+
+people:p19511_1  tmp:sameAs  people:p16626 .
+
+people:p24201_2  tmp:sameAs  people:p16173_2 .
+
+people:p24239_1  tmp:sameAs  people:p15748 .
+
+people:p18203_1  tmp:sameAs  people:p15023 .
+
+people:p18292_1  tmp:sameAs  people:p12290 .
+
+people:p17193_2  tmp:sameAs  people:p11667_1 .
+
+people:p20110_2  tmp:sameAs  people:p13556_5 .
+
+people:p19836_2  tmp:sameAs  people:p15922_1 .
+
+people:p20148_1  tmp:sameAs  people:p15092 .
+
+people:p19341_2  tmp:sameAs  people:p15948_2 .
+
+people:p21941_1  tmp:sameAs  people:p15831 .
+
+people:p18935_1  tmp:sameAs  people:p13414 .
+
+people:p17758_1  tmp:sameAs  people:p14267 .
+
+people:p20842_2  tmp:sameAs  people:p14147_3 .
+
+people:p18571_1  tmp:sameAs  people:pU995 .
+
+people:p20505_2  tmp:sameAs  people:p16020_2 .
+
+people:p18613_1  tmp:sameAs  people:p14792 .
+
+people:p17472_2  tmp:sameAs  people:p12974_1 .
+
+people:p18687_1  tmp:sameAs  people:p14798 .
+
+people:p17588_2  tmp:sameAs  people:p14304_3 .
+
+people:p19995_1  tmp:sameAs  people:p15520 .
+
+people:p18729_1  tmp:sameAs  people:p13866 .
+
+people:p24190_2  tmp:sameAs  people:p14932_1 .
+
+people:p18234_1  tmp:sameAs  people:p14130 .
+
+people:p21434_2  tmp:sameAs  people:p16972_1 .
+
+people:p20048_1  tmp:sameAs  people:p14384 .
+
+people:p20257_2  tmp:sameAs  people:p13106_1 .
+
+people:p26376_1  tmp:sameAs  people:p16062 .
+
+people:p18106_2  tmp:sameAs  people:p12997_3 .
+
+people:p18028_1  tmp:sameAs  people:p14947 .
+
+people:p17673_1  tmp:sameAs  people:p13685 .
+
+people:p17789_1  tmp:sameAs  people:p14347 .
+
+people:p21593_1  tmp:sameAs  people:p16891 .
+
+people:p19035_2  tmp:sameAs  people:p15065_1 .
+
+people:p18680_2  tmp:sameAs  people:p13575_4 .
+
+people:p17294_1  tmp:sameAs  people:p12928 .
+
+people:p17220_1  tmp:sameAs  people:p13266 .
+
+people:p17414_2  tmp:sameAs  people:p13964_4 .
+
+people:p18722_2  tmp:sameAs  people:p14633_1 .
+
+people:p21713_2  tmp:sameAs  people:p16005_1 .
+
+people:p19937_1  tmp:sameAs  people:p15370 .
+
+people:p20458_1  tmp:sameAs  people:p14457 .
+
+people:p18265_1  tmp:sameAs  people:p15214 .
+
+people:p17166_2  tmp:sameAs  people:p12346_1 .
+
+people:p19689_1  tmp:sameAs  people:p16328 .
+
+people:p20005_1  tmp:sameAs  people:p14895 .
+
+people:p19236_1  tmp:sameAs  people:p12940 .
+
+people:p20606_1  tmp:sameAs  people:p16425 .
+
+people:p17898_2  tmp:sameAs  people:p14055_3 .
+
+people:p17120_1  tmp:sameAs  people:p11554 .
+
+people:p19721_1  tmp:sameAs  people:p15845 .
+
+people:p17251_1  tmp:sameAs  people:p13582 .
+
+people:p17367_1  tmp:sameAs  people:p11877 .
+
+people:p23772_1  tmp:sameAs  people:p16413 .
+
+people:p19709_2  tmp:sameAs  people:p15250_1 .
+
+people:p18207_1  tmp:sameAs  people:p12698 .
+
+people:p18180_1  tmp:sameAs  people:p14565 .
+
+people:p18374_2  tmp:sameAs  people:p14354_1 .
+
+people:p21171_1  tmp:sameAs  people:p15038 .
+
+people:p18296_1  tmp:sameAs  people:p14070 .
+
+people:p20521_1  tmp:sameAs  people:p15489 .
+
+people:p20846_2  tmp:sameAs  people:p15735_4 .
+
+people:p19008_2  tmp:sameAs  people:p15562_2 .
+
+people:p17360_2  tmp:sameAs  people:p11204_1 .
+
+people:p18575_1  tmp:sameAs  people:p15809 .
+
+people:p18617_1  tmp:sameAs  people:p15129 .
+
+people:p17398_1  tmp:sameAs  people:p12101 .
+
+people:p20389_1  tmp:sameAs  people:p16954 .
+
+people:p22495_1  tmp:sameAs  people:p16734 .
+
+people:p19415_1  tmp:sameAs  people:p15586 .
+
+people:p18122_1  tmp:sameAs  people:p14433 .
+
+people:p21113_1  tmp:sameAs  people:p16150 .
+
+people:p17139_2  tmp:sameAs  people:p12574_1 .
+
+people:p18447_2  tmp:sameAs  people:p15262_3 .
+
+people:p20800_1  tmp:sameAs  people:p15340 .
+
+people:p22042_1  tmp:sameAs  people:p16536 .
+
+people:p18932_2  tmp:sameAs  people:p15439_1 .
+
+people:p19167_1  tmp:sameAs  people:p14438 .
+
+people:p18068_2  tmp:sameAs  people:p14249_1 .
+
+people:p19376_2  tmp:sameAs  people:p13770_1 .
+
+people:p19209_1  tmp:sameAs  people:p16044 .
+
+people:p21481_1  tmp:sameAs  people:p16158 .
+
+people:p18490_1  tmp:sameAs  people:p13702 .
+
+people:p17302_2  tmp:sameAs  people:p14035_1 .
+
+people:p17298_1  tmp:sameAs  people:p12687 .
+
+people:p20382_2  tmp:sameAs  people:p16648_3 .
+
+people:p17549_2  tmp:sameAs  people:p12769_1 .
+
+people:p18231_2  tmp:sameAs  people:p13983_1 .
+
+people:p19446_1  tmp:sameAs  people:p15334 .
+
+people:p18269_1  tmp:sameAs  people:p15098 .
+
+people:p19082_1  tmp:sameAs  people:p13898 .
+
+people:p17786_2  tmp:sameAs  people:p14605_5 .
+
+people:p17619_1  tmp:sameAs  people:p14108 .
+
+people:p17828_2  tmp:sameAs  people:p13553_3 .
+
+people:p21632_2  tmp:sameAs  people:p17022_2 .
+
+people:p20130_1  tmp:sameAs  people:p16781 .
+
+people:p19725_1  tmp:sameAs  people:p15251 .
+
+people:p19892_2  tmp:sameAs  people:p16253_1 .
+
+people:p17124_1  tmp:sameAs  people:p12626 .
+
+people:p23982_1  tmp:sameAs  people:p13861 .
+
+people:p17255_1  tmp:sameAs  people:p12071 .
+
+people:p17449_2  tmp:sameAs  people:p13452_1 .
+
+people:p20246_1  tmp:sameAs  people:p14230 .
+
+people:p18184_1  tmp:sameAs  people:p15168 .
+
+people:p18304_2  tmp:sameAs  people:p13344_3 .
+
+people:p18378_2  tmp:sameAs  people:p13124_1 .
+
+people:p20076_2  tmp:sameAs  people:p16299_2 .
+
+people:p23776_1  tmp:sameAs  people:p16552 .
+
+people:p23439_1  tmp:sameAs  people:p16595 .
+
+people:p22146_1  tmp:sameAs  people:p15606 .
+
+people:p17492_1  tmp:sameAs  people:p13946 .
+
+people:p20603_2  tmp:sameAs  people:p13583_1 .
+
+people:p21791_1  tmp:sameAs  people:p16003 .
+
+people:p21949_1  tmp:sameAs  people:p16347 .
+
+people:p22018_2  tmp:sameAs  people:p16116_2 .
+
+people:p20161_1  tmp:sameAs  people:p14952 .
+
+people:p21779_2  tmp:sameAs  people:p15538_3 .
+
+people:p25417_2  tmp:sameAs  people:p17091_1 .
+
+people:p19586_2  tmp:sameAs  people:p15456_2 .
+
+people:p18010_1  tmp:sameAs  people:p13001_2 .
+
+people:p18204_2  tmp:sameAs  people:p14187_1 .
+
+people:p18293_2  tmp:sameAs  people:p14610_1 .
+
+people:p21090_1  tmp:sameAs  people:p17009 .
+
+people:p18936_2  tmp:sameAs  people:p14649_4 .
+
+people:p19865_2  tmp:sameAs  people:p15926_3 .
+
+people:p21563_2  tmp:sameAs  people:p14946_1 .
+
+people:p19671_1  tmp:sameAs  people:p15993 .
+
+people:p17186_1  tmp:sameAs  people:p12058 .
+
+people:p20103_1  tmp:sameAs  people:p15528 .
+
+people:p17228_1  tmp:sameAs  people:p13291 .
+
+people:p22987_2  tmp:sameAs  people:p16948_1 .
+
+people:p19292_1  tmp:sameAs  people:p15983 .
+
+people:p19412_2  tmp:sameAs  people:p15713_1 .
+
+people:p19334_1  tmp:sameAs  people:p15317_3 .
+
+people:p17880_2  tmp:sameAs  people:p14625_1 .
+
+people:p20049_2  tmp:sameAs  people:p16153_1 .
+
+people:p17922_2  tmp:sameAs  people:p13000_1 .
+
+people:p23254_1  tmp:sameAs  people:p16620 .
+
+people:p19950_1  tmp:sameAs  people:p15817 .
+
+people:p20092_1  tmp:sameAs  people:p15427 .
+
+people:p19613_1  tmp:sameAs  people:p14019 .
+
+people:p17128_1  tmp:sameAs  people:p11411 .
+
+people:p17259_1  tmp:sameAs  people:p11028 .
+
+people:p21063_1  tmp:sameAs  people:p16904 .
+
+people:p23664_1  tmp:sameAs  people:p15994 .
+
+people:p19443_2  tmp:sameAs  people:p15126_1 .
+
+people:p18921_1  tmp:sameAs  people:p15728 .
+
+people:p19365_1  tmp:sameAs  people:p14429 .
+
+people:p19407_1  tmp:sameAs  people:p15490 .
+
+people:p18188_1  tmp:sameAs  people:p14856 .
+
+people:p17953_2  tmp:sameAs  people:p14189_1 .
+
+people:p19195_2  tmp:sameAs  people:p15218_1 .
+
+people:p20371_1  tmp:sameAs  people:p14151 .
+
+people:p18673_1  tmp:sameAs  people:p11922 .
+
+people:p17380_1  tmp:sameAs  people:p13952 .
+
+people:p18882_2  tmp:sameAs  people:p13700_1 .
+
+people:p20607_2  tmp:sameAs  people:p16270_1 .
+
+people:p20487_1  tmp:sameAs  people:p16078 .
+
+people:p20034_1  tmp:sameAs  people:p15698 .
+
+people:p17252_2  tmp:sameAs  people:p13382_2 .
+
+people:p21342_1  tmp:sameAs  people:p14006 .
+
+people:p21458_1  tmp:sameAs  people:p15812 .
+
+people:p21214_2  tmp:sameAs  people:p15703_1 .
+
+people:p17775_1  tmp:sameAs  people:p13938 .
+
+people:p18339_2  tmp:sameAs  people:p13049_2 .
+
+people:p20766_1  tmp:sameAs  people:p16958 .
+
+people:p17817_1  tmp:sameAs  people:p13022 .
+
+people:p19021_2  tmp:sameAs  people:p14300_2 .
+
+people:p18824_2  tmp:sameAs  people:p15450_1 .
+
+people:p20313_1  tmp:sameAs  people:p14663_2 .
+
+people:p19268_2  tmp:sameAs  people:p13746_1 .
+
+people:p17438_1  tmp:sameAs  people:p13218 .
+
+people:p18746_1  tmp:sameAs  people:p14387 .
+
+people:p20065_1  tmp:sameAs  people:p15912 .
+
+people:p17399_2  tmp:sameAs  people:p13992_1 .
+
+people:p19300_2  tmp:sameAs  people:p15976_1 .
+
+people:p18123_2  tmp:sameAs  people:p15400_1 .
+
+people:p20681_1  tmp:sameAs  people:p15967 .
+
+people:p17810_2  tmp:sameAs  people:p13301_1 .
+
+people:p17717_1  tmp:sameAs  people:p13860 .
+
+people:p20797_1  tmp:sameAs  people:p14350 .
+
+people:p20839_1  tmp:sameAs  people:p15475 .
+
+people:p17431_2  tmp:sameAs  people:p12747_1 .
+
+people:p17353_1  tmp:sameAs  people:p12500 .
+
+people:p17678_2  tmp:sameAs  people:p10521_1 .
+
+people:p20669_2  tmp:sameAs  people:p16862_1 .
+
+people:p20022_1  tmp:sameAs  people:p12900_2 .
+
+people:p18398_1  tmp:sameAs  people:p14200 .
+
+people:p19826_2  tmp:sameAs  people:p15403_1 .
+
+people:p18925_1  tmp:sameAs  people:p15444 .
+
+people:p19369_1  tmp:sameAs  people:p15344 .
+
+people:p19253_1  tmp:sameAs  people:p14873 .
+
+people:p20790_2  tmp:sameAs  people:p14566_1 .
+
+people:p17632_1  tmp:sameAs  people:p13618 .
+
+people:p17841_2  tmp:sameAs  people:p14536_1 .
+
+people:p17462_2  tmp:sameAs  people:p12419_2 .
+
+people:p19985_1  tmp:sameAs  people:p15061 .
+
+people:p18719_1  tmp:sameAs  people:p15308 .
+
+people:p20417_1  tmp:sameAs  people:p14727 .
+
+people:p19610_2  tmp:sameAs  people:p13487_2 .
+
+people:p21424_2  tmp:sameAs  people:p15847_1 .
+
+people:p20131_2  tmp:sameAs  people:p15142_2 .
+
+people:p20038_1  tmp:sameAs  people:p15101 .
+
+people:p18549_2  tmp:sameAs  people:p15805_1 .
+
+people:p19153_1  tmp:sameAs  people:p12982 .
+
+people:p17741_2  tmp:sameAs  people:p14268_2 .
+
+people:p18018_1  tmp:sameAs  people:p13316 .
+
+people:p17988_2  tmp:sameAs  people:p12497_1 .
+
+people:p20979_2  tmp:sameAs  people:p17105_1 .
+
+people:p17210_1  tmp:sameAs  people:p12401 .
+
+people:p17404_2  tmp:sameAs  people:p13843_1 .
+
+people:p21792_2  tmp:sameAs  people:p16638_2 .
+
+people:p18828_2  tmp:sameAs  people:p15120_4 .
+
+people:p21625_1  tmp:sameAs  people:p15652 .
+
+people:p19757_2  tmp:sameAs  people:p15616_4 .
+
+people:p17942_1  tmp:sameAs  people:p14336 .
+
+people:p23719_2  tmp:sameAs  people:p17026_1 .
+
+people:p19110_1  tmp:sameAs  people:p15494 .
+
+people:p19304_2  tmp:sameAs  people:p14586_1 .
+
+people:p22426_2  tmp:sameAs  people:p16378_3 .
+
+people:p18987_1  tmp:sameAs  people:p15602 .
+
+people:p17814_2  tmp:sameAs  people:p11899_1 .
+
+people:p17605_1  tmp:sameAs  people:p11708 .
+
+people:p17694_1  tmp:sameAs  people:p13719 .
+
+people:p24323_1  tmp:sameAs  people:p16616 .
+
+people:p20310_2  tmp:sameAs  people:p15730_1 .
+
+people:p19842_1  tmp:sameAs  people:p16306 .
+
+people:p18859_2  tmp:sameAs  people:p15334_1 .
+
+people:p19579_1  tmp:sameAs  people:p15942 .
+
+people:p21277_1  tmp:sameAs  people:p16551 .
+
+people:p17229_2  tmp:sameAs  people:p14020_2 .
+
+people:p19010_1  tmp:sameAs  people:p15097 .
+
+people:p23425_1  tmp:sameAs  people:p15380 .
+
+people:p19126_1  tmp:sameAs  people:p14076 .
+
+people:p18042_2  tmp:sameAs  people:p12128_1 .
+
+people:p18813_1  tmp:sameAs  people:p14681 .
+
+people:p17520_1  tmp:sameAs  people:p13337 .
+
+people:p20720_2  tmp:sameAs  people:p16511_3 .
+
+people:p19858_1  tmp:sameAs  people:p15859 .
+
+people:p17350_2  tmp:sameAs  people:p13092_1 .
+
+people:p18565_1  tmp:sameAs  people:p12727 .
+
+people:p17466_2  tmp:sameAs  people:p13607_1 .
+
+people:p21556_1  tmp:sameAs  people:p16847 .
+
+people:p17508_2  tmp:sameAs  people:p12716_2 .
+
+people:p20588_2  tmp:sameAs  people:p15669_1 .
+
+people:p22694_2  tmp:sameAs  people:p16530_1 .
+
+people:p18228_1  tmp:sameAs  people:p15272 .
+
+people:p20093_2  tmp:sameAs  people:p14948_1 .
+
+people:p19494_1  tmp:sameAs  people:p13740 .
+
+people:p17129_2  tmp:sameAs  people:p12345_1 .
+
+people:p19536_1  tmp:sameAs  people:p15525 .
+
+people:p20906_1  tmp:sameAs  people:p16017 .
+
+people:p21064_2  tmp:sameAs  people:p16229_1 .
+
+people:p17420_1  tmp:sameAs  people:p12529 .
+
+people:p18189_2  tmp:sameAs  people:p15254_3 .
+
+people:p18844_1  tmp:sameAs  people:p14997 .
+
+people:p17551_1  tmp:sameAs  people:p13436 .
+
+people:p20542_1  tmp:sameAs  people:p15833 .
+
+people:p17667_1  tmp:sameAs  people:p12031 .
+
+people:p23092_1  tmp:sameAs  people:p16838 .
+
+people:p20372_2  tmp:sameAs  people:p16085_1 .
+
+people:p19029_2  tmp:sameAs  people:p15861_3 .
+
+people:p17288_1  tmp:sameAs  people:p12976 .
+
+people:p18507_1  tmp:sameAs  people:p14622 .
+
+people:p19773_1  tmp:sameAs  people:p14552 .
+
+people:p17381_2  tmp:sameAs  people:p13348_1 .
+
+people:p17214_1  tmp:sameAs  people:p12494 .
+
+people:p18596_1  tmp:sameAs  people:p15919 .
+
+people:p20488_2  tmp:sameAs  people:p16298_2 .
+
+people:p18221_2  tmp:sameAs  people:p13523_3 .
+
+people:p19436_1  tmp:sameAs  people:p13555 .
+
+people:p21343_2  tmp:sameAs  people:p17058_1 .
+
+people:p19567_1  tmp:sameAs  people:p13371 .
+
+people:p17830_1  tmp:sameAs  people:p11701 .
+
+people:p23371_1  tmp:sameAs  people:p14858 .
+
+people:p18015_2  tmp:sameAs  people:p12839_4 .
+
+people:p18089_2  tmp:sameAs  people:p14915_1 .
+
+people:p17451_1  tmp:sameAs  people:p11558 .
+
+people:p17660_2  tmp:sameAs  people:p12248_1 .
+
+people:p17567_1  tmp:sameAs  people:p14356 .
+
+people:p20573_1  tmp:sameAs  people:p15356 .
+
+people:p23243_2  tmp:sameAs  people:p16872_1 .
+
+people:p21580_2  tmp:sameAs  people:p16222_1 .
+
+people:p19715_1  tmp:sameAs  people:p14995 .
+
+people:p18422_1  tmp:sameAs  people:p12505 .
+
+people:p19924_2  tmp:sameAs  people:p16640_2 .
+
+people:p19846_1  tmp:sameAs  people:p15773 .
+
+people:p18747_2  tmp:sameAs  people:p15452_1 .
+
+people:p19560_2  tmp:sameAs  people:p15075_1 .
+
+people:p19351_1  tmp:sameAs  people:p14867 .
+
+people:p18252_2  tmp:sameAs  people:p14239_3 .
+
+people:p18174_1  tmp:sameAs  people:p13845 .
+
+people:p17730_1  tmp:sameAs  people:p13931 .
+
+people:p20108_2  tmp:sameAs  people:p16383_1 .
+
+people:p19181_2  tmp:sameAs  people:p15277_2 .
+
+people:p17560_2  tmp:sameAs  people:p14749_3 .
+
+people:p18701_1  tmp:sameAs  people:p16081 .
+
+people:p19339_2  tmp:sameAs  people:p15173_1 .
+
+people:p18910_2  tmp:sameAs  people:p14184_1 .
+
+people:p17598_1  tmp:sameAs  people:p13127 .
+
+people:p20515_1  tmp:sameAs  people:p16384 .
+
+people:p17849_2  tmp:sameAs  people:p13029_1 .
+
+people:p21939_1  tmp:sameAs  people:p16486 .
+
+people:p19630_1  tmp:sameAs  people:p15918 .
+
+people:p17145_1  tmp:sameAs  people:p13002 .
+
+people:p21444_1  tmp:sameAs  people:p16200 .
+
+people:p20151_1  tmp:sameAs  people:p14619 .
+
+people:p21653_2  tmp:sameAs  people:p16563_1 .
+
+people:p20267_1  tmp:sameAs  people:p16110 .
+
+people:p19460_2  tmp:sameAs  people:p16088_2 .
+
+people:p18074_1  tmp:sameAs  people:p14119 .
+
+people:p19576_2  tmp:sameAs  people:p14574_1 .
+
+people:p22609_2  tmp:sameAs  people:p16469_1 .
+
+people:p22415_1  tmp:sameAs  people:p15402 .
+
+people:p19254_2  tmp:sameAs  people:p15399_3 .
+
+people:p21932_2  tmp:sameAs  people:p16787_1 .
+
+people:p21068_2  tmp:sameAs  people:p12546_3 .
+
+people:p23669_2  tmp:sameAs  people:p16700_3 .
+
+people:p24598_2  tmp:sameAs  people:p17106_1 .
+
+people:p21475_1  tmp:sameAs  people:p16736 .
+
+people:p18604_2  tmp:sameAs  people:p14725_1 .
+
+people:p18562_2  tmp:sameAs  people:p15395_3 .
+
+people:p22652_1  tmp:sameAs  people:p16813 .
+
+people:p18678_2  tmp:sameAs  people:p15002_3 .
+
+people:p20376_2  tmp:sameAs  people:p14357_1 .
+
+people:p20209_1  tmp:sameAs  people:p15527 .
+
+people:p18031_1  tmp:sameAs  people:p13133 .
+
+people:p24916_1  tmp:sameAs  people:p15831 .
+
+people:p17703_1  tmp:sameAs  people:p12924 .
+
+people:p17912_2  tmp:sameAs  people:p13549_1 .
+
+people:p18019_2  tmp:sameAs  people:p13303_2 .
+
+people:p17664_2  tmp:sameAs  people:p12368_3 .
+
+people:p17211_2  tmp:sameAs  people:p13978_1 .
+
+people:p17285_2  tmp:sameAs  people:p13810_1 .
+
+people:p19812_2  tmp:sameAs  people:p16203_1 .
+
+people:p17327_2  tmp:sameAs  people:p13424_1 .
+
+people:p19433_2  tmp:sameAs  people:p15424_2 .
+
+people:p19355_1  tmp:sameAs  people:p15221 .
+
+people:p19185_2  tmp:sameAs  people:p14328_3 .
+
+people:p20361_1  tmp:sameAs  people:p15726 .
+
+people:p17606_2  tmp:sameAs  people:p13387_1 .
+
+people:p21979_2  tmp:sameAs  people:p16803_1 .
+
+people:p21785_1  tmp:sameAs  people:p16336 .
+
+people:p18210_1  tmp:sameAs  people:p14752 .
+
+people:p20024_1  tmp:sameAs  people:p16566 .
+
+people:p18535_2  tmp:sameAs  people:p13470_1 .
+
+people:p17242_2  tmp:sameAs  people:p12947_1 .
+
+people:p17149_1  tmp:sameAs  people:p12758 .
+
+people:p18457_1  tmp:sameAs  people:p14989 .
+
+people:p19959_2  tmp:sameAs  people:p15868_1 .
+
+people:p19506_2  tmp:sameAs  people:p15389_1 .
+
+people:p23685_1  tmp:sameAs  people:p16416 .
+
+people:p17974_2  tmp:sameAs  people:p13869_2 .
+
+people:p17807_1  tmp:sameAs  people:p14156 .
+
+people:p20512_2  tmp:sameAs  people:p16823_3 .
+
+people:p17428_1  tmp:sameAs  people:p13432 .
+
+people:p18736_1  tmp:sameAs  people:p15198 .
+
+people:p17559_1  tmp:sameAs  people:p12266 .
+
+people:p17142_2  tmp:sameAs  people:p13394_2 .
+
+people:p18071_2  tmp:sameAs  people:p14289_1 .
+
+people:p19286_1  tmp:sameAs  people:p13012 .
+
+people:p19495_2  tmp:sameAs  people:p14086_1 .
+
+people:p18973_1  tmp:sameAs  people:p15692 .
+
+people:p19537_2  tmp:sameAs  people:p15551_1 .
+
+people:p20880_2  tmp:sameAs  people:p16121_1 .
+
+people:p17796_1  tmp:sameAs  people:p13844 .
+
+people:p20787_1  tmp:sameAs  people:p15091 .
+
+people:p17343_1  tmp:sameAs  people:p12426 .
+
+people:p21642_1  tmp:sameAs  people:p16393 .
+
+people:p21967_2  tmp:sameAs  people:p17012_3 .
+
+people:p17289_2  tmp:sameAs  people:p14213_1 .
+
+people:p17173_2  tmp:sameAs  people:p12503_1 .
+
+people:p18314_1  tmp:sameAs  people:p14102 .
+
+people:p17215_2  tmp:sameAs  people:p13164_2 .
+
+people:p20086_1  tmp:sameAs  people:p15401 .
+
+people:p19321_2  tmp:sameAs  people:p14522_3 .
+
+people:p17580_1  tmp:sameAs  people:p12879 .
+
+people:p17738_1  tmp:sameAs  people:p12305 .
+
+people:p20744_1  tmp:sameAs  people:p16070 .
+
+people:p24587_1  tmp:sameAs  people:p17076 .
+
+people:p24707_2  tmp:sameAs  people:p16443_1 .
+
+people:p17568_2  tmp:sameAs  people:p12939_1 .
+
+people:p18381_2  tmp:sameAs  people:p12703_2 .
+
+people:p19600_2  tmp:sameAs  people:p14808_1 .
+
+people:p22471_1  tmp:sameAs  people:p15253 .
+
+people:p21294_1  tmp:sameAs  people:p16827 .
+
+people:p18539_2  tmp:sameAs  people:p13867_1 .
+
+people:p21336_1  tmp:sameAs  people:p16975 .
+
+people:p19274_1  tmp:sameAs  people:p15259 .
+
+people:p17978_2  tmp:sameAs  people:p13306_1 .
+
+people:p19015_2  tmp:sameAs  people:p13319_1 .
+
+people:p24413_1  tmp:sameAs  people:p15508 .
+
+people:p19801_1  tmp:sameAs  people:p15335_1 .
+
+people:p18582_1  tmp:sameAs  people:p13583 .
+
+people:p20516_2  tmp:sameAs  people:p16577_1 .
+
+people:p22622_2  tmp:sameAs  people:p16135_3 .
+
+people:p17146_2  tmp:sameAs  people:p12712_4 .
+
+people:p17890_1  tmp:sameAs  people:p13410 .
+
+people:p18454_2  tmp:sameAs  people:p13361_1 .
+
+people:p20059_1  tmp:sameAs  people:p14777 .
+
+people:p25172_2  tmp:sameAs  people:p15579_2 .
+
+people:p18001_2  tmp:sameAs  people:p12516_1 .
+
+people:p18075_2  tmp:sameAs  people:p12342_3 .
+
+people:p16663_3  tmp:sameAs  people:p16663_3 .
+
+people:p17684_1  tmp:sameAs  people:p12869 .
+
+people:p19046_2  tmp:sameAs  people:p15264_1 .
+
+people:p17231_1  tmp:sameAs  people:p13997 .
+
+people:p20338_1  tmp:sameAs  people:p15946 .
+
+people:p19948_1  tmp:sameAs  people:p14568 .
+
+people:p18160_1  tmp:sameAs  people:p13245 .
+
+people:p19569_1  tmp:sameAs  people:p13868 .
+
+people:p21267_1  tmp:sameAs  people:p16826 .
+
+people:p18318_1  tmp:sameAs  people:p14377 .
+
+people:p21309_1  tmp:sameAs  people:p15145 .
+
+people:p21518_2  tmp:sameAs  people:p16786_1 .
+
+people:p19283_2  tmp:sameAs  people:p13372_1 .
+
+people:p21999_1  tmp:sameAs  people:p15787 .
+
+people:p17510_1  tmp:sameAs  people:p12706 .
+
+people:p17793_2  tmp:sameAs  people:p12987_1 .
+
+people:p18919_1  tmp:sameAs  people:p14635 .
+
+people:p17835_2  tmp:sameAs  people:p13274_1 .
+
+people:p20826_2  tmp:sameAs  people:p14714_1 .
+
+people:p19077_2  tmp:sameAs  people:p15377_3 .
+
+people:p17131_1  tmp:sameAs  people:p13418 .
+
+people:p17340_2  tmp:sameAs  people:p12062_1 .
+
+people:p21430_1  tmp:sameAs  people:p16537 .
+
+people:p18764_2  tmp:sameAs  people:p15451_1 .
+
+people:p18060_1  tmp:sameAs  people:p14310 .
+
+people:p21260_2  tmp:sameAs  people:p15352_2 .
+
+people:p19604_2  tmp:sameAs  people:p15169_1 .
+
+people:p18218_1  tmp:sameAs  people:p12861 .
+
+people:p20125_2  tmp:sameAs  people:p15217_3 .
+
+people:p17905_1  tmp:sameAs  people:p13681 .
+
+people:p17541_1  tmp:sameAs  people:p13895 .
+
+people:p20741_2  tmp:sameAs  people:p15348_3 .
+
+people:p20648_1  tmp:sameAs  people:p16817 .
+
+people:p21461_1  tmp:sameAs  people:p16713 .
+
+people:p19879_1  tmp:sameAs  people:p15704 .
+
+people:p18470_1  tmp:sameAs  people:p15026 .
+
+people:p19972_2  tmp:sameAs  people:p15611_1 .
+
+people:p18706_2  tmp:sameAs  people:p14373_3 .
+
+people:p24902_1  tmp:sameAs  people:p14794 .
+
+people:p17820_1  tmp:sameAs  people:p13102 .
+
+people:p22548_1  tmp:sameAs  people:p17104 .
+
+people:p11322_2  tmp:sameAs  people:p15190_1 .
+
+people:p19062_1  tmp:sameAs  people:p14814 .
+
+people:p19178_1  tmp:sameAs  people:p13622 .
+
+people:p22184_1  tmp:sameAs  people:p16230 .
+
+people:p18907_1  tmp:sameAs  people:p15986 .
+
+people:p20393_2  tmp:sameAs  people:p16911_2 .
+
+people:p19794_1  tmp:sameAs  people:p16791 .
+
+people:p18528_1  tmp:sameAs  people:p14937 .
+
+people:p18412_1  tmp:sameAs  people:p14413 .
+
+people:p17313_2  tmp:sameAs  people:p12790_3 .
+
+people:p20226_1  tmp:sameAs  people:p14592 .
+
+people:p17193_1  tmp:sameAs  people:p11667 .
+
+people:p20110_1  tmp:sameAs  people:p13556 .
+
+people:p19836_1  tmp:sameAs  people:p15922 .
+
+people:p18737_2  tmp:sameAs  people:p14311_2 .
+
+people:p19341_1  tmp:sameAs  people:p15948 .
+
+people:p18242_2  tmp:sameAs  people:p14576_2 .
+
+people:p18358_2  tmp:sameAs  people:p14720_2 .
+
+people:p21155_1  tmp:sameAs  people:p15723 .
+
+people:p20842_1  tmp:sameAs  people:p14147 .
+
+people:p19213_2  tmp:sameAs  people:p16218_1 .
+
+people:p17472_1  tmp:sameAs  people:p12974 .
+
+people:p19329_2  tmp:sameAs  people:p13600_1 .
+
+people:p18036_2  tmp:sameAs  people:p14913_3 .
+
+people:p17588_1  tmp:sameAs  people:p14304 .
+
+people:p20505_1  tmp:sameAs  people:p16020 .
+
+people:p20714_2  tmp:sameAs  people:p15850_3 .
+
+people:p17839_2  tmp:sameAs  people:p11553_1 .
+
+people:p24190_1  tmp:sameAs  people:p14932 .
+
+people:p22820_2  tmp:sameAs  people:p15429_1 .
+
+people:p17135_1  tmp:sameAs  people:p12657 .
+
+people:p17344_2  tmp:sameAs  people:p12397_1 .
+
+people:p21434_1  tmp:sameAs  people:p16972 .
+
+people:p20257_1  tmp:sameAs  people:p13106 .
+
+people:p25319_1  tmp:sameAs  people:p16943 .
+
+people:p20087_2  tmp:sameAs  people:p16292_2 .
+
+people:p21306_2  tmp:sameAs  people:p16154_4 .
+
+people:p21070_1  tmp:sameAs  people:p15997 .
+
+people:p18273_2  tmp:sameAs  people:p14524_2 .
+
+people:p18106_1  tmp:sameAs  people:p12997 .
+
+people:p19608_2  tmp:sameAs  people:p16114_4 .
+
+people:p21186_1  tmp:sameAs  people:p15766 .
+
+people:p21713_1  tmp:sameAs  people:p16005 .
+
+people:p19035_1  tmp:sameAs  people:p15065 .
+
+people:p18722_1  tmp:sameAs  people:p14633 .
+
+people:p18680_1  tmp:sameAs  people:p13575 .
+
+people:p17581_2  tmp:sameAs  people:p13221_1 .
+
+people:p17414_1  tmp:sameAs  people:p13964 .
+
+people:p17623_2  tmp:sameAs  people:p13712_3 .
+
+people:p18838_1  tmp:sameAs  people:p13344_2 .
+
+people:p17545_1  tmp:sameAs  people:p13238 .
+
+people:p17166_1  tmp:sameAs  people:p12346 .
+
+people:p18668_2  tmp:sameAs  people:p14632_2 .
+
+people:p19976_2  tmp:sameAs  people:p13706_2 .
+
+people:p20408_2  tmp:sameAs  people:p17054_4 .
+
+people:p19314_1  tmp:sameAs  people:p16215 .
+
+people:p18215_2  tmp:sameAs  people:p14129_1 .
+
+people:p18095_1  tmp:sameAs  people:p14400 .
+
+people:p17860_2  tmp:sameAs  people:p13277_1 .
+
+people:p20029_2  tmp:sameAs  people:p16098_2 .
+
+people:p19639_2  tmp:sameAs  people:p15952_2 .
+
+people:p17898_1  tmp:sameAs  people:p14055 .
+
+people:p20815_1  tmp:sameAs  people:p16556 .
+
+people:p25064_2  tmp:sameAs  people:p16072_1 .
+
+people:p25966_1  tmp:sameAs  people:p17103 .
+
+people:p17445_1  tmp:sameAs  people:p13689 .
+
+people:p17654_2  tmp:sameAs  people:p13403_1 .
+
+people:p18869_1  tmp:sameAs  people:p14776 .
+
+people:p24372_2  tmp:sameAs  people:p16544_3 .
+
+people:p19760_2  tmp:sameAs  people:p15582_2 .
+
+people:p19709_1  tmp:sameAs  people:p15250 .
+
+people:p18374_1  tmp:sameAs  people:p14354 .
+
+people:p17201_2  tmp:sameAs  people:p12671_1 .
+
+people:p18583_2  tmp:sameAs  people:p14897_1 .
+
+people:p17197_1  tmp:sameAs  people:p13003 .
+
+people:p19918_2  tmp:sameAs  people:p16107_1 .
+
+people:p17724_1  tmp:sameAs  people:p12804 .
+
+people:p20846_1  tmp:sameAs  people:p15735 .
+
+people:p19008_1  tmp:sameAs  people:p15562 .
+
+people:p17360_1  tmp:sameAs  people:p11204 .
+
+people:p18904_2  tmp:sameAs  people:p15987_1 .
+
+people:p18978_2  tmp:sameAs  people:p13310_1 .
+
+people:p20509_1  tmp:sameAs  people:p16850 .
+
+people:p24194_1  tmp:sameAs  people:p15317 .
+
+people:p18200_1  tmp:sameAs  people:pU1212 .
+
+people:p17139_1  tmp:sameAs  people:p12574 .
+
+people:p18447_1  tmp:sameAs  people:p15262 .
+
+people:p20145_1  tmp:sameAs  people:p16622 .
+
+people:p21647_2  tmp:sameAs  people:p16875_1 .
+
+people:p18932_1  tmp:sameAs  people:p15439 .
+
+people:p21152_2  tmp:sameAs  people:p15209_1 .
+
+people:p19260_1  tmp:sameAs  people:p14944 .
+
+people:p19376_1  tmp:sameAs  people:p13770 .
+
+people:p18068_1  tmp:sameAs  people:p14249 .
+
+people:p18277_2  tmp:sameAs  people:p14228_1 .
+
+people:p22197_2  tmp:sameAs  people:p16590_2 .
+
+people:p19861_1  tmp:sameAs  people:p15959 .
+
+people:p17302_1  tmp:sameAs  people:p14035 .
+
+people:p18893_2  tmp:sameAs  people:p15330_1 .
+
+people:p20382_1  tmp:sameAs  people:p16649 , people:p16648 .
+
+people:p17549_1  tmp:sameAs  people:p12769 .
+
+people:p18231_1  tmp:sameAs  people:p13983 .
+
+people:p18440_2  tmp:sameAs  people:p15128_3 .
+
+people:p17263_2  tmp:sameAs  people:p13116_1 .
+
+people:p22855_2  tmp:sameAs  people:p16744_1 .
+
+people:p20870_2  tmp:sameAs  people:p16106_2 .
+
+people:p18219_2  tmp:sameAs  people:p14262_1 .
+
+people:p17864_2  tmp:sameAs  people:p14729_2 .
+
+people:p17906_2  tmp:sameAs  people:p14365_3 .
+
+people:p17786_1  tmp:sameAs  people:p14605 .
+
+people:p17828_1  tmp:sameAs  people:p13553 .
+
+people:p18510_1  tmp:sameAs  people:p14157 .
+
+people:p19892_1  tmp:sameAs  people:p16253 .
+
+people:p21632_1  tmp:sameAs  people:p17022 .
+
+people:p17449_1  tmp:sameAs  people:p13452 .
+
+people:p18304_1  tmp:sameAs  people:p13344 .
+
+people:p17205_2  tmp:sameAs  people:p12436_1 .
+
+people:p18262_1  tmp:sameAs  people:p13425 .
+
+people:p18471_2  tmp:sameAs  people:p13993_3 .
+
+people:p18378_1  tmp:sameAs  people:p13124 .
+
+people:p20076_1  tmp:sameAs  people:p16299 .
+
+people:p18056_1  tmp:sameAs  people:p14429_2 .
+
+people:p17612_1  tmp:sameAs  people:p13571 .
+
+people:p19179_2  tmp:sameAs  people:p14688_1 .
+
+people:p17364_1  tmp:sameAs  people:p13645 .
+
+people:p22018_1  tmp:sameAs  people:p16116 .
+
+people:p21779_1  tmp:sameAs  people:p15538 .
+
+people:p25417_1  tmp:sameAs  people:p17091 .
+
+people:p19586_1  tmp:sameAs  people:p15456 .
+
+people:p18371_2  tmp:sameAs  people:p12841_1 .
+
+people:p18204_1  tmp:sameAs  people:p14187 .
+
+people:p18293_1  tmp:sameAs  people:p14610 .
+
+people:p17236_2  tmp:sameAs  people:p11770_2 .
+
+people:p19837_2  tmp:sameAs  people:p15158_1 .
+
+people:p20971_1  tmp:sameAs  people:p16589 .
+
+people:p18936_1  tmp:sameAs  people:p14649 .
+
+people:p17968_2  tmp:sameAs  people:p13422_1 .
+
+people:p19094_2  tmp:sameAs  people:p14993_3 .
+
+people:p19865_1  tmp:sameAs  people:p15926 .
+
+people:p17473_2  tmp:sameAs  people:p12895_1 .
+
+people:p21563_1  tmp:sameAs  people:p14946 .
+
+people:p20506_2  tmp:sameAs  people:p16762_1 .
+
+people:p18897_2  tmp:sameAs  people:p15205_2 .
+
+people:p22987_1  tmp:sameAs  people:p16948 .
+
+people:p19412_1  tmp:sameAs  people:p15713 .
+
+people:p22534_1  tmp:sameAs  people:p16947 .
+
+people:p18444_2  tmp:sameAs  people:p12574_4 .
+
+people:p17880_1  tmp:sameAs  people:p14625 .
+
+people:p20049_1  tmp:sameAs  people:p16153 .
+
+people:p17922_1  tmp:sameAs  people:p13000 .
+
+people:p20258_2  tmp:sameAs  people:p15598_2 .
+
+people:p22170_1  tmp:sameAs  people:p16649 .
+
+people:p18029_1  tmp:sameAs  people:p15118 .
+
+people:p22406_2  tmp:sameAs  people:p16820_3 .
+
+people:p17674_1  tmp:sameAs  people:p13451 .
+
+people:p21229_2  tmp:sameAs  people:p16509_1 .
+
+people:p19036_2  tmp:sameAs  people:p16008_1 .
+
+people:p17221_1  tmp:sameAs  people:p14572 .
+
+people:p17295_1  tmp:sameAs  people:p12366 .
+
+people:p20495_2  tmp:sameAs  people:p16389_1 .
+
+people:p17337_1  tmp:sameAs  people:p13620 .
+
+people:p17546_2  tmp:sameAs  people:p11072_1 .
+
+people:p19443_1  tmp:sameAs  people:p15126 .
+
+people:p21141_1  tmp:sameAs  people:p17033 .
+
+people:p17167_2  tmp:sameAs  people:p13473_3 .
+
+people:p20173_2  tmp:sameAs  people:p16843_2 .
+
+people:p17209_2  tmp:sameAs  people:p12900_1 .
+
+people:p17953_1  tmp:sameAs  people:p14189 .
+
+people:p16776_1  tmp:sameAs  people:p16776_1 .
+
+people:p19195_1  tmp:sameAs  people:p15218 .
+
+people:p23572_2  tmp:sameAs  people:p14811_3 .
+
+people:p17783_2  tmp:sameAs  people:p13242_1 .
+
+people:p20607_1  tmp:sameAs  people:p16270 .
+
+people:p20738_1  tmp:sameAs  people:p16033 .
+
+people:p25836_2  tmp:sameAs  people:p16701_3 .
+
+people:p17252_1  tmp:sameAs  people:p13382 .
+
+people:p17446_2  tmp:sameAs  people:p12122_1 .
+
+people:p20243_1  tmp:sameAs  people:p15085 .
+
+people:p20452_2  tmp:sameAs  people:p15519_1 .
+
+people:p24128_1  tmp:sameAs  people:p16932 .
+
+people:p19516_1  tmp:sameAs  people:p16525 .
+
+people:p18301_2  tmp:sameAs  people:p13825_1 .
+
+people:p21214_1  tmp:sameAs  people:p15703 .
+
+people:p17853_1  tmp:sameAs  people:p13228 .
+
+people:p19799_2  tmp:sameAs  people:p14390_1 .
+
+people:p18339_1  tmp:sameAs  people:p13049 .
+
+people:p17984_1  tmp:sameAs  people:p12369 .
+
+people:p19021_1  tmp:sameAs  people:p16205 , people:p14300 .
+
+people:p18053_2  tmp:sameAs  people:p12925_1 .
+
+people:p18824_1  tmp:sameAs  people:p15450 .
+
+people:p19268_1  tmp:sameAs  people:p13746 .
+
+people:p20522_1  tmp:sameAs  people:p15215 .
+
+people:p20274_1  tmp:sameAs  people:p16673 .
+
+people:p17403_2  tmp:sameAs  people:p13990_1 .
+
+people:p17519_2  tmp:sameAs  people:p12510_1 .
+
+people:p17399_1  tmp:sameAs  people:p13992 .
+
+people:p22380_1  tmp:sameAs  people:p16121 .
+
+people:p19300_1  tmp:sameAs  people:p15977 .
+
+people:p18123_1  tmp:sameAs  people:p15400 .
+
+people:p18239_1  tmp:sameAs  people:p13775 .
+
+people:p17884_1  tmp:sameAs  people:p12891 .
+
+people:p18332_2  tmp:sameAs  people:p12819_3 .
+
+people:p18448_2  tmp:sameAs  people:p13098_1 .
+
+people:p17810_1  tmp:sameAs  people:p13301 .
+
+people:p24644_1  tmp:sameAs  people:p16600 .
+
+people:p17431_1  tmp:sameAs  people:p12747 .
+
+people:p17678_1  tmp:sameAs  people:p13886 .
+
+people:p20669_1  tmp:sameAs  people:p16862 .
+
+people:p17183_1  tmp:sameAs  people:pU1198 .
+
+people:p18611_2  tmp:sameAs  people:p14520_2 .
+
+people:p17392_2  tmp:sameAs  people:p12708_5 .
+
+people:p23339_2  tmp:sameAs  people:p17006_1 .
+
+people:p19826_1  tmp:sameAs  people:p15403 .
+
+people:p18232_2  tmp:sameAs  people:p12862_3 .
+
+people:p19447_1  tmp:sameAs  people:p15545 .
+
+people:p18154_1  tmp:sameAs  people:p12932 .
+
+people:p20790_1  tmp:sameAs  people:p14566 .
+
+people:p17841_1  tmp:sameAs  people:p14536 .
+
+people:p23618_2  tmp:sameAs  people:p16780_1 .
+
+people:p23502_2  tmp:sameAs  people:p15947_3 .
+
+people:p18026_2  tmp:sameAs  people:p14307_3 .
+
+people:p17671_2  tmp:sameAs  people:p13036_1 .
+
+people:p17462_1  tmp:sameAs  people:p12419 .
+
+people:p21017_2  tmp:sameAs  people:p15642_2 .
+
+people:p17504_1  tmp:sameAs  people:p13710 .
+
+people:p20778_2  tmp:sameAs  people:p13443_1 .
+
+people:p21424_1  tmp:sameAs  people:p16280 .
+
+people:p20325_2  tmp:sameAs  people:p16181_1 .
+
+people:p18511_2  tmp:sameAs  people:p15335_2 .
+
+people:p19610_1  tmp:sameAs  people:p13487 .
+
+people:p20131_1  tmp:sameAs  people:p15142 .
+
+people:p17334_2  tmp:sameAs  people:p13994_1 .
+
+people:p19935_2  tmp:sameAs  people:p16968_2 .
+
+people:p18549_1  tmp:sameAs  people:p15805 .
+
+people:p17741_1  tmp:sameAs  people:p14268 .
+
+people:p17950_2  tmp:sameAs  people:p13270_1 .
+
+people:p21385_2  tmp:sameAs  people:p16061_1 .
+
+people:p17988_1  tmp:sameAs  people:p12497 .
+
+people:p20979_1  tmp:sameAs  people:p17105 .
+
+people:p19192_2  tmp:sameAs  people:p15689_1 .
+
+people:p21792_1  tmp:sameAs  people:p16638 .
+
+people:p17404_1  tmp:sameAs  people:p13843 .
+
+people:p18712_1  tmp:sameAs  people:p14936 .
+
+people:p20604_2  tmp:sameAs  people:p16098_1 .
+
+people:p18828_1  tmp:sameAs  people:p15120 .
+
+people:p24253_1  tmp:sameAs  people:p14587 .
+
+people:p23076_1  tmp:sameAs  people:p16437 .
+
+people:p19757_1  tmp:sameAs  people:p15616 .
+
+people:p23719_1  tmp:sameAs  people:p17026 .
+
+people:p24125_2  tmp:sameAs  people:p16765_3 .
+
+people:p19304_1  tmp:sameAs  people:p14586 .
+
+people:p23812_2  tmp:sameAs  people:p16966_3 .
+
+people:p22310_1  tmp:sameAs  people:p16692 .
+
+people:p22426_1  tmp:sameAs  people:p16378 .
+
+people:p17981_2  tmp:sameAs  people:p14100_1 .
+
+people:p17814_1  tmp:sameAs  people:p11899 .
+
+people:p19265_2  tmp:sameAs  people:p15864_1 .
+
+people:p20310_1  tmp:sameAs  people:p15730 .
+
+people:p21079_2  tmp:sameAs  people:p17068_1 .
+
+people:p18859_1  tmp:sameAs  people:p16220 .
+
+people:p23018_1  tmp:sameAs  people:p16784 .
+
+people:p0899_2  tmp:sameAs  people:p15064_2 .
+
+people:p19788_1  tmp:sameAs  people:p16224 .
+
+people:p18573_2  tmp:sameAs  people:p13924_1 .
+
+people:p17396_2  tmp:sameAs  people:p14201_3 .
+
+people:p19908_2  tmp:sameAs  people:p13963_1 .
+
+people:p17229_1  tmp:sameAs  people:p14020 .
+
+people:p18042_1  tmp:sameAs  people:p12128 .
+
+people:p17923_2  tmp:sameAs  people:p12712_1 .
+
+people:p20720_1  tmp:sameAs  people:p16511 .
+
+people:p17350_1  tmp:sameAs  people:p13092 .
+
+people:p17466_1  tmp:sameAs  people:p13607 .
+
+people:p18774_1  tmp:sameAs  people:p15717 .
+
+people:p17508_1  tmp:sameAs  people:p12716 .
+
+people:p20588_1  tmp:sameAs  people:p15669 .
+
+people:p20093_1  tmp:sameAs  people:p14948 .
+
+people:p18321_1  tmp:sameAs  people:p14723 .
+
+people:p17222_2  tmp:sameAs  people:p13999_1 .
+
+people:p18395_1  tmp:sameAs  people:p13354 .
+
+people:p17296_2  tmp:sameAs  people:p11594_3 .
+
+people:p17129_1  tmp:sameAs  people:p12345 .
+
+people:p22694_1  tmp:sameAs  people:p16530 .
+
+people:p18151_2  tmp:sameAs  people:p14606_1 .
+
+people:p22450_2  tmp:sameAs  people:p16517_3 .
+
+people:p18922_1  tmp:sameAs  people:p15013 .
+
+people:p21064_1  tmp:sameAs  people:p16229 .
+
+people:p18189_1  tmp:sameAs  people:p15254 .
+
+people:p5159  tmp:sameAs  people:p13446 .
+
+people:p19196_2  tmp:sameAs  people:p16535_3 .
+
+people:p19238_2  tmp:sameAs  people:p15981_3 .
+
+people:p19029_1  tmp:sameAs  people:p15861 .
+
+people:p18600_1  tmp:sameAs  people:p13431 .
+
+people:p17381_1  tmp:sameAs  people:p13348 .
+
+people:p20372_1  tmp:sameAs  people:p16085 .
+
+people:p17497_1  tmp:sameAs  people:p11635 .
+
+people:p20488_1  tmp:sameAs  people:p16298 .
+
+people:p17539_1  tmp:sameAs  people:p12571 .
+
+people:p20739_2  tmp:sameAs  people:p16396_2 .
+
+people:p18221_1  tmp:sameAs  people:p13523 .
+
+people:p18430_2  tmp:sameAs  people:p14338_1 .
+
+people:p20035_1  tmp:sameAs  people:p15404 .
+
+people:p21343_1  tmp:sameAs  people:p17058 .
+
+people:p17369_2  tmp:sameAs  people:pU973_1 .
+
+people:p18089_1  tmp:sameAs  people:p14915 .
+
+people:p18015_1  tmp:sameAs  people:p12839 .
+
+people:p17660_1  tmp:sameAs  people:p12248 .
+
+people:p20860_2  tmp:sameAs  people:p15738_1 .
+
+people:p23243_1  tmp:sameAs  people:p16872 .
+
+people:p20481_2  tmp:sameAs  people:p16353_1 .
