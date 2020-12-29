@@ -149,8 +149,6 @@ people:p23513_3  tmp:sameAs  people:p25262 .
 
 people:p26208_3  tmp:sameAs  people:p26498 .
 
-people:p22515_3  tmp:sameAs  people:p25947 .
-
 people:p26333_3  tmp:sameAs  people:p25089 .
 
 people:p25723_3  tmp:sameAs  people:p22244 .

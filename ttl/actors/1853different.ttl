@@ -1615,3 +1615,87 @@ people:p21821_1 tmp:sameAs people:p17358 .
 # p17714 defaultdict(<class 'set'>, {'prefLabel': {('von Wendt', 'Alexander', 'Edvard')}, 'label': {'l1984241333359720880'}, 'gender': 'Male', 'birth': 1838, 'death': 1875, 'source': {'yo1853'}, 'class': 'Person', 'mother': 'p17714_2', 'father': 'p17714_1'})
 people:p19174_1 tmp:differentFrom people:p17714 .
 
+# INFO     [LinkPeople.py: line 266]:	((0.08912766, 0.9032171))
+# INFO     [LinkPeople.py: line 267]:	p25886_1	defaultdict(<class 'set'>, {'spouse': {'p25886_2'}, 'prefLabel': {('Grönholm', 'Johan')}, 'label': {'l2641205247909308120'}, 'gender': 'Male', 'title': {'Tekninen, luonnontieteellinen, yhteiskuntatieteellinen, humanistinen ja taiteellinen työ', 'poliisikonstaapeli', 'Lainopillinen työ', 'Syyttäjät ja ylemmät poliisivirkamiehet'}, 'class': 'ReferencedPerson', 'in_bio': {'p25886'}, 'child': {'p25886'}})
+# INFO     [LinkPeople.py: line 268]:	p22947_1	defaultdict(<class 'set'>, {'spouse': {'p22947_2'}, 'prefLabel': {('Grönmark', 'Johan')}, 'label': {'l2690878528857353374'}, 'gender': 'Male', 'title': {'Meripäällystötyö', 'luotsipäällysmies', 'merikapteeni', 'Kapteenit ja perämiehet', 'Kuljetus- ja liikennetyö', 'Alusten päälliköt ja perämiehet'}, 'class': 'ReferencedPerson', 'in_bio': {'p22947'}, 'child': {'p22947'}})
+people:p25886_1 tmp:differentFrom people:p22947_1 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.0051867366, 0.99362624))
+# INFO     [LinkPeople.py: line 267]:	p19830_1	defaultdict(<class 'set'>, {'spouse': {'p19830_2'}, 'prefLabel': {('Lindroos', 'Henrik')}, 'label': {'l1891529907882615974'}, 'gender': 'Male', 'title': {'Jalkine- ja nahkatyö', 'suutari', 'Jalkinemestarit ja suutarit', 'Teollinen työ, koneenhoito ym.'}, 'class': 'ReferencedPerson', 'in_bio': {'p19830'}, 'child': {'p19830'}})
+# INFO     [LinkPeople.py: line 268]:	p26288_1	defaultdict(<class 'set'>, {'spouse': {'p26288_2'}, 'prefLabel': {('Lindfors', 'Henrik')}, 'label': {'l1811550223764671795'}, 'gender': 'Male', 'title': {'Hallinnollinen, tilinpidollinen ja konttoritekninen työ', 'renkivouti', 'Muut liikeyritisten ja järjestöjen hallinnollisen työn ammatit', 'Liikeyritysten ja järjestöjen hallinnollinen työ'}, 'class': 'ReferencedPerson', 'in_bio': {'p26288'}, 'child': {'p26288'}})
+people:p19830_1 tmp:differentFrom people:p26288_1 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.0071790814, 0.99235606))
+# INFO     [LinkPeople.py: line 267]:	p23421_1	defaultdict(<class 'set'>, {'prefLabel': {('Grönlund', 'Karl', 'Gustaf')}, 'label': {'l5515316242910667039'}, 'gender': 'Male', 'title': {'Maa- ja metsätaloustyö, kalastusala', 'Elintarviketyö', 'Maa-, metsätaloustyö, kalastusala', 'teurastaja', 'Teurastajat, makkara- ja suolityöntekijät', 'talonomistaja', 'Maan- ja metsänviljeiljät', 'Teollinen työ, koneenhoito ym.'}, 'class': 'ReferencedPerson', 'in_bio': {'p23421'}, 'spouse': {'p23421_2'}, 'child': {'p23421'}})
+# INFO     [LinkPeople.py: line 268]:	p25689_1	defaultdict(<class 'set'>, {'spouse': {'p25689_2'}, 'prefLabel': {('Grönlund', 'Karl', 'Gustaf')}, 'label': {'l5515316242910667039'}, 'gender': 'Male', 'title': {'Tukku-ja vähittäiskauppiaat', 'Kaupallinen työ', 'kauppias', 'Vähittäiskauppiaat'}, 'class': 'ReferencedPerson', 'in_bio': {'p25689'}, 'child': {'p25689'}})
+people:p23421_1 tmp:differentFrom people:p25689_1 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.06722334, 0.92452204))
+# INFO     [LinkPeople.py: line 267]:	p23845_3	defaultdict(<class 'set'>, {'prefLabel': {('Lindvall', 'Anna', 'Josefina')}, 'label': {'l1021362599104816070'}, 'gender': 'Female', 'title': {'Aineopettajat (peruskoulu ja lukio)', 'Tekninen, luonnontieteellinen, yhteiskuntatieteellinen, humanistinen ja taiteellinen työ', 'Opetusalaan kuuluvatyö', 'Aineopettajat ja lehtorit', 'käsityönopettaja'}, 'class': 'ReferencedPerson', 'in_bio': {'p23845'}, 'spouse': {'p23845'}})
+# INFO     [LinkPeople.py: line 268]:	p22961_3	defaultdict(<class 'set'>, {'prefLabel': {('Lindqvist', 'Anna', 'Sofia')}, 'label': {'l1251634793279940810'}, 'gender': 'Female', 'class': 'ReferencedPerson', 'in_bio': {'p22961'}, 'spouse': {'p22961'}})
+people:p23845_3 tmp:differentFrom people:p22961_3 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.0022411942, 0.99731475))
+# INFO     [LinkPeople.py: line 267]:	p21725_1	defaultdict(<class 'set'>, {'prefLabel': {('Granfelt', 'Otto', 'Fabian', 'Nimrod')}, 'label': {'l2433288179521393223'}, 'gender': 'Male', 'title': {'hovioikeuden varapresidentti'}, 'class': 'ReferencedPerson', 'in_bio': {'p21725'}, 'spouse': {'p21725_2'}, 'child': {'p21725'}})
+# INFO     [LinkPeople.py: line 268]:	p24010_1	defaultdict(<class 'set'>, {'spouse': {'p24010_2'}, 'prefLabel': {('Granfelt', 'Otto', 'Fabian', 'NImrod')}, 'label': {'l2334257423983952442'}, 'gender': 'Male', 'title': {'hovioikeuden varapresidentti'}, 'class': 'ReferencedPerson', 'in_bio': {'p24010'}, 'child': {'p24010'}})
+people:p21725_1 tmp:sameAs people:p24010_1 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.003067404, 0.99664694))
+# INFO     [LinkPeople.py: line 267]:	p24010_1	defaultdict(<class 'set'>, {'spouse': {'p24010_2'}, 'prefLabel': {('Granfelt', 'Otto', 'Fabian', 'NImrod')}, 'label': {'l2334257423983952442'}, 'gender': 'Male', 'title': {'hovioikeuden varapresidentti'}, 'class': 'ReferencedPerson', 'in_bio': {'p24010'}, 'child': {'p24010'}})
+# INFO     [LinkPeople.py: line 268]:	p21725_1	defaultdict(<class 'set'>, {'prefLabel': {('Granfelt', 'Otto', 'Fabian', 'Nimrod')}, 'label': {'l2433288179521393223'}, 'gender': 'Male', 'title': {'hovioikeuden varapresidentti'}, 'class': 'ReferencedPerson', 'in_bio': {'p21725'}, 'spouse': {'p21725_2'}, 'child': {'p21725'}})
+people:p24010_1 tmp:sameAs people:p21725_1 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.08464408, 0.9054109))
+# INFO     [LinkPeople.py: line 267]:	p24954_2	defaultdict(<class 'set'>, {'spouse': {'p24954_1'}, 'prefLabel': {('Ojala-Ervasti', 'Anna')}, 'label': {'l2261418485118418043'}, 'gender': 'Female', 'class': 'ReferencedPerson', 'in_bio': {'p24954'}, 'child': {'p24954'}})
+# INFO     [LinkPeople.py: line 268]:	p21314_2	defaultdict(<class 'set'>, {'prefLabel': {('Ojala-Ervasti', 'Anna')}, 'label': {'l2261418485118418043'}, 'gender': 'Female', 'class': 'ReferencedPerson', 'in_bio': {'p21314'}, 'spouse': {'p21314_1'}, 'child': {'p21314'}})
+people:p24954_2 tmp:sameAs people:p21314_2 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.0057342052, 0.9928331))
+# INFO     [LinkPeople.py: line 267]:	p18409_1	defaultdict(<class 'set'>, {'spouse': {'p18409_2'}, 'prefLabel': {('Lindström', 'Johan')}, 'label': {'l2236303709012835265'}, 'gender': 'Male', 'title': {'Jalkine- ja nahkatyö', 'suutari', 'Jalkinemestarit ja suutarit', 'Teollinen työ, koneenhoito ym.'}, 'class': 'ReferencedPerson', 'in_bio': {'p18409'}, 'child': {'p18409'}})
+# INFO     [LinkPeople.py: line 268]:	p19822_1	defaultdict(<class 'set'>, {'prefLabel': {('Lindström', 'Johan')}, 'label': {'l2236303709012835265'}, 'gender': 'Male', 'title': {'Maan- ja metsänviljeiljät', 'ratsutilallinen', 'Maa- ja metsätaloustyö, kalastusala', 'Maa-, metsätaloustyö, kalastusala'}, 'class': 'ReferencedPerson', 'in_bio': {'p19822'}, 'child': {'p19822'}, 'spouse': {'p19822_2'}})
+people:p18409_1 tmp:differentFrom people:p19822_1 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.07036334, 0.9055258))
+# INFO     [LinkPeople.py: line 267]:	p17348_1	defaultdict(<class 'set'>, {'spouse': {'p17348_2'}, 'prefLabel': {('Europaeus', 'Anders', 'Josef')}, 'label': {'l1915511091761586231'}, 'gender': 'Male', 'title': {'Uskonnon alanan kuluva työ', 'Papit (ev. -lut. ja ortodoks.)', 'Tekninen, luonnontieteellinen, yhteiskuntatieteellinen, humanistinen ja taiteellinen työ', 'teologian tohtori', 'kirkkoherra', 'filosofian maisteri'}, 'class': 'ReferencedPerson', 'in_bio': {'p17348'}, 'child': {'p17348'}})
+# INFO     [LinkPeople.py: line 268]:	p18067_1	defaultdict(<class 'set'>, {'spouse': {'p18067_2'}, 'prefLabel': {('Europaeus', 'Anders', 'Josef')}, 'label': {'l1915511091761586231'}, 'gender': 'Male', 'title': {'Uskonnon alanan kuluva työ', 'Papit (ev. -lut. ja ortodoks.)', 'Tekninen, luonnontieteellinen, yhteiskuntatieteellinen, humanistinen ja taiteellinen työ', 'teologian tohtori', 'kirkkoherra'}, 'class': 'ReferencedPerson', 'in_bio': {'p18067'}, 'child': {'p18067'}})
+people:p17348_1 tmp:sameAs people:p18067_1 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.016633064, 0.98125076))
+# INFO     [LinkPeople.py: line 267]:	p25339_1	defaultdict(<class 'set'>, {'prefLabel': {('Lindroos', 'Gustaf')}, 'label': {'l1241658386393720929'}, 'gender': 'Male', 'title': {'Maa- ja metsätaloustyö, kalastusala', 'torppari', 'Maanviljelystyöntekijät ja kotieläintenhoitajat', 'Maatalous-ja puutarhatyö, eläintenhoito'}, 'class': 'ReferencedPerson', 'in_bio': {'p25339'}, 'spouse': {'p25339_2'}, 'child': {'p25339'}})
+# INFO     [LinkPeople.py: line 268]:	p17751_1	defaultdict(<class 'set'>, {'spouse': {'p17751_2'}, 'prefLabel': {('Lindgren', 'Gustaf')}, 'label': {'l1428054704087389223'}, 'gender': 'Male', 'title': {'pitäjännahkuri'}, 'class': 'ReferencedPerson', 'in_bio': {'p17751'}, 'child': {'p17751'}})
+people:p25339_1 tmp:differentFrom people:p17751_1 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.09483254, 0.9065777))
+# INFO     [LinkPeople.py: line 267]:	p17536_1	defaultdict(<class 'set'>, {'prefLabel': {('Grönberg', 'Gustaf')}, 'label': {'l2049546251584299150'}, 'gender': 'Male', 'title': {'tullipäällikkö', 'Julkisen hallinnon valmistelu- ja esittelytehtävissä toimivat ylemmät toimihenkilöt', 'Hallinnollinen, tilinpidollinen ja konttoritekninen työ', 'Yhteiskunnallis-hallinnollinen työ', 'tullipäällysmies'}, 'class': 'ReferencedPerson', 'in_bio': {'p17536'}, 'spouse': {'p17536_2'}, 'child': {'p17536'}})
+# INFO     [LinkPeople.py: line 268]:	p17727_1	defaultdict(<class 'set'>, {'prefLabel': {('Gröndahl', 'Gustaf')}, 'label': {'l8762265586662573358'}, 'gender': 'Male', 'title': {'Tukku-ja vähittäiskauppiaat', 'Kaupallinen työ', 'kauppias', 'Vähittäiskauppiaat'}, 'class': 'ReferencedPerson', 'in_bio': {'p17727'}, 'child': {'p17727'}, 'spouse': {'p17727_2'}})
+people:p17536_1 tmp:differentFrom people:p17727_1 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.09498355, 0.9068413))
+# INFO     [LinkPeople.py: line 267]:	p23092_3	defaultdict(<class 'set'>, {'prefLabel': {('Söderholm', 'Karl', 'Gustaf')}, 'label': {'l1561243665345563655'}, 'gender': 'Male', 'title': {'kansleri', 'Tekninen, luonnontieteellinen, yhteiskuntatieteellinen, humanistinen ja taiteellinen työ', 'KHO:n presidentti', 'Lainopillinen työ', 'varatuomari', 'LaK', 'presidentti', 'Tuomioistunten lakimiehet'}, 'sameAs': {'p20129'}, 'class': 'ReferencedPerson', 'in_bio': {'p23092'}, 'spouse': {'p23092'}})
+# INFO     [LinkPeople.py: line 268]:	p17317_1	defaultdict(<class 'set'>, {'prefLabel': {('Söderstrand', 'Karl', 'Gustaf')}, 'label': {'l2151785945820347891'}, 'gender': 'Male', 'title': {'maalari', 'Maalarit, lakkaajat ja lattiantekijät', 'Maalaus- ja lakkaustyö', 'Teollinen työ, koneenhoito ym.'}, 'class': 'ReferencedPerson', 'in_bio': {'p17317'}, 'spouse': {'p17317_2'}, 'child': {'p17317'}})
+people:p23092_3 tmp:differentFrom people:p17317_1 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.09454042, 0.9071866))
+# INFO     [LinkPeople.py: line 267]:	p18343_2	defaultdict(<class 'set'>, {'spouse': {'p18343_1'}, 'prefLabel': {('Matintytär', 'Maria', 'Liisa')}, 'label': {'l1901283824556767805'}, 'gender': 'Female', 'class': 'ReferencedPerson', 'in_bio': {'p18343'}, 'child': {'p18343'}})
+# INFO     [LinkPeople.py: line 268]:	p19742_2	defaultdict(<class 'set'>, {'prefLabel': {('Matintytär', 'Maria', 'Elisabet')}, 'label': {'l2407236453871276048'}, 'gender': 'Female', 'class': 'ReferencedPerson', 'in_bio': {'p19742'}, 'spouse': {'p19742_1'}, 'child': {'p19742'}})
+people:p18343_2 tmp:differentFrom people:p19742_2 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.00975275, 0.989663))
+# INFO     [LinkPeople.py: line 267]:	p25108_2	defaultdict(<class 'set'>, {'spouse': {'p25108_1'}, 'prefLabel': {('von Törne', 'Anna', 'Lovisa', 'Kristina')}, 'label': {'l3123722749600462227'}, 'gender': 'Female', 'class': 'ReferencedPerson', 'in_bio': {'p25108'}, 'child': {'p25108'}})
+# INFO     [LinkPeople.py: line 268]:	p25797_2	defaultdict(<class 'set'>, {'prefLabel': {('von Törne', 'Anna', 'Lovisa', 'Christina')}, 'label': {'l6723120364316794753'}, 'gender': 'Female', 'class': 'ReferencedPerson', 'in_bio': {'p25797'}, 'child': {'p25797'}, 'spouse': {'p25797_1'}})
+people:p25108_2 tmp:sameAs people:p25797_2 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.098994076, 0.9085237))
+# INFO     [LinkPeople.py: line 267]:	p24979_1	defaultdict(<class 'set'>, {'prefLabel': {('Fredriksson', 'Johan')}, 'label': {'l2805001248395964663'}, 'gender': 'Male', 'title': {'Koneasettajat, koneistajat ja työkaluntekijät', 'Konepaja- ja rakennusmetallityö', 'viilaaja', 'viilari', 'Teollinen työ, koneenhoito ym.'}, 'class': 'ReferencedPerson', 'in_bio': {'p24979'}, 'spouse': {'p24979_2'}, 'child': {'p24979'}})
+# INFO     [LinkPeople.py: line 268]:	p20008_1	defaultdict(<class 'set'>, {'spouse': {'p20008_2'}, 'prefLabel': {('Fredriksson', 'Johan', 'Samuel')}, 'label': {'l2648864348894117195'}, 'gender': 'Male', 'title': {'Uskonnon alanan kuluva työ', 'Tekninen, luonnontieteellinen, yhteiskuntatieteellinen, humanistinen ja taiteellinen työ', 'Saarnaajat', 'saarnaaja'}, 'class': 'ReferencedPerson', 'in_bio': {'p20008'}, 'child': {'p20008'}})
+people:p24979_1 tmp:differentFrom people:p20008_1 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.09917858, 0.9087845))
+# INFO     [LinkPeople.py: line 267]:	p20993_1	defaultdict(<class 'set'>, {'prefLabel': {('Dahlbo', 'Johan', 'Erik')}, 'label': {'l3330810341394333986'}, 'gender': 'Male', 'title': {'Valimotyöntekijät', 'Rautatehdas-, metallitehdas- , takomo- ja valimotyö', 'Teollinen työ, koneenhoito ym.', 'valaja'}, 'class': 'ReferencedPerson', 'in_bio': {'p20993'}, 'spouse': {'p20993_2'}, 'child': {'p20993'}})
+# INFO     [LinkPeople.py: line 268]:	p19838_1	defaultdict(<class 'set'>, {'prefLabel': {('Dahl', 'Johan', 'Daniel')}, 'label': {'l1420101008580873920'}, 'gender': 'Male', 'title': {'senaattori'}, 'class': 'ReferencedPerson', 'in_bio': {'p19838'}, 'spouse': {'p19838_2'}, 'child': {'p19838'}})
+people:p20993_1 tmp:differentFrom people:p19838_1 .
+
+# INFO     [LinkPeople.py: line 266]:	((0.096574485, 0.9092902))
+# INFO     [LinkPeople.py: line 267]:	p23956_1	defaultdict(<class 'set'>, {'prefLabel': {('Lönngren', 'Alexander')}, 'label': {'l2273445296162252003'}, 'gender': 'Male', 'title': {'Meripäällystötyö', 'merikapteeni', 'Kapteenit ja perämiehet', 'Kuljetus- ja liikennetyö', 'Alusten päälliköt ja perämiehet'}, 'class': 'ReferencedPerson', 'in_bio': {'p23956'}, 'child': {'p23956'}, 'spouse': {'p23956_2'}})
+# INFO     [LinkPeople.py: line 268]:	p22461_1	defaultdict(<class 'set'>, {'prefLabel': {('Lönnqvist', 'Alexander')}, 'label': {'l2761466288036983404'}, 'gender': 'Male', 'title': {'Sepät', 'Rautatehdas-, metallitehdas- , takomo- ja valimotyö', 'seppä', 'Teollinen työ, koneenhoito ym.'}, 'class': 'ReferencedPerson', 'in_bio': {'p22461'}, 'spouse': {'p22461_2'}, 'child': {'p22461'}})
+people:p23956_1 tmp:differentFrom people:p22461_1 .
