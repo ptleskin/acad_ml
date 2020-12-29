@@ -1,0 +1,132 @@
+# Created with script CleanRelations.py
+# python3 CleanRelations.py --relations ../ttl/relations/1640relations.ttl ../ttl/relations/1853relations.ttl ../ttl/relations/ExtraRelations.ttl --people ../tmp_ttl/actors/test_actors.ttl ../ttl/actors/1640actors.ttl ../ttl/actors/1640relatives.ttl ../ttl/actors/1853_wikirelatives_manual.ttl ../ttl/actors/1853actors.ttl ../ttl/actors/1853relatives.ttl ../ttl/actors/ExtraRelations.ttl --log-file logs/CleanRelations.log
+# 2020-11-26 00:35
+
+@prefix bioc: <http://ldf.fi/schema/bioc/> .
+@prefix event: <http://ldf.fi/yoma/event/> .
+@prefix people: <http://ldf.fi/yoma/people/> .
+@prefix label: <http://ldf.fi/yoma/label/> .
+@prefix times: <http://ldf.fi/yoma/times/> .
+@prefix rels: <http://ldf.fi/yoma/relations/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix schema: <http://schema.org/> .
+@prefix wikifi: <https://fi.wikipedia.org/wiki/> .
+@prefix ys: <http://ldf.fi/schema/yoma/> .
+
+people:p17125 bioc:has_family_relation rels:r16874250312791571 .
+
+people:p17817_3 ys:kb "2816" ;
+    ys:nbf <http://ldf.fi/nbf/p828> ;
+    schema:sameAs wd:Q298027 ;
+    schema:sameAs wikifi:Minna_Canth .
+wikifi:Minna_Canth a <http://ldf.fi/yoma/external/Wikipedia> .
+
+people:p21762_3 schema:sameAs wd:Q406078 ;
+    schema:sameAs wikifi:Aino_Sibelius .
+wikifi:Aino_Sibelius a <http://ldf.fi/yoma/external/Wikipedia> .
+
+people:p21762 skosxl:altLabel label:l1543808531954081392 .
+label:l1543808531954081392 a ys:Label ;
+    ys:fname label:n1476696760815553179 ;
+    ys:name_1 label:n1422027985033018957 ;
+    schema:familyName "Sibelius"@fi ;
+    schema:givenName "Jean"@fi ;
+    skos:prefLabel "Sibelius, Jean"@fi .
+
+people:p22034_3 ys:kb "4706" ;
+    ys:nbf <http://ldf.fi/nbf/p2298> ;
+    schema:sameAs wd:Q4981978 ;
+    schema:sameAs wikifi:Maila_Talvio .
+wikifi:Maila_Talvio a <http://ldf.fi/yoma/external/Wikipedia> .
+
+people:p23080 bioc:has_family_relation rels:r2636585367075975580 .
+
+people:p23687 schema:sameAs wd:Q4115482 ;
+    schema:sameAs wikifi:Otto_Manninen .
+
+wikifi:Otto_Manninen a <http://ldf.fi/yoma/external/Wikipedia> .
+wd:Q4115482 a <http://ldf.fi/yoma/external/Wikidata> .
+
+########
+people:p24099_2 schema:sameAs wd:Q23698849 ;
+    schema:sameAs wikifi:Loja_Saarinen ;
+    skosxl:altLabel label:l8372433267247204545 .
+
+wd:Q23698849 a <http://ldf.fi/yoma/external/Wikidata> .
+
+wikifi:Loja_Saarinen a <http://ldf.fi/yoma/external/Wikipedia> .
+
+label:l8372433267247204545 a ys:Label ;
+    schema:familyName "Saarinen"@fi ;
+    schema:givenName "Loja"@fi ;
+    skos:prefLabel "Saarinen, Loja"@fi .
+
+
+people:p15466_1 # schema:sameAs wd:Q77103 ;
+    # schema:sameAs wikifi:Carl_Ludvig_Engel ;
+    skosxl:altLabel label:l3163585635553620578 .
+label:l3163585635553620578 a ys:Label ;
+    schema:familyName "Engel"@fi ;
+    schema:givenName "Carl Ludvig"@fi ;
+    skos:prefLabel "Engel, Carl Ludvig"@fi .
+
+# wd:Q77103 a <http://ldf.fi/yoma/external/Wikidata> .
+# wikifi:Carl_Ludvig_Engel a <http://ldf.fi/yoma/external/Wikipedia> .
+
+people:p23883 bioc:has_family_relation rels:r1080876767041558283 .
+
+people:p24099 bioc:has_family_relation rels:r1080876767041558283 .
+
+rels:r1080876767041558283 a rels:f4 ;
+    bioc:inheres_in people:p18689 ;
+    skos:prefLabel "Isä: Saarinen, Juho"@fi .
+
+rels:r16874250312791571 a rels:f4 ;
+    bioc:inheres_in people:p12619 ;
+    skos:prefLabel "Isä: Mannerheim, Carl Gustaf"@fi .
+
+rels:r2636585367075975580 a rels:f11 ;
+    bioc:inheres_in people:p23299 ;
+    skos:prefLabel "Vaimo: Forsman (av Paasikivi), Anna Mathilda"@fi .
+
+people:p23080_4 bioc:has_family_relation rels:r1331297137042743665 .
+rels:r1331297137042743665 a rels:f12 ;
+    bioc:inheres_in people:p23080 ;
+    skos:prefLabel "Aviomies: Paasikivi, Juho Kusti"@fi .
+
+people:p22701 ys:has_death event:d22701 ;
+    ys:kb "884" ;
+    schema:sameAs wd:Q19310256 ;
+    schema:sameAs wikifi:Ernst_August_Raddatz ;
+    schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ernst%20August%20Raddatz.jpg> .
+
+wd:Q19310256 a <http://ldf.fi/yoma/external/Wikidata> .
+wikifi:Ernst_August_Raddatz a <http://ldf.fi/yoma/external/Wikipedia> .
+
+event:d22701 a ys:Death ;
+    schema:date times:t1918-03-06 ;
+    skos:prefLabel "Ernst August Raddatz kuoli"@fi .
+
+people:p21192 bioc:has_family_relation rels:r2299140632770267435 .
+people:p23055 bioc:has_family_relation rels:r2299140632770267435 .
+
+rels:r2299140632770267435 a rels:f4 ;
+    bioc:inheres_in people:p17594 ;
+    skos:prefLabel "Isä: Donner, Otto"@fi .
+people:p26466_2 bioc:has_family_relation rels:r6458287035558844281 .
+people:p17817_3 bioc:has_family_relation rels:r6458287035558844281 .
+
+rels:r6458287035558844281 a rels:f12 ;
+    bioc:inheres_in people:p26466_1 ;
+    skos:prefLabel "Aviomies: Canth, Johan Ferdinand"@fi .
+
+people:p26445 schema:sameAs wd:Q61104376 ;
+    schema:sameAs wikifi:Arvi_Wartiovaara .
+wd:Q61104376 a <http://ldf.fi/yoma/external/Wikidata> .
+wikifi:Arvi_Wartiovaara a <http://ldf.fi/yoma/external/Wikipedia> .
+
+#   de la Chapelle, Anna Elise
+people:p18812_4 schema:image <https://photos.geni.com/p13/df/c8/8b/7b/5344483ca2c0a423/zaw46jes_original.jpg> .
+

@@ -1,0 +1,549 @@
+#	generated with http://yasgui.org/short/SB6OATOcD
+@prefix :      <http://ldf.fi/yoma/people/> .
+@prefix schema: <http://schema.org/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+@prefix tmp:   <http://ldf.fi/yoma/tmp/> .
+
+:p24738_3  tmp:sameAs  :p25466 .
+
+:p25473_3  tmp:sameAs  :p21005 .
+
+:p23051_3  tmp:sameAs  :p23685 .
+
+:p24350_3  tmp:sameAs  :p24152 .
+
+:p25119_1  tmp:sameAs  :p25993 .
+
+:p22774_3  tmp:sameAs  :p23679 .
+
+:p22317_3  tmp:sameAs  :p24733 .
+
+:p25437_3  tmp:sameAs  :p23585 .
+
+:p23685_3  tmp:sameAs  :p23051 .
+
+:p25831_3  tmp:sameAs  :p24501 .
+
+:p22687_3  tmp:sameAs  :p25681 .
+
+:p25262_3  tmp:sameAs  :p23513 .
+
+:p24865_3  tmp:sameAs  :p26093 .
+
+:p23637_1  tmp:sameAs  :p26019 .
+
+:p23036_1  tmp:sameAs  :p20844 .
+
+:p24833_3  tmp:sameAs  :p24669 .
+
+:p25475_3  tmp:sameAs  :p25413 .
+
+:p25563_3  tmp:sameAs  :p25008 .
+
+:p24501_3  tmp:sameAs  :p25831 .
+
+:p25018_3  tmp:sameAs  :p24724 .
+
+:p25832_3  tmp:sameAs  :p21394 .
+
+:p23955_3  tmp:sameAs  :p25076 .
+
+:p21690_3  tmp:sameAs  :p26077 .
+
+:p25319_3  tmp:sameAs  :p25554 .
+
+:p24368_1  tmp:sameAs  :p24749 .
+
+:p25476_3  tmp:sameAs  :p20815 .
+
+:p25439_3  tmp:sameAs  :p25431 .
+
+:p24021_3  tmp:sameAs  :p25550 .
+
+:p23355_3  tmp:sameAs  :p25103 .
+
+:p23087_3  tmp:sameAs  :p23119 .
+
+:p25108_3  tmp:sameAs  :p21969 .
+
+:p24091_3  tmp:sameAs  :p24090 .
+
+:p20954_2  tmp:sameAs  :p25003 .
+
+:p26019_3  tmp:sameAs  :p23637 .
+
+:p24267_3  tmp:sameAs  :p24592 .
+
+:p26570_3  tmp:sameAs  :p22651 .
+
+:p20815_4  tmp:sameAs  :p25476 .
+
+:p24765_1  tmp:sameAs  :p25954 .
+
+:p24569_3  tmp:sameAs  :p25535 .
+
+:p25360_3  tmp:sameAs  :p25426 .
+
+:p25203_3  tmp:sameAs  :p23634 .
+
+:p25993_3  tmp:sameAs  :p25119 .
+
+:p23627_3  tmp:sameAs  :p23675 .
+
+:p21931_3  tmp:sameAs  :p24727 .
+
+:p25268_3  tmp:sameAs  :p26514 .
+
+:p26218_1  tmp:sameAs  :p24398 .
+
+:p26240_3  tmp:sameAs  :p22885 .
+
+:p21600_3  tmp:sameAs  :p22770 .
+
+:p26381_1  tmp:sameAs  :p22890 .
+
+:p24175_2  tmp:sameAs  :p25462 .
+
+:p26574_3  tmp:sameAs  :p21049 .
+
+:p24152_3  tmp:sameAs  :p24350 .
+
+:p24785_3  tmp:sameAs  :p23107 .
+
+:p23811_3  tmp:sameAs  :p25873 .
+
+:p25664_3  tmp:sameAs  :p25769 .
+
+:p22970_3  tmp:sameAs  :p25367 .
+
+:p22577_3  tmp:sameAs  :p25955 .
+
+:p25096_3  tmp:sameAs  :p23699 .
+
+:p26512_3  tmp:sameAs  :p26502 .
+
+:p25934_3  tmp:sameAs  :p22555 .
+
+:p23961_2  tmp:sameAs  :p23965 .
+
+:p25357_2  tmp:sameAs  :p25428 .
+
+:p25325_2  tmp:sameAs  :p23529 .
+
+:p24968_3  tmp:sameAs  :p23374 .
+
+:p23119_3  tmp:sameAs  :p23087 .
+
+:p26508_3  tmp:sameAs  :p26509 .
+
+:p24724_3  tmp:sameAs  :p25018 .
+
+:p23513_3  tmp:sameAs  :p25262 .
+
+:p26208_3  tmp:sameAs  :p26498 .
+
+:p22515_3  tmp:sameAs  :p25947 .
+
+:p26333_3  tmp:sameAs  :p25089 .
+
+:p25723_3  tmp:sameAs  :p22244 .
+
+:p26514_3  tmp:sameAs  :p25268 .
+
+:p24921_1  tmp:sameAs  :p21320 .
+
+:p25936_3  tmp:sameAs  :p26324 .
+
+:p24725_3  tmp:sameAs  :p25013 .
+
+:p25367_3  tmp:sameAs  :p22970 .
+
+:p25067_3  tmp:sameAs  :p24657 .
+
+:p23371_3  tmp:sameAs  :p21915 .
+
+:p23655_1  tmp:sameAs  :p22006 .
+
+:p25461_3  tmp:sameAs  :p22569 .
+
+:p21162_3  tmp:sameAs  :p23320 .
+
+:p25264_1  tmp:sameAs  :p20056 .
+
+:p24090_1  tmp:sameAs  :p24091 .
+
+:p23247_3  tmp:sameAs  :p24917 .
+
+:p26367_3  tmp:sameAs  :p20885 .
+
+:p23372_3  tmp:sameAs  :p23868 .
+
+:p20885_3  tmp:sameAs  :p26367 .
+
+:p26604_3  tmp:sameAs  :p26318 .
+
+:p24727_3  tmp:sameAs  :p21931 .
+
+:p25462_3  tmp:sameAs  :p24175 .
+
+:p25550_3  tmp:sameAs  :p24021 .
+
+:p24214_3  tmp:sameAs  :p23722 .
+
+:p25851_3  tmp:sameAs  :p25436 .
+
+:p25338_3  tmp:sameAs  :p22829 .
+
+:p24480_1  tmp:sameAs  :p24731 .
+
+:p25426_3  tmp:sameAs  :p25360 .
+
+:p23911_3  tmp:sameAs  :p24382 .
+
+:p23374_3  tmp:sameAs  :p24968 .
+
+:p20129_3  tmp:sameAs  :p23092 .
+
+:p25535_1  tmp:sameAs  :p24569 .
+
+:p23089_1  tmp:sameAs  :p22477 .
+
+:p24341_3  tmp:sameAs  :p24335 .
+
+:p23130_3  tmp:sameAs  :p25456 .
+
+:p26502_1  tmp:sameAs  :p26512 .
+
+:p25765_3  tmp:sameAs  :p22588 .
+
+:p25220_3  tmp:sameAs  :p24943 .
+
+:p22890_3  tmp:sameAs  :p26381 .
+
+:p25284_3  tmp:sameAs  :p26232 .
+
+:p25060_1  tmp:sameAs  :p25154 .
+
+:p24823_3  tmp:sameAs  :p24848 .
+
+:p25465_3  tmp:sameAs  :p24644 .
+
+:p25008_3  tmp:sameAs  :p25563 .
+
+:p22798_3  tmp:sameAs  :p25878 .
+
+:p23721_1  tmp:sameAs  :p25429 .
+
+:p24824_3  tmp:sameAs  :p26402 .
+
+:p25466_3  tmp:sameAs  :p24738 .
+
+:p26590_3  tmp:sameAs  :p25345 .
+
+:p24644_3  tmp:sameAs  :p25465 .
+
+:p20914_3  tmp:sameAs  :p24813 .
+
+:p25884_2  tmp:sameAs  :p22185 .
+
+:p26402_3  tmp:sameAs  :p24824 .
+
+:p26466_3  tmp:sameAs  :p26046 .
+
+:p26498_3  tmp:sameAs  :p26208 .
+
+:p26117_1  tmp:sameAs  :p21959 .
+
+:p25468_3  tmp:sameAs  :p24653 .
+
+:p24382_3  tmp:sameAs  :p23911 .
+
+:p25681_3  tmp:sameAs  :p22687 .
+
+:p24289_3  tmp:sameAs  :p24003 .
+
+:p23679_3  tmp:sameAs  :p22774 .
+
+:p22244_1  tmp:sameAs  :p25723 .
+
+:p25769_3  tmp:sameAs  :p25664 .
+
+:p25650_3  tmp:sameAs  :p25752 .
+
+:p24772_3  tmp:sameAs  :p24121 .
+
+:p23742_3  tmp:sameAs  :p26450 .
+
+:p26244_1  tmp:sameAs  :p25606 .
+
+:p24455_1  tmp:sameAs  :p25322 .
+
+:p24953_3  tmp:sameAs  :p23562 .
+
+:p20056_4  tmp:sameAs  :p25264 .
+
+:p21969_1  tmp:sameAs  :p25108 .
+
+:p22564_3  tmp:sameAs  :p25931 .
+
+:p26509_1  tmp:sameAs  :p26508 .
+
+:p24669_1  tmp:sameAs  :p24833 .
+
+:p21085_3  tmp:sameAs  :p23370 .
+
+:p26407_3  tmp:sameAs  :p25521 .
+
+:p23500_3  tmp:sameAs  :p25872 .
+
+:p26232_3  tmp:sameAs  :p25284 .
+
+:p23107_3  tmp:sameAs  :p24785 .
+
+:p25322_3  tmp:sameAs  :p24455 .
+
+:p22899_3  tmp:sameAs  :p23909 .
+
+:p24388_3  tmp:sameAs  :p25470 .
+
+:p25947_2  tmp:sameAs  :p22515 .
+
+:p22606_1  tmp:sameAs  :p25430 .
+
+:p25780_3  tmp:sameAs  :p24570 .
+
+:p21496_1  tmp:sameAs  :p24361 .
+
+:p23991_3  tmp:sameAs  :p25574 .
+
+:p25323_3  tmp:sameAs  :p23341 .
+
+:p22836_3  tmp:sameAs  :p25716 .
+
+:p23090_3  tmp:sameAs  :p19159 .
+
+:p24570_3  tmp:sameAs  :p25780 .
+
+:p21959_3  tmp:sameAs  :p26117 .
+
+:p22569_3  tmp:sameAs  :p25461 .
+
+:p23868_3  tmp:sameAs  :p23372 .
+
+:p23299_3  tmp:sameAs  :p23080 .
+
+:p25413_3  tmp:sameAs  :p25475 .
+
+:p23320_2  tmp:sameAs  :p21162 .
+
+:p25482_3  tmp:sameAs  :p25432 .
+
+:p23693_3  tmp:sameAs  :p25849 .
+
+:p23092_3  tmp:sameAs  :p20129 .
+
+:p25057_3  tmp:sameAs  :p25071 .
+
+:p25089_3  tmp:sameAs  :p26333 .
+
+:p20597_2  tmp:sameAs  :p25947 .
+
+:p23677_1  tmp:sameAs  :p22570 .
+
+:p26093_3  tmp:sameAs  :p24865 .
+
+:p24360_3  tmp:sameAs  :p23798 .
+
+:p25752_3  tmp:sameAs  :p25650 .
+
+:p25026_3  tmp:sameAs  :p22866 .
+
+:p26450_3  tmp:sameAs  :p23742 .
+
+:p25840_3  tmp:sameAs  :p24792 .
+
+:p25873_3  tmp:sameAs  :p23811 .
+
+:p25588_1  tmp:sameAs  :p18875 .
+
+:p24330_3  tmp:sameAs  :p23623 .
+
+:p26239_3  tmp:sameAs  :p23842 .
+
+:p23965_3  tmp:sameAs  :p23961 .
+
+:p22185_3  tmp:sameAs  :p25884 .
+
+:p24812_3  tmp:sameAs  :p24880 .
+
+:p23079_1  tmp:sameAs  :p25835 .
+
+:p25574_3  tmp:sameAs  :p23991 .
+
+:p24419_3  tmp:sameAs  :p26409 .
+
+:p25154_3  tmp:sameAs  :p25060 .
+
+:p25835_2  tmp:sameAs  :p23079 .
+
+:p23634_3  tmp:sameAs  :p25203 .
+
+:p23065_3  tmp:sameAs  :p26614 .
+
+:p25827_1  tmp:sameAs  :p22539 .
+
+:p24814_3  tmp:sameAs  :p21914 .
+
+:p24657_2  tmp:sameAs  :p25067 .
+
+:p23034_3  tmp:sameAs  :p21618 .
+
+:p23699_3  tmp:sameAs  :p25096 .
+
+:p24686_1  tmp:sameAs  :p25875 .
+
+:p25156_3  tmp:sameAs  :p25318 .
+
+:p23367_3  tmp:sameAs  :p22606 .
+
+:p23580_3  tmp:sameAs  :p22603 .
+
+:p24278_3  tmp:sameAs  :p22189 .
+
+:p24792_3  tmp:sameAs  :p25840 .
+
+:p25814_3  tmp:sameAs  :p25815 .
+
+:p25189_3  tmp:sameAs  :p25077 .
+
+:p24515_3  tmp:sameAs  :p24349 .
+
+:p25878_3  tmp:sameAs  :p22798 .
+
+:p24002_3  tmp:sameAs  :p23078 .
+
+:p23581_3  tmp:sameAs  :p19074 .
+
+:p25931_2  tmp:sameAs  :p22564 .
+
+:p22189_3  tmp:sameAs  :p24278 .
+
+:p25070_3  tmp:sameAs  :p20495 .
+
+:p23377_4  tmp:sameAs  :p22961 .
+
+:p25815_3  tmp:sameAs  :p25814 .
+
+:p23369_3  tmp:sameAs  :p22884 .
+
+:p24003_3  tmp:sameAs  :p24289 .
+
+:p22884_3  tmp:sameAs  :p23369 .
+
+:p24653_5  tmp:sameAs  :p25468 .
+
+:p24974_3  tmp:sameAs  :p24243 .
+
+:p25071_3  tmp:sameAs  :p25057 .
+
+:p22885_3  tmp:sameAs  :p26240 .
+
+:p22063_2  tmp:sameAs  :p24730 .
+
+:p23078_4  tmp:sameAs  :p24002 .
+
+:p24943_3  tmp:sameAs  :p25220 .
+
+:p24731_3  tmp:sameAs  :p24480 .
+
+:p25750_1  tmp:sameAs  :p23175 .
+
+:p23909_3  tmp:sameAs  :p22899 .
+
+:p22222_3  tmp:sameAs  :p24891 .
+
+:p25430_3  tmp:sameAs  :p22606 .
+
+:p23585_3  tmp:sameAs  :p25437 .
+
+:p22555_3  tmp:sameAs  :p25934 .
+
+:p25042_3  tmp:sameAs  :p25706 .
+
+:p23798_3  tmp:sameAs  :p24360 .
+
+:p24733_3  tmp:sameAs  :p22317 .
+
+:p25431_3  tmp:sameAs  :p25439 .
+
+:p24433_3  tmp:sameAs  :p25801 .
+
+:p21914_3  tmp:sameAs  :p24814 .
+
+:p22588_3  tmp:sameAs  :p25765 .
+
+:p25003_2  tmp:sameAs  :p20954 .
+
+:p24749_1  tmp:sameAs  :p24368 .
+
+:p25432_3  tmp:sameAs  :p25482 .
+
+:p24891_3  tmp:sameAs  :p22222 .
+
+:p23175_4  tmp:sameAs  :p25750 .
+
+:p22866_4  tmp:sameAs  :p25026 .
+
+:p24434_3  tmp:sameAs  :p21715 .
+
+:p20844_1  tmp:sameAs  :p23036 .
+
+:p21915_3  tmp:sameAs  :p23371 .
+
+:p25076_3  tmp:sameAs  :p23955 .
+
+:p22770_3  tmp:sameAs  :p21600 .
+
+:p25470_3  tmp:sameAs  :p24388 .
+
+:p23080_3  tmp:sameAs  :p23299 .
+
+:p24575_1  tmp:sameAs  :p22867 .
+
+:p22651_3  tmp:sameAs  :p26570 .
+
+:p24592_3  tmp:sameAs  :p24267 .
+
+:p25606_2  tmp:sameAs  :p26244 .
+
+:p25947_3  tmp:sameAs  :p20597 .
+
+:p23341_2  tmp:sameAs  :p25323 .
+
+:p24893_3  tmp:sameAs  :p24471 .
+
+:p25875_1  tmp:sameAs  :p24686 .
+
+:p24813_1  tmp:sameAs  :p20914 .
+
+:p26614_3  tmp:sameAs  :p23065 .
+
+:p25435_3  tmp:sameAs  :p25552 .
+
+:p26077_3  tmp:sameAs  :p21690 .
+
+:p25812_1  tmp:sameAs  :p24551 .
+
+:p25103_3  tmp:sameAs  :p23355 .
+
+:p26046_3  tmp:sameAs  :p26466 .
+
+:p25436_3  tmp:sameAs  :p25851 .
+

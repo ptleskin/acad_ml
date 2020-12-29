@@ -1,0 +1,451 @@
+# Created with script LinkPeople.py
+# python3 LinkPeople.py -s ../ttl/actors/1853relatives.ttl -t ../ttl/actors/1853actors.ttl -f ../ttl/actors/1853_codes_manual.ttl ../ttl/actors/1853_wikirelatives_manual.ttl ../ttl/actors/1853actors.ttl ../ttl/actors/1853different.ttl ../ttl/actors/1853relatives.ttl ../ttl/actors/1853titles.ttl ../ttl/actors/1853wikidata_test.ttl ../ttl/events/1853events.ttl ../ttl/events/1853lifeeventplaces.ttl ../ttl/events/1853lifeevents.ttl ../ttl/events/1853lifeeventtitles.ttl ../ttl/events/1853placelinks.ttl ../ttl/labels/1853labels.ttl ../ttl/linkage/1853nbf.ttl ../ttl/linkage/1853wikidata.ttl ../ttl/linkage/1853wikidata_test_with_fullname.ttl ../ttl/relations/1853namesakes.ttl ../ttl/relations/1853relations.ttl ../ttl/texts/1853descriptions.ttl ../ttl/times/1853times.ttl ../ttl/titles/1853titlelinks.ttl ../ttl/titles/1853titles.ttl ../ttl/times/wikirelatives.ttl ../ttl/titles/ammo_extract.ttl ../ttl/titles/1640-1899ammo.ttl --threshold 0.95 --log-file logs/LinkPeople1853rel_to_act2.log --model model/ASampo_model.h5
+# 2020-11-27 17:21
+
+@prefix people: <http://ldf.fi/yoma/people/> .
+@prefix tmp: <http://ldf.fi/yoma/tmp/> .
+
+people:p13375 tmp:differentFrom people:p23618,
+        people:p25818 .
+
+people:p13436 tmp:differentFrom people:p20056 .
+
+people:p13505_2 tmp:differentFrom people:p17901_1 .
+
+people:p13802_1 tmp:differentFrom people:p8644 .
+
+people:p14185 tmp:differentFrom people:p17444 .
+
+people:p15178 tmp:differentFrom people:p18129 .
+
+people:p15225 tmp:differentFrom people:p18607,
+        people:p19145 .
+
+people:p15602 tmp:differentFrom people:p20152 .
+
+people:p16301 tmp:differentFrom people:p21251 .
+
+people:p17118_1 tmp:differentFrom people:p22253 .
+
+people:p17127 tmp:differentFrom people:p22973 .
+
+people:p17139_1 tmp:differentFrom people:p20849,
+        people:p23955 .
+
+people:p17147 tmp:differentFrom people:p24053,
+        people:p25919 .
+
+people:p17150 tmp:differentFrom people:p17142,
+        people:p21524 .
+
+people:p17159 tmp:differentFrom people:p26006 .
+
+people:p17165 tmp:differentFrom people:p23585 .
+
+people:p17168_1 tmp:differentFrom people:p17744 .
+
+people:p17199 tmp:differentFrom people:p22726 .
+
+people:p17314_1 tmp:differentFrom people:p17314 .
+
+people:p17315 tmp:differentFrom people:p21206 .
+
+people:p17320_3 tmp:differentFrom people:p25554 .
+
+people:p17321_1 tmp:differentFrom people:p17321 .
+
+people:p17360_1 tmp:differentFrom people:p20034 .
+
+people:p17372 tmp:differentFrom people:p18181 .
+
+people:p17382_1 tmp:differentFrom people:p17382 .
+
+people:p17382_3 tmp:differentFrom people:p26244 .
+
+people:p25887_1 tmp:differentFrom people:p11117_1 .
+
+people:p17395_1 tmp:differentFrom people:p17395,
+        people:p24014 .
+
+people:p17427_1 tmp:differentFrom people:p17427 .
+
+people:p17460_1 tmp:differentFrom people:p17460 .
+
+people:p17508_1 tmp:sameAs people:p17508 .
+
+people:p17533 tmp:differentFrom people:p22603 .
+
+people:p17536_1 tmp:differentFrom people:p17166_1 .
+
+people:p17550_1 tmp:differentFrom people:p22852 .
+
+people:p17612_1 tmp:differentFrom people:p19821 .
+
+people:p17613_1 tmp:differentFrom people:p25055 .
+
+people:p17698_1 tmp:differentFrom people:p18008 .
+
+people:p17804_1 tmp:sameAs people:p20505 .
+
+people:p17810_1 tmp:differentFrom people:p17810 .
+
+people:p17814_1 tmp:differentFrom people:p17814 .
+
+people:p17841_1 tmp:differentFrom people:p17841,
+        people:p23124 .
+
+people:p17904_1 tmp:differentFrom people:p17904 .
+
+people:p17952 tmp:differentFrom people:p23629 .
+
+people:p18010_1 tmp:differentFrom people:p17472 .
+
+people:p18109_1 tmp:differentFrom people:p26357 .
+
+people:p18182 tmp:differentFrom people:p26046 .
+
+people:p18219_1 tmp:differentFrom people:p18219 .
+
+people:p18231 tmp:differentFrom people:p24114 .
+
+people:p18235_1 tmp:differentFrom people:p20056 .
+
+people:p18264_1 tmp:differentFrom people:p18264,
+        people:p22608 .
+
+people:p18281_1 tmp:differentFrom people:p17226,
+        people:p17946,
+        people:p18262,
+        people:p20117,
+        people:p20525 .
+
+people:p18304_1 tmp:differentFrom people:p18838 .
+
+people:p18341_1 tmp:differentFrom people:p18341,
+        people:p25566 .
+
+people:p18343_2 tmp:differentFrom people:p19742_2 .
+
+people:p18353 tmp:differentFrom people:p23722 .
+
+people:p18355 tmp:differentFrom people:p25167 .
+
+people:p18363_1 tmp:differentFrom people:p17321 .
+
+people:p18409_1 tmp:differentFrom people:p5843 .
+
+people:p18446 tmp:differentFrom people:p17472 .
+
+people:p18452_1 tmp:differentFrom people:p17395,
+        people:p24014 .
+
+people:p18492_3 tmp:differentFrom people:p25156 .
+
+people:p18512_1 tmp:differentFrom people:p18430 .
+
+people:p18537_1 tmp:differentFrom people:p17427 .
+
+people:p18563_1 tmp:differentFrom people:p18563 .
+
+people:p18571_1 tmp:differentFrom people:p21785 .
+
+people:p18574_1 tmp:differentFrom people:p17859 .
+
+people:p18622_1 tmp:differentFrom people:p18622 .
+
+people:p18667 tmp:differentFrom people:p17660 .
+
+people:p18759_3 tmp:differentFrom people:p24350 .
+
+people:p18792_1 tmp:differentFrom people:p17246 .
+
+people:p18803_1 tmp:differentFrom people:p17810 .
+
+people:p18875_1 tmp:differentFrom people:p18875 .
+
+people:p18984_1 tmp:differentFrom people:p20823 .
+
+people:p19057 tmp:differentFrom people:p18767 .
+
+people:p19061_1 tmp:differentFrom people:p19061 .
+
+people:p19114_1 tmp:differentFrom people:p18885 .
+
+people:p19145_1 tmp:differentFrom people:p18287,
+        people:p18607 .
+
+people:p19152_1 tmp:differentFrom people:p17861 .
+
+people:p19174_1 tmp:differentFrom people:p17714,
+        people:p23168 .
+
+people:p19202_1 tmp:differentFrom people:p19202 .
+
+people:p19262_1 tmp:differentFrom people:p18036 .
+
+people:p19334_1 tmp:differentFrom people:p17395,
+        people:p24014 .
+
+people:p19386_1 tmp:differentFrom people:p17247 .
+
+people:p19464_1 tmp:differentFrom people:p17382 .
+
+people:p19689 tmp:differentFrom people:p18452,
+        people:p24014 .
+
+people:p19695_1 tmp:differentFrom people:p17314 .
+
+people:p19821_1 tmp:differentFrom people:p19821 .
+
+people:p19830_1 tmp:differentFrom people:p18637 .
+
+people:p19867_1 tmp:differentFrom people:p18318 .
+
+people:p19908_1 tmp:differentFrom people:p17166 .
+
+people:p20129 tmp:differentFrom people:p17317_1 .
+
+people:p20187 tmp:differentFrom people:p19645 .
+
+people:p20263 tmp:differentFrom people:p17246 .
+
+people:p20270_1 tmp:differentFrom people:p17613,
+        people:p23158 .
+
+people:p20313_1 tmp:differentFrom people:p21738 .
+
+people:p20592_1 tmp:differentFrom people:p20823 .
+
+people:p20665_1 tmp:differentFrom people:p22816 .
+
+people:p20677_1 tmp:differentFrom people:p20677 .
+
+people:p20732 tmp:differentFrom people:p17606,
+        people:p21287 .
+
+people:p20766_1 tmp:differentFrom people:p22452,
+        people:p23390 .
+
+people:p20823_1 tmp:differentFrom people:p20823 .
+
+people:p20849_1 tmp:differentFrom people:p20849,
+        people:p23955 .
+
+people:p20880_1 tmp:differentFrom people:p22380 .
+
+people:p20927_1 tmp:differentFrom people:p20505 ;
+    tmp:sameAs people:p20505 .
+
+people:p20993_1 tmp:differentFrom people:p21035 .
+
+people:p21143 tmp:differentFrom people:p23868 .
+
+people:p21205_1 tmp:differentFrom people:p22399 .
+
+people:p21334 tmp:differentFrom people:p22154 .
+
+people:p21439_1 tmp:differentFrom people:p23093 .
+
+people:p21603_1 tmp:differentFrom people:p18565,
+        people:p20970,
+        people:p21524 .
+
+people:p21807_1 tmp:differentFrom people:p21807 .
+
+people:p21857_1 tmp:differentFrom people:p22786 .
+
+people:p21967_1 tmp:differentFrom people:p21967 .
+
+people:p22009_1 tmp:differentFrom people:p22009 .
+
+people:p22009_3 tmp:differentFrom people:p24848 .
+
+people:p22035 tmp:differentFrom people:p21618 .
+
+people:p22063_2 tmp:differentFrom people:p24730 ;
+    tmp:sameAs people:p24730 .
+
+people:p22103_1 tmp:differentFrom people:p21807 .
+
+people:p22154_1 tmp:differentFrom people:p19757 .
+
+people:p22197_1 tmp:differentFrom people:p25057 .
+
+people:p22256_1 tmp:differentFrom people:p22256 .
+
+people:p22333_1 tmp:differentFrom people:p25872 .
+
+people:p22378 tmp:differentFrom people:p20146 .
+
+people:p22399_1 tmp:differentFrom people:p22399 .
+
+people:p22435_1 tmp:differentFrom people:p21067 .
+
+people:p22452_1 tmp:differentFrom people:p23390 .
+
+people:p22460_1 tmp:differentFrom people:p21967 .
+
+people:p22569 tmp:differentFrom people:p19163 .
+
+people:p22608_1 tmp:differentFrom people:p22608 .
+
+people:p22704_1 tmp:differentFrom people:p22704 .
+
+people:p22767_1 tmp:differentFrom people:p18767 .
+
+people:p22786_1 tmp:differentFrom people:p22786 .
+
+people:p22794 tmp:differentFrom people:p24959 .
+
+people:p22829_1 tmp:differentFrom people:p22829 .
+
+people:p22895_1 tmp:differentFrom people:p19757 .
+
+people:p23040_1 tmp:differentFrom people:p21251 .
+
+people:p23051_1 tmp:differentFrom people:p23051 .
+
+people:p23090_2 tmp:differentFrom people:p25167 .
+
+people:p23158_1 tmp:differentFrom people:p17613,
+        people:p23158 .
+
+people:p23168_2 tmp:differentFrom people:p26245 .
+
+people:p23176 tmp:differentFrom people:p17383 .
+
+people:p23320_1 tmp:differentFrom people:p22256 .
+
+people:p23450_1 tmp:differentFrom people:p24104 .
+
+people:p23500_1 tmp:differentFrom people:p23500 .
+
+people:p23526_1 tmp:differentFrom people:p17444,
+        people:p24032,
+        people:p25392 ;
+    tmp:sameAs people:p17444 .
+
+people:p23629_1 tmp:differentFrom people:p23629 .
+
+people:p23721_1 tmp:sameAs people:p25429 .
+
+people:p23742_1 tmp:differentFrom people:p23742 .
+
+people:p23765_1 tmp:differentFrom people:p23933 .
+
+people:p23845_3 tmp:differentFrom people:p22961_3 .
+
+people:p23921_1 tmp:differentFrom people:p19501 .
+
+people:p23933_1 tmp:differentFrom people:p23933 .
+
+people:p23956_1 tmp:differentFrom people:p22461_1 .
+
+people:p23962_1 tmp:differentFrom people:p22726 .
+
+people:p24014_2 tmp:differentFrom people:p26245 .
+
+people:p24021_1 tmp:differentFrom people:p17395 .
+
+people:p24104_1 tmp:differentFrom people:p24104 .
+
+people:p24361_1 tmp:differentFrom people:p21206 .
+
+people:p24366 tmp:differentFrom people:p17959 .
+
+people:p24628_1 tmp:differentFrom people:p24308 .
+
+people:p24653_1 tmp:differentFrom people:p24653 .
+
+people:p24657_1 tmp:differentFrom people:p22380 .
+
+people:p24709_1 tmp:differentFrom people:p24709 .
+
+people:p24811_1 tmp:differentFrom people:p17142,
+        people:p21524 .
+
+people:p24823 tmp:differentFrom people:p17516 .
+
+people:p24865_2 tmp:differentFrom people:p26244 .
+
+people:p24954_2 tmp:sameAs people:p21314_2 .
+
+people:p24979_1 tmp:differentFrom people:p20008_1 .
+
+people:p25018_1 tmp:differentFrom people:p25018 .
+
+people:p25158 tmp:differentFrom people:p23693 .
+
+people:p25319_2 tmp:differentFrom people:p25550 .
+
+people:p25357 tmp:differentFrom people:p17373,
+        people:p19357 .
+
+people:p25357_1 tmp:differentFrom people:p20146 .
+
+people:p25436_1 tmp:differentFrom people:p25436 .
+
+people:p25450_1 tmp:differentFrom people:p17166,
+        people:p20464 .
+
+people:p25456_1 tmp:differentFrom people:p25829 .
+
+people:p25803_1 tmp:differentFrom people:p24653 .
+
+people:p25818_1 tmp:differentFrom people:p23618 .
+
+people:p25828 tmp:differentFrom people:p21524 .
+
+people:p25833 tmp:differentFrom people:p25978 .
+
+people:p25947_1 tmp:differentFrom people:p23456 .
+
+people:p26019 tmp:differentFrom people:p25322 .
+
+people:p26326_1 tmp:differentFrom people:p24053 .
+
+people:p26333_1 tmp:differentFrom people:p26333 .
+
+people:p26367_1 tmp:differentFrom people:p22243 .
+
+people:p26448_1 tmp:differentFrom people:p25091 .
+
+people:p11640_2 tmp:differentFrom people:p11640_2 .
+
+people:p17348_1 tmp:sameAs people:p17348_1 .
+
+people:p17358 tmp:sameAs people:p17358 .
+
+people:p17644 tmp:sameAs people:p17644 .
+
+people:p17815 tmp:sameAs people:p17815 .
+
+people:p17966 tmp:sameAs people:p17966 .
+
+people:p18287 tmp:differentFrom people:p19145 .
+
+people:p18484 tmp:sameAs people:p18484 .
+
+people:p18622 tmp:differentFrom people:p23456 .
+
+people:p18689 tmp:sameAs people:p18689 .
+
+people:p23655 tmp:sameAs people:p23655 .
+
+people:p25108_2 tmp:sameAs people:p25108_2 .
+
+people:p25681 tmp:sameAs people:p25681 .
+
+people:p17166 tmp:differentFrom people:p22947_1 .
+
+people:p18565 tmp:differentFrom people:p17142,
+        people:p21524 ;
+    tmp:sameAs people:p18565 .
+
+people:p23500 tmp:sameAs people:p23500 .
+
+people:p17246 tmp:sameAs people:p17246 .
+
+people:p26080_1 tmp:differentFrom people:p18038 .
+
+people:p23284_1 tmp:differentFrom people:p21289 .

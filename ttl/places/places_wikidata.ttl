@@ -1,0 +1,5062 @@
+# Created with script linkPlaceWikidata.py
+# python3 linkPlaceWikidata.py -i ../ttl/places/places.ttl ../ttl/places/places_geonames.ttl --output ../ttl/places/places_wikidata.ttl
+# 2020-12-22 15:38
+
+@prefix cwm: <http://commons.wikimedia.org/wiki/Special:FilePath/> .
+@prefix external: <http://ldf.fi/yoma/external/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix places: <http://ldf.fi/yoma/places/> .
+@prefix schema: <http://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wikifi: <https://fi.wikipedia.org/wiki/> .
+@prefix wikisv: <https://sv.wikipedia.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+places:m13 schema:sameAs wd:Q230,
+        wikifi:Georgia ;
+    owl:sameAs <http://sws.geonames.org/614540> ;
+    geo:lat 42.016669444444 ;
+    geo:long 43.733330555556 .
+
+places:m1403 schema:sameAs wd:Q999821,
+        wikifi:Korpilahti ;
+    owl:sameAs <http://sws.geonames.org/651350> ;
+    geo:lat 62.016666666667 ;
+    geo:long 25.561111111111 .
+
+places:m1815 schema:sameAs wd:Q1002499,
+        <https://fi.wikipedia.org/wiki/Kes%C3%A4lahti> ;
+    owl:sameAs <http://sws.geonames.org/653129> ;
+    geo:lat 61.891666666667 ;
+    geo:long 29.833333333333 .
+
+places:m1922 schema:sameAs wd:Q1000113,
+        <https://fi.wikipedia.org/wiki/Elim%C3%A4ki> ;
+    owl:sameAs <http://sws.geonames.org/660294> ;
+    geo:lat 60.720830555556 ;
+    geo:long 26.451388888889 .
+
+places:m2276 schema:sameAs wd:Q1811020,
+        wikifi:Ahvenkoski ;
+    geo:lat 60.494167 ;
+    geo:long 26.45 .
+
+places:m2662148 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ystad%20nya%20r%C3%A5dhus%20%28kommunhus%29.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ystad%20vapen.svg> ;
+    schema:sameAs wd:Q505102 .
+
+places:m2662215 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96sterbymo2.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ydre%20vapen.svg> ;
+    schema:sameAs wd:Q515699 .
+
+places:m2662828 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ving%C3%A5ker%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ving%C3%A5kers%20station%20sett%20fr%C3%A5n%20plattformen.jpg> ;
+    schema:sameAs wd:Q249378 .
+
+places:m2662850 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vindeln%20-%20KMB%20-%2016000300022370.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vindeln%20vapen.svg> ;
+    schema:sameAs wd:Q504505 .
+
+places:m2662880 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vimmerby%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vimmerby%2C%20den%2023%20juni%202008%2C%20bild%207.jpg> ;
+    schema:sameAs wd:Q505057 .
+
+places:m2662934 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vilhelmina%20-%20KMB%20-%2016000300022439.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vilhelmina%20vapen.svg> ;
+    schema:sameAs wd:Q515861 .
+
+places:m2663292 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Stadshuset%20i%20Vetlanda.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vetlanda%20vapen.svg> ;
+    schema:sameAs wd:Q505052 .
+
+places:m2663398 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vellinge%20kommunhus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vellinge%20vapen.svg> ;
+    schema:sameAs wd:Q511338 .
+
+places:m2663535 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/20090811%20V%C3%A4xj%C3%B6%202%2C%20Marktplatz.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4xj%C3%B6%20vapen.svg> ;
+    schema:sameAs wd:Q500217 .
+
+places:m2663537 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vaxholm%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vaxholms%20r%C3%A5dhus%2002.jpg> ;
+    schema:sameAs wd:Q500090 .
+
+places:m2664179 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4stmanland%20vapen.svg> ;
+    schema:sameAs wd:Q321430 .
+
+places:m2664201 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4stervik%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4sterviks%20kommunhus.jpg> ;
+    schema:sameAs wd:Q515477 .
+
+places:m2664292 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4sternorrland%20l%C3%A4n%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4sternorrlands%20l%C3%A4n%20vapenflagga.svg> ;
+    schema:sameAs wd:Q104891 .
+
+places:m2664351 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4sterg%C3%B6tland%20vapen.svg> ;
+    schema:sameAs wd:Q213551 .
+
+places:m2664415 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gamla%20bron%20Ume%C3%A5%202007-06-24.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4sterbotten%20vapen.svg> ;
+    schema:sameAs wd:Q211652 .
+
+places:m2664441 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4ster%C3%A5s%20stadshus%20September%202014%2002.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4ster%C3%A5s%20vapen.svg> ;
+    schema:sameAs wd:Q34550 .
+
+places:m2664852 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4rnamo%20Stadshuset.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4rnamo%20vapen.svg> ;
+    schema:sameAs wd:Q280562 .
+
+places:m2664870 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4rmland%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4rmlands%20l%C3%A4n%20vapenflagga.svg> ;
+    schema:sameAs wd:Q211638 .
+
+places:m2664880 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4rmd%C3%B6%20kommunhus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4rmd%C3%B6%20vapen.svg> ;
+    schema:sameAs wd:Q493841 .
+
+places:m2664938 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A5rg%C3%A5rda%20kommunhus%20och%20V%C3%A5rg%C3%A5rda%20W%C3%A4rdshus%2C%20den%2016%20juni%202006.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A5rg%C3%A5rda%20vapen.svg> ;
+    schema:sameAs wd:Q511297 .
+
+places:m2664994 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Varberg%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Varbergs%20stadshus.jpg> ;
+    schema:sameAs wd:Q179180 .
+
+places:m2665011 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vara%20kommunhus.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vara%20vapen.svg> ;
+    schema:sameAs wd:Q501428 .
+
+places:m2665061 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vansbro%20vapen.svg>,
+        cwm:Vansbro-library-45.JPG ;
+    schema:sameAs wd:Q501551 .
+
+places:m2665089 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4nn%C3%A4s%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vannas%20railwaystation%20Sweden.jpg> ;
+    schema:sameAs wd:Q500210 .
+
+places:m2665170 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4nersborg-vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4nersborgs%20Museum.jpg> ;
+    schema:sameAs wd:Q511426 .
+
+places:m2665451 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vallentuna%20vapen.svg>,
+        cwm:Vallentunakulturhus.jpg ;
+    schema:sameAs wd:Q501526 .
+
+places:m2665672 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunhuset%20Str%C3%B6msvik.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Valdemarsvik%20vapen.svg> ;
+    schema:sameAs wd:Q509997 .
+
+places:m2665856 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Skillingaryds%20station.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vaggeryd%20vapen.svg> ;
+    schema:sameAs wd:Q605329 .
+
+places:m2665901 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A5dhuset%20i%20Vadstena%2C%20juni%202005.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vadstena%20vapen.svg> ;
+    schema:sameAs wd:Q515969 .
+
+places:m2666201 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Uppvidinge%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Uppvindinge%20r%C3%A5dhus%20%C3%85seda.jpg> ;
+    schema:sameAs wd:Q515505 .
+
+places:m2666218 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Uppland%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Uppsala%20l%C3%A4n%20vapenflagga.svg> ;
+    schema:sameAs wd:Q104926 .
+
+places:m2666219 schema:image cwm:StadshusetUppsala.JPG,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Uppsala%20vapen.svg> ;
+    schema:sameAs wd:Q59091 .
+
+places:m2666237 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Upl%20Vasby.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Upplands%20V%C3%A4sby%20vapen.svg> ;
+    schema:sameAs wd:Q499425 .
+
+places:m2666240 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Furuh%C3%A4llshuset.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Upplands-Bro%20City%20Arms.svg> ;
+    schema:sameAs wd:Q113673 .
+
+places:m2666492 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ulricehamn%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ulricehamns%20stadshus%2004.jpg> ;
+    schema:sameAs wd:Q382808 .
+
+places:m2666669 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A5dhuset%20Uddevalla.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Uddevalla%20vapen.svg> ;
+    schema:sameAs wd:Q501442 .
+
+places:m2666778 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tyres%C3%B6%20vapen.svg>,
+        cwm:Tyreso2.jpg ;
+    schema:sameAs wd:Q113730 .
+
+places:m2667302 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Trollh%C3%A4ttan%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Trollhattans%20Vattentorn.jpg> ;
+    schema:sameAs wd:Q28532 .
+
+places:m2667401 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Trelleborg%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Trelleborg%2C%20Rathaus%20%282008-07-27%29.JPG> ;
+    schema:sameAs wd:Q504219 .
+
+places:m2667598 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tranemo%20kommunkontor%2020170424.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tranemo%20vapen.svg> ;
+    schema:sameAs wd:Q501479 .
+
+places:m2667625 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Stadshuset%20vid%20Stadshusbron%20i%20Tran%C3%A5s%2C%20den%2027%20april%202007.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tran%C3%A5s%20vapen.svg> ;
+    schema:sameAs wd:Q505071 .
+
+places:m2667872 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Torsby%20vapen.svg>,
+        cwm:Torsby.jpg ;
+    schema:sameAs wd:Q510135 .
+
+places:m2667902 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tors%C3%A5s%20kommunhus%20.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tors%C3%A5s%20vapen.svg> ;
+    schema:sameAs wd:Q515551 .
+
+places:m2668246 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/T%C3%B6reboda%20centrum%202005.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/T%C3%B6reboda%20vapen.svg> ;
+    schema:sameAs wd:Q501470 .
+
+places:m2668364 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tomelilla%20kommunhus%202016.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tomelilla%20vapen.svg> ;
+    schema:sameAs wd:Q515519 .
+
+places:m2668611 schema:sameAs wd:Q4570016 .
+
+places:m2668674 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sk%C3%A4rhamn%20Smiling%20Church.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tj%C3%B6rn%20vapen.svg> ;
+    schema:sameAs wd:Q501448 .
+
+places:m2669018 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tingsryd%20vapen.svg>,
+        cwm:Tingsrydhus.jpg ;
+    schema:sameAs wd:Q515491 .
+
+places:m2669046 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Timr%C3%A5%20Kommunhus.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Timr%C3%A5%20vapen.svg> ;
+    schema:sameAs wd:Q504983 .
+
+places:m2669097 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tierp%20j%C3%A4rnv%C3%A4gsstation%202012b.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tierp%20vapen.svg> ;
+    schema:sameAs wd:Q510198 .
+
+places:m2669112 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tidaholm%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tidaholms%20museum%20p%C3%A5%20Vulcan%C3%B6n%20i%20Tidaholm%2C%20den%2022%20aug%202006.JPG> ;
+    schema:sameAs wd:Q501459 .
+
+places:m2669117 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ralph%20Erskine%20Tibro.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tibro%20vapen.svg> ;
+    schema:sameAs wd:Q501432 .
+
+places:m2669414 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sockenmagasinet%2C%20Tanumshede.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tanum%20vapen.svg> ;
+    schema:sameAs wd:Q511228 .
+
+places:m2669768 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/T%C3%A4by%20kommunhus%20i%20T%C3%A4by%20Centrum%20aug%202017.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/T%C3%A4by%20municipal%20arms.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vapenflagga%20f%C3%B6r%20T%C3%A4by%20kommun%2C%20samt%20T%C3%A4by%20k%C3%B6ping%201948%E2%80%931970%20och%20T%C3%A4by%20municipalsamh%C3%A4lle%201937%E2%80%931947.svg> ;
+    schema:sameAs wd:Q493066 .
+
+places:m2670043 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Naturbruksgymnasiet%20Svenljunga.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Svenljunga%20vapen.svg> ;
+    schema:sameAs wd:Q501487 .
+
+places:m2670127 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Svedala%20kommunhus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Svedala%20vapen.svg> ;
+    schema:sameAs wd:Q515706 .
+
+places:m2670540 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sval%C3%B6v%20kommunhus.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sval%C3%B6v%20vapen.svg> ;
+    schema:sameAs wd:Q504227 .
+
+places:m2670612 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Surahammar%20bibliotek.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Surahammar%20vapen.svg> ;
+    schema:sameAs wd:Q34078 .
+
+places:m2670703 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sunne%20Kommunhus.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sunne%20vapen.svg> ;
+    schema:sameAs wd:Q501205 .
+
+places:m2670776 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sundsvall%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sundsvalls%20kommunhus.jpg> ;
+    schema:sameAs wd:Q504994 .
+
+places:m2670878 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sundbyberg%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sundbyberg%2C%20vy%20%C3%B6ver%20Esplanaden%20fr%C3%A5n%20Tornparken%2C%202018a.jpg> ;
+    schema:sameAs wd:Q972564 .
+
+places:m2671219 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Str%C3%B6msund%20city%20hall.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Str%C3%B6msund%20vapen.svg> ;
+    schema:sameAs wd:Q514770 .
+
+places:m2671222 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Str%C3%B6mstad%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Str%C3%B6mstads%20stadshus.jpg> ;
+    schema:sameAs wd:Q501424 .
+
+places:m2671389 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Str%C3%A4ngn%C3%A4s%20-%20KMB%20-%2016001000237764.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Str%C3%A4ngn%C3%A4s%20vapen.svg> ;
+    schema:sameAs wd:Q501532 .
+
+places:m2671529 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Storuman%20Rathaus.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Storuman%20vapen.svg> ;
+    schema:sameAs wd:Q499415 .
+
+places:m2672047 schema:image cwm:Lundsbergsskola1.JPG,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Storfors%20vapen.svg> ;
+    schema:sameAs wd:Q505936 .
+
+places:m2673722 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Stockholm%20l%C3%A4n%20vapen%20b%20ram.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Stockholms%20l%C3%A4n%20vapenflagga.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vaxholmsleden%20February%202013%2002%20%28crop%29.jpg> ;
+    schema:sameAs wd:Q104231 .
+
+places:m2673723 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Stockholm%20vapen%20bra.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Stockholms%20stadshus%20september%202011.jpg> ;
+    schema:sameAs wd:Q506250 .
+
+places:m2673874 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunhuset%20i%20Stenungsund%2C%20den%2026%20juli%202006.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Stenungsund%20vapen.svg> ;
+    schema:sameAs wd:Q511438 .
+
+places:m2674647 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Staffanstorp%20kommunhus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Staffanstorp%20vapen.svg> ;
+    schema:sameAs wd:Q504609 .
+
+places:m2674968 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kungshamns%20kyrka%2C%20den%2019%20aug%202006%2C%20bild%202.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Soten%C3%A4s%20kommunvapen.png> ;
+    schema:sameAs wd:Q501420 .
+
+places:m2675078 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bf%20Sorsele.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sorsele%20vapen.svg> ;
+    schema:sameAs wd:Q501463 .
+
+places:m2675364 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B6lvesborg%20R%C3%A5dhuset.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B6lvesborg%20vapen2.svg> ;
+    schema:sameAs wd:Q515409 .
+
+places:m2675396 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Solna%20vapen.svg>,
+        cwm:Solna-stadshus.jpg ;
+    schema:sameAs wd:Q109010 .
+
+places:m2675406 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sollentuna%20kommunalhus.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sollentuna%20vapen.svg> ;
+    schema:sameAs wd:Q503746 .
+
+places:m2675415 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sollefte%C3%A5%20vapen.svg>,
+        cwm:Solleftea-Storgatan.JPG ;
+    schema:sameAs wd:Q221990 .
+
+places:m2676169 schema:image cwm:La2-demis-sodertorn.png ;
+    schema:sameAs wd:Q2031843 .
+
+places:m2676174 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B6dert%C3%A4lje%20stadshus%202010c.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B6dert%C3%A4lje%20vapen.svg> ;
+    schema:sameAs wd:Q516336 .
+
+places:m2676207 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B6dermanland%20vapen.svg> ;
+    schema:sameAs wd:Q626062 .
+
+places:m2676214 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B6derk%C3%B6ping%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B6derk%C3%B6pings%20r%C3%A5dhus.jpg> ;
+    schema:sameAs wd:Q515680 .
+
+places:m2676222 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%85DHUSTORGET%2C%20F%C3%96RVALTNINGSHUSET.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B6derhamn%20vapen.svg> ;
+    schema:sameAs wd:Q145835 .
+
+places:m2676585 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Smedjebacken%20vapen.svg>,
+        cwm:Smedjebacken.jpg ;
+    schema:sameAs wd:Q505046 .
+
+places:m2677024 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Skurup%20kommunhus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Skurup%20vapen.svg> ;
+    schema:sameAs wd:Q515266 .
+
+places:m2677233 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Skoevde%20vapen.svg>,
+        cwm:Stadshuset.jpg ;
+    schema:sameAs wd:Q501452 .
+
+places:m2677592 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunhuset%20i%20Skinnskatteberg.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Skinnskatteberg%20vapen.svg> ;
+    schema:sameAs wd:Q37462 .
+
+places:m2678205 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Skara%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Stadshuset%20i%20Skara.jpg> ;
+    schema:sameAs wd:Q499421 .
+
+places:m2678902 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sj%C3%B6bo%20kommunhus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sj%C3%B6bo%20vapen.svg> ;
+    schema:sameAs wd:Q504601 .
+
+places:m2679106 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Nya%20r%C3%A5dhuset%2C%20Simrishamn.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Simrishamn%20vapen.svg> ;
+    schema:sameAs wd:Q504626 .
+
+places:m2679300 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sigtuna%20vapen.svg>,
+        cwm:Sigtunamunicipalityheadoffice.jpg ;
+    schema:sameAs wd:Q216915 .
+
+places:m2679696 schema:image cwm:LA2-vx06-savsjo-tingshus.jpg,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A4vsj%C3%B6%20vapen.svg> ;
+    schema:sameAs wd:Q505239 .
+
+places:m2680068 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sandviken%20railway%20station.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sandviken%20vapen.svg> ;
+    schema:sameAs wd:Q149539 .
+
+places:m2680623 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Salem%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Salems%20centrum.jpg> ;
+    schema:sameAs wd:Q516080 .
+
+places:m2680657 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sala%20r%C3%A5dhus%20med%20kommunhuset%20till%20h%C3%B6ger.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Sala%20vapen.svg> ;
+    schema:sameAs wd:Q37399 .
+
+places:m2680762 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A4ffle%20stadshus%202010.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A4ffle%20vapen.svg> ;
+    schema:sameAs wd:Q511326 .
+
+places:m2681821 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ronneby%20stadshus%20.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ronneby%20vapen.svg> ;
+    schema:sameAs wd:Q515373 .
+
+places:m2682993 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A4ttvik%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A4ttviks%20kommunhus.jpg> ;
+    schema:sameAs wd:Q504244 .
+
+places:m2683605 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hammarforsens%20Kraftverk.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ragunda%20vapen.svg> ;
+    schema:sameAs wd:Q515342 .
+
+places:m2684202 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Perstorp%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Perstorp%2C%20station.jpg> ;
+    schema:sameAs wd:Q504249 .
+
+places:m2684394 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunhuset%20i%20Partille%2C%20den%2028%20juni%202006.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Partille%20vapen.svg> ;
+    schema:sameAs wd:Q125222 .
+
+places:m2684652 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Oxel%C3%B6sund%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Oxel%C3%B6sunds%20kommunhus%20juni%202013%202.jpg> ;
+    schema:sameAs wd:Q505246 .
+
+places:m2685092 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Edsbyns%20station%2000173.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ovan%C3%A5ker%20vapen.svg> ;
+    schema:sameAs wd:Q505085 .
+
+places:m2685543 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96stra%20G%C3%B6inge%20kommunhus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96stra%20G%C3%B6inge%20vapen.svg> ;
+    schema:sameAs wd:Q307370 .
+
+places:m2685697 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96sthammar%20centrum.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96sthammar%20vapen.svg> ;
+    schema:sameAs wd:Q59093 .
+
+places:m2685747 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96stersund%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96stersunds%20r%C3%A5dhus.jpg> ;
+    schema:sameAs wd:Q306789 .
+
+places:m2685867 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96sterg%C3%B6tland%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ostergotland.svg> ;
+    schema:sameAs wd:Q214829 .
+
+places:m2685981 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96ster%C3%A5ker%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Akers%20kanal%20juni%202006.JPG> ;
+    schema:sameAs wd:Q117728 .
+
+places:m2686161 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Oskarshamn%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Oskarshamns%20station.jpg> ;
+    schema:sameAs wd:Q505006 .
+
+places:m2686197 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Osby%2020160316.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Osby%20vapen.svg> ;
+    schema:sameAs wd:Q504594 .
+
+places:m2686246 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Orust%20NASA.jpg> ;
+    schema:sameAs wd:Q974760 .
+
+places:m2686378 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Orsa%20Kommunhus.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Orsa%20vapen2.svg> ;
+    schema:sameAs wd:Q504630 .
+
+places:m2686466 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96rnsk%C3%B6ldsvik%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Stadshuset%20Kronan%20inflyttning%20mars%202015.jpg> ;
+    schema:sameAs wd:Q298003 .
+
+places:m2686595 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96rkelljunga%20kommunhus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96rkelljunga%20vapen.svg> ;
+    schema:sameAs wd:Q297936 .
+
+places:m2686655 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96rebro%20l%C3%A4n%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96rebro%20l%C3%A4n%20vapenflagga.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A5ngforsen%20J%C3%A4rle%C3%A5n.JPG> ;
+    schema:sameAs wd:Q104257 .
+
+places:m2686656 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96rebro%20r%C3%A5dhus%2001.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96rebro%20vapen.svg> ;
+    schema:sameAs wd:Q297718 .
+
+places:m2687061 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Olofstr%C3%B6m%20station.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Olofstr%C3%B6m%20vapen.svg> ;
+    schema:sameAs wd:Q504257 .
+
+places:m2687419 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96desh%C3%B6g%20vapen.svg>,
+        cwm:Alvastra-ruins-Sweden.jpg ;
+    schema:sameAs wd:Q293970 .
+
+places:m2687508 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96cker%C3%B6%20-%20KMB%20-%2016000300030205.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96cker%C3%B6%20vapen.svg> ;
+    schema:sameAs wd:Q293928 .
+
+places:m2687516 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ockelbo%20station%20street%20side.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ockelbo%20vapen.svg> ;
+    schema:sameAs wd:Q505109 .
+
+places:m2687635 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Nyn%C3%A4shamn%20stad.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Nyn%C3%A4shamn%20vapen.svg> ;
+    schema:sameAs wd:Q505090 .
+
+places:m2687698 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Nyk%C3%B6ping%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Stadshuset%20Nyk%C3%B6ping.jpg> ;
+    schema:sameAs wd:Q500267 .
+
+places:m2687897 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Nybro%20old%20town%20hall.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Nybro%20vapen.svg> ;
+    schema:sameAs wd:Q515318 .
+
+places:m2688170 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Norsj%C3%B6%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Norsj%C3%B6.jpg> ;
+    schema:sameAs wd:Q507644 .
+
+places:m2688248 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Norrt%C3%A4lje20.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Norrt%C3%A4ljes%20vapen.svg> ;
+    schema:sameAs wd:Q214048 .
+
+places:m2688367 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Norrk%C3%B6ping%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Norrk%C3%B6pings%20r%C3%A5dhus%202008-05-10%20bild01.jpg> ;
+    schema:sameAs wd:Q504676 .
+
+places:m2689334 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gamla%20skolan%20i%20rundvik.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Nordmaling%20vapen.svg> ;
+    schema:sameAs wd:Q514722 .
+
+places:m2689383 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Nordanstig%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Svensg%C3%A5rd%20i%20%C3%85%2001.JPG> ;
+    schema:sameAs wd:Q514805 .
+
+places:m2689450 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Egelbrektsgatan%20Norberg%20Vastmanland%20Bergslagen%20Sweden.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Norberg%20vapen.svg> ;
+    schema:sameAs wd:Q37404 .
+
+places:m2689465 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Nora%20-%20KMB%20-%2016001000318304.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Nora%20vapen.svg> ;
+    schema:sameAs wd:Q285894 .
+
+places:m2690167 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%A4ssj%C3%B6%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Stadshuset%20i%20N%C3%A4ssj%C3%B6%20oktober%202013.jpg> ;
+    schema:sameAs wd:Q505096 .
+
+places:m2690578 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Nacka%20Forum%2C%20flygfoto%202014-09-20.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Nacka%20vapen.svg> ;
+    schema:sameAs wd:Q946647 .
+
+places:m2690828 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Munkfors%20vapen.svg>,
+        cwm:Munkfors-train-station.JPG ;
+    schema:sameAs wd:Q501494 .
+
+places:m2690840 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Munkedal%20vapen.svg>,
+        cwm:Munkedals-kommunhus.jpg ;
+    schema:sameAs wd:Q389040 .
+
+places:m2690899 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Mullsj%C3%B6%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Mullsj%C3%B6%2C%20den%2020%20maj%202007%2C%20bild%201.JPG> ;
+    schema:sameAs wd:Q505076 .
+
+places:m2690959 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Motala%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/The%20old%20town%20hall%20Motala%20Sweden.JPG> ;
+    schema:sameAs wd:Q508108 .
+
+places:m2691347 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96lands%20Bank%20M%C3%B6rbylaanga.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/M%C3%B6rbyl%C3%A5nga%20vapen.svg> ;
+    schema:sameAs wd:Q514756 .
+
+places:m2691406 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/M%C3%B6nster%C3%A5s%20station.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/M%C3%B6nster%C3%A5s%20vapen.svg> ;
+    schema:sameAs wd:Q515250 .
+
+places:m2691457 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/F%C3%A4ssbergs%20kyrka%20i%20M%C3%B6lndal.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/M%C3%B6lndal%20vapen%2C%202016.svg> ;
+    schema:sameAs wd:Q511270 .
+
+places:m2691742 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Mj%C3%B6lby%20stadshus%20och%20bibliotek.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Mj%C3%B6lby%20vapen.svg> ;
+    schema:sameAs wd:Q267030 .
+
+places:m2692047 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Mellerud%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tingshuset%20i%20Mellerud.JPG> ;
+    schema:sameAs wd:Q501438 .
+
+places:m2692266 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Medelpad%20vapen.svg> ;
+    schema:sameAs wd:Q210687 .
+
+places:m2692570 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Mark%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Town%20of%20Skene%20Sweden.jpg> ;
+    schema:sameAs wd:Q500153 .
+
+places:m2692595 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunhuset%20i%20Markaryd%204.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Markaryd%20vapen.svg> ;
+    schema:sameAs wd:Q240574 .
+
+places:m2692611 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Mariestad%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Torghuset%2C%20Mariestad.JPG> ;
+    schema:sameAs wd:Q427422 .
+
+places:m2692868 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Malung%20centre.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Malung%20vapen.svg> ;
+    schema:sameAs wd:Q504266 .
+
+places:m2692965 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Malm%C3%B6%20fulla%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Malm%C3%B6%20stadshus%20%28kommunhus%29.jpg> ;
+    schema:sameAs wd:Q503361 .
+
+places:m2693147 schema:image cwm:Kroktjarnen.jpg,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Mal%C3%A5%20vapen.svg> ;
+    schema:sameAs wd:Q501540 .
+
+places:m2693300 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Lysekil%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Lysekils%20kommunhus.jpg> ;
+    schema:sameAs wd:Q503173 .
+
+places:m2693346 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/16001000507004-Lycksele-Riksantikvarie%C3%A4mbetet.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Lycksele%20vapen.svg> ;
+    schema:sameAs wd:Q948462 .
+
+places:m2693555 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kristallen%2C%20Lund%2C%202014.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Lund%20vapen.svg> ;
+    schema:sameAs wd:Q505018 .
+
+places:m2693757 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ludvika%20stadshus%20okt%202013.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ludvika%20vapen.svg> ;
+    schema:sameAs wd:Q503184 .
+
+places:m2694260 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Lomma%20kommhus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Lomma%20vapen.svg> ;
+    schema:sameAs wd:Q427991 .
+
+places:m2694483 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kopparbergs%20centrum.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ljusnarsberg%20vapen.svg> ;
+    schema:sameAs wd:Q514739 .
+
+places:m2694502 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ljusdal%20vapen.svg>,
+        cwm:Riotorg.JPG ;
+    schema:sameAs wd:Q515235 .
+
+places:m2694551 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ljungby%20Kommunhus.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ljungby%20vapen.svg> ;
+    schema:sameAs wd:Q504235 .
+
+places:m2694759 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Link%C3%B6ping%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Link%C3%B6pings%20stadshus.JPG> ;
+    schema:sameAs wd:Q499410 .
+
+places:m2694892 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Lindesberg%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Lindesbergs%20kommunhus%20%2804%29.jpg> ;
+    schema:sameAs wd:Q514858 .
+
+places:m2696058 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Lilla%20Edet%20vapen.svg>,
+        cwm:LillaEdet.jpeg ;
+    schema:sameAs wd:Q511241 .
+
+places:m2696328 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Lidk%C3%B6ping%20kommunvapen%20-%20Riksarkivet%20Sverige.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/The%20City%20hall%20of%20Lidk%C3%B6ping.jpg> ;
+    schema:sameAs wd:Q515358 .
+
+places:m2696332 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Liding%C3%B6%20vapen.svg>,
+        cwm:Lidingostadshus.jpg ;
+    schema:sameAs wd:Q3120654 .
+
+places:m2696471 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Folkets%20hus%20i%20Lessebo.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Lessebo%20vapen.svg> ;
+    schema:sameAs wd:Q509488 .
+
+places:m2696500 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Lerum%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Lerums%20kommunhus%2C%20den%2021%20juni%202006.JPG> ;
+    schema:sameAs wd:Q503188 .
+
+places:m2696649 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Leksand%20-%20KMB%20-%2016001000003866.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Leksand%20kommunvapen%20-%20Riksarkivet%20Sverige.png> ;
+    schema:sameAs wd:Q509651 .
+
+places:m2696803 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Komunhuset%20Lax%C3%A5.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Lax%C3%A5%20vapen.svg> ;
+    schema:sameAs wd:Q515326 .
+
+places:m2697719 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Landskrona%20Stadshus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Landskrona%20fulla%20vapen.svg> ;
+    schema:sameAs wd:Q502298 .
+
+places:m2697859 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Laholm%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Laholms%20stadshus%20och%20bibliotek.jpg> ;
+    schema:sameAs wd:Q487502 .
+
+places:m2698680 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kungs%C3%B6r%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kungs%C3%B6rs%20kommunhus%202.jpg> ;
+    schema:sameAs wd:Q47169 .
+
+places:m2698726 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kungsbacka%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kungsbacka%2C%20Halland%2C%20Sweden%20%286072562519%29%20%282%29.jpg> ;
+    schema:sameAs wd:Q499380 .
+
+places:m2698738 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kung%C3%A4lv%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kung%C3%A4lvs%20stadshus.JPG> ;
+    schema:sameAs wd:Q511394 .
+
+places:m2698753 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kumla%20station%201.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kumla%20vapen.svg> ;
+    schema:sameAs wd:Q504988 .
+
+places:m2699050 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kronoberg%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kronobergs%20l%C3%A4n%20vapenflagga.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tax%C3%A5s%20naturreservat%2C%20M%C3%B6cklen%20-%20panoramio.jpg> ;
+    schema:sameAs wd:Q104746 .
+
+places:m2699175 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunhuset%20i%20Krokom.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Krokom%20vapen.svg> ;
+    schema:sameAs wd:Q514707 .
+
+places:m2699281 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/1Kristinehamns%20r%C3%A5dhus.JPG>,
+        cwm:Kristinehamn-vapen.svg ;
+    schema:sameAs wd:Q510364 .
+
+places:m2699308 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kristianstad%20070628-6.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kristianstad%20vapen.svg> ;
+    schema:sameAs wd:Q498857 .
+
+places:m2699393 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kramfors%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kramfors%2C%20Sweden%20-%20panoramio.jpg> ;
+    schema:sameAs wd:Q514815 .
+
+places:m2699767 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Dalah%C3%A4st%20i%20avesta.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Dalarna%20vapen.svg> ;
+    schema:sameAs wd:Q205218 .
+
+places:m2699780 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/K%C3%B6pings%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A5dhuset%20k%C3%B6ping.jpg> ;
+    schema:sameAs wd:Q42009 .
+
+places:m2700483 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Klippan%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Klippans%20kommunalkontor.png> ;
+    schema:sameAs wd:Q504614 .
+
+places:m2700801 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kiruna%20stadshus%201.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kiruna%20vapen.svg> ;
+    schema:sameAs wd:Q499474 .
+
+places:m2700854 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kinda%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kisa%20station.JPG> ;
+    schema:sameAs wd:Q515299 .
+
+places:m2700878 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kil%20-%20KMB%20-%2016001000233404.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kil%20municipal%20arms.svg> ;
+    schema:sameAs wd:Q499393 .
+
+places:m2701094 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/K%C3%A4vlinge%20kommunhus.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/K%C3%A4vlinge%20vapen.svg> ;
+    schema:sameAs wd:Q513370 .
+
+places:m2701221 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Katrineholm%20kommunhuset%2C%20sept%202020a.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Katrineholm%20vapen.svg> ;
+    schema:sameAs wd:Q508140 .
+
+places:m2701679 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Karlstad%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Stadshuset%2C%20Karlstad.JPG> ;
+    schema:sameAs wd:Q498453 .
+
+places:m2701712 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Karlskrona%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A5dhuset%20karlskrona.jpg> ;
+    schema:sameAs wd:Q1128384 .
+
+places:m2701714 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Karlskoga%20Stadshus.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Karlskoga%20vapen.svg> ;
+    schema:sameAs wd:Q509634 .
+
+places:m2701725 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Karlshamn%20vapen.svg>,
+        cwm:Karlshamntorg1.jpg ;
+    schema:sameAs wd:Q510223 .
+
+places:m2701754 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Karlsborg%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Karlsborg%2C%20den%209%20juni%202006%2C%20Storgatan.JPG> ;
+    schema:sameAs wd:Q499435 .
+
+places:m2702259 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kalmar%20l%C3%A4n%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kalmar%20l%C3%A4n%20vapenflagga.svg> ;
+    schema:sameAs wd:Q103707 .
+
+places:m2702260 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kalmar%20City%20Hall.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kalmar%2C%20coat%20of%20arms.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Vapenflagga%20f%C3%B6r%20Kalmar%20kommun%2C%20samt%20f%C3%B6re%201971%20Kalmar%20stad.svg> ;
+    schema:sameAs wd:Q508153 .
+
+places:m2702976 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/J%C3%B6nk%C3%B6ping%20l%C3%A4n%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/J%C3%B6nk%C3%B6pings%20l%C3%A4n%20vapenflagga.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Rasmus%20kvarn%20R%C3%B6ttle.JPG> ;
+    schema:sameAs wd:Q103672 .
+
+places:m2702977 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/J%C3%B6nk%C3%B6ping%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A5dhuset-J%C3%B6nk%C3%B6ping.JPG> ;
+    schema:sameAs wd:Q504689 .
+
+places:m2702996 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Jokkmokk%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Municipal%20building%20of%20Jokkmokk.jpg> ;
+    schema:sameAs wd:Q512048 .
+
+places:m2703292 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A4rf%C3%A4lla%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Pojken%2C%20brons%2C%20av%20Lars%20Nilsson%2C%20Riddarplatsen%2C%20Jakobsberg%2C%202013d.jpg> ;
+    schema:sameAs wd:Q301259 .
+
+places:m2703330 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A4mtland%20l%C3%A4n%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A4mtlands%20l%C3%A4n%20vapenflagga.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Laxsj%C3%B6%20kyrka%20vinter.jpg> ;
+    schema:sameAs wd:Q103679 .
+
+places:m2704007 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hylte%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hyltebruk%202018-11-02%2007.jpg> ;
+    schema:sameAs wd:Q498477 .
+
+places:m2704397 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hultsfred%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunhuset%20i%20Hultsfred%2C%20invid%20Stora%20torget.JPG> ;
+    schema:sameAs wd:Q512002 .
+
+places:m2704611 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hudiksvall%20vapen.svg>,
+        cwm:Hudiksvall2010d.JPG ;
+    schema:sameAs wd:Q29963 .
+
+places:m2704619 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Huddinge%20kommun%20ny.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Huddinge%20vapen.svg> ;
+    schema:sameAs wd:Q492575 .
+
+places:m2705046 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6rby%20kommunhus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6rby%20vapen.svg> ;
+    schema:sameAs wd:Q504619 .
+
+places:m2705054 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6%C3%B6r%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6%C3%B6rs%20kommunhus.jpg> ;
+    schema:sameAs wd:Q266401 .
+
+places:m2705716 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Berga%20station.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6gsby%20vapen.svg> ;
+    schema:sameAs wd:Q510233 .
+
+places:m2706001 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6gan%C3%A4s%20kommunhus-1.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6gan%C3%A4s%20vapen.svg> ;
+    schema:sameAs wd:Q505013 .
+
+places:m2706055 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hofors%20centrum.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hofors%20vapen.svg> ;
+    schema:sameAs wd:Q62464 .
+
+places:m2706183 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hjo%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hjo%2C%20Stora%20Torget%2C%20den%207%20juni%202006.JPG> ;
+    schema:sameAs wd:Q428749 .
+
+places:m2706522 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Herrljunga%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunhuset%20i%20Herrljunga%2C%20den%2018%20juni%202006.JPG> ;
+    schema:sameAs wd:Q503111 .
+
+places:m2706766 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Helsingborg%2C%20Sweden.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Helsingborg%20town%20hall.jpg> ;
+    schema:sameAs wd:Q487648 .
+
+places:m2706981 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hedemora%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tj%C3%A4dernhuset%2020111016%2001.JPG> ;
+    schema:sameAs wd:Q507684 .
+
+places:m2707055 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Heby%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hebystationshus%2002.JPG> ;
+    schema:sameAs wd:Q516308 .
+
+places:m2707396 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4ssleholm%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4ssleholms%20stadshus%20%28kommunhus%29.jpg> ;
+    schema:sameAs wd:Q508125 .
+
+places:m2707608 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4rryda%20vapen.svg>,
+        cwm:Molnlycke-centrum.jpg ;
+    schema:sameAs wd:Q500125 .
+
+places:m2707682 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4rn%C3%B6sand%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4rn%C3%B6sands%20r%C3%A5dhus%2001.jpg> ;
+    schema:sameAs wd:Q209634 .
+
+places:m2707737 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4rjedalen%20flag.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4rjedalen%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Helags%20and%20Sylarna%20from%20Dunsj%C3%B6fj%C3%A4llet.JPG> ;
+    schema:sameAs wd:Q207444 .
+
+places:m2707738 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4rjedalen%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Mer%20av%20Svegs%20centrum.jpg> ;
+    schema:sameAs wd:Q513421 .
+
+places:m2707952 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Haninge%20kommun.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Haninge%20vapen.svg> ;
+    schema:sameAs wd:Q113692 .
+
+places:m2708180 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hammar%C3%B6%20kommunhus.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hammar%C3%B6%20vapen.svg> ;
+    schema:sameAs wd:Q499359 .
+
+places:m2708363 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Halmstad%20IMG%205254%20raadhuset.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Halmstad%20stora%20vapen.svg> ;
+    schema:sameAs wd:Q504692 .
+
+places:m2708428 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hallstahammar%20kommunhus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hallstahammar%20vapen.svg> ;
+    schema:sameAs wd:Q47019 .
+
+places:m2708508 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hallsberg%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hallsbergs%20kommun.JPG> ;
+    schema:sameAs wd:Q508180 .
+
+places:m2708664 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4llefors%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunalkontoret%20H%C3%A4llefors.JPG> ;
+    schema:sameAs wd:Q220881 .
+
+places:m2708794 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Halland%20vapen.svg> ;
+    schema:sameAs wd:Q626045 .
+
+places:m2709213 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hagfors%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Stadshuset%20Hagfors2.jpg> ;
+    schema:sameAs wd:Q511407 .
+
+places:m2709491 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Balsta%20centrum.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A5bo%20vapen.svg> ;
+    schema:sameAs wd:Q511253 .
+
+places:m2709492 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Habo%20Sweden%2001.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Habo%20vapen.svg> ;
+    schema:sameAs wd:Q503198 .
+
+places:m2709910 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gullsp%C3%A5ng%20vapen2.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hova%20tingshus1.JPG> ;
+    schema:sameAs wd:Q503193 .
+
+places:m2710341 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Grums%20railway%20station%20Grums%20Sweden.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Grums%20vapen.svg> ;
+    schema:sameAs wd:Q503122 .
+
+places:m2710884 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gr%C3%A4storp%20station%202012.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Gr%C3%A4storp%20vapen.svg> ;
+    schema:sameAs wd:Q503148 .
+
+places:m2711508 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gotland%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Gotlands%20l%C3%A4n%20vapenflagga.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Helgumannen%20%282%29%20hq.JPG> ;
+    schema:sameAs wd:Q103738 .
+
+places:m2711509 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gotland%20kommunvapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/P%2018%20-%20Kanslihuset.jpg> ;
+    schema:sameAs wd:Q374794 .
+
+places:m2711525 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Centrumhuset%2C%20G%C3%B6tene%2003.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%B6tene%20vapen.svg> ;
+    schema:sameAs wd:Q511281 .
+
+places:m2711533 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%B6teborg%20kommunvapen%20-%20Riksarkivet%20Sverige.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Nordst%2016%202%20Gbg%20Stadshus%201.jpg> ;
+    schema:sameAs wd:Q52502 .
+
+places:m2711789 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gnosj%C3%B6%20vapen.svg>,
+        cwm:GnossjoStation.JPG ;
+    schema:sameAs wd:Q509609 .
+
+places:m2712044 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gislaved%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Roland%20Andersson%20Iskristaller.JPG> ;
+    schema:sameAs wd:Q505259 .
+
+places:m2712409 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A4vle%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A5dhuset%2C%20G%C3%A4vle%2C%20fr%C3%A5n%20norr.jpg> ;
+    schema:sameAs wd:Q510010 .
+
+places:m2712411 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A4vleborg%20l%C3%A4n%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A4vleborgs%20l%C3%A4n%20vapenflagga.svg> ;
+    schema:sameAs wd:Q103699 .
+
+places:m2713217 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Djur%C3%A5s%202015d.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Gagnef%20vapen.svg> ;
+    schema:sameAs wd:Q2642771 .
+
+places:m2713969 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Forshaga%20Kommunalkontor.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Forshaga%20vapen.svg> ;
+    schema:sameAs wd:Q499385 .
+
+places:m2714388 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Flen%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Flens%20railwaystation%202011.JPG> ;
+    schema:sameAs wd:Q27982 .
+
+places:m2714901 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Finsp%C3%A5ng%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Finsp%C3%A5ngs%20centrum%2C%20den%2015%20november%202008%2C%20bild%2018.JPG> ;
+    schema:sameAs wd:Q503180 .
+
+places:m2715080 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Filipstad%20-%20KMB%20-%2016001000233004.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Filipstad%20vapen.svg> ;
+    schema:sameAs wd:Q503204 .
+
+places:m2715350 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/F%C3%A4rgelanda%20vapen.svg>,
+        cwm:FargelandaKyrka.jpg ;
+    schema:sameAs wd:Q499441 .
+
+places:m2715458 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Falun%20vapen.svg>,
+        cwm:Falun1.jpg ;
+    schema:sameAs wd:Q501545 .
+
+places:m2715566 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Falk%C3%B6ping%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Stadshuset%20i%20Falk%C3%B6ping%2C%20den%2023%20september%202006%2C%20bild%201.JPG> ;
+    schema:sameAs wd:Q503214 .
+
+places:m2715572 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Falkenberg%20vapen.svg>,
+        cwm:StadshusetFalkenberg.jpg ;
+    schema:sameAs wd:Q508168 .
+
+places:m2715650 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Fagersta%20C%20gatusidan.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Fagersta%20vapen.svg> ;
+    schema:sameAs wd:Q47018 .
+
+places:m2715929 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Essunga%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Nossebro%20brandstation.jpg> ;
+    schema:sameAs wd:Q503127 .
+
+places:m2715945 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Esl%C3%B6v%20stadshus%20%28kommunhus%29.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Esl%C3%B6v%20vapen.svg> ;
+    schema:sameAs wd:Q1130264 .
+
+places:m2715951 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Eskilstuna%20stadshus.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Eskilstuna%20vapen.svg> ;
+    schema:sameAs wd:Q503144 .
+
+places:m2716165 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Enk%C3%B6ping%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Enkoping%20Radhuset.JPG> ;
+    schema:sameAs wd:Q509568 .
+
+places:m2716280 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Caf%C3%A9%20Emma%20Emmaboda%2001.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Emmaboda%20vapen.svg> ;
+    schema:sameAs wd:Q509452 .
+
+places:m2716433 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Eksj%C3%B6%20Lilla%20Torg.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Eksj%C3%B6%20vapen.svg> ;
+    schema:sameAs wd:Q512035 .
+
+places:m2716579 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Eker%C3%B6%20centrum%202012%2003.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Eker%C3%B6%20vapen.svg> ;
+    schema:sameAs wd:Q492614 .
+
+places:m2716958 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Eda%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Storgatan%202.jpg> ;
+    schema:sameAs wd:Q498447 .
+
+places:m2717400 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Dorotea%20municipal%20building%202010.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Dorotea%20vapen.svg> ;
+    schema:sameAs wd:Q132334 .
+
+places:m2717881 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Degerfors%20Komunkontor1.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Degerfors%20vapen.svg> ;
+    schema:sameAs wd:Q509469 .
+
+places:m2717999 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Danderyd%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Djursholms%20slott%20stor.JPG> ;
+    schema:sameAs wd:Q113679 .
+
+places:m2718152 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Dals-Ed%20-%20KMB%20-%2016000300030527.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Dals-Ed%20vapen.svg> ;
+    schema:sameAs wd:Q503132 .
+
+places:m2718706 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Burl%C3%B6v%20medborgarhus%20%28kommunhus%29.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Burl%C3%B6v%20vapen.svg> ;
+    schema:sameAs wd:Q186662 .
+
+places:m2719105 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Brom%C3%B6lla%20vapen.svg>,
+        cwm:Edenryd.jpg ;
+    schema:sameAs wd:Q514830 .
+
+places:m2720000 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Br%C3%A4cke%20kommunhus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Br%C3%A4cke%20vapen.svg> ;
+    schema:sameAs wd:Q504261 .
+
+places:m2720036 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Boxholm%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunhuset%20och%20huvudbiblioteket%20i%20Boxholm%2C%20den%2012%20oktober%202008.JPG> ;
+    schema:sameAs wd:Q509514 .
+
+places:m2720114 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Botkyrka%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Tumba%2C%20Gr%C3%B6dingev%C3%A4gen.JPG> ;
+    schema:sameAs wd:Q113718 .
+
+places:m2720382 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Borl%C3%A4nge%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Borlange%20sveatorget.jpg> ;
+    schema:sameAs wd:Q503209 .
+
+places:m2720436 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Borgholm%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Borgholms%20stadshus.JPG> ;
+    schema:sameAs wd:Q509546 .
+
+places:m2720496 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bor%C3%A5s%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Rathaus%20Bor%C3%A5s.jpg> ;
+    schema:sameAs wd:Q894327 .
+
+places:m2720678 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bolln%C3%A4s%20kommunhus.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Bolln%C3%A4s%20vapen.svg> ;
+    schema:sameAs wd:Q62469 .
+
+places:m2720857 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bohusl%C3%A4n%20vapen.svg> ;
+    schema:sameAs wd:Q209523 .
+
+places:m2721357 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Blekinge%20l%C3%A4n%20vapenflagga.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Blekinge%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/M%C3%B6lleryds%20naturreservat.jpg> ;
+    schema:sameAs wd:Q675653 .
+
+places:m2721533 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bjuv%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Norra%20Vrams%20pr%C3%A4stg%C3%A5rd.jpg> ;
+    schema:sameAs wd:Q511310 .
+
+places:m2721584 schema:image cwm:Balberget.jpg,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Bjurholm%20vapen.svg> ;
+    schema:sameAs wd:Q376003 .
+
+places:m2722709 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Berg%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Gatubild%20fr%C3%A5n%20Svenstavik.jpg> ;
+    schema:sameAs wd:Q845930 .
+
+places:m2723078 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bengtsfors%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/View%20over%20Bengtsfors%20Sweden.JPG> ;
+    schema:sameAs wd:Q267462 .
+
+places:m2723286 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A5stad%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunhuset%20B%C3%A5stad.JPG> ;
+    schema:sameAs wd:Q499464 .
+
+places:m2724230 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Avesta%20kommunhus%2001.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Avesta%20vapen.svg> ;
+    schema:sameAs wd:Q500071 .
+
+places:m2724320 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85tvidaberg%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85tvidaberggamlatorg06160009.png> ;
+    schema:sameAs wd:Q271340 .
+
+places:m2724424 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85storp%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Centrala%20Astorp.jpg> ;
+    schema:sameAs wd:Q201813 .
+
+places:m2724776 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Askersund%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A5dhuset%20Askersund.jpg> ;
+    schema:sameAs wd:Q509501 .
+
+places:m2724956 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85sele%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/16001000505064-%C3%85sele-Riksantikvarie%C3%A4mbetet.jpg> ;
+    schema:sameAs wd:Q271274 .
+
+places:m2725122 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Arvika%20vapen.svg>,
+        cwm:ArvikaStadshus2.JPG ;
+    schema:sameAs wd:Q511365 .
+
+places:m2725134 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Arvidsjaur%20Town%20Hall.jpeg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Arvidsjaur%20vapen.svg> ;
+    schema:sameAs wd:Q499404 .
+
+places:m2725371 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Arjeplog%20-%20KMB%20-%2016001000407944.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Arjeplog%20vapen.svg> ;
+    schema:sameAs wd:Q493855 .
+
+places:m2725378 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85rj%C3%A4ng%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85rj%C3%A4ngstravet%202008.jpg> ;
+    schema:sameAs wd:Q2777887 .
+
+places:m2725422 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85re%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85resj%C3%B6n%20Dcastor%202003.jpg> ;
+    schema:sameAs wd:Q271153 .
+
+places:m2725469 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Arboga%204.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Arboga%20vapen.svg> ;
+    schema:sameAs wd:Q431271 .
+
+places:m2725898 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84ngelholm%20vapen.svg>,
+        cwm:Angelholm-nieuwe-raadhuis-172.JPG ;
+    schema:sameAs wd:Q255206 .
+
+places:m2725906 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85nge%20vapen.svg>,
+        cwm:SverigesGeografiskaMittpunkt.jpg ;
+    schema:sameAs wd:Q271107 .
+
+places:m2726004 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Aneby%20vapen.svg>,
+        cwm:Stierngranatsmuseet.JPG ;
+    schema:sameAs wd:Q503167 .
+
+places:m2726237 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85m%C3%A5l%20Centre.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85m%C3%A5l%20vapen.svg> ;
+    schema:sameAs wd:Q271079 .
+
+places:m2726284 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84lvkarleby%20June%202013.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84lvkarleby%20vapen.svg> ;
+    schema:sameAs wd:Q59858 .
+
+places:m2726306 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Alvesta%20-%20KMB%20-%2016001000306304.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Alvesta%20vapen.svg> ;
+    schema:sameAs wd:Q182007 .
+
+places:m2726330 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84lvdalen%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84lvdalens%20bibliotek.jpg> ;
+    schema:sameAs wd:Q123855 .
+
+places:m2726568 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84lmhult%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84lmhults%20kommunalhus.png> ;
+    schema:sameAs wd:Q254799 .
+
+places:m2726755 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Alings%C3%A5s%20kommunvapen%20-%20Riksarkivet%20Sverige.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Alings%C3%A5s%20r%C3%A5dhus%2002.jpg> ;
+    schema:sameAs wd:Q503162 .
+
+places:m2726973 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ale%20kommunvapen%20-%20Riksarkivet%20Sverige.png>,
+        cwm:Ale03.jpg ;
+    schema:sameAs wd:Q498470 .
+
+places:m2829 schema:sameAs wd:Q990563,
+        <https://fi.wikipedia.org/wiki/Kihni%C3%B6> ;
+    owl:sameAs <http://sws.geonames.org/652897> ;
+    geo:lat 62.208333333333 ;
+    geo:long 23.179166666667 .
+
+places:m2833 schema:sameAs wd:Q1016922,
+        <https://fi.wikipedia.org/wiki/M%C3%A4ntt%C3%A4-Vilppula> ;
+    owl:sameAs <http://sws.geonames.org/8128761> ;
+    geo:lat 62.033333333333 ;
+    geo:long 24.616666666667 .
+
+places:m2837 schema:sameAs wd:Q5701,
+        wikifi:Pirkanmaan_maakunta ;
+    owl:sameAs <http://sws.geonames.org/830704> ;
+    geo:lat 61.7 ;
+    geo:long 23.716666666667 .
+
+places:m2844 schema:sameAs wd:Q1001927,
+        wikifi:Sastamala ;
+    owl:sameAs <http://sws.geonames.org/8128755> ;
+    geo:lat 61.341666666667 ;
+    geo:long 22.908333333333 .
+
+places:m2928 schema:sameAs wd:Q1811630,
+        wikifi:Siikalatva ;
+    owl:sameAs <http://sws.geonames.org/8128756> ;
+    geo:lat 64.266666666667 ;
+    geo:long 25.866666666667 .
+
+places:m3315140 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gnesta%20kommun.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Gnesta%20vapen.svg> ;
+    schema:sameAs wd:Q239332 .
+
+places:m3315141 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Trosa%202012b.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Trosa%20vapen.svg> ;
+    schema:sameAs wd:Q505064 .
+
+places:m3337384 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Knivsta%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunalhuset%20i%20Knivsta%20nya.jpg> ;
+    schema:sameAs wd:Q504465 .
+
+places:m3337386 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Runstenen%20vid%20Hoga%20p%C3%A5%20Orust%2C%20sedd%20fr%C3%A5n%20platsen%20f%C3%B6r%20%C3%A4ldre%20f%C3%A4gata%2C%20den%202%20september%202005..JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4stra%20G%C3%B6taland%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4stra%20G%C3%B6talands%20l%C3%A4n%20vapenflagga.svg> ;
+    schema:sameAs wd:Q103093 .
+
+places:m3337401 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bollebygd%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Bollebygds%20kommunhus.JPG> ;
+    schema:sameAs wd:Q503102 .
+
+places:m3337402 schema:image cwm:KommunhusetLekeberg.JPG,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Lekeberg%20vapen.svg> ;
+    schema:sameAs wd:Q515282 .
+
+places:m3337442 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Nykvarn%20vapen.svg>,
+        cwm:Nykvarn.JPG ;
+    schema:sameAs wd:Q499460 .
+
+places:m3787 schema:sameAs wd:Q5698,
+        wikifi:Kymenlaakson_maakunta ;
+    owl:sameAs <http://sws.geonames.org/830703> ;
+    geo:lat 60.5 ;
+    geo:long 27.0 .
+
+places:m3918 schema:sameAs wd:Q11861172,
+        <https://fi.wikipedia.org/wiki/Hakamets%C3%A4> ;
+    geo:lat 61.491389 ;
+    geo:long 23.834167 .
+
+places:m4008 schema:sameAs wd:Q1005049,
+        wikifi:Tammela ;
+    owl:sameAs <http://sws.geonames.org/634996> ;
+    geo:lat 60.8 ;
+    geo:long 23.766666666667 .
+
+places:m4334 schema:sameAs wd:Q3133423,
+        wikifi:Ultuna ;
+    geo:lat 60.26666667 ;
+    geo:long 25.18333333 .
+
+places:m4970 schema:sameAs wd:Q204707,
+        wikifi:Suomenniemi ;
+    owl:sameAs <http://sws.geonames.org/635710> ;
+    geo:lat 61.325 ;
+    geo:long 27.45 .
+
+places:m4971 schema:sameAs wd:Q530517,
+        wikifi:Posio ;
+    owl:sameAs <http://sws.geonames.org/640895> ;
+    geo:lat 66.108333333333,
+        66.109737 ;
+    geo:long 28.166666666667,
+        28.1739064 .
+
+places:m4976 schema:sameAs wd:Q2329425,
+        wikifi:Lavansaari ;
+    owl:sameAs <http://sws.geonames.org/525035> ;
+    geo:lat 60.01 ;
+    geo:long 27.848611111111 .
+
+places:m4977 schema:sameAs wd:Q5991,
+        wikifi:Karijoki ;
+    owl:sameAs <http://sws.geonames.org/654076> ;
+    geo:lat 62.308333333333 ;
+    geo:long 21.708333333333 .
+
+places:m4979 schema:sameAs wd:Q4349080,
+        wikifi:Pellinki ;
+    owl:sameAs <http://sws.geonames.org/642372> ;
+    geo:lat 60.216666666667 ;
+    geo:long 25.866666666667 .
+
+places:m4980 schema:sameAs wd:Q1472085,
+        wikifi:Iijoki ;
+    owl:sameAs <http://sws.geonames.org/656841> ;
+    geo:lat 65.34611111,
+        65.346111111111,
+        65.819573888889 ;
+    geo:long 25.25361111,
+        25.253611111111,
+        29.321831944444 .
+
+places:m4982 schema:sameAs wd:Q1418090,
+        wikifi:Imatrankoski ;
+    geo:lat 61.16833333 ;
+    geo:long 28.77166667 .
+
+places:m4983 schema:sameAs wd:Q174994,
+        wikifi:Bessarabia ;
+    geo:lat 46.833333333333 ;
+    geo:long 29.0 .
+
+places:m4984 schema:sameAs wd:Q199957,
+        <https://fi.wikipedia.org/wiki/Sm%C3%A5land> ;
+    owl:sameAs <http://sws.geonames.org/6692538> ;
+    geo:lat 57.101 ;
+    geo:long 14.898 .
+
+places:m4987 schema:sameAs wd:Q900,
+        wikifi:Kazan ;
+    owl:sameAs <http://sws.geonames.org/551487> ;
+    geo:lat 55.790833333333 ;
+    geo:long 49.114444444444 .
+
+places:m4988 schema:sameAs wd:Q4131730,
+        wikifi:Kullaa ;
+    owl:sameAs <http://sws.geonames.org/650469> ;
+    geo:lat 61.46666667 ;
+    geo:long 22.16666667 .
+
+places:m4997 schema:sameAs wd:Q1530789,
+        <https://en.wikipedia.org/wiki/P%C3%BChalepa> ;
+    geo:lat 58.877222222222 ;
+    geo:long 22.958888888889 .
+
+places:m5000 schema:sameAs wd:Q15256,
+        wikifi:Ivangorod ;
+    owl:sameAs <http://sws.geonames.org/555624> ;
+    geo:lat 59.375 ;
+    geo:long 28.205277777778 .
+
+places:m5002 schema:sameAs wd:Q10556503,
+        wikifi:Leineperi ;
+    geo:lat 61.443402 ;
+    geo:long 22.093855 .
+
+places:m5005 schema:sameAs wd:Q1148295,
+        wikisv:Visingsborg ;
+    geo:lat 58.035075 ;
+    geo:long 14.352069 .
+
+places:m5009 schema:sameAs wd:Q10498091,
+        <https://fi.wikipedia.org/wiki/Koskenkyl%C3%A4_(Pernaja)> ;
+    owl:sameAs <http://sws.geonames.org/659939> ;
+    geo:lat 60.502780555556 ;
+    geo:long 25.952780555556 .
+
+places:m5013 schema:sameAs wd:Q3159,
+        wikifi:Kursk ;
+    owl:sameAs <http://sws.geonames.org/538560>,
+        <http://sws.geonames.org/809953> ;
+    geo:lat 51.737222222222 ;
+    geo:long 36.187222222222 .
+
+places:m5017 schema:sameAs wd:Q1240598,
+        wd:Q604504,
+        wikifi:Ruhnu,
+        wikifi:Ruhnun_kunta ;
+    owl:sameAs <http://sws.geonames.org/588935>,
+        <http://sws.geonames.org/7522405> ;
+    geo:lat 57.8 ;
+    geo:long 23.25 .
+
+places:m5018 schema:sameAs wd:Q11850236,
+        wikifi:Aitolahti ;
+    geo:lat 61.54813607 ;
+    geo:long 23.89136297 .
+
+places:m5020 schema:sameAs wd:Q87,
+        wikifi:Aleksandria ;
+    owl:sameAs <http://sws.geonames.org/361058> ;
+    geo:lat 31.2 ;
+    geo:long 29.916666666667 .
+
+places:m5024 schema:sameAs wd:Q49247,
+        wikifi:Anaheim ;
+    owl:sameAs <http://sws.geonames.org/5323810> ;
+    geo:lat 33.836111111111 ;
+    geo:long -117.88972222222 .
+
+places:m5025 schema:sameAs wd:Q569488,
+        <https://en.wikipedia.org/wiki/Ansek%C3%BCla> ;
+    owl:sameAs <http://sws.geonames.org/592461> ;
+    geo:lat 58.091388888889 ;
+    geo:long 22.2275 .
+
+places:m5027 schema:sameAs wd:Q40430,
+        wikifi:Bahia ;
+    owl:sameAs <http://sws.geonames.org/3471168> ;
+    geo:lat -12.52 ;
+    geo:long -41.69 .
+
+places:m5028 schema:sameAs wd:Q5092,
+        wikifi:Baltimore ;
+    owl:sameAs <http://sws.geonames.org/4347778> ;
+    geo:lat 39.286388888889 ;
+    geo:long -76.615 .
+
+places:m5031 schema:sameAs wd:Q192176,
+        wikifi:Bender ;
+    owl:sameAs <http://sws.geonames.org/618577>,
+        <http://sws.geonames.org/861487> ;
+    geo:lat 46.833333333333 ;
+    geo:long 29.483333333333 .
+
+places:m5037 schema:sameAs wd:Q521148,
+        <https://en.wikipedia.org/wiki/Boppard> ;
+    owl:sameAs <http://sws.geonames.org/6557881> ;
+    geo:lat 50.231388888889 ;
+    geo:long 7.5908333333333 .
+
+places:m5038 schema:sameAs wd:Q2598329,
+        wd:Q769680,
+        wikifi:Bornholm,
+        wikifi:Bornholmin_kunta ;
+    owl:sameAs <http://sws.geonames.org/2623664>,
+        <http://sws.geonames.org/2623665> ;
+    geo:lat 55.10972,
+        55.125 ;
+    geo:long 14.916666666667,
+        14.91667 .
+
+places:m5040 schema:sameAs wd:Q16901685,
+        wd:Q24879,
+        <https://en.wikipedia.org/wiki/Timeline_of_Bremen>,
+        wikifi:Bremen ;
+    owl:sameAs <http://sws.geonames.org/2944388> ;
+    geo:lat 53.0758,
+        53.076944444444 ;
+    geo:long 8.8075,
+        8.8088888888889 .
+
+places:m5050 schema:sameAs wd:Q882375,
+        <https://en.wikipedia.org/wiki/Dennewitz> ;
+    owl:sameAs <http://sws.geonames.org/2938225> ;
+    geo:lat 51.9697 ;
+    geo:long 13.0114 .
+
+places:m5051 schema:sameAs wd:Q990076,
+        wikifi:Djursholm ;
+    owl:sameAs <http://sws.geonames.org/2717517> ;
+    geo:lat 59.397222222222 ;
+    geo:long 18.0875 .
+
+places:m5053 schema:sameAs wd:Q490453,
+        <https://fi.wikipedia.org/wiki/Eckernf%C3%B6rde> ;
+    owl:sameAs <http://sws.geonames.org/6555444> ;
+    geo:lat 54.474166666667 ;
+    geo:long 9.8377777777778 .
+
+places:m5054 schema:sameAs wd:Q1299099 ;
+    geo:lat 50.9181 ;
+    geo:long 11.055 .
+
+places:m5056 schema:sameAs wd:Q4531245,
+        wikifi:Elisenvaara ;
+    owl:sameAs <http://sws.geonames.org/563516> ;
+    geo:lat 61.408333333333 ;
+    geo:long 29.771111111111 .
+
+places:m5061 schema:sameAs wd:Q3798,
+        wikifi:Flensburg ;
+    owl:sameAs <http://sws.geonames.org/2926272> ;
+    geo:lat 54.781944444444 ;
+    geo:long 9.4366666666667 .
+
+places:m5062 schema:sameAs wd:Q2962119,
+        <https://en.wikipedia.org/wiki/Fosie> ;
+    owl:sameAs <http://sws.geonames.org/2713904> ;
+    geo:lat 55.56388889 ;
+    geo:long 13.02777778 .
+
+places:m5064 schema:sameAs wd:Q61656,
+        <https://en.wikipedia.org/wiki/Freudental> ;
+    owl:sameAs <http://sws.geonames.org/6555479> ;
+    geo:lat 49.008888888889,
+        49.00972 ;
+    geo:long 9.0588888888889,
+        9.05917 .
+
+places:m5071 schema:sameAs wd:Q511269,
+        <https://en.wikipedia.org/wiki/Geroda,_Lower_Franconia> ;
+    owl:sameAs <http://sws.geonames.org/6558689> ;
+    geo:lat 50.283055555556 ;
+    geo:long 9.9 .
+
+places:m5075 schema:sameAs wd:Q1547090,
+        wikifi:Grisslehamn ;
+    owl:sameAs <http://sws.geonames.org/2710606> ;
+    geo:lat 60.100282284567 ;
+    geo:long 18.816307922803 .
+
+places:m5078 schema:sameAs wd:Q17012,
+        wikifi:Guadeloupe ;
+    owl:sameAs <http://sws.geonames.org/3579143> ;
+    geo:lat 16.25 ;
+    geo:long -61.583333333333 .
+
+places:m5082 schema:sameAs wd:Q3440711,
+        <https://fi.wikipedia.org/wiki/Haapasaari_(Kotka)> ;
+    owl:sameAs <http://sws.geonames.org/659580> ;
+    geo:lat 60.28916667 ;
+    geo:long 27.19222222 .
+
+places:m5088 schema:sameAs wd:Q254251,
+        <https://en.wikipedia.org/wiki/Hestra,_Gislaved> ;
+    owl:sameAs <http://sws.geonames.org/2706486> ;
+    geo:lat 57.446137015421 ;
+    geo:long 13.59429262298 .
+
+places:m5098 schema:sameAs wd:Q1857569,
+        <https://en.wikipedia.org/wiki/Ingelstad> ;
+    owl:sameAs <http://sws.geonames.org/2703686> ;
+    geo:lat 56.74697339135 ;
+    geo:long 14.914713883832 .
+
+places:m5099 schema:sameAs wd:Q6576,
+        wikifi:Irkutsk ;
+    owl:sameAs <http://sws.geonames.org/2023469> ;
+    geo:lat 52.283333333333 ;
+    geo:long 104.3 .
+
+places:m5103 schema:sameAs wd:Q1702583,
+        wikifi:Jokela ;
+    owl:sameAs <http://sws.geonames.org/655758> ;
+    geo:lat 60.55263889 ;
+    geo:long 24.96630556 .
+
+places:m5107 schema:sameAs wd:Q890532,
+        wikifi:Kallavesi ;
+    owl:sameAs <http://sws.geonames.org/654742> ;
+    geo:lat 62.816666666667 ;
+    geo:long 27.783333333333 .
+
+places:m5111 schema:sameAs wd:Q131716,
+        wikifi:Kattegat ;
+    owl:sameAs <http://sws.geonames.org/2960850> ;
+    geo:lat 56.928333333333 ;
+    geo:long 11.428055555556 .
+
+places:m5113 schema:sameAs wd:Q999255,
+        wikifi:Kinnula ;
+    owl:sameAs <http://sws.geonames.org/652736> ;
+    geo:lat 63.366666666667 ;
+    geo:long 24.966666666667 .
+
+places:m5117 schema:sameAs wd:Q48320,
+        <https://fi.wikipedia.org/wiki/K%C5%8Dbe> ;
+    owl:sameAs <http://sws.geonames.org/1859171> ;
+    geo:lat 34.6913 ;
+    geo:long 135.183 .
+
+places:m5118 schema:sameAs wd:Q1329599,
+        <https://fi.wikipedia.org/wiki/Kokem%C3%A4enjoki> ;
+    owl:sameAs <http://sws.geonames.org/651983> ;
+    geo:lat 61.3292,
+        61.55,
+        61.5705 ;
+    geo:long 21.6327,
+        21.7,
+        22.8465 .
+
+places:m5119 schema:sameAs wd:Q11872198,
+        wikifi:Kolho ;
+    owl:sameAs <http://sws.geonames.org/651877> ;
+    geo:lat 62.13333333 ;
+    geo:long 24.51666667 .
+
+places:m5122 schema:sameAs wd:Q1018719,
+        <https://fi.wikipedia.org/wiki/Kopparberg_(Ljusnarsberg)> ;
+    owl:sameAs <http://sws.geonames.org/2699768> ;
+    geo:lat 59.873245194751 ;
+    geo:long 14.989418639965 .
+
+places:m5129 schema:sameAs wd:Q157439,
+        wikifi:Lahdenpohja ;
+    owl:sameAs <http://sws.geonames.org/537147> ;
+    geo:lat 61.516666666667 ;
+    geo:long 30.2 .
+
+places:m5132 schema:sameAs wd:Q4257519,
+        <https://fi.wikipedia.org/wiki/Leip%C3%A4suo> ;
+    owl:sameAs <http://sws.geonames.org/535392> ;
+    geo:lat 60.556944444444 ;
+    geo:long 29.15 .
+
+places:m5137 schema:sameAs wd:Q375497,
+        wikifi:Lihula ;
+    owl:sameAs <http://sws.geonames.org/590657> ;
+    geo:lat 58.687777777778 ;
+    geo:long 23.834166666667 .
+
+places:m5142 schema:sameAs wd:Q15322,
+        <https://fi.wikipedia.org/wiki/Yl%C3%A4-Laukaa> ;
+    owl:sameAs <http://sws.geonames.org/533690> ;
+    geo:lat 58.733333333333 ;
+    geo:long 29.85 .
+
+places:m5145 schema:sameAs wd:Q1720,
+        wikifi:Mainz ;
+    owl:sameAs <http://sws.geonames.org/3247465> ;
+    geo:lat 50.0 ;
+    geo:long 8.2666666666667 .
+
+places:m5153 schema:sameAs wd:Q184492,
+        <https://fi.wikipedia.org/wiki/M%C3%A4laren> ;
+    owl:sameAs <http://sws.geonames.org/2693132> ;
+    geo:lat 59.5 ;
+    geo:long 17.2 .
+
+places:m5154 schema:sameAs wd:Q979400,
+        <https://fi.wikipedia.org/wiki/M%C3%A4ntyluoto> ;
+    owl:sameAs <http://sws.geonames.org/646667> ;
+    geo:lat 61.591904 ;
+    geo:long 21.483765 .
+
+places:m5168 schema:sameAs wd:Q2064938,
+        <https://en.wikipedia.org/wiki/Old_Kilpatrick> ;
+    owl:sameAs <http://sws.geonames.org/2641014> ;
+    geo:lat 55.925 ;
+    geo:long -4.4593 .
+
+places:m5172 schema:sameAs wd:Q2916,
+        <https://fi.wikipedia.org/wiki/Osnabr%C3%BCck> ;
+    owl:sameAs <http://sws.geonames.org/3221096>,
+        <http://sws.geonames.org/6552851> ;
+    geo:lat 52.278888888889 ;
+    geo:long 8.0430555555556 .
+
+places:m5175 schema:sameAs wd:Q45114,
+        wikifi:Paide ;
+    owl:sameAs <http://sws.geonames.org/589709> ;
+    geo:lat 58.883333333333 ;
+    geo:long 25.566666666667 .
+
+places:m5186 schema:sameAs wd:Q979535,
+        wikifi:Pertunmaa ;
+    owl:sameAs <http://sws.geonames.org/642078> ;
+    geo:lat 61.502777777778 ;
+    geo:long 26.479166666667 .
+
+places:m5187 schema:sameAs wd:Q179454,
+        <https://fi.wikipedia.org/wiki/Pitk%C3%A4ranta> ;
+    owl:sameAs <http://sws.geonames.org/509234> ;
+    geo:lat 61.566666666667 ;
+    geo:long 31.483333333333 .
+
+places:m5190 schema:sameAs wd:Q3470336,
+        <https://en.wikipedia.org/wiki/Puhja> ;
+    owl:sameAs <http://sws.geonames.org/589307> ;
+    geo:lat 58.338333333333 ;
+    geo:long 26.311944444444 .
+
+places:m5194 schema:sameAs wd:Q213769,
+        <https://fi.wikipedia.org/wiki/P%C3%A4ij%C3%A4nne> ;
+    owl:sameAs <http://sws.geonames.org/643167> ;
+    geo:lat 61.583333333333 ;
+    geo:long 25.5 .
+
+places:m5195 schema:sameAs wd:Q4349550,
+        <https://fi.wikipedia.org/wiki/Rajam%C3%A4ki> ;
+    owl:sameAs <http://sws.geonames.org/640055> ;
+    geo:lat 60.5275 ;
+    geo:long 24.75 .
+
+places:m5197 schema:sameAs wd:Q1493534,
+        <https://en.wikipedia.org/wiki/Rauna> ;
+    owl:sameAs <http://sws.geonames.org/456272> ;
+    geo:lat 57.331944444444 ;
+    geo:long 25.609722222222 .
+
+places:m5201 schema:sameAs wd:Q2291661,
+        <https://en.wikipedia.org/wiki/Rottne> ;
+    owl:sameAs <http://sws.geonames.org/2681368> ;
+    geo:lat 57.022199345492 ;
+    geo:long 14.894918089881 .
+
+places:m5203 schema:sameAs wd:Q1574296,
+        <https://en.wikipedia.org/wiki/Roxen> ;
+    owl:sameAs <http://sws.geonames.org/2681342> ;
+    geo:lat 58.516666666667 ;
+    geo:long 15.666666666667 .
+
+places:m5205 schema:sameAs wd:Q193413,
+        wikifi:Rybinsk ;
+    owl:sameAs <http://sws.geonames.org/500004> ;
+    geo:lat 58.05 ;
+    geo:long 38.833333333333 .
+
+places:m5207 schema:sameAs wd:Q3469834,
+        <https://en.wikipedia.org/wiki/R%C3%B5uge> ;
+    owl:sameAs <http://sws.geonames.org/588944> ;
+    geo:lat 57.729722222222 ;
+    geo:long 26.916944444444 .
+
+places:m5208 schema:sameAs wd:Q4193897,
+        wd:Q894,
+        wikifi:Samara ;
+    owl:sameAs <http://sws.geonames.org/499099> ;
+    geo:lat 53.183333333333,
+        53.21366 ;
+    geo:long 50.116666666667,
+        50.203634 .
+
+places:m5214 schema:sameAs wd:Q6583,
+        wikifi:Sahara ;
+    owl:sameAs <http://sws.geonames.org/2212709> ;
+    geo:lat 23.079722222222 ;
+    geo:long 12.612222222222 .
+
+places:m5216 schema:sameAs wd:Q196384,
+        wikifi:Solikamsk ;
+    owl:sameAs <http://sws.geonames.org/491023> ;
+    geo:lat 59.633333333333 ;
+    geo:long 56.766666666667 .
+
+places:m5228 schema:sameAs wd:Q1009142,
+        wikifi:Tervo ;
+    owl:sameAs <http://sws.geonames.org/634604> ;
+    geo:lat 62.955555555556 ;
+    geo:long 26.755555555556 .
+
+places:m5230 schema:sameAs wd:Q18682725,
+        <https://fi.wikipedia.org/wiki/Tienhaara_(Viipurin_mlk)> ;
+    geo:lat 60.75 ;
+    geo:long 28.64999962 .
+
+places:m5231 schema:sameAs wd:Q3246585,
+        wikifi:Tikkakoski ;
+    owl:sameAs <http://sws.geonames.org/634456> ;
+    geo:lat 62.4 ;
+    geo:long 25.633333333333 .
+
+places:m5233 schema:sameAs wd:Q2137,
+        wikifi:Totma ;
+    owl:sameAs <http://sws.geonames.org/481960> ;
+    geo:lat 59.983333333333 ;
+    geo:long 42.766666666667 .
+
+places:m5242 schema:sameAs wd:Q108037,
+        wikifi:Valmiera ;
+    owl:sameAs <http://sws.geonames.org/453754> ;
+    geo:lat 57.538055555556 ;
+    geo:long 25.423055555556 .
+
+places:m5243 schema:sameAs wd:Q2298076,
+        wikifi:Vanajavesi ;
+    owl:sameAs <http://sws.geonames.org/632530> ;
+    geo:lat 61.16666667 ;
+    geo:long 24.25 .
+
+places:m5244 schema:sameAs wd:Q6506,
+        wikifi:Varna ;
+    owl:sameAs <http://sws.geonames.org/726050> ;
+    geo:lat 43.207777777778 ;
+    geo:long 27.916944444444 .
+
+places:m5245 schema:sameAs wd:Q2981703,
+        <https://en.wikipedia.org/wiki/Vastseliina> ;
+    owl:sameAs <http://sws.geonames.org/587711> ;
+    geo:lat 57.731944444444 ;
+    geo:long 27.281944444444 .
+
+places:m5253 schema:sameAs wd:Q133416,
+        wikifi:Volsk ;
+    owl:sameAs <http://sws.geonames.org/472278> ;
+    geo:lat 52.05 ;
+    geo:long 47.383333333333 .
+
+places:m5256 schema:sameAs wd:Q1805635,
+        <https://fi.wikipedia.org/wiki/V%C3%A4ndra> ;
+    owl:sameAs <http://sws.geonames.org/587440> ;
+    geo:lat 58.648333333333 ;
+    geo:long 25.031666666667 .
+
+places:m5257 schema:sameAs wd:Q3370762,
+        <https://en.wikipedia.org/wiki/V%C3%A4stanfors> ;
+    owl:sameAs <http://sws.geonames.org/2664549> ;
+    geo:lat 59.9911 ;
+    geo:long 15.8161 .
+
+places:m5259 schema:sameAs wd:Q3468782,
+        <https://en.wikipedia.org/wiki/V%C3%B5nnu> ;
+    owl:sameAs <http://sws.geonames.org/587474> ;
+    geo:lat 58.2825 ;
+    geo:long 27.050277777778 .
+
+places:m5261 schema:sameAs wd:Q2135,
+        wikifi:Winnipeg ;
+    owl:sameAs <http://sws.geonames.org/6183235> ;
+    geo:lat 49.883333 ;
+    geo:long -97.15 .
+
+places:m5262 schema:sameAs wd:Q492543,
+        wikifi:Wolgast ;
+    owl:sameAs <http://sws.geonames.org/6550723> ;
+    geo:lat 54.05 ;
+    geo:long 13.766666666667 .
+
+places:m5265 schema:sameAs wd:Q2736021,
+        <https://en.wikipedia.org/wiki/%C3%96ggestorp> ;
+    owl:sameAs <http://sws.geonames.org/2687353> ;
+    geo:lat 57.722379815884 ;
+    geo:long 14.383169703687 .
+
+places:m5269 schema:sameAs wd:Q845891,
+        wikifi:Pielinen ;
+    owl:sameAs <http://sws.geonames.org/641860> ;
+    geo:lat 63.25 ;
+    geo:long 29.666666666667 .
+
+places:m5271 schema:sameAs wd:Q154748,
+        wikifi:Verdun ;
+    owl:sameAs <http://sws.geonames.org/2969958> ;
+    geo:lat 49.159722222222 ;
+    geo:long 5.3827777777778 .
+
+places:m5272 schema:sameAs wd:Q11886136,
+        wikifi:Oulunsuu ;
+    geo:lat 65.003611111111 ;
+    geo:long 25.549722222222 .
+
+places:m5273 schema:sameAs wd:Q54824182,
+        wikifi:Korkeasaari ;
+    geo:lat 60.175 ;
+    geo:long 24.984167 .
+
+places:m5276 schema:sameAs wd:Q1937603,
+        <https://en.wikipedia.org/wiki/Alnarp> ;
+    owl:sameAs <http://sws.geonames.org/2726528> ;
+    geo:lat 55.65 ;
+    geo:long 13.066666666667 .
+
+places:m5283 schema:sameAs wd:Q58931,
+        wikifi:Harderwijk ;
+    owl:sameAs <http://sws.geonames.org/2754846> ;
+    geo:lat 52.350555555556 ;
+    geo:long 5.6172222222222 .
+
+places:m529 schema:sameAs wd:Q215,
+        wikifi:Slovenia ;
+    owl:sameAs <http://sws.geonames.org/3190538> ;
+    geo:lat 46.0 ;
+    geo:long 15.0 .
+
+places:m5509 schema:sameAs wd:Q3942,
+        wikifi:Aschaffenburg ;
+    owl:sameAs <http://sws.geonames.org/6556940> ;
+    geo:lat 49.97575 ;
+    geo:long 9.1478 .
+
+places:m5511 schema:sameAs wd:Q580019,
+        <https://fi.wikipedia.org/wiki/Ouluj%C3%A4rvi> ;
+    owl:sameAs <http://sws.geonames.org/643491> ;
+    geo:lat 64.333333333333 ;
+    geo:long 27.25 .
+
+places:m5512 schema:sameAs wd:Q192770,
+        wikifi:Saimaa ;
+    owl:sameAs <http://sws.geonames.org/638181> ;
+    geo:lat 61.25 ;
+    geo:long 28.25 .
+
+places:m5515 schema:sameAs wd:Q4272762,
+        <https://fi.wikipedia.org/wiki/L%C3%A4skel%C3%A4> ;
+    owl:sameAs <http://sws.geonames.org/532825> ;
+    geo:lat 61.7625,
+        61.76322 ;
+    geo:long 31.003333333333,
+        31.00616 .
+
+places:m5517 schema:sameAs wd:Q3357414,
+        <https://en.wikipedia.org/wiki/Ostola> ;
+    geo:lat 43.151633306141,
+        43.172373086573,
+        45.50833333 ;
+    geo:long -2.8649606562803,
+        -2.8553336646206,
+        8.23333333 .
+
+places:m5519 schema:sameAs wd:Q1324436,
+        wd:Q25804,
+        wikifi:Trondheim,
+        wikisv:Trondheims_kommun ;
+    owl:sameAs <http://sws.geonames.org/3133880>,
+        <http://sws.geonames.org/3133881> ;
+    geo:lat 63.42811,
+        63.44 ;
+    geo:long 10.39687,
+        10.4 .
+
+places:m5522 schema:sameAs wd:Q486562,
+        <https://en.wikipedia.org/wiki/Helmstedt> ;
+    owl:sameAs <http://sws.geonames.org/6557378> ;
+    geo:lat 52.228055555556 ;
+    geo:long 11.010555555556 .
+
+places:m5524 schema:sameAs wd:Q41974,
+        <https://en.wikipedia.org/wiki/Franeker> ;
+    owl:sameAs <http://sws.geonames.org/2755845> ;
+    geo:lat 53.1875 ;
+    geo:long 5.54 .
+
+places:m5531 schema:sameAs wd:Q1002162,
+        wikifi:Valtimo ;
+    owl:sameAs <http://sws.geonames.org/632553> ;
+    geo:lat 63.68 ;
+    geo:long 28.816666666667 .
+
+places:m5532 schema:sameAs wd:Q16017,
+        <https://fi.wikipedia.org/wiki/Zweibr%C3%BCcken> ;
+    owl:sameAs <http://sws.geonames.org/3247902> ;
+    geo:lat 49.249444444444 ;
+    geo:long 7.3608333333333 .
+
+places:m5533 schema:sameAs wd:Q844468,
+        wikifi:Mazsalaca ;
+    owl:sameAs <http://sws.geonames.org/457533> ;
+    geo:lat 57.866666666667 ;
+    geo:long 25.05 .
+
+places:m602149 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/16000300030670-Ume%C3%A5%20stadshus-Riksantikvarie%C3%A4mbetet.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ume%C3%A5%20vapen.svg> ;
+    schema:sameAs wd:Q507709 .
+
+places:m602912 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Skellefte%C3%A5%20stadshus%20och%20stadspark.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Skellefte%C3%A5%20vapen.svg> ;
+    schema:sameAs wd:Q430780 .
+
+places:m603302 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Robertsfors%20-%20KMB%20-%2016000300022333.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Robertsfors%20vapen.svg> ;
+    schema:sameAs wd:Q507670 .
+
+places:m603569 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Pite%C3%A5%20-%20KMB%20-%2016001000542185.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Pite%C3%A5%20vapen.svg> ;
+    schema:sameAs wd:Q507656 .
+
+places:m603760 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Pajala%20kyrka%20i%20juli%202004..JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Pajala%20vapen.svg> ;
+    schema:sameAs wd:Q186230 .
+
+places:m603813 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96vertorne%C3%A5%20centrum%20bild%2016.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96vertorne%C3%A5%20kommuns%20vapensk%C3%B6ld.svg> ;
+    schema:sameAs wd:Q307603 .
+
+places:m603822 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96verkalix%20-%20panoramio%20%285%29.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96verkalix%20vapen.svg> ;
+    schema:sameAs wd:Q307569 .
+
+places:m604010 schema:image cwm:Gammelstad.jpg,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Norrbotten%20vapen.svg> ;
+    schema:sameAs wd:Q211649 .
+
+places:m604488 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Lule%C3%A5%20stadshus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Lule%C3%A5%20vapen.svg> ;
+    schema:sameAs wd:Q177019 .
+
+places:m605387 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kalix%20kommunhus.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Kalix%20vapen.svg> ;
+    schema:sameAs wd:Q117091 .
+
+places:m605857 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Haparanda%20hotel%20and%20city%20hall.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Haparanda%20vapen.svg> ;
+    schema:sameAs wd:Q510310 .
+
+places:m606084 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A4llivare%20kommunhus%202.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A4llivare%20vapen.svg> ;
+    schema:sameAs wd:Q493815 .
+
+places:m606530 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Boden%20centrum.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Boden%20vapen.svg> ;
+    schema:sameAs wd:Q509476 .
+
+places:m606833 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84lvsbyn%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84lvsbyns%20kyrkstad%2020110914.jpg> ;
+    schema:sameAs wd:Q255025 .
+
+places:m8126116 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A5mhus%20kyrka.jpg> ;
+    schema:sameAs wd:Q18334780 .
+
+places:m8126130 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96sterv%C3%A5la%20kyrka%20ext1.jpg> ;
+    schema:sameAs wd:Q18335379 .
+
+places:m8126151 schema:image cwm:Venjanskyrka.jpg ;
+    schema:sameAs wd:Q10713974 .
+
+places:m8126175 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Holms%20kyrka%20Medelpad%2004.jpg> ;
+    schema:sameAs wd:Q10525331 .
+
+places:m8126183 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Nyskoga%20kyrka%201927.jpg> ;
+    schema:sameAs wd:Q10604943 .
+
+places:m8126210 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Delsbo%20kyrka.jpg> ;
+    schema:sameAs wd:Q10468283 .
+
+places:m8126211 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tr%C3%B6n%C3%B6gammla25.JPG> ;
+    schema:sameAs wd:Q18334157 .
+
+places:m8126212 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Undersviks%20kyrka%20ext2.jpg> ;
+    schema:sameAs wd:Q10709434 .
+
+places:m8126213 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85rsunda%20kyrka%203.JPG> ;
+    schema:sameAs wd:Q10726765 .
+
+places:m8126242 schema:image cwm:Malungskyrka2.jpg ;
+    schema:sameAs wd:Q10576235 .
+
+places:m8126275 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Rogsta%20kyrka%20July%202014%2002.jpg> ;
+    schema:sameAs wd:Q10656398 .
+
+places:m8126285 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Singo%20kyrka%2010186.JPG> ;
+    schema:sameAs wd:Q10668312 .
+
+places:m8126304 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Rasbokil%20church%20Uppsala%20Sweden%20002.JPG> ;
+    schema:sameAs wd:Q10649798 .
+
+places:m8126306 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vendels%20kyrka%2010425.JPG> ;
+    schema:sameAs wd:Q13719518 .
+
+places:m8126351 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Alunda%20kyrka%20ext1.jpg> ;
+    schema:sameAs wd:Q13883049 .
+
+places:m8126352 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bj%C3%B6rklinge%20church%20Uppsala%20Sweden%20002.JPG> ;
+    schema:sameAs wd:Q10430588 .
+
+places:m8126355 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%B6rstils%20kyrka.jpg> ;
+    schema:sameAs wd:Q10438777 .
+
+places:m8126357 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hargs%20kyrka%2003.jpg> ;
+    schema:sameAs wd:Q10518098 .
+
+places:m8126361 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6khuvuds%20kyrka%2001.jpg> ;
+    schema:sameAs wd:Q10532512 .
+
+places:m8126369 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Valo%20kyrka.JPG> ;
+    schema:sameAs wd:Q10712511 .
+
+places:m8126377 schema:image cwm:Viksta-kyrka.jpg ;
+    schema:sameAs wd:Q10715300 .
+
+places:m8126382 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96sterl%C3%B6vsta%201.jpg> ;
+    schema:sameAs wd:Q10728064 .
+
+places:m8126429 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tyndero%20kyrka%202006-02-27.jpg> ;
+    schema:sameAs wd:Q10707208 .
+
+places:m8126752 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A4rnaKyrka-extr.jpg> ;
+    schema:sameAs wd:Q10541800 .
+
+places:m8126889 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Nora%20kyrka%202012h.JPG> ;
+    schema:sameAs wd:Q10601913 .
+
+places:m8127037 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Stora%20Tuna%20kyrka.jpg> ;
+    schema:sameAs wd:Q10681133 .
+
+places:m8127039 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kirche%20Soller%C3%B6n.JPG> ;
+    schema:sameAs wd:Q10673288 .
+
+places:m8127040 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Silvbergs%20kyrka%202010.jpg> ;
+    schema:sameAs wd:Q10667884 .
+
+places:m8127041 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Stora%20Skedvi%20kyrka%20fr%C3%A5n%20v%C3%A4gen.jpg> ;
+    schema:sameAs wd:Q10681102 .
+
+places:m8127042 schema:image cwm:StKbka2.JPG ;
+    schema:sameAs wd:Q10681040 .
+
+places:m8127057 schema:image cwm:SafsnasKyrka.JPG ;
+    schema:sameAs wd:Q10687926 .
+
+places:m8127059 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/En%C3%A5nger%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/En%C3%A5ngers%20gamla%20kyrka.jpg> ;
+    schema:sameAs wd:Q10485132 .
+
+places:m8127060 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gnarps%20kyrka%20ext1.jpg> ;
+    schema:sameAs wd:Q10506445 .
+
+places:m8127061 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85ls%20kyrka.jpg> ;
+    schema:sameAs wd:Q10726484 .
+
+places:m8127062 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bjur%C3%A5kers%20kyrka%2001.JPG> ;
+    schema:sameAs wd:Q10430435 .
+
+places:m8127063 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Alfta%20kyrka.jpg> ;
+    schema:sameAs wd:Q10405130 .
+
+places:m8127064 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bergsjo%20kyrka-view.jpg> ;
+    schema:sameAs wd:Q10428521 .
+
+places:m8127065 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kyrkan%20i%20%C3%84ppelbo.JPG> ;
+    schema:sameAs wd:Q10725987 .
+
+places:m8127066 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bolln%C3%A4s%20kyrka%20-%20KMB%20-%2016000200036202.jpg> ;
+    schema:sameAs wd:Q10432598 .
+
+places:m8127067 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84lvdalens%20kyrka%2001.jpg> ;
+    schema:sameAs wd:Q10725690 .
+
+places:m8127068 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Arbra%20kyrka%2010507.JPG> ;
+    schema:sameAs wd:Q10417112 .
+
+places:m8127069 schema:image cwm:Forsakyrka21500001410673.jpg ;
+    schema:sameAs wd:Q10498074 .
+
+places:m8127070 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/F%C3%A4rila%20kyrka%20December%202014%2003.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/F%C3%A4rila%20socken%20vapen.svg> ;
+    schema:sameAs wd:Q10500834 .
+
+places:m8127076 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4ggd%C3%A5ngers%20kyrka%201.JPG> ;
+    schema:sameAs wd:Q10531274 .
+
+places:m8127083 schema:image cwm:Flo1.JPG ;
+    schema:sameAs wd:Q130422 .
+
+places:m8127112 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4ssj%C3%B6%20kyrka.JPG> ;
+    schema:sameAs wd:Q10531802 .
+
+places:m8127214 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/SYSSLEB%C3%84CK.jpg> ;
+    schema:sameAs wd:Q10466125 .
+
+places:m8127217 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Eksh%C3%A4rad%20kyrka%202.jpg> ;
+    schema:sameAs wd:Q10480764 .
+
+places:m8127221 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gustav%20Adolfs%20kyrka%20%28Gustavaskogen%202-2%29%202012-09-01%2021-11-30.jpg> ;
+    schema:sameAs wd:Q10511128 .
+
+places:m8127230 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B6dra%20Finnskoga%20kyrka.jpg> ;
+    schema:sameAs wd:Q10688885 .
+
+places:m8127294 schema:image cwm:Bernshammar.jpg ;
+    schema:sameAs wd:Q10519244 .
+
+places:m8127295 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Harbo%20church%20Heby%20Sweden%20003.JPG> ;
+    schema:sameAs wd:Q10518026 .
+
+places:m8127309 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bjurs%C3%A5s%20kyrka%2001.jpg> ;
+    schema:sameAs wd:Q10430417 .
+
+places:m8127313 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Garpenbergs%20herrg%C3%A5rd.jpg> ;
+    schema:sameAs wd:Q10503165 .
+
+places:m8127314 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Lima%20kyrka%20-%20KMB%20-%2016000200013198.jpg> ;
+    schema:sameAs wd:Q10561942 .
+
+places:m8127315 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/NaasKyrka%20Dalarna1.JPG> ;
+    schema:sameAs wd:Q10605509 .
+
+places:m8127316 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gagnefs%20kyrka%20nov09%207.jpg> ;
+    schema:sameAs wd:Q10501935 .
+
+places:m8127317 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Leksands%20kyrka%202011.jpg> ;
+    schema:sameAs wd:Q10556734 .
+
+places:m8127319 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Grytn%C3%A4s%20kyrka.jpg> ;
+    schema:sameAs wd:Q10509669 .
+
+places:m8127322 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Nianfors%20kyrka%2020070619%2005.jpg> ;
+    schema:sameAs wd:Q10600413 .
+
+places:m8127323 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hanebo%20kyrka%2003289.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hanebo%20vapen.svg> ;
+    schema:sameAs wd:Q10517199 .
+
+places:m8127324 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ersk%20Mats%201.jpg> ;
+    schema:sameAs wd:Q10518430 .
+
+places:m8127325 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hedesunda%20kyrka%20ext2.jpg> ;
+    schema:sameAs wd:Q10519163 .
+
+places:m8127327 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hille%20kyrka%20ext1.jpg> ;
+    schema:sameAs wd:Q10524020 .
+
+places:m8127329 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Halsingtuna%20church%20view01.jpg> ;
+    schema:sameAs wd:Q10531501 .
+
+places:m8127330 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A4rbo%20kyrka%2003386.jpg> ;
+    schema:sameAs wd:Q10541754 .
+
+places:m8127331 schema:image cwm:Jarvso-kyrka-1910.jpg ;
+    schema:sameAs wd:Q10542010 .
+
+places:m8127332 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ockelbo%20kyrka%2000147.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ockelbo%20socken%20vapen.svg> ;
+    schema:sameAs wd:Q10606607 .
+
+places:m8127335 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Norrbo%20kyrka%20-%20KMB%20-%2016000200038571.jpg> ;
+    schema:sameAs wd:Q10602709 .
+
+places:m8127336 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ramsjo%20kyrka%20view.jpg> ;
+    schema:sameAs wd:Q10649184 .
+
+places:m8127337 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Njut%C3%A5ngers%20kyrka%202013.JPG> ;
+    schema:sameAs wd:Q10601466 .
+
+places:m8127338 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ovan%C3%A5kers%20kyrka.jpg> ;
+    schema:sameAs wd:Q10613564 .
+
+places:m8127340 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Mo%20kyrka%20Uppsala%20stift%2002470.JPG> ;
+    schema:sameAs wd:Q10587127 .
+
+places:m8127341 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Rengsj%C3%B6%20kyrka.jpg> ;
+    schema:sameAs wd:Q10650930 .
+
+places:m8127342 schema:image cwm:Ljusdalskyrka.JPG ;
+    schema:sameAs wd:Q10568426 .
+
+places:m8127343 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tors%C3%A5kers%20kyrka%2003.jpg> ;
+    schema:sameAs wd:Q10700448 .
+
+places:m8127344 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Skogs%20kyrka.jpg> ;
+    schema:sameAs wd:Q10670323 .
+
+places:m8127345 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B6derala%20kyrka%20S%C3%B6derhamn%20Sweden%20001.JPG> ;
+    schema:sameAs wd:Q10688474 .
+
+places:m8127346 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96sterf%C3%A4rnebo%20kyrka.jpg> ;
+    schema:sameAs wd:Q10727851 .
+
+places:m8127347 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Anundsj%C3%B6%20kyrka%201.JPG> ;
+    schema:sameAs wd:Q2857809 .
+
+places:m8127348 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Attmars%20kyrka%20ext3.jpg> ;
+    schema:sameAs wd:Q10422201 .
+
+places:m8127351 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Borgsj%C3%B6%20kyrka.JPG> ;
+    schema:sameAs wd:Q10433195 .
+
+places:m8127356 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Havero%20kyrka%20ext1.jpg> ;
+    schema:sameAs wd:Q10518619 .
+
+places:m8127357 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Indals%20kyrka%201.jpg> ;
+    schema:sameAs wd:Q10534929 .
+
+places:m8127359 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ljustorps%20kyrka%2010.JPG> ;
+    schema:sameAs wd:Q10568487 .
+
+places:m8127360 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/St%C3%B6de%20kyrka%202006-07-12.jpg> ;
+    schema:sameAs wd:Q10682965 .
+
+places:m8127366 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sel%C3%A5ngers%20kyrka.jpg> ;
+    schema:sameAs wd:Q10665452 .
+
+places:m8127370 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A4br%C3%A5%20kyrka.jpg> ;
+    schema:sameAs wd:Q10687871 .
+
+places:m8127371 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Timr%C3%A5%20kyrka%2004.jpg> ;
+    schema:sameAs wd:Q10698216 .
+
+places:m8127413 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gr%C3%A4s%C3%B6%20kyrka%202007-08-23%201.jpg> ;
+    schema:sameAs wd:Q10509835 .
+
+places:m8127507 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kyrka%20tegelsmora.jpg> ;
+    schema:sameAs wd:Q10691839 .
+
+places:m8127563 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sk%C3%B6ns%20kyrka.jpg> ;
+    schema:sameAs wd:Q10671272 .
+
+places:m8127705 schema:image cwm:Tensta-kyrka.jpg ;
+    schema:sameAs wd:Q10692742 .
+
+places:m8127711 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Voxna-Kyrka%20July13-2010.JPG> ;
+    schema:sameAs wd:Q10716922 .
+
+places:m8127715 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Stigsj%C3%B6%20kyrka.jpg> ;
+    schema:sameAs wd:Q10680068 .
+
+places:m8127737 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A5lln%C3%A4s%20kyrka.jpg> ;
+    schema:sameAs wd:Q10532065 .
+
+places:m8127751 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sk%C3%A4fthammars%20kyrka%201.jpg> ;
+    schema:sameAs wd:Q10670880 .
+
+places:m8127755 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Alvkarleby%20kyrka%2002500.JPG> ;
+    schema:sameAs wd:Q10725713 .
+
+places:m8127874 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/By%20kyrka%201.jpg> ;
+    schema:sameAs wd:Q10438123 .
+
+places:m8127875 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Idenor%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Idenors%20kyrka%20ext1.jpg> ;
+    schema:sameAs wd:Q10533559 .
+
+places:m8127904 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Karlholmsbruks%20Lancashiresmedja%203.jpg> ;
+    schema:sameAs wd:Q10718162 .
+
+places:m8127920 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ore%20kyrka.jpg> ;
+    schema:sameAs wd:Q10611285 .
+
+places:m8127937 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A4rna%20kyrka%201.JPG> ;
+    schema:sameAs wd:Q10688119 .
+
+places:m8127965 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tuna%20kyrka%20Medelpad%2001.JPG> ;
+    schema:sameAs wd:Q10706283 .
+
+places:m8127990 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tierps%20kyrka%20view.jpg> ;
+    schema:sameAs wd:Q10697804 .
+
+places:m8127993 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Harmanger%20kyrka-side.jpg> ;
+    schema:sameAs wd:Q10518179 .
+
+places:m8127997 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Husby%20kyrka.JPG> ;
+    schema:sameAs wd:Q10527351 .
+
+places:m8128039 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vika%20kyrka.JPG> ;
+    schema:sameAs wd:Q10715208 .
+
+places:m8128054 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Jattendals%20kyrka%20ext1.jpg> ;
+    schema:sameAs wd:Q10542038 .
+
+places:m8128056 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Segersta%20kyrka%2003182.JPG> ;
+    schema:sameAs wd:Q10665074 .
+
+places:m8128059 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Njurunda%20kyrka.jpg> ;
+    schema:sameAs wd:Q10601460 .
+
+places:m8128083 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hamr%C3%A5ngers%20kyrka.jpg> ;
+    schema:sameAs wd:Q4164315 .
+
+places:m8128095 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Morkarla%20kyrka%20p%C3%A5%20h%C3%B6sten.jpg> ;
+    schema:sameAs wd:Q10589151 .
+
+places:m8128100 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6ljesdammen.jpg> ;
+    schema:sameAs wd:Q10602433 .
+
+places:m8128124 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Mora%20kyrka%20Mars%202013%2001.jpg> ;
+    schema:sameAs wd:Q10588912 .
+
+places:m8128126 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Transtrand%20kyrka.ext.jpg> ;
+    schema:sameAs wd:Q10701329 .
+
+places:m8128183 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tolfta%20kyrka%202009-08-09.jpg> ;
+    schema:sameAs wd:Q10699346 .
+
+places:m8128198 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Grang%C3%A4rde%20kyrka.jpg> ;
+    schema:sameAs wd:Q10508084 .
+
+places:m8128200 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Siljansn%C3%A4s%20kyrka%202011%20-%201.jpg> ;
+    schema:sameAs wd:Q10667800 .
+
+places:m8128201 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sv%C3%A4rdsj%C3%B6%20kyrka%20fr%C3%A5n%20s%C3%B6der%2020130918.JPG> ;
+    schema:sameAs wd:Q10686392 .
+
+places:m8128202 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bispbergs%20gruva.jpg> ;
+    schema:sameAs wd:Q10688172 .
+
+places:m8128344 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ilsbo%20kyrka%2001.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ilsbo%20vapen.svg> ;
+    schema:sameAs wd:Q10534602 .
+
+places:m8128363 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Forsmarks%20bruk%2004.jpg> ;
+    schema:sameAs wd:Q10498160 .
+
+places:m8128436 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Valbo%20kyrka.jpg> ;
+    schema:sameAs wd:Q10712153 .
+
+places:m8128440 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Aln%C3%B6%20gamla%20kyrka.jpg> ;
+    schema:sameAs wd:Q10406625 .
+
+places:m8128471 schema:sameAs wd:Q10531730 .
+
+places:m8128507 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Dala-Floda%20kyrka%20from%20north.jpg> ;
+    schema:sameAs wd:Q10496890 .
+
+places:m8128508 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vy%20%C3%B6ver%20Norn%202.jpg> ;
+    schema:sameAs wd:Q10519121 .
+
+places:m8131604 schema:sameAs wd:Q2031546 .
+
+places:m8131605 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%B6ta%20hotell%20Borensberg.JPG> ;
+    schema:sameAs wd:Q834832 .
+
+places:m8131606 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Norrahammars%20centrum.JPG> ;
+    schema:sameAs wd:Q2944368 .
+
+places:m8131610 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Havdhem%20kyrka%2C%20gotland.jpg> ;
+    schema:sameAs wd:Q1516613 .
+
+places:m8131612 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Malmb%C3%A4cks%20kyrka%20fr%C3%A5n%20luften.jpg> ;
+    schema:sameAs wd:Q2292693 .
+
+places:m8131613 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/N%C3%A4ssj%C3%B6%20station%2C%20sedd%20fr%C3%A5n%20Esplanaden%2C%20den%2020%20maj%202007.jpg> ;
+    schema:sameAs wd:Q654299 .
+
+places:m8131621 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B6derk%C3%B6pings%20r%C3%A5dhus.jpg> ;
+    schema:sameAs wd:Q984831 .
+
+places:m8131622 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Godeg%C3%A5rd%20-%20KMB%20-%2016000300022152.jpg> ;
+    schema:sameAs wd:Q1975596 .
+
+places:m8131623 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Klockrike%20kyrka%20syd%C3%B6st.jpg> ;
+    schema:sameAs wd:Q1825937 .
+
+places:m8131624 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vadstena%20kloster%20fr%C3%A5n%20luften.jpg> ;
+    schema:sameAs wd:Q265682 .
+
+places:m8131626 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4derstads%20kyrka%20fr%C3%A5n%20luften.jpg> ;
+    schema:sameAs wd:Q2145883 .
+
+places:m8131629 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunalhuset%20i%20Knivsta%20nya.jpg> ;
+    schema:sameAs wd:Q1120927 .
+
+places:m8131630 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Font%C3%A4nForshaga.JPG> ;
+    schema:sameAs wd:Q1303800 .
+
+places:m8131631 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Museet%20Kvarnen%20Filipstad%2002.JPG> ;
+    schema:sameAs wd:Q847769 .
+
+places:m8131632 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4stra%20Alstads%20kyrka%2C%20april%202015.jpg> ;
+    schema:sameAs wd:Q2628051 .
+
+places:m8131633 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A4ckaskog%201.JPG> ;
+    schema:sameAs wd:Q2142228 .
+
+places:m8131638 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Holmsunds%20sag1.jpg> ;
+    schema:sameAs wd:Q388953 .
+
+places:m8131639 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tegs%20kyrka-2006.jpg> ;
+    schema:sameAs wd:Q7694652 .
+
+places:m8131646 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Morups%20kyrka%20ext1.jpg> ;
+    schema:sameAs wd:Q2400461 .
+
+places:m8131652 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A5ngers.jpg> ;
+    schema:sameAs wd:Q2547152 .
+
+places:m8131654 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Agunnaryds%20kyrka%202.jpg> ;
+    schema:sameAs wd:Q3274133 .
+
+places:m8131655 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Angelstad%20neben%20der%20Kirche.JPG> ;
+    schema:sameAs wd:Q537431 .
+
+places:m8131657 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Cliff%20Burton%20-%20by%20Fruggo.jpg> ;
+    schema:sameAs wd:Q2033795 .
+
+places:m8131660 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vittaryds%20kyrka.jpg> ;
+    schema:sameAs wd:Q1016365 .
+
+places:m8131667 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96desh%C3%B6g%20Kirche.jpg> ;
+    schema:sameAs wd:Q293968 .
+
+places:m8131669 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Horns%20kyrka.JPG> ;
+    schema:sameAs wd:Q3239921 .
+
+places:m8131672 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Linder%C3%B6ds%20kyrka.jpg> ;
+    schema:sameAs wd:Q1927269 .
+
+places:m8131675 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gata%20i%20Simrishamn.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Simrishamn%20vapen.svg> ;
+    schema:sameAs wd:Q648536 .
+
+places:m8131676 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84ngelholm%20montage.jpg> ;
+    schema:sameAs wd:Q54755 .
+
+places:m8131677 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Str%C3%B6velstorps%20kyrka%203%2C%20september%202013.jpg> ;
+    schema:sameAs wd:Q3353662 .
+
+places:m8131678 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Farstorps%20kyrka%20i%20solsken.jpg> ;
+    schema:sameAs wd:Q2566679 .
+
+places:m8131683 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kallh%C3%A4ll.jpg> ;
+    schema:sameAs wd:Q4353510 .
+
+places:m8131684 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Flemingsberg%202013a.jpg> ;
+    schema:sameAs wd:Q4117115 .
+
+places:m8131685 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Mullsj%C3%B6%2C%20den%2020%20maj%202007%2C%20bild%201.JPG> ;
+    schema:sameAs wd:Q1625556 .
+
+places:m8131720 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/K%C3%B6pinginsvikskyrka.JPG> ;
+    schema:sameAs wd:Q1377386 .
+
+places:m8131732 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85resj%C3%B6n%20Dcastor%202003.jpg> ;
+    schema:sameAs wd:Q271138 .
+
+places:m8131736 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Frinnaryds%20kyrka.jpg> ;
+    schema:sameAs wd:Q1983704 .
+
+places:m8131738 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Brandstorp%20V%C3%A4sterg%C3%B6tland%20Sweden%2003.jpg> ;
+    schema:sameAs wd:Q2853216 .
+
+places:m8131740 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Habo%20Sweden%2001.jpg> ;
+    schema:sameAs wd:Q1566951 .
+
+places:m8131744 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Malexander%20kyrka.jpg> ;
+    schema:sameAs wd:Q2360609 .
+
+places:m8131747 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4llestad%20kyrka%20%C3%96sterg%C3%B6tland.jpg> ;
+    schema:sameAs wd:Q3353277 .
+
+places:m8131749 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ringarums%20kyrka.jpg> ;
+    schema:sameAs wd:Q2607275 .
+
+places:m8131751 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Storfors%20kyrka.jpg> ;
+    schema:sameAs wd:Q2062839 .
+
+places:m8131772 schema:sameAs wd:Q7912636 .
+
+places:m8131780 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Torhamns%20kyrka.JPG> ;
+    schema:sameAs wd:Q2790766 .
+
+places:m8131789 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Anderstorps%20kyrka.JPG> ;
+    schema:sameAs wd:Q491730 .
+
+places:m8131790 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Smalands%20Burseryd%20station.JPG> ;
+    schema:sameAs wd:Q2066903 .
+
+places:m8131805 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A4rstorps%20kyrka.jpg> ;
+    schema:sameAs wd:Q10541977 .
+
+places:m8131813 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96stmarks%20gamla%20bron.jpg> ;
+    schema:sameAs wd:Q2390975 .
+
+places:m8131819 schema:image cwm:Lysvikskyrka.jpg ;
+    schema:sameAs wd:Q2786632 .
+
+places:m8131821 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/1Kristinehamns%20r%C3%A5dhus.JPG> ;
+    schema:sameAs wd:Q215832 .
+
+places:m8131834 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96rn%C3%A4set%20centrum.jpg> ;
+    schema:sameAs wd:Q58238295 .
+
+places:m8131857 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Dal%20Makhani.jpg> ;
+    schema:sameAs wd:Q1139389 .
+
+places:m8131878 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Abilds%20kyrka.jpg> ;
+    schema:sameAs wd:Q4667745 .
+
+places:m8131881 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bankeryds%20kyrka%20Sweden%2003.JPG> ;
+    schema:sameAs wd:Q2391850 .
+
+places:m8131883 schema:sameAs wd:Q4860990 .
+
+places:m8131884 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Forserum%202014%20-1.JPG> ;
+    schema:sameAs wd:Q2854566 .
+
+places:m8131885 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bredaryds%20kyrka%20fr%C3%A5n%20luften.jpg> ;
+    schema:sameAs wd:Q3283889 .
+
+places:m8131888 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vaxtorps%20kyrka.jpg> ;
+    schema:sameAs wd:Q2612450 .
+
+places:m8131890 schema:image cwm:LA2-vx06-savsjo-tingshus.jpg ;
+    schema:sameAs wd:Q985616 .
+
+places:m8131892 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Stockaryds%20station.JPG> ;
+    schema:sameAs wd:Q1016852 .
+
+places:m8131897 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Eksh%C3%A4rad.jpg> ;
+    schema:sameAs wd:Q2651809 .
+
+places:m8131898 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/L%C3%B6derups%20kyrka%201.jpg> ;
+    schema:sameAs wd:Q1728466 .
+
+places:m8131899 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/G%C3%A4stis%20Andersl%C3%B6v.JPG> ;
+    schema:sameAs wd:Q2767924 .
+
+places:m8131902 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Trelleborg%2C%20Springbrunnen%20und%20Turm%20%282008-07-27%29.JPG> ;
+    schema:sameAs wd:Q26943 .
+
+places:m8131903 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Torget%2C%20%C3%85hus.jpg> ;
+    schema:sameAs wd:Q127419 .
+
+places:m8131905 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85lidhem%20C.JPG> ;
+    schema:sameAs wd:Q271007 .
+
+places:m8131906 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kommunhuset%20i%20Hultsfred%2C%20invid%20Stora%20torget.JPG> ;
+    schema:sameAs wd:Q1636399 .
+
+places:m8131933 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Karlstorps%20kyrka.jpg> ;
+    schema:sameAs wd:Q6372612 .
+
+places:m8131935 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Myresj%C3%B6%20gamla%20kyrka.jpg> ;
+    schema:sameAs wd:Q2140394 .
+
+places:m8131941 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Algutsrums%20kyrka%20fr%C3%A5n%20luften.jpg> ;
+    schema:sameAs wd:Q2062405 .
+
+places:m8131942 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Smalsp%C3%A5ret%20Virserums%20station.jpg> ;
+    schema:sameAs wd:Q254017 .
+
+places:m8131943 schema:sameAs wd:Q271002 .
+
+places:m8131944 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Fliseryds%20kyrkas%20exteri%C3%B6r.jpg> ;
+    schema:sameAs wd:Q2575494 .
+
+places:m8131946 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A5ngsele%20kyrka.jpg> ;
+    schema:sameAs wd:Q1144285 .
+
+places:m8131947 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Barkarby%20handelsplats%202010a.jpg> ;
+    schema:sameAs wd:Q2218918 .
+
+places:m8131949 schema:image cwm:Kungsor06280001.jpg ;
+    schema:sameAs wd:Q41992 .
+
+places:m8131984 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Alva%20kyrka%20-%20KMB%20-%2016000300024417.jpg> ;
+    schema:sameAs wd:Q10407079 .
+
+places:m8131994 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kirche%20Loftahammar.JPG> ;
+    schema:sameAs wd:Q2479746 .
+
+places:m8131995 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96verum%20station%202011.jpg> ;
+    schema:sameAs wd:Q3131205 .
+
+places:m8132002 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Elsa%20Andersons%20konditori%20Norberg%202017.jpg> ;
+    schema:sameAs wd:Q2551945 .
+
+places:m8132005 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kolsva%20samh%C3%A4lle.jpg> ;
+    schema:sameAs wd:Q3473443 .
+
+places:m8132007 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Munktorp%20Pr%C3%A4stg%C3%A5rd.jpg> ;
+    schema:sameAs wd:Q1981372 .
+
+places:m8132024 schema:sameAs wd:Q5963259 .
+
+places:m8132044 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Svartsj%C3%B6%20slott%202013e.jpg> ;
+    schema:sameAs wd:Q2706209 .
+
+places:m8132062 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Br%C3%A4nnkyrka1800-tal.jpg> ;
+    schema:sameAs wd:Q4981807 .
+
+places:m8132082 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sp%C3%A5ntorget.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Stabbetorget%20i%20G%C3%B6teborg.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/TR%C3%84TORGET.jpg> ;
+    schema:sameAs wd:Q4919680 .
+
+places:m8132098 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Alings%C3%A5s%20kommunvapen%20-%20Riksarkivet%20Sverige.png>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Alings%C3%A5s%20r%C3%A5dhus%2002.jpg> ;
+    schema:sameAs wd:Q503162 .
+
+places:m8132100 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Br%C3%A4mhults%20kyrka.jpg> ;
+    schema:sameAs wd:Q4981802 .
+
+places:m8132101 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bredareds%20kyrka%201.JPG> ;
+    schema:sameAs wd:Q2306663 .
+
+places:m8132124 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Stallarholmen%20-%20panoramio.jpg> ;
+    schema:sameAs wd:Q656167 .
+
+places:m8132127 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Hotel%20Saltsj%C3%B6baden%202015.jpg> ;
+    schema:sameAs wd:Q990771 .
+
+places:m8132128 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A4rnv%C3%A4gshotellet%20Teckomatorp.jpg> ;
+    schema:sameAs wd:Q1016384 .
+
+places:m8132135 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Lenhovda%20tingshus.jpg> ;
+    schema:sameAs wd:Q2327523 .
+
+places:m8132136 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hovmantorps%20kyrka%20fr%C3%A5n%20luften.jpg> ;
+    schema:sameAs wd:Q2034409 .
+
+places:m8132139 schema:image cwm:Linneryd09.jpg ;
+    schema:sameAs wd:Q2187596 .
+
+places:m8132140 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Urshults%20kyrka%20fr%C3%A5n%20luften.jpg> ;
+    schema:sameAs wd:Q1025490 .
+
+places:m8132141 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/201107%20-%20MC-kossan%20i%20V%C3%A4ckels%C3%A5ng%2001.JPG> ;
+    schema:sameAs wd:Q2288329 .
+
+places:m8132150 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6l%C3%B6%20kyrka.jpg> ;
+    schema:sameAs wd:Q2431323 .
+
+places:m8132154 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vaxholm%20february%202013.jpg> ;
+    schema:sameAs wd:Q1001109 .
+
+places:m8132157 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sigtuna%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Stora%20gatan%20i%20Sigtuna%20nr%201.jpg> ;
+    schema:sameAs wd:Q3183470 .
+
+places:m8132158 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Nyn%C3%A4shamn%20omgiv.jpg> ;
+    schema:sameAs wd:Q738338 .
+
+places:m8132161 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Skolgard%20i%20Skanes%20Fagerhult.jpg> ;
+    schema:sameAs wd:Q2340461 .
+
+places:m8132162 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bjuvs%20kyrka%202.jpg> ;
+    schema:sameAs wd:Q1760444 .
+
+places:m8132164 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hofterupsd%C3%B6sen%202.jpg> ;
+    schema:sameAs wd:Q2676260 .
+
+places:m8132172 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84lmhult%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Almhult%20railroad%20station.JPG> ;
+    schema:sameAs wd:Q122872 .
+
+places:m8132174 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sj%C3%B6bo%20Sweden%202.jpg> ;
+    schema:sameAs wd:Q1019556 .
+
+places:m8132180 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Markaryd%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Markaryds%20centrum%201.jpg> ;
+    schema:sameAs wd:Q1639483 .
+
+places:m8132181 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Traryds%20kyrka%20fr%C3%A5n%20luften.jpg> ;
+    schema:sameAs wd:Q2584179 .
+
+places:m8132185 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Lidhult%20kyrka%2C%20Kronobergs%20l%C3%A4n.JPG> ;
+    schema:sameAs wd:Q1016065 .
+
+places:m8132186 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Skivarps%20g%C3%A4stis.jpg> ;
+    schema:sameAs wd:Q2124908 .
+
+places:m8132187 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Skurups%20station.jpg> ;
+    schema:sameAs wd:Q39059 .
+
+places:m8132188 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Blentarps%20kyrka%20exteri%C3%B6r%204.jpg> ;
+    schema:sameAs wd:Q2328025 .
+
+places:m8132189 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kullam%C3%B6llan-1.jpg> ;
+    schema:sameAs wd:Q937883 .
+
+places:m8132193 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Smedstorps%20station.jpg> ;
+    schema:sameAs wd:Q2532176 .
+
+places:m8132197 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Perstorp%2C%20station.jpg> ;
+    schema:sameAs wd:Q1736327 .
+
+places:m8132200 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A5stad%2C%20Sweden%2C%20a%20street%20adjacent%20to%20market%20square.jpg> ;
+    schema:sameAs wd:Q1011844 .
+
+places:m8132203 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Lotsutkiken%20i%20Torekov%202013.jpg> ;
+    schema:sameAs wd:Q1013563 .
+
+places:m8132205 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/J%C3%A4rnv%C3%A4gsstationen%20i%20Genarp%2C%20sedermera%20f%C3%B6rskola.jpg> ;
+    schema:sameAs wd:Q277849 .
+
+places:m8132208 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Veber%C3%B6ds%20kyrka%20februari%202012.jpg> ;
+    schema:sameAs wd:Q2007115 .
+
+places:m8132214 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6gan%C3%A4s%20kyrka.jpg> ;
+    schema:sameAs wd:Q911875 .
+
+places:m8132216 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Esl%C3%B6v%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Esl%C3%B6vs%20bibliotek-1.jpg> ;
+    schema:sameAs wd:Q79237 .
+
+places:m8132217 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ystad%20stortorget.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ystad%20vapen.svg> ;
+    schema:sameAs wd:Q28287 .
+
+places:m8132219 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4ssleholm%20Center.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4ssleholm%20vapen.svg> ;
+    schema:sameAs wd:Q847665 .
+
+places:m8132222 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vinsl%C3%B6vs%20station-1.jpg> ;
+    schema:sameAs wd:Q2905916 .
+
+places:m8132225 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96dsm%C3%A5ls%20kyrka.jpg> ;
+    schema:sameAs wd:Q2209102 .
+
+places:m8132233 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6gsbo%20kyrka%20den%2022%20oktober%202005%2C%20exteri%C3%B6r%202..JPG> ;
+    schema:sameAs wd:Q9289705 .
+
+places:m8132239 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A5rv%C3%A4derstorget%20%28Sp%C3%A5rvagnsh%C3%A5llplats%29.JPG> ;
+    schema:sameAs wd:Q4918191 .
+
+places:m8132241 schema:sameAs wd:Q9289872 .
+
+places:m8132257 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Erikstads%20kyrka%20ext1.jpg> ;
+    schema:sameAs wd:Q4349594 .
+
+places:m8132283 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Larvs%20kyrka%2002.JPG> ;
+    schema:sameAs wd:Q3055179 .
+
+places:m8132293 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A4ve%20kyrka.jpg> ;
+    schema:sameAs wd:Q18333657 .
+
+places:m8132299 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gudmar%20Olovsson%20Les%20deux%20soeurs%201.JPG> ;
+    schema:sameAs wd:Q1025480 .
+
+places:m8132303 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bj%C3%A4rredk%C3%B6pcentrum.jpg> ;
+    schema:sameAs wd:Q879479 .
+
+places:m8132312 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/L%C3%B6ber%C3%B6d%20gata.jpg> ;
+    schema:sameAs wd:Q2222483 .
+
+places:m8132345 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84lghult%20centrum.jpg> ;
+    schema:sameAs wd:Q254761 .
+
+places:m8132379 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Eriksf%C3%A4lt%20och%20Heleneholm%2C%20Malm%C3%B6.jpg> ;
+    schema:sameAs wd:Q5389056 .
+
+places:m8132392 schema:sameAs wd:Q5588011 .
+
+places:m8132404 schema:image cwm:DSCN2299.JPG ;
+    schema:sameAs wd:Q1743988 .
+
+places:m8132410 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Malm%C3%B6n%2C%202016%20-08.jpg> ;
+    schema:sameAs wd:Q1904065 .
+
+places:m8132428 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6gs%C3%A4ter%20church.jpg> ;
+    schema:sameAs wd:Q1019557 .
+
+places:m8132432 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/En%20gammal%20stenbro%20%C3%B6ver%20S%C3%A4ve%C3%A5n%2C%20vid%20Brobacken%20i%20Lerum%2C%20den%2021%20juni%202006.JPG> ;
+    schema:sameAs wd:Q988275 .
+
+places:m8132436 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bollebygd%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Bollebygds%20kommunhus.JPG> ;
+    schema:sameAs wd:Q503102 .
+
+places:m8132452 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/20080725IMG%207464BrackeChurch.jpg> ;
+    schema:sameAs wd:Q10436891 .
+
+places:m8132453 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A5sj%C3%B6%20nya%20kyrka.jpg> ;
+    schema:sameAs wd:Q10531388 .
+
+places:m8132472 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bergsjo%20kyrka-view.jpg> ;
+    schema:sameAs wd:Q820231 .
+
+places:m8132489 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ljusne%20kyrka%201.jpg> ;
+    schema:sameAs wd:Q145648 .
+
+places:m8132500 schema:image cwm:Akebaecks-kyrka-Gotland-N.jpg ;
+    schema:sameAs wd:Q10403977 .
+
+places:m8132501 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Barlingbo%20view02.jpg> ;
+    schema:sameAs wd:Q10426443 .
+
+places:m8132503 schema:image cwm:Nykilskyrkakullen3.JPG ;
+    schema:sameAs wd:Q2470206 .
+
+places:m8132504 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vikingstads%20station%2C%20den%2025%20maj%202007%2C%20bild%203.jpg> ;
+    schema:sameAs wd:Q3055238 .
+
+places:m8132505 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bj%C3%B6rkviks%20kyrka.jpg> ;
+    schema:sameAs wd:Q2549927 .
+
+places:m8132508 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Blason%20Dalhem.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Dalhem%20-%20casa%20de%20a%20vila%20a%20Berneau.jpg> ;
+    schema:sameAs wd:Q846182 .
+
+places:m8132513 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hau%20v%C3%A4stra%20parten%2004.JPG> ;
+    schema:sameAs wd:Q10496665 .
+
+places:m8132525 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gotland-L%C3%A4rbro%20kyrka%20Gesamtansicht.jpg> ;
+    schema:sameAs wd:Q1879295 .
+
+places:m8132544 schema:image cwm:Vaesterhejde-kyrka-Gotland-S.jpg ;
+    schema:sameAs wd:Q2301300 .
+
+places:m8132594 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hammerdal%20kyrka%20view2.jpg> ;
+    schema:sameAs wd:Q1519013 .
+
+places:m8132598 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Unders%C3%A5kerstation.jpg> ;
+    schema:sameAs wd:Q2096354 .
+
+places:m8132600 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hack%C3%A5s%20-%20KMB%20-%2016000300024101.jpg> ;
+    schema:sameAs wd:Q1019578 .
+
+places:m8132601 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kl%C3%B6vsj%C3%B6%20June%202014.jpg> ;
+    schema:sameAs wd:Q3119026 .
+
+places:m8132604 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A4tans%20kyrka.JPG> ;
+    schema:sameAs wd:Q5146109 .
+
+places:m8132607 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vemdalens%20kyrka%202012%2003.jpg> ;
+    schema:sameAs wd:Q2166310 .
+
+places:m8132608 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Brunflo%20-%20KMB%20-%2016000300024111.jpg> ;
+    schema:sameAs wd:Q992640 .
+
+places:m8132614 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Marieby%20Nya%20kyrka.jpg> ;
+    schema:sameAs wd:Q924504 .
+
+places:m8132618 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Aneby%20montage%202015.jpg> ;
+    schema:sameAs wd:Q1940596 .
+
+places:m8132619 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85senh%C3%B6ga%20kyrka.jpg> ;
+    schema:sameAs wd:Q3254122 .
+
+places:m8132620 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gnosj%C3%B6%20station.JPG> ;
+    schema:sameAs wd:Q1533298 .
+
+places:m8132626 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Reftele%20kyrka-sockenstuga.JPG> ;
+    schema:sameAs wd:Q784287 .
+
+places:m8132629 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Gr%C3%A4nna.jpg> ;
+    schema:sameAs wd:Q194353 .
+
+places:m8132631 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Lekeryds%20kyrka%20framifr%C3%A5n.jpg> ;
+    schema:sameAs wd:Q2693699 .
+
+places:m8132633 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96lmstads%20kyrka.JPG> ;
+    schema:sameAs wd:Q2204214 .
+
+places:m8132634 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sk%C3%A4rstads%20kyrka%2001.JPG> ;
+    schema:sameAs wd:Q2745780 .
+
+places:m8132640 schema:image cwm:Forsheda.jpg ;
+    schema:sameAs wd:Q2199905 .
+
+places:m8132642 schema:image cwm:Karda.jpg ;
+    schema:sameAs wd:Q2075959 .
+
+places:m8132643 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Rydaholms%20kyrka.jpg> ;
+    schema:sameAs wd:Q2577791 .
+
+places:m8132646 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A4rnamo%20Marktplatz.JPG> ;
+    schema:sameAs wd:Q54771 .
+
+places:m8132660 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Eksjoe%20Altstadt.JPG> ;
+    schema:sameAs wd:Q1001905 .
+
+places:m8132667 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B6gsby%20kyrka%20fr%C3%A5n%20luften.jpg> ;
+    schema:sameAs wd:Q1572742 .
+
+places:m8132670 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%B6der%C3%A5kra%20skola.jpg> ;
+    schema:sameAs wd:Q1985678 .
+
+places:m8132671 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tors%C3%A5s%20kyrka%20from%20southwest.jpg> ;
+    schema:sameAs wd:Q1016705 .
+
+places:m8132677 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Monsteras%20vom%20hafen.jpg> ;
+    schema:sameAs wd:Q599114 .
+
+places:m8132679 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Emmaboda%20j%C3%A4rnv%C3%A4gsstation.jpg> ;
+    schema:sameAs wd:Q1338169 .
+
+places:m8132680 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/L%C3%A5ngasj%C3%B6%20vandrarhem.jpg> ;
+    schema:sameAs wd:Q2238302 .
+
+places:m8132681 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vissefj%C3%A4rda%20kyrka%20fr%C3%A5n%20luften.jpg> ;
+    schema:sameAs wd:Q2595719 .
+
+places:m8132685 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hagby%20kyrka.jpg> ;
+    schema:sameAs wd:Q2074278 .
+
+places:m8132690 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A4ckebo%20school%20B%C3%A4ckebo%20Sweden.JPG> ;
+    schema:sameAs wd:Q2394168 .
+
+places:m8132691 schema:sameAs wd:Q3152552 .
+
+places:m8132695 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Orsj%C3%B6%20kyrka.jpg> ;
+    schema:sameAs wd:Q1969336 .
+
+places:m8132697 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Kristdala%20kyrka%20-%20kmb.16000200083199.jpg> ;
+    schema:sameAs wd:Q3353573 .
+
+places:m8132698 schema:image cwm:Gamleby-vy-luckan.jpg ;
+    schema:sameAs wd:Q2670538 .
+
+places:m8132702 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/ICA%20i%20Fr%C3%B6dinge%202012-07-08.jpg> ;
+    schema:sameAs wd:Q2223133 .
+
+places:m8132724 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%84lvdalen%20vapen.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Alvdalen%20Kyrkharbre1.jpg> ;
+    schema:sameAs wd:Q2453291 .
+
+places:m8132754 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%85seda%20kyrka%20fr%C3%A5n%20luften.jpg> ;
+    schema:sameAs wd:Q271255 .
+
+places:m8132757 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Folkets%20hus%20i%20Lessebo.JPG> ;
+    schema:sameAs wd:Q1820923 .
+
+places:m8132761 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Alvesta%20central%20station.jpg> ;
+    schema:sameAs wd:Q2604885 .
+
+places:m8132781 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ljungby%20Storgatan.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ljungby%20vapen.svg> ;
+    schema:sameAs wd:Q744491 .
+
+places:m8132782 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Barnarps%20kyrka.jpg> ;
+    schema:sameAs wd:Q2161782 .
+
+places:m8132783 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ryssby%20kyrka%20Kronobergs%20l%C3%A4n%2002.JPG> ;
+    schema:sameAs wd:Q1014028 .
+
+places:m8132792 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/T%C3%B6re%20Kyrka%202009-04-16.jpg>,
+        cwm:Tore-church.jpg ;
+    schema:sameAs wd:Q3235942 .
+
+places:m8132801 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/R%C3%A5ne%C3%A5%20kyrka-2009-04-16.jpg> ;
+    schema:sameAs wd:Q938745 .
+
+places:m8132803 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Norrfj%C3%A4rden%20-%20KMB%20-%2016000300022563.jpg> ;
+    schema:sameAs wd:Q612314 .
+
+places:m8132806 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Jukkasj%C3%A4rvi%2C%20Sweden.jpg> ;
+    schema:sameAs wd:Q1284760 .
+
+places:m8132850 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Slaka%20-%20KMB%20-%2016000300022187.jpg> ;
+    schema:sameAs wd:Q2423507 .
+
+places:m8132859 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A5nga%20kyrka%20i%20Norrk%C3%B6pings%20kommun%2C%20den%2011%20oktober%202011.JPG> ;
+    schema:sameAs wd:Q33109402 .
+
+places:m8132862 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Forn%C3%A5sa%20church%20Motala%20Sweden.JPG> ;
+    schema:sameAs wd:Q2409237 .
+
+places:m8132863 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Motala%20Sweden%20001.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Motala%20vapen.svg> ;
+    schema:sameAs wd:Q54357 .
+
+places:m8132864 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tj%C3%A4llmo%20-%20KMB%20-%2016000700024909.jpg> ;
+    schema:sameAs wd:Q2287103 .
+
+places:m8132871 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sya%20station.JPG> ;
+    schema:sameAs wd:Q3340730 .
+
+places:m8132878 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bettna%20kyrka2.jpg> ;
+    schema:sameAs wd:Q2052614 .
+
+places:m8132881 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Mell%C3%B6sa%20kyrkby.jpg> ;
+    schema:sameAs wd:Q2342502 .
+
+places:m8132882 schema:sameAs wd:Q1214087 .
+
+places:m8132904 schema:sameAs wd:Q5588095 .
+
+places:m8132907 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/74%20Klocktornet%2C%20Knutby.jpg> ;
+    schema:sameAs wd:Q1810048 .
+
+places:m8132932 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Alunda%20kyrka%20ext1.jpg> ;
+    schema:sameAs wd:Q2137552 .
+
+places:m8132985 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Svanskogs%20stationshus%202017.jpg> ;
+    schema:sameAs wd:Q2064631 .
+
+places:m8132988 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bjurholms%20kyrka%20Sweden.jpg> ;
+    schema:sameAs wd:Q879471 .
+
+places:m8132997 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vilhelmina%20-%20KMB%20-%2016000300022439.jpg> ;
+    schema:sameAs wd:Q1760456 .
+
+places:m8133006 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Havero%20kyrka%20ext1.jpg> ;
+    schema:sameAs wd:Q10433191 .
+
+places:m8133007 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Havero%20kyrka%20ext1.jpg> ;
+    schema:sameAs wd:Q10518616 .
+
+places:m8133008 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Torp%20kyrka.jpg> ;
+    schema:sameAs wd:Q10700251 .
+
+places:m8133009 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A4ssj%C3%B6%20kyrka%20framifr%C3%A5n.JPG> ;
+    schema:sameAs wd:Q10531799 .
+
+places:m8133011 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Timr%C3%A5%20kyrka.jpg> ;
+    schema:sameAs wd:Q10698211 .
+
+places:m8133012 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tyndero%20kyrka%202006-02-27.jpg> ;
+    schema:sameAs wd:Q10707205 .
+
+places:m8133015 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Hogsjo%20nya%20kyrka.jpg> ;
+    schema:sameAs wd:Q10532378 .
+
+places:m8133017 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Stigsj%C3%B6%20kyrka.jpg> ;
+    schema:sameAs wd:Q10680065 .
+
+places:m8133018 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Viksj%C3%B6%20kyrka.jpg> ;
+    schema:sameAs wd:Q10715285 .
+
+places:m8133019 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Aln%C3%B6%20kyrka2.jpg> ;
+    schema:sameAs wd:Q10406621 .
+
+places:m8133020 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Attmars%20kyrka%20ext3.jpg> ;
+    schema:sameAs wd:Q10422198 .
+
+places:m8133022 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Holms%20kyrka%201.JPG> ;
+    schema:sameAs wd:Q10525317 .
+
+places:m8133023 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Indals%20kyrka%201.jpg> ;
+    schema:sameAs wd:Q10534927 .
+
+places:m8133024 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Lidens%20gamla%20kyrka.jpg> ;
+    schema:sameAs wd:Q10561337 .
+
+places:m8133025 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Njurunda%20kyrka.jpg> ;
+    schema:sameAs wd:Q10601458 .
+
+places:m8133026 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A4ttna%20kyrka.jpg> ;
+    schema:sameAs wd:Q10688207 .
+
+places:m8133028 schema:image cwm:Birgittakyrkan.jpg ;
+    schema:sameAs wd:Q10671268 .
+
+places:m8133029 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sk%C3%B6nsmons%20kyrka.jpg> ;
+    schema:sameAs wd:Q10671277 .
+
+places:m8133030 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/St%C3%B6de%20kyrka.jpg> ;
+    schema:sameAs wd:Q10682961 .
+
+places:m8133031 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Tuna%20kyrka%20Medelpad%2001.JPG> ;
+    schema:sameAs wd:Q10706260 .
+
+places:m8133032 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Bj%C3%A4rtr%C3%A5%20kyrka.JPG> ;
+    schema:sameAs wd:Q10430509 .
+
+places:m8133038 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ull%C3%A5ngers%20kyrka.jpg> ;
+    schema:sameAs wd:Q2622251 .
+
+places:m8133078 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Ekero%20centrum%202008.jpg> ;
+    schema:sameAs wd:Q384083 .
+
+places:m8133088 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Sp%C3%A5nga%20Kyrka%2C%20Vy.jpg> ;
+    schema:sameAs wd:Q7581833 .
+
+places:m8133106 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Riala%20kyrka%2000669.jpg> ;
+    schema:sameAs wd:Q3354235 .
+
+places:m8133114 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/SorundaChurch%20view1.jpg> ;
+    schema:sameAs wd:Q2539876 .
+
+places:m8133156 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Vittsk%C3%B6vle%20kyrka%20i%20augusti%202012.jpg> ;
+    schema:sameAs wd:Q1968940 .
+
+places:m8133173 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Partille%20herrg%C3%A5rd.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Partille%20vinter%202010.JPG> ;
+    schema:sameAs wd:Q2054961 .
+
+places:m8133174 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/%C3%96cker%C3%B6%20hamn%2010.jpg> ;
+    schema:sameAs wd:Q1725770 .
+
+places:m8133264 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/The%20Island%20Styrs%C3%B6.jpg> ;
+    schema:sameAs wd:Q1015454 .
+
+places:m8133267 schema:sameAs wd:Q1808866 .
+
+places:m8133285 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Gestad%20kyrka.JPG> ;
+    schema:sameAs wd:Q10504557 .
+
+places:m8133295 schema:sameAs wd:Q7446260 .
+
+places:m8133351 schema:image <http://commons.wikimedia.org/wiki/Special:FilePath/Skokloster%20fasad%202013b.jpg> ;
+    schema:sameAs wd:Q1891413 .
+
+places:m955 schema:sameAs wd:Q4354686,
+        <https://fi.wikipedia.org/wiki/Suvilahti_(Helsinki)> ;
+    geo:lat 60.186388888889 ;
+    geo:long 24.972222222222 .
+
+wd:Q1000113 a external:Wikidata .
+
+wd:Q1001109 a external:Wikidata .
+
+wd:Q1001905 a external:Wikidata .
+
+wd:Q1001927 a external:Wikidata .
+
+wd:Q1002162 a external:Wikidata .
+
+wd:Q1002499 a external:Wikidata .
+
+wd:Q1005049 a external:Wikidata .
+
+wd:Q1009142 a external:Wikidata .
+
+wd:Q1011844 a external:Wikidata .
+
+wd:Q1013563 a external:Wikidata .
+
+wd:Q1014028 a external:Wikidata .
+
+wd:Q1015454 a external:Wikidata .
+
+wd:Q1016065 a external:Wikidata .
+
+wd:Q1016365 a external:Wikidata .
+
+wd:Q1016384 a external:Wikidata .
+
+wd:Q1016705 a external:Wikidata .
+
+wd:Q1016852 a external:Wikidata .
+
+wd:Q1016922 a external:Wikidata .
+
+wd:Q1018719 a external:Wikidata .
+
+wd:Q1019556 a external:Wikidata .
+
+wd:Q1019557 a external:Wikidata .
+
+wd:Q1019578 a external:Wikidata .
+
+wd:Q1025480 a external:Wikidata .
+
+wd:Q1025490 a external:Wikidata .
+
+wd:Q103093 a external:Wikidata .
+
+wd:Q103672 a external:Wikidata .
+
+wd:Q103679 a external:Wikidata .
+
+wd:Q103699 a external:Wikidata .
+
+wd:Q103707 a external:Wikidata .
+
+wd:Q103738 a external:Wikidata .
+
+wd:Q10403977 a external:Wikidata .
+
+wd:Q10405130 a external:Wikidata .
+
+wd:Q10406621 a external:Wikidata .
+
+wd:Q10406625 a external:Wikidata .
+
+wd:Q10407079 a external:Wikidata .
+
+wd:Q10417112 a external:Wikidata .
+
+wd:Q10422198 a external:Wikidata .
+
+wd:Q10422201 a external:Wikidata .
+
+wd:Q104231 a external:Wikidata .
+
+wd:Q104257 a external:Wikidata .
+
+wd:Q10426443 a external:Wikidata .
+
+wd:Q10428521 a external:Wikidata .
+
+wd:Q10430417 a external:Wikidata .
+
+wd:Q10430435 a external:Wikidata .
+
+wd:Q10430509 a external:Wikidata .
+
+wd:Q10430588 a external:Wikidata .
+
+wd:Q10432598 a external:Wikidata .
+
+wd:Q10433191 a external:Wikidata .
+
+wd:Q10433195 a external:Wikidata .
+
+wd:Q10436891 a external:Wikidata .
+
+wd:Q10438123 a external:Wikidata .
+
+wd:Q10438777 a external:Wikidata .
+
+wd:Q10466125 a external:Wikidata .
+
+wd:Q10468283 a external:Wikidata .
+
+wd:Q104746 a external:Wikidata .
+
+wd:Q10480764 a external:Wikidata .
+
+wd:Q10485132 a external:Wikidata .
+
+wd:Q104891 a external:Wikidata .
+
+wd:Q104926 a external:Wikidata .
+
+wd:Q10496665 a external:Wikidata .
+
+wd:Q10496890 a external:Wikidata .
+
+wd:Q10498074 a external:Wikidata .
+
+wd:Q10498091 a external:Wikidata .
+
+wd:Q10498160 a external:Wikidata .
+
+wd:Q10500834 a external:Wikidata .
+
+wd:Q10501935 a external:Wikidata .
+
+wd:Q10503165 a external:Wikidata .
+
+wd:Q10504557 a external:Wikidata .
+
+wd:Q10506445 a external:Wikidata .
+
+wd:Q10508084 a external:Wikidata .
+
+wd:Q10509669 a external:Wikidata .
+
+wd:Q10509835 a external:Wikidata .
+
+wd:Q10511128 a external:Wikidata .
+
+wd:Q10517199 a external:Wikidata .
+
+wd:Q10518026 a external:Wikidata .
+
+wd:Q10518098 a external:Wikidata .
+
+wd:Q10518179 a external:Wikidata .
+
+wd:Q10518430 a external:Wikidata .
+
+wd:Q10518616 a external:Wikidata .
+
+wd:Q10518619 a external:Wikidata .
+
+wd:Q10519121 a external:Wikidata .
+
+wd:Q10519163 a external:Wikidata .
+
+wd:Q10519244 a external:Wikidata .
+
+wd:Q10524020 a external:Wikidata .
+
+wd:Q10525317 a external:Wikidata .
+
+wd:Q10525331 a external:Wikidata .
+
+wd:Q10527351 a external:Wikidata .
+
+wd:Q10531274 a external:Wikidata .
+
+wd:Q10531388 a external:Wikidata .
+
+wd:Q10531501 a external:Wikidata .
+
+wd:Q10531730 a external:Wikidata .
+
+wd:Q10531799 a external:Wikidata .
+
+wd:Q10531802 a external:Wikidata .
+
+wd:Q10532065 a external:Wikidata .
+
+wd:Q10532378 a external:Wikidata .
+
+wd:Q10532512 a external:Wikidata .
+
+wd:Q10533559 a external:Wikidata .
+
+wd:Q10534602 a external:Wikidata .
+
+wd:Q10534927 a external:Wikidata .
+
+wd:Q10534929 a external:Wikidata .
+
+wd:Q10541754 a external:Wikidata .
+
+wd:Q10541800 a external:Wikidata .
+
+wd:Q10541977 a external:Wikidata .
+
+wd:Q10542010 a external:Wikidata .
+
+wd:Q10542038 a external:Wikidata .
+
+wd:Q10556503 a external:Wikidata .
+
+wd:Q10556734 a external:Wikidata .
+
+wd:Q10561337 a external:Wikidata .
+
+wd:Q10561942 a external:Wikidata .
+
+wd:Q10568426 a external:Wikidata .
+
+wd:Q10568487 a external:Wikidata .
+
+wd:Q10576235 a external:Wikidata .
+
+wd:Q10587127 a external:Wikidata .
+
+wd:Q10588912 a external:Wikidata .
+
+wd:Q10589151 a external:Wikidata .
+
+wd:Q10600413 a external:Wikidata .
+
+wd:Q10601458 a external:Wikidata .
+
+wd:Q10601460 a external:Wikidata .
+
+wd:Q10601466 a external:Wikidata .
+
+wd:Q10601913 a external:Wikidata .
+
+wd:Q10602433 a external:Wikidata .
+
+wd:Q10602709 a external:Wikidata .
+
+wd:Q10604943 a external:Wikidata .
+
+wd:Q10605509 a external:Wikidata .
+
+wd:Q10606607 a external:Wikidata .
+
+wd:Q10611285 a external:Wikidata .
+
+wd:Q10613564 a external:Wikidata .
+
+wd:Q10649184 a external:Wikidata .
+
+wd:Q10649798 a external:Wikidata .
+
+wd:Q10650930 a external:Wikidata .
+
+wd:Q10656398 a external:Wikidata .
+
+wd:Q10665074 a external:Wikidata .
+
+wd:Q10665452 a external:Wikidata .
+
+wd:Q10667800 a external:Wikidata .
+
+wd:Q10667884 a external:Wikidata .
+
+wd:Q10668312 a external:Wikidata .
+
+wd:Q10670323 a external:Wikidata .
+
+wd:Q10670880 a external:Wikidata .
+
+wd:Q10671268 a external:Wikidata .
+
+wd:Q10671272 a external:Wikidata .
+
+wd:Q10671277 a external:Wikidata .
+
+wd:Q10673288 a external:Wikidata .
+
+wd:Q10680065 a external:Wikidata .
+
+wd:Q10680068 a external:Wikidata .
+
+wd:Q10681040 a external:Wikidata .
+
+wd:Q10681102 a external:Wikidata .
+
+wd:Q10681133 a external:Wikidata .
+
+wd:Q10682961 a external:Wikidata .
+
+wd:Q10682965 a external:Wikidata .
+
+wd:Q10686392 a external:Wikidata .
+
+wd:Q10687871 a external:Wikidata .
+
+wd:Q10687926 a external:Wikidata .
+
+wd:Q10688119 a external:Wikidata .
+
+wd:Q10688172 a external:Wikidata .
+
+wd:Q10688207 a external:Wikidata .
+
+wd:Q10688474 a external:Wikidata .
+
+wd:Q10688885 a external:Wikidata .
+
+wd:Q10691839 a external:Wikidata .
+
+wd:Q10692742 a external:Wikidata .
+
+wd:Q10697804 a external:Wikidata .
+
+wd:Q10698211 a external:Wikidata .
+
+wd:Q10698216 a external:Wikidata .
+
+wd:Q10699346 a external:Wikidata .
+
+wd:Q10700251 a external:Wikidata .
+
+wd:Q10700448 a external:Wikidata .
+
+wd:Q10701329 a external:Wikidata .
+
+wd:Q10706260 a external:Wikidata .
+
+wd:Q10706283 a external:Wikidata .
+
+wd:Q10707205 a external:Wikidata .
+
+wd:Q10707208 a external:Wikidata .
+
+wd:Q10709434 a external:Wikidata .
+
+wd:Q10712153 a external:Wikidata .
+
+wd:Q10712511 a external:Wikidata .
+
+wd:Q10713974 a external:Wikidata .
+
+wd:Q10715208 a external:Wikidata .
+
+wd:Q10715285 a external:Wikidata .
+
+wd:Q10715300 a external:Wikidata .
+
+wd:Q10716922 a external:Wikidata .
+
+wd:Q10718162 a external:Wikidata .
+
+wd:Q10725690 a external:Wikidata .
+
+wd:Q10725713 a external:Wikidata .
+
+wd:Q10725987 a external:Wikidata .
+
+wd:Q10726484 a external:Wikidata .
+
+wd:Q10726765 a external:Wikidata .
+
+wd:Q10727851 a external:Wikidata .
+
+wd:Q10728064 a external:Wikidata .
+
+wd:Q108037 a external:Wikidata .
+
+wd:Q109010 a external:Wikidata .
+
+wd:Q1120927 a external:Wikidata .
+
+wd:Q1128384 a external:Wikidata .
+
+wd:Q1130264 a external:Wikidata .
+
+wd:Q113673 a external:Wikidata .
+
+wd:Q113679 a external:Wikidata .
+
+wd:Q113692 a external:Wikidata .
+
+wd:Q113718 a external:Wikidata .
+
+wd:Q113730 a external:Wikidata .
+
+wd:Q1139389 a external:Wikidata .
+
+wd:Q1144285 a external:Wikidata .
+
+wd:Q1148295 a external:Wikidata .
+
+wd:Q117091 a external:Wikidata .
+
+wd:Q117728 a external:Wikidata .
+
+wd:Q11850236 a external:Wikidata .
+
+wd:Q11861172 a external:Wikidata .
+
+wd:Q11872198 a external:Wikidata .
+
+wd:Q11886136 a external:Wikidata .
+
+wd:Q1214087 a external:Wikidata .
+
+wd:Q122872 a external:Wikidata .
+
+wd:Q123855 a external:Wikidata .
+
+wd:Q1240598 a external:Wikidata .
+
+wd:Q125222 a external:Wikidata .
+
+wd:Q127419 a external:Wikidata .
+
+wd:Q1284760 a external:Wikidata .
+
+wd:Q1299099 a external:Wikidata .
+
+wd:Q1303800 a external:Wikidata .
+
+wd:Q130422 a external:Wikidata .
+
+wd:Q131716 a external:Wikidata .
+
+wd:Q132334 a external:Wikidata .
+
+wd:Q1324436 a external:Wikidata .
+
+wd:Q1329599 a external:Wikidata .
+
+wd:Q133416 a external:Wikidata .
+
+wd:Q1338169 a external:Wikidata .
+
+wd:Q13719518 a external:Wikidata .
+
+wd:Q1377386 a external:Wikidata .
+
+wd:Q13883049 a external:Wikidata .
+
+wd:Q1418090 a external:Wikidata .
+
+wd:Q145648 a external:Wikidata .
+
+wd:Q145835 a external:Wikidata .
+
+wd:Q1472085 a external:Wikidata .
+
+wd:Q1493534 a external:Wikidata .
+
+wd:Q149539 a external:Wikidata .
+
+wd:Q1516613 a external:Wikidata .
+
+wd:Q1519013 a external:Wikidata .
+
+wd:Q15256 a external:Wikidata .
+
+wd:Q1530789 a external:Wikidata .
+
+wd:Q15322 a external:Wikidata .
+
+wd:Q1533298 a external:Wikidata .
+
+wd:Q1547090 a external:Wikidata .
+
+wd:Q154748 a external:Wikidata .
+
+wd:Q1566951 a external:Wikidata .
+
+wd:Q1572742 a external:Wikidata .
+
+wd:Q1574296 a external:Wikidata .
+
+wd:Q157439 a external:Wikidata .
+
+wd:Q16017 a external:Wikidata .
+
+wd:Q1625556 a external:Wikidata .
+
+wd:Q1636399 a external:Wikidata .
+
+wd:Q1639483 a external:Wikidata .
+
+wd:Q16901685 a external:Wikidata .
+
+wd:Q17012 a external:Wikidata .
+
+wd:Q1702583 a external:Wikidata .
+
+wd:Q1720 a external:Wikidata .
+
+wd:Q1725770 a external:Wikidata .
+
+wd:Q1728466 a external:Wikidata .
+
+wd:Q1736327 a external:Wikidata .
+
+wd:Q1743988 a external:Wikidata .
+
+wd:Q174994 a external:Wikidata .
+
+wd:Q1760444 a external:Wikidata .
+
+wd:Q1760456 a external:Wikidata .
+
+wd:Q177019 a external:Wikidata .
+
+wd:Q179180 a external:Wikidata .
+
+wd:Q179454 a external:Wikidata .
+
+wd:Q1805635 a external:Wikidata .
+
+wd:Q1808866 a external:Wikidata .
+
+wd:Q1810048 a external:Wikidata .
+
+wd:Q1811020 a external:Wikidata .
+
+wd:Q1811630 a external:Wikidata .
+
+wd:Q182007 a external:Wikidata .
+
+wd:Q1820923 a external:Wikidata .
+
+wd:Q1825937 a external:Wikidata .
+
+wd:Q18333657 a external:Wikidata .
+
+wd:Q18334157 a external:Wikidata .
+
+wd:Q18334780 a external:Wikidata .
+
+wd:Q18335379 a external:Wikidata .
+
+wd:Q184492 a external:Wikidata .
+
+wd:Q1857569 a external:Wikidata .
+
+wd:Q186230 a external:Wikidata .
+
+wd:Q186662 a external:Wikidata .
+
+wd:Q18682725 a external:Wikidata .
+
+wd:Q1879295 a external:Wikidata .
+
+wd:Q1891413 a external:Wikidata .
+
+wd:Q1904065 a external:Wikidata .
+
+wd:Q192176 a external:Wikidata .
+
+wd:Q1927269 a external:Wikidata .
+
+wd:Q192770 a external:Wikidata .
+
+wd:Q193413 a external:Wikidata .
+
+wd:Q1937603 a external:Wikidata .
+
+wd:Q1940596 a external:Wikidata .
+
+wd:Q194353 a external:Wikidata .
+
+wd:Q196384 a external:Wikidata .
+
+wd:Q1968940 a external:Wikidata .
+
+wd:Q1969336 a external:Wikidata .
+
+wd:Q1975596 a external:Wikidata .
+
+wd:Q1981372 a external:Wikidata .
+
+wd:Q1983704 a external:Wikidata .
+
+wd:Q1985678 a external:Wikidata .
+
+wd:Q199957 a external:Wikidata .
+
+wd:Q2007115 a external:Wikidata .
+
+wd:Q201813 a external:Wikidata .
+
+wd:Q2031546 a external:Wikidata .
+
+wd:Q2031843 a external:Wikidata .
+
+wd:Q2033795 a external:Wikidata .
+
+wd:Q2034409 a external:Wikidata .
+
+wd:Q204707 a external:Wikidata .
+
+wd:Q205218 a external:Wikidata .
+
+wd:Q2052614 a external:Wikidata .
+
+wd:Q2054961 a external:Wikidata .
+
+wd:Q2062405 a external:Wikidata .
+
+wd:Q2062839 a external:Wikidata .
+
+wd:Q2064631 a external:Wikidata .
+
+wd:Q2064938 a external:Wikidata .
+
+wd:Q2066903 a external:Wikidata .
+
+wd:Q2074278 a external:Wikidata .
+
+wd:Q207444 a external:Wikidata .
+
+wd:Q2075959 a external:Wikidata .
+
+wd:Q209523 a external:Wikidata .
+
+wd:Q209634 a external:Wikidata .
+
+wd:Q2096354 a external:Wikidata .
+
+wd:Q210687 a external:Wikidata .
+
+wd:Q211638 a external:Wikidata .
+
+wd:Q211649 a external:Wikidata .
+
+wd:Q211652 a external:Wikidata .
+
+wd:Q2124908 a external:Wikidata .
+
+wd:Q2135 a external:Wikidata .
+
+wd:Q213551 a external:Wikidata .
+
+wd:Q2137 a external:Wikidata .
+
+wd:Q2137552 a external:Wikidata .
+
+wd:Q213769 a external:Wikidata .
+
+wd:Q2140394 a external:Wikidata .
+
+wd:Q214048 a external:Wikidata .
+
+wd:Q2142228 a external:Wikidata .
+
+wd:Q2145883 a external:Wikidata .
+
+wd:Q214829 a external:Wikidata .
+
+wd:Q215 a external:Wikidata .
+
+wd:Q215832 a external:Wikidata .
+
+wd:Q2161782 a external:Wikidata .
+
+wd:Q2166310 a external:Wikidata .
+
+wd:Q216915 a external:Wikidata .
+
+wd:Q2187596 a external:Wikidata .
+
+wd:Q2199905 a external:Wikidata .
+
+wd:Q2204214 a external:Wikidata .
+
+wd:Q220881 a external:Wikidata .
+
+wd:Q2209102 a external:Wikidata .
+
+wd:Q2218918 a external:Wikidata .
+
+wd:Q221990 a external:Wikidata .
+
+wd:Q2222483 a external:Wikidata .
+
+wd:Q2223133 a external:Wikidata .
+
+wd:Q2238302 a external:Wikidata .
+
+wd:Q2287103 a external:Wikidata .
+
+wd:Q2288329 a external:Wikidata .
+
+wd:Q2291661 a external:Wikidata .
+
+wd:Q2292693 a external:Wikidata .
+
+wd:Q2298076 a external:Wikidata .
+
+wd:Q230 a external:Wikidata .
+
+wd:Q2301300 a external:Wikidata .
+
+wd:Q2306663 a external:Wikidata .
+
+wd:Q2327523 a external:Wikidata .
+
+wd:Q2328025 a external:Wikidata .
+
+wd:Q2329425 a external:Wikidata .
+
+wd:Q2340461 a external:Wikidata .
+
+wd:Q2342502 a external:Wikidata .
+
+wd:Q2360609 a external:Wikidata .
+
+wd:Q2390975 a external:Wikidata .
+
+wd:Q2391850 a external:Wikidata .
+
+wd:Q239332 a external:Wikidata .
+
+wd:Q2394168 a external:Wikidata .
+
+wd:Q2400461 a external:Wikidata .
+
+wd:Q240574 a external:Wikidata .
+
+wd:Q2409237 a external:Wikidata .
+
+wd:Q2423507 a external:Wikidata .
+
+wd:Q2431323 a external:Wikidata .
+
+wd:Q2453291 a external:Wikidata .
+
+wd:Q2470206 a external:Wikidata .
+
+wd:Q2479746 a external:Wikidata .
+
+wd:Q24879 a external:Wikidata .
+
+wd:Q249378 a external:Wikidata .
+
+wd:Q2532176 a external:Wikidata .
+
+wd:Q2539876 a external:Wikidata .
+
+wd:Q254017 a external:Wikidata .
+
+wd:Q254251 a external:Wikidata .
+
+wd:Q2547152 a external:Wikidata .
+
+wd:Q254761 a external:Wikidata .
+
+wd:Q254799 a external:Wikidata .
+
+wd:Q2549927 a external:Wikidata .
+
+wd:Q255025 a external:Wikidata .
+
+wd:Q2551945 a external:Wikidata .
+
+wd:Q255206 a external:Wikidata .
+
+wd:Q2566679 a external:Wikidata .
+
+wd:Q2575494 a external:Wikidata .
+
+wd:Q2577791 a external:Wikidata .
+
+wd:Q25804 a external:Wikidata .
+
+wd:Q2584179 a external:Wikidata .
+
+wd:Q2595719 a external:Wikidata .
+
+wd:Q2598329 a external:Wikidata .
+
+wd:Q2604885 a external:Wikidata .
+
+wd:Q2607275 a external:Wikidata .
+
+wd:Q2612450 a external:Wikidata .
+
+wd:Q2622251 a external:Wikidata .
+
+wd:Q2628051 a external:Wikidata .
+
+wd:Q2642771 a external:Wikidata .
+
+wd:Q2651809 a external:Wikidata .
+
+wd:Q265682 a external:Wikidata .
+
+wd:Q266401 a external:Wikidata .
+
+wd:Q267030 a external:Wikidata .
+
+wd:Q2670538 a external:Wikidata .
+
+wd:Q267462 a external:Wikidata .
+
+wd:Q2676260 a external:Wikidata .
+
+wd:Q2693699 a external:Wikidata .
+
+wd:Q26943 a external:Wikidata .
+
+wd:Q2706209 a external:Wikidata .
+
+wd:Q271002 a external:Wikidata .
+
+wd:Q271007 a external:Wikidata .
+
+wd:Q271079 a external:Wikidata .
+
+wd:Q271107 a external:Wikidata .
+
+wd:Q271138 a external:Wikidata .
+
+wd:Q271153 a external:Wikidata .
+
+wd:Q271255 a external:Wikidata .
+
+wd:Q271274 a external:Wikidata .
+
+wd:Q271340 a external:Wikidata .
+
+wd:Q2736021 a external:Wikidata .
+
+wd:Q2745780 a external:Wikidata .
+
+wd:Q2767924 a external:Wikidata .
+
+wd:Q2777887 a external:Wikidata .
+
+wd:Q277849 a external:Wikidata .
+
+wd:Q2786632 a external:Wikidata .
+
+wd:Q2790766 a external:Wikidata .
+
+wd:Q27982 a external:Wikidata .
+
+wd:Q280562 a external:Wikidata .
+
+wd:Q28287 a external:Wikidata .
+
+wd:Q28532 a external:Wikidata .
+
+wd:Q2853216 a external:Wikidata .
+
+wd:Q2854566 a external:Wikidata .
+
+wd:Q2857809 a external:Wikidata .
+
+wd:Q285894 a external:Wikidata .
+
+wd:Q2905916 a external:Wikidata .
+
+wd:Q2916 a external:Wikidata .
+
+wd:Q293928 a external:Wikidata .
+
+wd:Q293968 a external:Wikidata .
+
+wd:Q293970 a external:Wikidata .
+
+wd:Q2944368 a external:Wikidata .
+
+wd:Q2962119 a external:Wikidata .
+
+wd:Q297718 a external:Wikidata .
+
+wd:Q297936 a external:Wikidata .
+
+wd:Q298003 a external:Wikidata .
+
+wd:Q2981703 a external:Wikidata .
+
+wd:Q29963 a external:Wikidata .
+
+wd:Q301259 a external:Wikidata .
+
+wd:Q3055179 a external:Wikidata .
+
+wd:Q3055238 a external:Wikidata .
+
+wd:Q306789 a external:Wikidata .
+
+wd:Q307370 a external:Wikidata .
+
+wd:Q307569 a external:Wikidata .
+
+wd:Q307603 a external:Wikidata .
+
+wd:Q3119026 a external:Wikidata .
+
+wd:Q3120654 a external:Wikidata .
+
+wd:Q3131205 a external:Wikidata .
+
+wd:Q3133423 a external:Wikidata .
+
+wd:Q3152552 a external:Wikidata .
+
+wd:Q3159 a external:Wikidata .
+
+wd:Q3183470 a external:Wikidata .
+
+wd:Q321430 a external:Wikidata .
+
+wd:Q3235942 a external:Wikidata .
+
+wd:Q3239921 a external:Wikidata .
+
+wd:Q3246585 a external:Wikidata .
+
+wd:Q3254122 a external:Wikidata .
+
+wd:Q3274133 a external:Wikidata .
+
+wd:Q3283889 a external:Wikidata .
+
+wd:Q33109402 a external:Wikidata .
+
+wd:Q3340730 a external:Wikidata .
+
+wd:Q3353277 a external:Wikidata .
+
+wd:Q3353573 a external:Wikidata .
+
+wd:Q3353662 a external:Wikidata .
+
+wd:Q3354235 a external:Wikidata .
+
+wd:Q3357414 a external:Wikidata .
+
+wd:Q3370762 a external:Wikidata .
+
+wd:Q34078 a external:Wikidata .
+
+wd:Q3440711 a external:Wikidata .
+
+wd:Q34550 a external:Wikidata .
+
+wd:Q3468782 a external:Wikidata .
+
+wd:Q3469834 a external:Wikidata .
+
+wd:Q3470336 a external:Wikidata .
+
+wd:Q3473443 a external:Wikidata .
+
+wd:Q37399 a external:Wikidata .
+
+wd:Q37404 a external:Wikidata .
+
+wd:Q37462 a external:Wikidata .
+
+wd:Q374794 a external:Wikidata .
+
+wd:Q375497 a external:Wikidata .
+
+wd:Q376003 a external:Wikidata .
+
+wd:Q3798 a external:Wikidata .
+
+wd:Q382808 a external:Wikidata .
+
+wd:Q384083 a external:Wikidata .
+
+wd:Q388953 a external:Wikidata .
+
+wd:Q389040 a external:Wikidata .
+
+wd:Q39059 a external:Wikidata .
+
+wd:Q3942 a external:Wikidata .
+
+wd:Q40430 a external:Wikidata .
+
+wd:Q4117115 a external:Wikidata .
+
+wd:Q4131730 a external:Wikidata .
+
+wd:Q4164315 a external:Wikidata .
+
+wd:Q4193897 a external:Wikidata .
+
+wd:Q41974 a external:Wikidata .
+
+wd:Q41992 a external:Wikidata .
+
+wd:Q42009 a external:Wikidata .
+
+wd:Q4257519 a external:Wikidata .
+
+wd:Q4272762 a external:Wikidata .
+
+wd:Q427422 a external:Wikidata .
+
+wd:Q427991 a external:Wikidata .
+
+wd:Q428749 a external:Wikidata .
+
+wd:Q430780 a external:Wikidata .
+
+wd:Q431271 a external:Wikidata .
+
+wd:Q4349080 a external:Wikidata .
+
+wd:Q4349550 a external:Wikidata .
+
+wd:Q4349594 a external:Wikidata .
+
+wd:Q4353510 a external:Wikidata .
+
+wd:Q4354686 a external:Wikidata .
+
+wd:Q45114 a external:Wikidata .
+
+wd:Q4531245 a external:Wikidata .
+
+wd:Q4570016 a external:Wikidata .
+
+wd:Q4667745 a external:Wikidata .
+
+wd:Q47018 a external:Wikidata .
+
+wd:Q47019 a external:Wikidata .
+
+wd:Q47169 a external:Wikidata .
+
+wd:Q48320 a external:Wikidata .
+
+wd:Q4860990 a external:Wikidata .
+
+wd:Q486562 a external:Wikidata .
+
+wd:Q487502 a external:Wikidata .
+
+wd:Q487648 a external:Wikidata .
+
+wd:Q490453 a external:Wikidata .
+
+wd:Q491730 a external:Wikidata .
+
+wd:Q4918191 a external:Wikidata .
+
+wd:Q4919680 a external:Wikidata .
+
+wd:Q49247 a external:Wikidata .
+
+wd:Q492543 a external:Wikidata .
+
+wd:Q492575 a external:Wikidata .
+
+wd:Q492614 a external:Wikidata .
+
+wd:Q493066 a external:Wikidata .
+
+wd:Q493815 a external:Wikidata .
+
+wd:Q493841 a external:Wikidata .
+
+wd:Q493855 a external:Wikidata .
+
+wd:Q4981802 a external:Wikidata .
+
+wd:Q4981807 a external:Wikidata .
+
+wd:Q498447 a external:Wikidata .
+
+wd:Q498453 a external:Wikidata .
+
+wd:Q498470 a external:Wikidata .
+
+wd:Q498477 a external:Wikidata .
+
+wd:Q498857 a external:Wikidata .
+
+wd:Q499359 a external:Wikidata .
+
+wd:Q499380 a external:Wikidata .
+
+wd:Q499385 a external:Wikidata .
+
+wd:Q499393 a external:Wikidata .
+
+wd:Q499404 a external:Wikidata .
+
+wd:Q499410 a external:Wikidata .
+
+wd:Q499415 a external:Wikidata .
+
+wd:Q499421 a external:Wikidata .
+
+wd:Q499425 a external:Wikidata .
+
+wd:Q499435 a external:Wikidata .
+
+wd:Q499441 a external:Wikidata .
+
+wd:Q499460 a external:Wikidata .
+
+wd:Q499464 a external:Wikidata .
+
+wd:Q499474 a external:Wikidata .
+
+wd:Q500071 a external:Wikidata .
+
+wd:Q500090 a external:Wikidata .
+
+wd:Q500125 a external:Wikidata .
+
+wd:Q500153 a external:Wikidata .
+
+wd:Q500210 a external:Wikidata .
+
+wd:Q500217 a external:Wikidata .
+
+wd:Q500267 a external:Wikidata .
+
+wd:Q501205 a external:Wikidata .
+
+wd:Q501420 a external:Wikidata .
+
+wd:Q501424 a external:Wikidata .
+
+wd:Q501428 a external:Wikidata .
+
+wd:Q501432 a external:Wikidata .
+
+wd:Q501438 a external:Wikidata .
+
+wd:Q501442 a external:Wikidata .
+
+wd:Q501448 a external:Wikidata .
+
+wd:Q501452 a external:Wikidata .
+
+wd:Q501459 a external:Wikidata .
+
+wd:Q501463 a external:Wikidata .
+
+wd:Q501470 a external:Wikidata .
+
+wd:Q501479 a external:Wikidata .
+
+wd:Q501487 a external:Wikidata .
+
+wd:Q501494 a external:Wikidata .
+
+wd:Q501526 a external:Wikidata .
+
+wd:Q501532 a external:Wikidata .
+
+wd:Q501540 a external:Wikidata .
+
+wd:Q501545 a external:Wikidata .
+
+wd:Q501551 a external:Wikidata .
+
+wd:Q502298 a external:Wikidata .
+
+wd:Q503111 a external:Wikidata .
+
+wd:Q503122 a external:Wikidata .
+
+wd:Q503127 a external:Wikidata .
+
+wd:Q503132 a external:Wikidata .
+
+wd:Q503144 a external:Wikidata .
+
+wd:Q503148 a external:Wikidata .
+
+wd:Q503167 a external:Wikidata .
+
+wd:Q503173 a external:Wikidata .
+
+wd:Q503180 a external:Wikidata .
+
+wd:Q503184 a external:Wikidata .
+
+wd:Q503188 a external:Wikidata .
+
+wd:Q503193 a external:Wikidata .
+
+wd:Q503198 a external:Wikidata .
+
+wd:Q503204 a external:Wikidata .
+
+wd:Q503209 a external:Wikidata .
+
+wd:Q503214 a external:Wikidata .
+
+wd:Q503361 a external:Wikidata .
+
+wd:Q503746 a external:Wikidata .
+
+wd:Q504219 a external:Wikidata .
+
+wd:Q504227 a external:Wikidata .
+
+wd:Q504235 a external:Wikidata .
+
+wd:Q504244 a external:Wikidata .
+
+wd:Q504249 a external:Wikidata .
+
+wd:Q504257 a external:Wikidata .
+
+wd:Q504261 a external:Wikidata .
+
+wd:Q504266 a external:Wikidata .
+
+wd:Q504465 a external:Wikidata .
+
+wd:Q504505 a external:Wikidata .
+
+wd:Q504594 a external:Wikidata .
+
+wd:Q504601 a external:Wikidata .
+
+wd:Q504609 a external:Wikidata .
+
+wd:Q504614 a external:Wikidata .
+
+wd:Q504619 a external:Wikidata .
+
+wd:Q504626 a external:Wikidata .
+
+wd:Q504630 a external:Wikidata .
+
+wd:Q504676 a external:Wikidata .
+
+wd:Q504689 a external:Wikidata .
+
+wd:Q504692 a external:Wikidata .
+
+wd:Q504983 a external:Wikidata .
+
+wd:Q504988 a external:Wikidata .
+
+wd:Q504994 a external:Wikidata .
+
+wd:Q505006 a external:Wikidata .
+
+wd:Q505013 a external:Wikidata .
+
+wd:Q505018 a external:Wikidata .
+
+wd:Q505046 a external:Wikidata .
+
+wd:Q505052 a external:Wikidata .
+
+wd:Q505057 a external:Wikidata .
+
+wd:Q505064 a external:Wikidata .
+
+wd:Q505071 a external:Wikidata .
+
+wd:Q505076 a external:Wikidata .
+
+wd:Q505085 a external:Wikidata .
+
+wd:Q505090 a external:Wikidata .
+
+wd:Q505096 a external:Wikidata .
+
+wd:Q505102 a external:Wikidata .
+
+wd:Q505109 a external:Wikidata .
+
+wd:Q505239 a external:Wikidata .
+
+wd:Q505246 a external:Wikidata .
+
+wd:Q505259 a external:Wikidata .
+
+wd:Q505936 a external:Wikidata .
+
+wd:Q506250 a external:Wikidata .
+
+wd:Q507644 a external:Wikidata .
+
+wd:Q507656 a external:Wikidata .
+
+wd:Q507670 a external:Wikidata .
+
+wd:Q507684 a external:Wikidata .
+
+wd:Q507709 a external:Wikidata .
+
+wd:Q508108 a external:Wikidata .
+
+wd:Q508125 a external:Wikidata .
+
+wd:Q508140 a external:Wikidata .
+
+wd:Q508153 a external:Wikidata .
+
+wd:Q508168 a external:Wikidata .
+
+wd:Q508180 a external:Wikidata .
+
+wd:Q5092 a external:Wikidata .
+
+wd:Q509452 a external:Wikidata .
+
+wd:Q509469 a external:Wikidata .
+
+wd:Q509476 a external:Wikidata .
+
+wd:Q509488 a external:Wikidata .
+
+wd:Q509501 a external:Wikidata .
+
+wd:Q509514 a external:Wikidata .
+
+wd:Q509546 a external:Wikidata .
+
+wd:Q509568 a external:Wikidata .
+
+wd:Q509609 a external:Wikidata .
+
+wd:Q509634 a external:Wikidata .
+
+wd:Q509651 a external:Wikidata .
+
+wd:Q509997 a external:Wikidata .
+
+wd:Q510010 a external:Wikidata .
+
+wd:Q510135 a external:Wikidata .
+
+wd:Q510198 a external:Wikidata .
+
+wd:Q510223 a external:Wikidata .
+
+wd:Q510233 a external:Wikidata .
+
+wd:Q510310 a external:Wikidata .
+
+wd:Q510364 a external:Wikidata .
+
+wd:Q511228 a external:Wikidata .
+
+wd:Q511241 a external:Wikidata .
+
+wd:Q511253 a external:Wikidata .
+
+wd:Q511269 a external:Wikidata .
+
+wd:Q511270 a external:Wikidata .
+
+wd:Q511281 a external:Wikidata .
+
+wd:Q511297 a external:Wikidata .
+
+wd:Q511310 a external:Wikidata .
+
+wd:Q511326 a external:Wikidata .
+
+wd:Q511338 a external:Wikidata .
+
+wd:Q511365 a external:Wikidata .
+
+wd:Q511394 a external:Wikidata .
+
+wd:Q511407 a external:Wikidata .
+
+wd:Q511426 a external:Wikidata .
+
+wd:Q511438 a external:Wikidata .
+
+wd:Q512002 a external:Wikidata .
+
+wd:Q512035 a external:Wikidata .
+
+wd:Q512048 a external:Wikidata .
+
+wd:Q513370 a external:Wikidata .
+
+wd:Q513421 a external:Wikidata .
+
+wd:Q5146109 a external:Wikidata .
+
+wd:Q514707 a external:Wikidata .
+
+wd:Q514722 a external:Wikidata .
+
+wd:Q514739 a external:Wikidata .
+
+wd:Q514756 a external:Wikidata .
+
+wd:Q514770 a external:Wikidata .
+
+wd:Q514805 a external:Wikidata .
+
+wd:Q514815 a external:Wikidata .
+
+wd:Q514830 a external:Wikidata .
+
+wd:Q514858 a external:Wikidata .
+
+wd:Q515235 a external:Wikidata .
+
+wd:Q515250 a external:Wikidata .
+
+wd:Q515266 a external:Wikidata .
+
+wd:Q515282 a external:Wikidata .
+
+wd:Q515299 a external:Wikidata .
+
+wd:Q515318 a external:Wikidata .
+
+wd:Q515326 a external:Wikidata .
+
+wd:Q515342 a external:Wikidata .
+
+wd:Q515358 a external:Wikidata .
+
+wd:Q515373 a external:Wikidata .
+
+wd:Q515409 a external:Wikidata .
+
+wd:Q515477 a external:Wikidata .
+
+wd:Q515491 a external:Wikidata .
+
+wd:Q515505 a external:Wikidata .
+
+wd:Q515519 a external:Wikidata .
+
+wd:Q515551 a external:Wikidata .
+
+wd:Q515680 a external:Wikidata .
+
+wd:Q515699 a external:Wikidata .
+
+wd:Q515706 a external:Wikidata .
+
+wd:Q515861 a external:Wikidata .
+
+wd:Q515969 a external:Wikidata .
+
+wd:Q516080 a external:Wikidata .
+
+wd:Q516308 a external:Wikidata .
+
+wd:Q516336 a external:Wikidata .
+
+wd:Q521148 a external:Wikidata .
+
+wd:Q52502 a external:Wikidata .
+
+wd:Q530517 a external:Wikidata .
+
+wd:Q537431 a external:Wikidata .
+
+wd:Q5389056 a external:Wikidata .
+
+wd:Q54357 a external:Wikidata .
+
+wd:Q54755 a external:Wikidata .
+
+wd:Q54771 a external:Wikidata .
+
+wd:Q54824182 a external:Wikidata .
+
+wd:Q5588011 a external:Wikidata .
+
+wd:Q5588095 a external:Wikidata .
+
+wd:Q569488 a external:Wikidata .
+
+wd:Q5698 a external:Wikidata .
+
+wd:Q5701 a external:Wikidata .
+
+wd:Q580019 a external:Wikidata .
+
+wd:Q58238295 a external:Wikidata .
+
+wd:Q58931 a external:Wikidata .
+
+wd:Q59091 a external:Wikidata .
+
+wd:Q59093 a external:Wikidata .
+
+wd:Q5963259 a external:Wikidata .
+
+wd:Q59858 a external:Wikidata .
+
+wd:Q5991 a external:Wikidata .
+
+wd:Q599114 a external:Wikidata .
+
+wd:Q604504 a external:Wikidata .
+
+wd:Q605329 a external:Wikidata .
+
+wd:Q612314 a external:Wikidata .
+
+wd:Q61656 a external:Wikidata .
+
+wd:Q62464 a external:Wikidata .
+
+wd:Q62469 a external:Wikidata .
+
+wd:Q626045 a external:Wikidata .
+
+wd:Q626062 a external:Wikidata .
+
+wd:Q6372612 a external:Wikidata .
+
+wd:Q648536 a external:Wikidata .
+
+wd:Q6506 a external:Wikidata .
+
+wd:Q654299 a external:Wikidata .
+
+wd:Q656167 a external:Wikidata .
+
+wd:Q6576 a external:Wikidata .
+
+wd:Q6583 a external:Wikidata .
+
+wd:Q675653 a external:Wikidata .
+
+wd:Q738338 a external:Wikidata .
+
+wd:Q744491 a external:Wikidata .
+
+wd:Q7446260 a external:Wikidata .
+
+wd:Q7581833 a external:Wikidata .
+
+wd:Q7694652 a external:Wikidata .
+
+wd:Q769680 a external:Wikidata .
+
+wd:Q784287 a external:Wikidata .
+
+wd:Q7912636 a external:Wikidata .
+
+wd:Q79237 a external:Wikidata .
+
+wd:Q820231 a external:Wikidata .
+
+wd:Q834832 a external:Wikidata .
+
+wd:Q844468 a external:Wikidata .
+
+wd:Q845891 a external:Wikidata .
+
+wd:Q845930 a external:Wikidata .
+
+wd:Q846182 a external:Wikidata .
+
+wd:Q847665 a external:Wikidata .
+
+wd:Q847769 a external:Wikidata .
+
+wd:Q87 a external:Wikidata .
+
+wd:Q879471 a external:Wikidata .
+
+wd:Q879479 a external:Wikidata .
+
+wd:Q882375 a external:Wikidata .
+
+wd:Q890532 a external:Wikidata .
+
+wd:Q894 a external:Wikidata .
+
+wd:Q894327 a external:Wikidata .
+
+wd:Q900 a external:Wikidata .
+
+wd:Q911875 a external:Wikidata .
+
+wd:Q924504 a external:Wikidata .
+
+wd:Q9289705 a external:Wikidata .
+
+wd:Q9289872 a external:Wikidata .
+
+wd:Q937883 a external:Wikidata .
+
+wd:Q938745 a external:Wikidata .
+
+wd:Q946647 a external:Wikidata .
+
+wd:Q948462 a external:Wikidata .
+
+wd:Q972564 a external:Wikidata .
+
+wd:Q974760 a external:Wikidata .
+
+wd:Q979400 a external:Wikidata .
+
+wd:Q979535 a external:Wikidata .
+
+wd:Q984831 a external:Wikidata .
+
+wd:Q985616 a external:Wikidata .
+
+wd:Q988275 a external:Wikidata .
+
+wd:Q990076 a external:Wikidata .
+
+wd:Q990563 a external:Wikidata .
+
+wd:Q990771 a external:Wikidata .
+
+wd:Q992640 a external:Wikidata .
+
+wd:Q999255 a external:Wikidata .
+
+wd:Q999821 a external:Wikidata .
+
+<https://en.wikipedia.org/wiki/%C3%96ggestorp> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Alnarp> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Ansek%C3%BCla> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Boppard> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Dennewitz> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Fosie> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Franeker> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Freudental> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Geroda,_Lower_Franconia> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Helmstedt> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Hestra,_Gislaved> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Ingelstad> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Old_Kilpatrick> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Ostola> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/P%C3%BChalepa> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Puhja> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/R%C3%B5uge> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Rauna> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Rottne> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Roxen> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Timeline_of_Bremen> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/V%C3%A4stanfors> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/V%C3%B5nnu> a external:Wikipedia .
+
+<https://en.wikipedia.org/wiki/Vastseliina> a external:Wikipedia .
+
+wikifi:Ahvenkoski a external:Wikipedia .
+
+wikifi:Aitolahti a external:Wikipedia .
+
+wikifi:Aleksandria a external:Wikipedia .
+
+wikifi:Anaheim a external:Wikipedia .
+
+wikifi:Aschaffenburg a external:Wikipedia .
+
+wikifi:Bahia a external:Wikipedia .
+
+wikifi:Baltimore a external:Wikipedia .
+
+wikifi:Bender a external:Wikipedia .
+
+wikifi:Bessarabia a external:Wikipedia .
+
+wikifi:Bornholm a external:Wikipedia .
+
+wikifi:Bornholmin_kunta a external:Wikipedia .
+
+wikifi:Bremen a external:Wikipedia .
+
+wikifi:Djursholm a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Eckernf%C3%B6rde> a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Elim%C3%A4ki> a external:Wikipedia .
+
+wikifi:Elisenvaara a external:Wikipedia .
+
+wikifi:Flensburg a external:Wikipedia .
+
+wikifi:Georgia a external:Wikipedia .
+
+wikifi:Grisslehamn a external:Wikipedia .
+
+wikifi:Guadeloupe a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Haapasaari_(Kotka)> a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Hakamets%C3%A4> a external:Wikipedia .
+
+wikifi:Harderwijk a external:Wikipedia .
+
+wikifi:Iijoki a external:Wikipedia .
+
+wikifi:Imatrankoski a external:Wikipedia .
+
+wikifi:Irkutsk a external:Wikipedia .
+
+wikifi:Ivangorod a external:Wikipedia .
+
+wikifi:Jokela a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/K%C5%8Dbe> a external:Wikipedia .
+
+wikifi:Kallavesi a external:Wikipedia .
+
+wikifi:Karijoki a external:Wikipedia .
+
+wikifi:Kattegat a external:Wikipedia .
+
+wikifi:Kazan a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Kes%C3%A4lahti> a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Kihni%C3%B6> a external:Wikipedia .
+
+wikifi:Kinnula a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Kokem%C3%A4enjoki> a external:Wikipedia .
+
+wikifi:Kolho a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Kopparberg_(Ljusnarsberg)> a external:Wikipedia .
+
+wikifi:Korkeasaari a external:Wikipedia .
+
+wikifi:Korpilahti a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Koskenkyl%C3%A4_(Pernaja)> a external:Wikipedia .
+
+wikifi:Kullaa a external:Wikipedia .
+
+wikifi:Kursk a external:Wikipedia .
+
+wikifi:Kymenlaakson_maakunta a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/L%C3%A4skel%C3%A4> a external:Wikipedia .
+
+wikifi:Lahdenpohja a external:Wikipedia .
+
+wikifi:Lavansaari a external:Wikipedia .
+
+wikifi:Leineperi a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Leip%C3%A4suo> a external:Wikipedia .
+
+wikifi:Lihula a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/M%C3%A4laren> a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/M%C3%A4ntt%C3%A4-Vilppula> a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/M%C3%A4ntyluoto> a external:Wikipedia .
+
+wikifi:Mainz a external:Wikipedia .
+
+wikifi:Mazsalaca a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Osnabr%C3%BCck> a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Ouluj%C3%A4rvi> a external:Wikipedia .
+
+wikifi:Oulunsuu a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/P%C3%A4ij%C3%A4nne> a external:Wikipedia .
+
+wikifi:Paide a external:Wikipedia .
+
+wikifi:Pellinki a external:Wikipedia .
+
+wikifi:Pertunmaa a external:Wikipedia .
+
+wikifi:Pielinen a external:Wikipedia .
+
+wikifi:Pirkanmaan_maakunta a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Pitk%C3%A4ranta> a external:Wikipedia .
+
+wikifi:Posio a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Rajam%C3%A4ki> a external:Wikipedia .
+
+wikifi:Ruhnu a external:Wikipedia .
+
+wikifi:Ruhnun_kunta a external:Wikipedia .
+
+wikifi:Rybinsk a external:Wikipedia .
+
+wikifi:Sahara a external:Wikipedia .
+
+wikifi:Saimaa a external:Wikipedia .
+
+wikifi:Samara a external:Wikipedia .
+
+wikifi:Sastamala a external:Wikipedia .
+
+wikifi:Siikalatva a external:Wikipedia .
+
+wikifi:Slovenia a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Sm%C3%A5land> a external:Wikipedia .
+
+wikifi:Solikamsk a external:Wikipedia .
+
+wikifi:Suomenniemi a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Suvilahti_(Helsinki)> a external:Wikipedia .
+
+wikifi:Tammela a external:Wikipedia .
+
+wikifi:Tervo a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Tienhaara_(Viipurin_mlk)> a external:Wikipedia .
+
+wikifi:Tikkakoski a external:Wikipedia .
+
+wikifi:Totma a external:Wikipedia .
+
+wikifi:Trondheim a external:Wikipedia .
+
+wikifi:Ultuna a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/V%C3%A4ndra> a external:Wikipedia .
+
+wikifi:Valmiera a external:Wikipedia .
+
+wikifi:Valtimo a external:Wikipedia .
+
+wikifi:Vanajavesi a external:Wikipedia .
+
+wikifi:Varna a external:Wikipedia .
+
+wikifi:Verdun a external:Wikipedia .
+
+wikifi:Volsk a external:Wikipedia .
+
+wikifi:Winnipeg a external:Wikipedia .
+
+wikifi:Wolgast a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Yl%C3%A4-Laukaa> a external:Wikipedia .
+
+<https://fi.wikipedia.org/wiki/Zweibr%C3%BCcken> a external:Wikipedia .
+
+wikisv:Trondheims_kommun a external:Wikipedia .
+
+wikisv:Visingsborg a external:Wikipedia .
+
+wd:Q503102 a external:Wikidata .
+
+wd:Q503162 a external:Wikidata .
+

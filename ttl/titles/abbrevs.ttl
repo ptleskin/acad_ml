@@ -1,0 +1,440 @@
+@prefix ys: <http://ldf.fi/schema/yoma/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix titles: <http://ldf.fi/yoma/titles/> .
+
+titles:v2368205025789965095 a ys:Title ;
+    skos:altLabel "dos."@fi ;
+    skos:prefLabel "dosentti"@fi .
+
+titles:v1025497696962614740 a ys:Title ;
+    skos:altLabel "TEt"@fi ;
+    skos:prefLabel "teologinen erotutkinto"@fi .
+
+titles:v1053012922404507483 a ys:Title ;
+    skos:altLabel "farm."@fi ;
+    skos:prefLabel "farmaseutti"@fi .
+
+titles:v1102624211085082076 a ys:Title ;
+    skos:altLabel "RA"@fi ;
+    skos:prefLabel "rakennusarkkitehti"@fi .
+
+titles:v1109812702483119255 a ys:Title ;
+    skos:altLabel "hk"@fi ;
+    skos:prefLabel "historiallis-kielitieteellinen osasto"@fi .
+
+titles:v1139420694386337912 a ys:Title ;
+    skos:altLabel "YHt"@fi ;
+    skos:prefLabel "ylempi hallintotutkinto"@fi .
+
+titles:v1274494636861323286 a ys:Title ;
+    skos:altLabel "KauppJ"@fi ;
+    skos:prefLabel "kauppalan johtaja"@fi .
+
+titles:v1295213562191575209 a ys:Title ;
+    skos:altLabel "HH"@fi ;
+    skos:prefLabel "hammashoitaja"@fi .
+
+titles:v1314066546734575632 a ys:Title ;
+    skos:altLabel "OT"@fi ;
+    skos:prefLabel "odontologian tohtori"@fi .
+
+titles:v2031681941235305597 a ys:Title ;
+    skos:altLabel "Khra"@fi ;
+    skos:prefLabel "kirkkoherra"@fi .
+
+titles:v1333095008594753932 a ys:Title ;
+    skos:altLabel "AO"@fi ;
+    skos:prefLabel "aineopettaja"@fi .
+
+titles:v1339612665352365973 a ys:Title ;
+    skos:altLabel "LKT"@fi ;
+    skos:prefLabel "lääketieteen ja kirurgian tohtori"@fi .
+
+titles:v1342890183305298785 a ys:Title ;
+    skos:altLabel "Tuomt"@fi ;
+    skos:prefLabel "tuomarintutkinto"@fi .
+
+titles:v1378455886282000140 a ys:Title ;
+    skos:altLabel "Hlt"@fi ;
+    skos:prefLabel "hammaslääkärin tutkinto"@fi .
+
+titles:v1414377527610502868 a ys:Title ;
+    skos:altLabel "OPorm"@fi ;
+    skos:prefLabel "oikeuspormestari"@fi .
+
+titles:v1420319720664774697 a ys:Title ;
+    skos:altLabel "LK"@fi ;
+    skos:prefLabel "lääketieteen kandidaatti"@fi .
+
+titles:v1435902697671719519 a ys:Title ;
+    skos:altLabel "TT"@fi ;
+    skos:prefLabel "teologian tohtori"@fi .
+
+titles:v1482758494383481654 a ys:Title ;
+    skos:altLabel "KrVouti"@fi ;
+    skos:prefLabel "kruununvouti"@fi .
+
+titles:v1527714255212003611 a ys:Title ;
+    skos:altLabel "PankJ"@fi ;
+    skos:prefLabel "pankinjohtaja"@fi .
+
+titles:v1545544138514521322 a ys:Title ;
+    skos:altLabel "KunnJ"@fi ;
+    skos:prefLabel "kunnanjohtaja"@fi .
+
+titles:v1547953459140004291 a ys:Title ;
+    skos:altLabel "KVisk"@fi ;
+    skos:prefLabel "kaupunginviskaali"@fi .
+
+titles:v1576852980566302330 a ys:Title ;
+    skos:altLabel "OikSiht"@fi ;
+    skos:prefLabel "oikeussihteeri"@fi .
+
+titles:v1581202913852520563 a ys:Title ;
+    skos:altLabel "LSiht"@fi ;
+    skos:prefLabel "lääninsihteeri"@fi .
+
+titles:v1613942630267249723 a ys:Title ;
+    skos:altLabel "KuvO"@fi ;
+    skos:prefLabel "kuvaamataidon opettaja"@fi .
+
+titles:v1709345842638774286 a ys:Title ;
+    skos:altLabel "Oikt"@fi ;
+    skos:prefLabel "yleinen oikeustutkinto"@fi .
+
+titles:v1744582464375110556 a ys:Title ;
+    skos:altLabel "HK"@fi ;
+    skos:prefLabel "henkikirjoittaja"@fi .
+
+titles:v1762702979819228365 a ys:Title ;
+    skos:altLabel "Mht"@fi ;
+    skos:prefLabel "metsänhoitaja"@fi .
+
+titles:v1796013571600036529 a ys:Title ;
+    skos:altLabel "HOSiht"@fi,
+        "hovioik. sihteeri"@fi,
+        "hovioik. siht."@fi ;
+    skos:prefLabel "hovioikeuden sihteeri"@fi .
+
+titles:v1799979023756703539 a ys:Title ;
+    skos:altLabel "LaK"@fi ;
+    skos:prefLabel "lakitieteen kandidaatti"@fi .
+
+titles:v1830760267452845590 a ys:Title ;
+    skos:altLabel "KansakO"@fi,
+            "kansak.opettaja"@fi,
+            "kansakoulun opettaja"@fi,
+            "kansak.op.t."@fi,
+            "kansak.op."@fi ;
+    skos:prefLabel "kansakoulunopettaja"@fi .
+
+titles:v1849293038711592580 a ys:Title ;
+    skos:altLabel "KunnSiht"@fi, 
+            "kunnan sihteeri"@fi ;
+    skos:prefLabel "kunnansihteeri"@fi .
+
+titles:v1860297383334636482 a ys:Title ;
+    skos:altLabel "ELT"@fi ;
+    skos:prefLabel "eläinlääketieteen tohtori"@fi .
+
+titles:v1871796825103395640 a ys:Title ;
+    skos:altLabel "KRev"@fi ;
+    skos:prefLabel "kaupungin reviisori"@fi .
+
+titles:v1871940092497229830 a ys:Title ;
+    skos:altLabel "HN"@fi ;
+    skos:prefLabel "hallintonotaari"@fi .
+
+titles:v1976134801888989454 a ys:Title ;
+    skos:altLabel "AA"@fi ;
+    skos:prefLabel "asianajaja"@fi .
+
+titles:v2018818902869436064 a ys:Title ;
+    skos:altLabel "TL"@fi ;
+    skos:prefLabel "teologian lisensiaatti"@fi .
+
+titles:v2187427999431559968 a ys:Title ;
+    skos:altLabel "NM"@fi ;
+    skos:prefLabel "nimismies"@fi .
+
+titles:v2209419298632107779 a ys:Title ;
+    skos:altLabel "EsittSiht"@fi ;
+    skos:altLabel "esittelijäsiht."@fi ;
+    skos:prefLabel "esittelijäsihteeri"@fi .
+
+titles:v2241395404779029754 a ys:Title ;
+    skos:altLabel "PkO"@fi ;
+    skos:prefLabel "peruskoulun opettaja"@fi .
+
+titles:v2242336886925194739 a ys:Title ;
+    skos:altLabel "FK"@fi ;
+    skos:prefLabel "filosofian kandidaatti"@fi .
+
+titles:v2243258490488230798 a ys:Title ;
+    skos:altLabel "MOL"@fi ;
+    skos:prefLabel "molempien oikeuksien lisensiaatti"@fi .
+
+titles:v2245626252963145281 a ys:Title ;
+    skos:altLabel "LNot"@fi ;
+    skos:prefLabel "lääninnotaari"@fi .
+
+titles:v2264774020137192349 a ys:Title ;
+    skos:altLabel "HOVisk"@fi ;
+    skos:prefLabel "hovioikeuden viskaali"@fi .
+
+titles:v2274549432152758247 a ys:Title ;
+    skos:altLabel "MIt"@fi ;
+    skos:prefLabel "maanmittausinsinöörin tutkinto"@fi .
+
+titles:v2302726603396338491 a ys:Title ;
+    skos:altLabel "HtusSiht"@fi ;
+    skos:prefLabel "hallitussihteeri"@fi .
+
+titles:v2365770866685232258 a ys:Title ;
+    skos:altLabel "MOT"@fi ;
+    skos:prefLabel "molempien oikeuksien tohtori"@fi .
+
+titles:v2479902171360815970 a ys:Title ;
+    skos:altLabel "EOA"@fi ;
+    skos:prefLabel "eduskunnan oikeusasiamies"@fi .
+
+titles:v2511276791389145455 a ys:Title ;
+    skos:altLabel "LRev"@fi ;
+    skos:prefLabel "lääninreviisori"@fi .
+
+titles:v2624839929807926728 a ys:Title ;
+    skos:altLabel "KVouti"@fi ;
+    skos:prefLabel "kaupunginvouti"@fi .
+
+titles:v2726358385484942290 a ys:Title ;
+    skos:altLabel "VN"@fi ;
+    skos:prefLabel "varanotaari"@fi .
+
+titles:vKirM a ys:Title ;
+    skos:prefLabel "KirM"@fi .
+
+titles:vKirK a ys:Title ;
+    skos:prefLabel "KirK"@fi .
+
+titles:vPKamt a ys:Title ;
+    skos:altLabel "PKamt"@fi ;
+    skos:prefLabel "pienempi kameraalitutkinto"@fi .
+
+titles:vSKamt a ys:Title ;
+    skos:altLabel "SKamt"@fi ;
+    skos:prefLabel "suurempi kameraalitutkinto"@fi .
+
+titles:v2753906975912919640 a ys:Title ;
+    skos:altLabel "Kamt"@fi ;
+    skos:prefLabel "kameraalitutkinto"@fi .
+
+titles:v2779098298400681365 a ys:Title ;
+    skos:altLabel "LsSiht"@fi ;
+    skos:prefLabel "lainsäädäntösihteeri"@fi .
+
+titles:v2797005013693630557 a ys:Title ;
+    skos:altLabel "TAt"@fi ;
+    skos:prefLabel "teologinen alkututkinto"@fi .
+
+titles:v2799923705220206656 a ys:Title ;
+    skos:altLabel "Ins.t."@fi ;
+    skos:prefLabel "insinöörintutkinto"@fi .
+
+titles:v2898118376941301768 a ys:Title ;
+    skos:altLabel "OL"@fi ;
+    skos:prefLabel "odontologian lisensiaatti"@fi .
+
+titles:v2899326511765998577 a ys:Title ;
+    skos:altLabel "MOK"@fi ;
+    skos:prefLabel "molempien oikeuksien kandidaatti"@fi .
+
+titles:v2912608130070702751 a ys:Title ;
+    skos:altLabel "KHT"@fi ;
+    skos:prefLabel "tilintarkastaja"@fi .
+
+titles:v2915930270496582854 a ys:Title ;
+    skos:altLabel "KauppSiht"@fi ;
+    skos:prefLabel "kauppalan sihteeri"@fi .
+
+titles:v2968005370298938276 a ys:Title ;
+    skos:altLabel "SH"@fi ;
+    skos:prefLabel "sairaanhoitaja"@fi .
+
+titles:v2973025711385761210 a ys:Title ;
+    skos:altLabel "AHt"@fi ;
+    skos:prefLabel "alempi hallintotutkinto"@fi .
+
+titles:v3004251792569884983 a ys:Title ;
+    skos:altLabel "FM"@fi ;
+    skos:prefLabel "filosofian maisteri"@fi .
+
+titles:v3083775356205657845 a ys:Title ;
+    skos:altLabel "SHO"@fi ;
+    skos:prefLabel "sairaanhoidon opettaja"@fi .
+
+titles:v3098682895448758401 a ys:Title ;
+    skos:altLabel "EL"@fi ;
+    skos:prefLabel "eläinlääkäri"@fi .
+
+titles:v3118780306489428949 a ys:Title ;
+    skos:altLabel "ESH"@fi ;
+    skos:prefLabel "erikoissairaanhoitaja"@fi .
+
+titles:v3161805750295561100 a ys:Title ;
+    skos:altLabel "agr."@fi ;
+    skos:prefLabel "agronomi"@fi .
+
+titles:v3217784910866077519 a ys:Title ;
+    skos:altLabel "OK"@fi ;
+    skos:prefLabel "odontologian kandidaatti"@fi .
+
+titles:v3233800967934465755 a ys:Title ;
+    skos:altLabel "LTO"@fi ;
+    skos:prefLabel "lastentarhanopettaja"@fi .
+
+titles:v3241406326231451236 a ys:Title ;
+    skos:altLabel "EHL"@fi ;
+    skos:prefLabel "erikoishammaslääkäri"@fi .
+
+titles:v3250859501581297623 a ys:Title ;
+    skos:altLabel "OpK"@fi ;
+    skos:prefLabel "opettajakandidaatti"@fi .
+
+titles:v3252650209674893119 a ys:Title ;
+    skos:altLabel "prov."@fi ;
+    skos:prefLabel "proviisori"@fi .
+
+titles:v3255288433940403470 a ys:Title ;
+    skos:altLabel "Elt"@fi ;
+    skos:prefLabel "eläinlääkärin tutkinto"@fi .
+
+titles:v3310048171018070266 a ys:Title ;
+    skos:altLabel "HntoSiht"@fi ;
+    skos:prefLabel "hallintosihteeri"@fi .
+
+titles:v3313066037288203083 a ys:Title ;
+    skos:altLabel "KtyO"@fi ;
+    skos:prefLabel "käsityönopettaja"@fi .
+
+titles:v3524572717295309319 a ys:Title ;
+    skos:altLabel "LKamr"@fi ;
+    skos:prefLabel "läänin kamreeri"@fi .
+
+titles:v3812706597562017015 a ys:Title ;
+    skos:altLabel "TK"@fi ;
+    skos:prefLabel "teologian kandidaatti"@fi .
+
+titles:v3858666897033853602 a ys:Title ;
+    skos:altLabel "HLK"@fi ;
+    skos:prefLabel "hammaslääketieteen kandidaatti"@fi .
+
+titles:v3945694234645482754 a ys:Title ;
+    skos:altLabel "KJ"@fi ;
+    skos:prefLabel "kaupunginjohtaja"@fi .
+
+titles:v4160407243730750468 a ys:Title ;
+    skos:altLabel "OikN"@fi ;
+    skos:prefLabel "oikeusneuvos"@fi .
+
+titles:v4206396520288843795 a ys:Title ;
+    skos:altLabel "Pedt"@fi ;
+    skos:prefLabel "pedagoginen tutkinto"@fi .
+
+titles:v4223744533945100258 a ys:Title ;
+    skos:altLabel "OK"@fi ;
+    skos:prefLabel "oikeuskansleri"@fi .
+
+titles:v4485192540930550820 a ys:Title ;
+    skos:altLabel "OA"@fi ;
+    skos:prefLabel "oikeusasiamies"@fi .
+
+titles:v4643314837797820252 a ys:Title ;
+    skos:altLabel "HA"@fi ;
+    skos:prefLabel "hovioikeuden auskultantti"@fi .
+
+titles:v4706155858925995918 a ys:Title ;
+    skos:altLabel "ELK"@fi ;
+    skos:prefLabel "eläinlääketieteen kandidaatti"@fi .
+
+titles:v4997617733714854692 a ys:Title ;
+    skos:altLabel "VT"@fi ;
+    skos:prefLabel "varatuomari"@fi .
+
+titles:v5734909940893919604 a ys:Title ;
+    skos:altLabel "VO"@fi, "voim.op."@fi ;
+    skos:prefLabel "voimistelunopettaja"@fi .
+
+titles:v6134861904575400495 a ys:Title ;
+    skos:altLabel "OikNm"@fi ;
+    skos:prefLabel "oikeusneuvosmies"@fi .
+
+titles:v6208297485511602636 a ys:Title ;
+    skos:altLabel "FL"@fi ;
+    skos:prefLabel "filosofian lisensiaatti"@fi .
+
+titles:v6834212638669063485 a ys:Title ;
+    skos:altLabel "FT"@fi ;
+    skos:prefLabel "filosofian tohtori"@fi .
+
+titles:v7038768822156478313 a ys:Title ;
+    skos:altLabel "HL"@fi ;
+    skos:prefLabel "hammaslääkäri"@fi .
+
+titles:v7194575188867048297 a ys:Title ;
+    skos:altLabel "LL"@fi ;
+    skos:prefLabel "lääketieteen lisensiaatti"@fi .
+
+titles:v7969013561386023862 a ys:Title ;
+    skos:altLabel "HntoN"@fi ;
+    skos:prefLabel "hallintoneuvos"@fi .
+
+titles:v8362905986587970937 a ys:Title ;
+    skos:altLabel "KTO"@fi ;
+    skos:prefLabel "kotitalousopettaja"@fi .
+
+titles:v9797085629858248163 a ys:Title ;
+    skos:altLabel "MRI"@fi ;
+    skos:prefLabel "maanmittausinsinööri"@fi .
+
+titles:vLFK a ys:Title ;
+    skos:altLabel "LFK"@fi ;
+    skos:prefLabel "lääket.-fil. kandidaatti"@fi .
+
+###
+titles:vHFK a ys:Title ;
+    skos:altLabel "HFK"@fi ;
+    skos:prefLabel "hist.-filol. kandidaatti"@fi .
+
+titles:vHFM a ys:Title ;
+    skos:altLabel "HFM"@fi ;
+    skos:prefLabel "hist.-filol. maisteri"@fi .
+
+titles:vHFL a ys:Title ;
+    skos:altLabel "HFL"@fi ;
+    skos:prefLabel "hist.-filol. lisensiaatti"@fi .
+
+titles:vHFT a ys:Title ;
+    skos:altLabel "HFT"@fi ;
+    skos:prefLabel "hist.-filol. tohtori"@fi .
+
+###
+titles:vFMK a ys:Title ;
+    skos:altLabel "FMK"@fi ;
+    skos:prefLabel "fyysis-matem. kandidaatti"@fi .
+
+titles:vFMM a ys:Title ;
+    skos:altLabel "FMM"@fi ;
+    skos:prefLabel "fyysis-matem. maisteri"@fi .
+
+titles:vFML a ys:Title ;
+    skos:altLabel "FML"@fi ;
+    skos:prefLabel "fyysis-matem. lisensiaatti"@fi .
+
+titles:vFMT a ys:Title ;
+    skos:altLabel "FMT"@fi ;
+    skos:prefLabel "fyysis-matem. tohtori"@fi .
+
+
+titles:vPK a ys:Title ;
+    skos:altLabel "PK"@fi ;
+    skos:prefLabel "pedagogian kandidaatti"@fi .
