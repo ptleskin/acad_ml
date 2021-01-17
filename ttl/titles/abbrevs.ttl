@@ -120,13 +120,13 @@ titles:v1799979023756703539 a ys:Title ;
     skos:altLabel "LaK"@fi ;
     skos:prefLabel "lakitieteen kandidaatti"@fi .
 
-titles:v1830760267452845590 a ys:Title ;
+titles:v2677788163737936023 a ys:Title ;
     skos:altLabel "KansakO"@fi,
             "kansak.opettaja"@fi,
-            "kansakoulun opettaja"@fi,
+            "kansakoulunopettaja"@fi,
             "kansak.op.t."@fi,
             "kansak.op."@fi ;
-    skos:prefLabel "kansakoulunopettaja"@fi .
+    skos:prefLabel "kansakoulun opettaja"@fi .
 
 titles:v1849293038711592580 a ys:Title ;
     skos:altLabel "KunnSiht"@fi, 
@@ -136,6 +136,10 @@ titles:v1849293038711592580 a ys:Title ;
 titles:v1860297383334636482 a ys:Title ;
     skos:altLabel "ELT"@fi ;
     skos:prefLabel "eläinlääketieteen tohtori"@fi .
+
+titles:v1538745462872440597 a ys:Title ;
+    skos:altLabel "LT"@fi ;
+    skos:prefLabel "lääketieteen tohtori"@fi .
 
 titles:v1871796825103395640 a ys:Title ;
     skos:altLabel "KRev"@fi ;
@@ -333,7 +337,7 @@ titles:v3945694234645482754 a ys:Title ;
     skos:prefLabel "kaupunginjohtaja"@fi .
 
 titles:v4160407243730750468 a ys:Title ;
-    skos:altLabel "OikN"@fi ;
+    skos:altLabel "OikN"@fi, "OikNm"@fi, "oikeusneuvosmies"@fi ;
     skos:prefLabel "oikeusneuvos"@fi .
 
 titles:v4206396520288843795 a ys:Title ;
@@ -363,10 +367,6 @@ titles:v4997617733714854692 a ys:Title ;
 titles:v5734909940893919604 a ys:Title ;
     skos:altLabel "VO"@fi, "voim.op."@fi ;
     skos:prefLabel "voimistelunopettaja"@fi .
-
-titles:v6134861904575400495 a ys:Title ;
-    skos:altLabel "OikNm"@fi ;
-    skos:prefLabel "oikeusneuvosmies"@fi .
 
 titles:v6208297485511602636 a ys:Title ;
     skos:altLabel "FL"@fi ;
@@ -413,9 +413,10 @@ titles:vHFL a ys:Title ;
     skos:altLabel "HFL"@fi ;
     skos:prefLabel "hist.-filol. lisensiaatti"@fi .
 
-titles:vHFT a ys:Title ;
-    skos:altLabel "HFT"@fi ;
-    skos:prefLabel "hist.-filol. tohtori"@fi .
+titles:v1981584545927208924 a ys:Title ;
+    skos:altLabel "HFT"@fi, 
+                "hist.-filol. tohtori"@fi ;
+    skos:prefLabel "hist.-filologian tohtori"@fi .
 
 ###
 titles:vFMK a ys:Title ;
